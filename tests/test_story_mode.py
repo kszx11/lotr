@@ -13,6 +13,8 @@ class _SilentRenderer:
     def __init__(self) -> None:
         self.messages: list[str] = []
         self.option_panels: list[tuple[str, list[str]]] = []
+        self.state_panels = 0
+        self.narrations: list[str] = []
 
     def title(self, text: str) -> None:
         return
@@ -24,6 +26,7 @@ class _SilentRenderer:
         return
 
     def show_state(self, state) -> None:
+        self.state_panels += 1
         return
 
     def system(self, text: str) -> None:
@@ -38,6 +41,7 @@ class _SilentRenderer:
         return
 
     def narrate(self, text: str) -> None:
+        self.narrations.append(text)
         return
 
     def npc(self, npc_name: str, text: str) -> None:
@@ -97,6 +101,16 @@ class StoryModeTests(unittest.TestCase):
             [("New game", "new"), ("Resume autosave", "resume"), ("Quit", "quit")],
         )
 
+    def test_resume_replays_scene_narration(self):
+        app = self._make_app()
+        state = self._sample_state()
+        state.last_narration = "The Shire lies quiet before the road."
+        save_state(app.config.autosave_file, state)
+        app.command_input.prompt = lambda _: "quit"
+        with patch("lotr_adventure.engine.game.IntPrompt.ask", side_effect=[2]):
+            app.run()
+        self.assertIn("The Shire lies quiet before the road.", app.renderer.narrations)
+
     def test_resolve_load_path_prefers_manual_save_for_load_and_autosave_for_resume(self):
         app = self._make_app()
         save_state(app.config.save_file, self._sample_state())
@@ -110,6 +124,14 @@ class StoryModeTests(unittest.TestCase):
         anchor = app.lore.get_anchor("unexpected_party")
         app._apply_anchor(anchor, character_override=bilbo, reset_journal=True, mode="story")
         self.assertEqual(app.state.npcs_present, ["Gandalf", "Thorin Oakenshield"])
+
+    def test_new_game_renders_present_state_once(self):
+        app = self._make_app()
+        inputs = iter(["quit"])
+        app.command_input.prompt = lambda _: next(inputs)
+        with patch("lotr_adventure.engine.game.IntPrompt.ask", side_effect=[1, 1, 1, 1]):
+            app.run()
+        self.assertEqual(app.renderer.state_panels, 1)
 
     def test_keyboard_interrupt_during_main_prompt_exits_gracefully(self):
         app = self._make_app()

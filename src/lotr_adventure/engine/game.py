@@ -36,6 +36,7 @@ class GameApp:
             if not self.client.enabled:
                 self.renderer.error("OPENAI_API_KEY is not set. The game will fall back to a minimal local narrator.")
 
+            should_render_state = True
             while True:
                 options = self._startup_options()
                 prompt = "  ".join(f"{idx + 1}) {label}" for idx, (label, _) in enumerate(options))
@@ -43,6 +44,7 @@ class GameApp:
                 action = options[max(0, min(choice - 1, len(options) - 1))][1]
                 if action == "new":
                     self.state = self._start_new_game()
+                    should_render_state = False
                     break
                 if action in {"resume", "load"}:
                     path = self._resolve_load_path(prefer=action)
@@ -51,12 +53,14 @@ class GameApp:
                         continue
                     self.state = load_state(path)
                     self.renderer.system(f"Loaded {path.name}.")
+                    self._show_resumed_scene()
                     break
                 if action == "quit":
                     return
 
             assert self.state is not None
-            self.renderer.show_state(self.state)
+            if should_render_state:
+                self.renderer.show_state(self.state)
             self._show_onboarding()
             while True:
                 raw = self.command_input.prompt(f"{self.state.location}> ").strip()
@@ -77,6 +81,24 @@ class GameApp:
             save_state(self.config.autosave_file, self.state)
             self.renderer.system(f"Your road is preserved in {self.config.autosave_file.name}.")
         self.renderer.system("The tale is set aside.")
+
+    def _show_resumed_scene(self) -> None:
+        assert self.state is not None
+        self.renderer.narrate(self._scene_reentry_text())
+
+    def _scene_reentry_text(self) -> str:
+        assert self.state is not None
+        if self.state.last_narration:
+            return self.state.last_narration
+        location = self.lore.get_location(self.state.location)
+        local_mood = ""
+        if location is not None and location.sensory_details:
+            local_mood = f" About you are {location.sensory_details[0].lower()}."
+        return (
+            f"You return to {self.state.location} in {self.state.chapter}, where {self.state.player_name} "
+            f"once more stands beneath the hour of {self.state.time_marker}.{local_mood} "
+            f"The tale gathers itself again around the present moment."
+        )
 
     def handle_command(self, command: ParsedCommand) -> bool:
         assert self.state is not None
@@ -136,6 +158,7 @@ class GameApp:
                 return True
             self.state = load_state(path)
             self.renderer.system(f"Loaded {path.name}.")
+            self._show_resumed_scene()
             self.renderer.show_state(self.state)
             return True
         if command.kind in {"jump", "jump_menu"}:
