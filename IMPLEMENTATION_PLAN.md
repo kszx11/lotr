@@ -18,7 +18,7 @@ The game should let the player:
 
 ## Reference Project Findings
 
-The project in `/Users/kspringall/code/adventure` is a useful proof of concept for:
+The project in `~/code/adventure` is a useful proof of concept for:
 
 - terminal loop structure
 - save/load flow

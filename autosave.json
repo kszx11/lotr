@@ -7,6 +7,7 @@
   "chapter": "Chapter 1",
   "location": "Bag End",
   "time_marker": "Late afternoon in the Shire",
+  "anchor_label": "An Unexpected Party",
   "story_path_id": "bilbo_there_and_back",
   "story_step_index": 0,
   "unlocked_anchors": [
@@ -39,20 +40,14 @@
   "location_history": [
     "Bag End"
   ],
-  "spoken_to_npcs": [
-    "Gandalf"
-  ],
+  "spoken_to_npcs": [],
   "inspected_targets": [],
   "journal": [
-    "Entered anchor: An Unexpected Party.",
-    "Spoke with Gandalf.",
-    "Tried: listen"
+    "Entered anchor: An Unexpected Party."
   ],
   "facts": [
     "Dwarves gather beneath Bilbo's roof, and comfort gives way to a strange, dangerous invitation.",
-    "Bag End in The Shire: A well-kept hobbit-hole of comfort, polish, and hidden restlessness.",
-    "Gandalf of Free peoples of Middle-earth: A wandering wizard of deep counsel, quick mirth, and grave purpose.",
-    "Thorin speaks of a stolen throne and the quest to reclaim it."
+    "Bag End in The Shire: A well-kept hobbit-hole of comfort, polish, and hidden restlessness."
   ],
   "narrator_history": [
     {
@@ -61,39 +56,12 @@
     },
     {
       "role": "assistant",
-      "content": "The round green door of Bag End had been opened more often than usual this afternoon, and now it stood partly ajar, admitting a chill mist from the East Road that curled around your boots. The snug warmth of your sitting-room was crisscrossed by the sharp tang of wet dwarvish cloaks and the earthy scent of boots caked in distant mountains\u2019 dust. Your little round table groaned beneath the weight of fresh cakes and seed-cakes, while a pot of tea steamed lazily, its sweet fragrance struggling against the intrusion of the unexpected company.\n\nGandalf, tall and white-bearded, sat near the fire, his eyes twinkling with amusement as he watched you eye Thorin Oakenshield\u2019s stern profile across the room. The dwarf chief\u2019s grave dignity filled the low-ceilinged room, casting a shadow a shade deeper than the flickering lamplight. The other dwarves had made themselves at home elsewhere, their deep voices and laughter upsetting the usual quiet of Bag End, turning comfort into a strange kind of tension.\n\nYou still clutch your pocket-handkerchief and your walking stick, feeling the pull between your cozy hobbit-hole and the unknown roads leading east\u2014roads rumored of danger and treasure, promise and peril. Gandalf\u2019s gaze meets yours, amused but firm, as if inviting you to cross that threshold.\n\nThe seed-cakes at your elbow crumble slightly in the damp air. Will you speak to Gandalf about this curious gathering? Or approach Thorin and hear his grave purpose? Or, yourself, step outside and gaze down the misty East Road?"
-    },
-    {
-      "role": "user",
-      "content": "listen"
-    },
-    {
-      "role": "assistant",
-      "content": "You sink into a stiff-backed chair by the fire, trying to make yourself as small and invisible as a hobbit can, all the while your ears strain to catch the murmurs and half-spoken intentions around the room. The dwarves speak in low tones\u2014deep voices punctuated with gruff laughter and the occasional sharp word\u2014of mountains far to the East, of reclaiming lost halls and treasures wrung from shadow and stone.\n\nThorin\u2019s voice rises above the others, grave and commanding, speaking of a throne stolen, kin scattered, and a journey hard and true. There is a hunger in his tone, not for food or comfort, but for a home remembered and a crown regained. Gandalf\u2019s eyes flick to you with a knowing gleam, as if to say this is no ordinary tale, nor an ordinary invitation. The weight of the firelight seems less warm now, and more like the simmering embers of a great and dangerous adventure.\n\nOutside, the mist presses closer, whispering secrets on the East Road that beckons beyond your door. The cakes and tea remain untouched, cooling in the flickering lamplight, but your heart feels a restless stir you can neither shake nor fully welcome.\n\nYou might ask Gandalf what he expects of you, approach Thorin to hear more of this quest in his own grave tone, or step out into the gathering dusk and feel the pull of the road yourself."
+      "content": "The late afternoon sun slants through the round windows of Bag End, casting a warm, golden light over the polished wood of the shelves and the neatly arranged rows of seed-cakes on the table. A soft fire crackles in the hearth, though its comforting scent is tangled now with damp wool and the sharp tang of dwarves' boots scuffed on the tidy floor. The room buzzes with a strange energy\u2014not quite harmonious, not quite welcome. \n\nGandalf, tall and gray, leans with a casual air against the mantelpiece, his pipe alight and smoke curling upward like a challenge. His eyes twinkle with mischief and something far deeper. Across from him, Thorin Oakenshield stands with a proud gravity, his dark hair catching slants of fading daylight, the gold threads on his coat glittering like a crown's last glimmer. Though he says little, his presence fills the room with serious weight.\n\nYou grip your pocket-handkerchief, your gaze flickering between the steaming cups of tea disturbed mid-sip and the solemn faces now gathered beneath your roof. The soft scent of the seed-cakes calls from the sideboard, but your thoughts are elsewhere. This is no ordinary evening, and the quiet paths of the Shire lie just beyond the round green door, inviting and daunting in equal measure.\n\nWhat will you do next? Speak with Gandalf again, whose smile seems a door half-open? Or seek Thorin\u2019s counsel, and learn what fate awaits down the East Road? Perhaps you might simply stand at the door, feeling the cool air of the world outside brush against the fire-warm air within."
     }
   ],
-  "npc_threads": {
-    "Gandalf": [
-      {
-        "role": "user",
-        "content": "Hello Gandalf"
-      },
-      {
-        "role": "assistant",
-        "content": "Ah, good evening, Master Baggins. A fine day, though the clouds gather darker than a wizard likes. What brings you to my fire this hour?"
-      }
-    ]
-  },
-  "npc_memories": {
-    "Gandalf": [
-      "Player raised: Hello Gandalf",
-      "Gandalf answered: Ah, good evening, Master Baggins. A fine day, though the clouds gather darker than a wizard likes. W"
-    ]
-  },
-  "npc_relationships": {
-    "Gandalf": 2,
-    "Thorin Oakenshield": 1
-  },
-  "last_narration": "You sink into a stiff-backed chair by the fire, trying to make yourself as small and invisible as a hobbit can, all the while your ears strain to catch the murmurs and half-spoken intentions around the room. The dwarves speak in low tones\u2014deep voices punctuated with gruff laughter and the occasional sharp word\u2014of mountains far to the East, of reclaiming lost halls and treasures wrung from shadow and stone.\n\nThorin\u2019s voice rises above the others, grave and commanding, speaking of a throne stolen, kin scattered, and a journey hard and true. There is a hunger in his tone, not for food or comfort, but for a home remembered and a crown regained. Gandalf\u2019s eyes flick to you with a knowing gleam, as if to say this is no ordinary tale, nor an ordinary invitation. The weight of the firelight seems less warm now, and more like the simmering embers of a great and dangerous adventure.\n\nOutside, the mist presses closer, whispering secrets on the East Road that beckons beyond your door. The cakes and tea remain untouched, cooling in the flickering lamplight, but your heart feels a restless stir you can neither shake nor fully welcome.\n\nYou might ask Gandalf what he expects of you, approach Thorin to hear more of this quest in his own grave tone, or step out into the gathering dusk and feel the pull of the road yourself.",
+  "npc_threads": {},
+  "npc_memories": {},
+  "npc_relationships": {},
+  "last_narration": "The late afternoon sun slants through the round windows of Bag End, casting a warm, golden light over the polished wood of the shelves and the neatly arranged rows of seed-cakes on the table. A soft fire crackles in the hearth, though its comforting scent is tangled now with damp wool and the sharp tang of dwarves' boots scuffed on the tidy floor. The room buzzes with a strange energy\u2014not quite harmonious, not quite welcome. \n\nGandalf, tall and gray, leans with a casual air against the mantelpiece, his pipe alight and smoke curling upward like a challenge. His eyes twinkle with mischief and something far deeper. Across from him, Thorin Oakenshield stands with a proud gravity, his dark hair catching slants of fading daylight, the gold threads on his coat glittering like a crown's last glimmer. Though he says little, his presence fills the room with serious weight.\n\nYou grip your pocket-handkerchief, your gaze flickering between the steaming cups of tea disturbed mid-sip and the solemn faces now gathered beneath your roof. The soft scent of the seed-cakes calls from the sideboard, but your thoughts are elsewhere. This is no ordinary evening, and the quiet paths of the Shire lie just beyond the round green door, inviting and daunting in equal measure.\n\nWhat will you do next? Speak with Gandalf again, whose smile seems a door half-open? Or seek Thorin\u2019s counsel, and learn what fate awaits down the East Road? Perhaps you might simply stand at the door, feeling the cool air of the world outside brush against the fire-warm air within.",
   "mode": "exploration"
 }
