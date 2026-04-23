@@ -63,7 +63,7 @@ class Renderer:
         table.add_row("Time", state.time_marker)
         table.add_row("Companions", ", ".join(state.companions) or "None")
         table.add_row("People", ", ".join(state.npcs_present) or "None")
-        table.add_row("Exits", ", ".join(state.available_exits) or "Unknown")
+        table.add_row("Nearby", ", ".join(state.available_exits) or "Unknown")
         if state.current_objective:
             table.add_row("Objective", state.current_objective)
         if state.suggested_actions:
