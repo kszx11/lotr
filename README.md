@@ -1,13 +1,25 @@
 # Lord of the Rings Adventure
 
-An immersive terminal adventure in Python set in Middle-earth, using the OpenAI API for:
+Step into Middle-earth as if the Red Book had opened to let you walk inside it.
 
-- scene narration
+This is a lore-grounded terminal adventure set across *The Hobbit* and *The Lord of the Rings*, built to feel book-shaped rather than gamey: chapter by chapter in Story Mode, or more freely in Open Mode. You can take up the perspective of named canon characters, speak with other figures of the legendarium in-character, move through places large and small, and let the tale answer back with narrated scenes, consequences, memory, and atmosphere.
+
+The experience is designed to be welcoming to players who do not remember every chapter perfectly. Story Mode offers objectives, guidance, and suggested next actions so you can follow the shape of the books without needing them open beside you. Open Mode gives you room to roam, inspect, converse, and jump among major anchors while still staying inside the texture, knowledge limits, and social assumptions of Tolkien's world.
+
+Using the OpenAI API, the game provides:
+
+- immersive scene narration
 - lore-aware game flow
 - in-character NPC dialogue
 - structured world-state updates
 
-The game leans toward the books' canon, supports named canon protagonists, and lets you jump directly to major story anchors from *The Hobbit* and *The Lord of the Rings*.
+What you can do in play:
+
+- choose from a wide set of canon viewpoints across *The Hobbit* and *The Lord of the Rings*
+- follow guided chapter progression in Story Mode or roam more freely in Open Mode
+- talk naturally with characters who stay in-world and in-character
+- inspect places, travel local roads, and jump to major story anchors
+- save, resume, and return to the main menu without losing your place
 
 ## Features
 

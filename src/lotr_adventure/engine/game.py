@@ -33,6 +33,7 @@ class GameApp:
         try:
             self.renderer.title("The Red Book Adventure")
             self.renderer.meta("Canon-leaning exploration across The Hobbit and The Lord of the Rings.")
+            self.renderer.intro()
             if not self.client.enabled:
                 self.renderer.error("OPENAI_API_KEY is not set. The game will fall back to a minimal local narrator.")
 

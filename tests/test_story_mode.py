@@ -15,11 +15,16 @@ class _SilentRenderer:
         self.option_panels: list[tuple[str, list[str]]] = []
         self.state_panels = 0
         self.narrations: list[str] = []
+        self.intro_shown = 0
 
     def title(self, text: str) -> None:
         return
 
     def meta(self, text: str) -> None:
+        return
+
+    def intro(self) -> None:
+        self.intro_shown += 1
         return
 
     def error(self, text: str) -> None:
@@ -100,6 +105,12 @@ class StoryModeTests(unittest.TestCase):
             app._startup_options(),
             [("New game", "new"), ("Resume autosave", "resume"), ("Quit", "quit")],
         )
+
+    def test_intro_is_shown_at_startup(self):
+        app = self._make_app()
+        with patch("lotr_adventure.engine.game.IntPrompt.ask", side_effect=[3]):
+            app.run()
+        self.assertEqual(app.renderer.intro_shown, 1)
 
     def test_resume_replays_scene_narration(self):
         app = self._make_app()

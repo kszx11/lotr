@@ -19,6 +19,17 @@ class Renderer:
     def title(self, text: str) -> None:
         self.console.print(Panel.fit(text, border_style=theme.TITLE, title="Middle-earth"))
 
+    def intro(self) -> None:
+        body = (
+            "Here are songs and roads out of elder days: the Shire under evening light, "
+            "the hidden halls of dwarves, the long leagues of Eriador, the white walls of Minas Tirith, "
+            "and the dark lands where small hearts are most sorely tried.\n\n"
+            "You do not stand above these tales as a reader only. You enter them. "
+            "Take up the memory, burden, wit, courage, and grief of those who walk within the Red Book, "
+            "and let Middle-earth answer you in its own voice."
+        )
+        self.console.print(Panel(body, title="A Word Before The Road", border_style=theme.TITLE))
+
     def narrate(self, text: str) -> None:
         self._stream(text, theme.NARRATION)
 
