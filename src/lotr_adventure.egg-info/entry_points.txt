@@ -1,0 +1,2 @@
+[console_scripts]
+lotr-adventure = lotr_adventure.main:main

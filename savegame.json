@@ -1,0 +1,67 @@
+{
+  "player_character_id": "bilbo",
+  "player_name": "Bilbo Baggins, burglar of Bag End",
+  "game_mode": "story",
+  "anchor_id": "unexpected_party",
+  "book": "The Hobbit",
+  "chapter": "Chapter 1",
+  "location": "Bag End",
+  "time_marker": "Late afternoon in the Shire",
+  "story_path_id": "bilbo_there_and_back",
+  "story_step_index": 0,
+  "unlocked_anchors": [
+    "unexpected_party"
+  ],
+  "current_objective": "Listen, question, and weigh whether to take the East Road from comfort into adventure.",
+  "current_guidance": "Bilbo should feel the pull between hearth-comfort and Tookish restlessness.",
+  "suggested_actions": [
+    "talk Gandalf",
+    "talk Thorin",
+    "go East Road"
+  ],
+  "completed_objectives": [],
+  "inventory": [
+    "pocket-handkerchief",
+    "walking stick"
+  ],
+  "companions": [],
+  "npcs_present": [
+    "Gandalf",
+    "Thorin Oakenshield",
+    "Rosie Cotton"
+  ],
+  "available_exits": [
+    "The Green Dragon",
+    "The East Road"
+  ],
+  "visited_locations": [
+    "Bag End"
+  ],
+  "location_history": [
+    "Bag End"
+  ],
+  "spoken_to_npcs": [],
+  "inspected_targets": [],
+  "journal": [
+    "Entered anchor: An Unexpected Party."
+  ],
+  "facts": [
+    "Dwarves gather beneath Bilbo's roof, and comfort gives way to a strange, dangerous invitation.",
+    "Bag End in The Shire: A well-kept hobbit-hole of comfort, polish, and hidden restlessness."
+  ],
+  "narrator_history": [
+    {
+      "role": "user",
+      "content": "Open at anchor An Unexpected Party."
+    },
+    {
+      "role": "assistant",
+      "content": "The late afternoon sun slants through the round windows of Bag End, casting gentle pools of light over the polished floors and neat rows of books. The scent of fresh-baked seed-cakes mingles oddly with the damp, earthy smell of wet cloaks and the faint aroma of pipeweed smoke. Tea steams quietly in a chipped cup, its warmth in contrast to the chill hovering just beyond the door, which stands ajar.\n\nAround the low tables sit an assembly no hobbit would have expected: Gandalf, his tall grey hat tipped at a rakish angle, and beside him, Thorin Oakenshield with an air that refuses to be put aside like a common guest. The fire crackles beneath the weight of shadows that thicken as more dwarves squat near the rug. Their voices murmur of distant halls and treasures, but here, in the snug heart of the Shire, such talk feels like a thread pulled too tight at the edges of comfort.\n\nRosie Cotton peeks in through the kitchen doorway, cheeks flushed with curiosity and a touch of worry. It is not the usual kind of company for a quiet hobbit-hole.\n\nThe firelight flickers\u2014a reminder, perhaps, that adventure is knocking with clumsy boots. You sit back in your chair, the seed-cake crumb in your hand a faint comfort against the rising tide of restlessness.\n\nDo you speak first with Gandalf, whose eyes twinkle with secrets? Or ask Thorin, whose voice holds the weight of grave promise? Or step outside, into the East Road\u2019s invitation?"
+    }
+  ],
+  "npc_threads": {},
+  "npc_memories": {},
+  "npc_relationships": {},
+  "last_narration": "The late afternoon sun slants through the round windows of Bag End, casting gentle pools of light over the polished floors and neat rows of books. The scent of fresh-baked seed-cakes mingles oddly with the damp, earthy smell of wet cloaks and the faint aroma of pipeweed smoke. Tea steams quietly in a chipped cup, its warmth in contrast to the chill hovering just beyond the door, which stands ajar.\n\nAround the low tables sit an assembly no hobbit would have expected: Gandalf, his tall grey hat tipped at a rakish angle, and beside him, Thorin Oakenshield with an air that refuses to be put aside like a common guest. The fire crackles beneath the weight of shadows that thicken as more dwarves squat near the rug. Their voices murmur of distant halls and treasures, but here, in the snug heart of the Shire, such talk feels like a thread pulled too tight at the edges of comfort.\n\nRosie Cotton peeks in through the kitchen doorway, cheeks flushed with curiosity and a touch of worry. It is not the usual kind of company for a quiet hobbit-hole.\n\nThe firelight flickers\u2014a reminder, perhaps, that adventure is knocking with clumsy boots. You sit back in your chair, the seed-cake crumb in your hand a faint comfort against the rising tide of restlessness.\n\nDo you speak first with Gandalf, whose eyes twinkle with secrets? Or ask Thorin, whose voice holds the weight of grave promise? Or step outside, into the East Road\u2019s invitation?",
+  "mode": "exploration"
+}

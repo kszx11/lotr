@@ -1,0 +1,2627 @@
+story_paths:
+  - id: bilbo_there_and_back
+    label: "Bilbo: There and Back Again"
+    character_id: bilbo
+    summary: From hearth and reluctance into dark trial and hard-earned cunning.
+    steps:
+      - anchor_id: unexpected_party
+        title: A Burden Leaves Home
+        objective: Listen, question, and weigh whether to take the East Road from comfort into adventure.
+        guidance: Bilbo should feel the pull between hearth-comfort and Tookish restlessness.
+        suggested_actions:
+          - talk Gandalf
+          - talk Thorin
+          - go East Road
+        required_npcs:
+          - Gandalf
+          - Thorin Oakenshield
+      - anchor_id: bilbo_with_trolls
+        title: Firelight in the Trollshaws
+        objective: Endure the fear of the trolls' camp, listen sharply for Gandalf's unseen help, and learn how easily a small burglar's wits may be swallowed by a larger world's brutality.
+        guidance: Bilbo should feel frightened, embarrassed, and suddenly aware that adventure is not only songs and roads.
+        suggested_actions:
+          - talk Gandalf
+          - inspect campfire
+          - go The Trolls' Clearing
+        required_npcs:
+          - Gandalf
+          - William Huggins
+        required_locations:
+          - The Trolls' Clearing
+        required_fact_keywords:
+          - troll
+      - anchor_id: bilbo_in_rivendell
+        title: Rest Under Elven Roofs
+        objective: Receive Rivendell's welcome, listen to Elrond's lore, and feel how comfort and old wisdom can strengthen a road already turning dangerous.
+        guidance: Bilbo should feel relieved, curious, and a little ashamed of how quickly he can forget danger in beautiful safety.
+        suggested_actions:
+          - talk Elrond
+          - talk Gandalf
+          - go Elrond's House
+        required_npcs:
+          - Elrond
+          - Gandalf
+        required_locations:
+          - Elrond's House
+        required_fact_keywords:
+          - rivendell
+      - anchor_id: bilbo_in_goblin_town
+        title: Fire and Flight Under the Mountain
+        objective: Survive Goblin-town's uproar, hold close to Gandalf's leadership when all order breaks, and discover how swiftly peril can turn to separation.
+        guidance: Bilbo should feel overwhelmed, breathless, and dependent on others right up to the moment he is forced into solitude.
+        suggested_actions:
+          - talk Gandalf
+          - inspect goblin hall
+          - go The Great Goblin's Hall
+        required_npcs:
+          - Gandalf
+          - The Great Goblin
+        required_locations:
+          - The Great Goblin's Hall
+        required_fact_keywords:
+          - goblin
+      - anchor_id: riddles_in_the_dark
+        title: Alone Beneath the Mountain
+        objective: Endure the dark, study Gollum, and seek the way out without forgetting fear.
+        guidance: Bilbo is frightened but beginning to discover resourcefulness and pity.
+        suggested_actions:
+          - talk Gollum
+          - inspect black water
+          - go Black Tunnel
+        required_npcs:
+          - Gollum
+        required_inspections:
+          - black water
+        required_fact_keywords:
+          - dark
+      - anchor_id: bilbo_with_eagles
+        title: Rescue Above the Pines
+        objective: Recover from terror under the mountains, receive the eagles' stern mercy, and feel how suddenly death may turn into wind and open sky.
+        guidance: Bilbo should feel stunned, grateful, and still half in dread, with rescue seeming real but not yet restful.
+        suggested_actions:
+          - talk Great Eagle
+          - talk Gandalf
+          - go The Eagle Ledge
+        required_npcs:
+          - Great Eagle
+          - Gandalf
+        required_locations:
+          - The Eagle Ledge
+        required_fact_keywords:
+          - eagle
+      - anchor_id: bilbo_at_beorns_house
+        title: Rest Under Grim Protection
+        objective: Receive Beorn's testing hospitality, listen carefully to Gandalf's tact, and learn that safety in the wild can still be stern and conditional.
+        guidance: Bilbo should feel grateful, watchful, and still slightly overwhelmed by the scale of the world beyond hobbit custom.
+        suggested_actions:
+          - talk Beorn
+          - talk Gandalf
+          - go The Bee Pastures
+        required_npcs:
+          - Beorn
+          - Gandalf
+        required_locations:
+          - The Bee Pastures
+        required_fact_keywords:
+          - beorn
+      - anchor_id: bilbo_in_mirkwood
+        title: The Burglar Stands Forward
+        objective: Endure Mirkwood's oppression, protect the dwarves where you can, and discover that fear does not forbid courage.
+        guidance: Bilbo should feel tired, hungry, and pressed upon by the forest, yet more capable than before.
+        suggested_actions:
+          - talk Balin
+          - inspect spider glade
+          - go The Dark Track
+        required_npcs:
+          - Balin
+        required_inspections:
+          - spider glade
+        required_fact_keywords:
+          - mirkwood
+      - anchor_id: bilbo_in_woodland_realm
+        title: Beneath the Elvenking's Halls
+        objective: Keep your freedom hidden, study the underground halls, and begin shaping escape through patience rather than force.
+        guidance: Bilbo should feel solitary, clever, and increasingly responsible for the dwarves' fate.
+        suggested_actions:
+          - inspect elven gate
+          - talk Thranduil
+          - go The Wine Cellars
+        required_npcs:
+          - Thranduil
+        required_locations:
+          - The Wine Cellars
+        required_fact_keywords:
+          - elves
+      - anchor_id: bilbo_in_lake_town
+        title: Songs by the Water
+        objective: Receive the welcome of Lake-town, listen to the old songs now laid upon Thorin's errand, and feel how expectation can become its own burden.
+        guidance: Bilbo should enjoy the comfort yet feel uneasy at being drawn into a larger public tale.
+        suggested_actions:
+          - talk Bard
+          - talk Thorin
+          - go The Quays
+        required_npcs:
+          - Bard
+          - Thorin Oakenshield
+        required_locations:
+          - The Quays
+        required_fact_keywords:
+          - lake-town
+      - anchor_id: bilbo_at_hidden_door
+        title: Waiting on the Doorstep
+        objective: Read the mountain's signs, speak with Balin, and search patiently for the secret way into Erebor.
+        guidance: Bilbo should feel the burden of others' hopes and the loneliness of dragon-shadow.
+        suggested_actions:
+          - talk Balin
+          - inspect hidden door
+          - go Ravenhill Path
+        required_npcs:
+          - Balin
+        required_inspections:
+          - hidden door
+        required_fact_keywords:
+          - lonely mountain
+      - anchor_id: bilbo_in_smaugs_lair
+        title: Words Beneath the Mountain
+        objective: Face the dragon with wit rather than strength, read his pride, and survive the encounter with your courage still hidden.
+        guidance: Bilbo is very small here, but not helpless; fear and cleverness should sharpen each other.
+        suggested_actions:
+          - talk Smaug
+          - inspect treasure hall
+          - go The Secret Way
+        required_npcs:
+          - Smaug
+        required_inspections:
+          - treasure hall
+        required_fact_keywords:
+          - dragon
+      - anchor_id: bilbo_at_front_gate
+        title: The Mountain Closed Behind
+        objective: Read the Mountain's changed silence after Smaug's going, watch Thorin harden against counsel, and understand how treasure can become a siege before any battle is fought.
+        guidance: Bilbo should feel relief, foreboding, and moral unease as dragon-fear gives way to dwarf-pride and gathering claims below.
+        suggested_actions:
+          - talk Thorin
+          - talk Balin
+          - go The Front Gate
+        required_npcs:
+          - Thorin Oakenshield
+          - Balin
+        required_locations:
+          - The Front Gate
+        required_fact_keywords:
+          - smaug
+      - anchor_id: bilbo_in_besiegers_camp
+        title: A Thief in the Night
+        objective: Carry the Arkenstone into the besiegers' camp, measure Bard and Gandalf rightly, and choose peace over mere loyalty to pride.
+        guidance: Bilbo should feel torn, ashamed, resolute, and more morally awake than at the road's beginning.
+        suggested_actions:
+          - talk Bard
+          - talk Gandalf
+          - go The Command Tent
+        required_npcs:
+          - Bard
+          - Gandalf
+        required_locations:
+          - The Command Tent
+        required_fact_keywords:
+          - arkenstone
+      - anchor_id: bilbo_after_battle
+        title: Mourning on Ravenhill
+        objective: Walk among the cost of victory, receive Gandalf's comfort, and understand how the journey has altered treasure, friendship, and your own heart.
+        guidance: Bilbo should feel grief, relief, and a hobbit's homesick wisdom rather than triumph.
+        suggested_actions:
+          - talk Balin
+          - talk Gandalf
+          - inspect ravenhill
+        required_npcs:
+          - Balin
+          - Gandalf
+        required_inspections:
+          - ravenhill
+        required_fact_keywords:
+          - battle
+      - anchor_id: bilbo_back_at_bag_end
+        title: Home and Changed
+        objective: Return to Bag End, reckon the cost of adventure against the comfort of home, and discover that the old life cannot be resumed unchanged.
+        guidance: Bilbo should feel amused, wistful, and wiser, with comfort restored but innocence altered.
+        suggested_actions:
+          - talk Gandalf
+          - talk Balin
+          - inspect round door
+        required_npcs:
+          - Gandalf
+          - Balin
+        required_inspections:
+          - round door
+        required_fact_keywords:
+          - home
+  - id: frodo_ring_bearer
+    label: "Frodo: The Burden of the Road"
+    character_id: frodo
+    summary: From the Shire's green ease into hidden danger, refuge, and grave counsel.
+    steps:
+      - anchor_id: frodo_departs_shire
+        title: The Last Ease of Home
+        objective: Set out from the Shire, speak with your companions, and feel how ordinary roads begin to darken.
+        guidance: Keep the Shire vivid enough that its loss matters.
+        suggested_actions:
+          - talk Sam
+          - talk Pippin
+          - go Woody End
+        required_npcs:
+          - Samwise Gamgee
+          - Pippin Took
+        required_locations:
+          - Woody End
+        required_fact_keywords:
+          - shire
+      - anchor_id: frodo_in_old_forest
+        title: Under the Old Forest's Will
+        objective: Endure the Forest's strange hostility, attend to your companions, and learn how small ordinary courage can feel under older powers.
+        guidance: Frodo should feel disoriented, wary, and conscious that the world has become stranger than mere pursuit on roads.
+        suggested_actions:
+          - talk Merry
+          - inspect old willow
+          - go The Withywindle Bank
+        required_npcs:
+          - Merry Brandybuck
+        required_locations:
+          - The Withywindle Bank
+        required_fact_keywords:
+          - forest
+      - anchor_id: frodo_at_bombadils_house
+        title: Rest in a Stranger Peace
+        objective: Receive Bombadil's hospitality, question what sort of safety this is, and let wonder interrupt fear without canceling it.
+        guidance: Frodo should feel relieved, puzzled, and gently unsettled by a peace unlike any he understands.
+        suggested_actions:
+          - talk Tom
+          - talk Goldberry
+          - go The Rain-washed Room
+        required_npcs:
+          - Tom Bombadil
+          - Goldberry
+        required_locations:
+          - The Rain-washed Room
+        required_fact_keywords:
+          - house
+      - anchor_id: frodo_on_barrow_downs
+        title: Cold Hill and Ancient Fear
+        objective: Face the dread of the Barrow-downs, hold to memory and friendship, and learn how near old death still lies to the Shire.
+        guidance: Frodo should feel fear, chill, and a deepening seriousness about the ancient world pressing close.
+        suggested_actions:
+          - talk Tom
+          - inspect standing stone
+          - go The Barrow Chamber
+        required_npcs:
+          - Tom Bombadil
+        required_locations:
+          - The Barrow Chamber
+        required_fact_keywords:
+          - barrow
+      - anchor_id: frodo_at_bree
+        title: Strangers in the Inn
+        objective: Judge whom to trust in Bree and whether the Ranger's counsel should be heeded.
+        guidance: Fear and uncertainty should press close, but hope should not vanish.
+        suggested_actions:
+          - talk Aragorn
+          - talk Barliman Butterbur
+          - inspect common room
+        required_npcs:
+          - Aragorn
+        required_inspections:
+          - common room
+        required_fact_keywords:
+          - bree
+      - anchor_id: frodo_at_weathertop
+        title: The Hill of Watchers
+        objective: Endure the exposed height, trust Aragorn's watchfulness, and survive the growing sense of pursuit.
+        guidance: Frodo should feel hunted, cold, and inwardly strained.
+        suggested_actions:
+          - talk Aragorn
+          - inspect ruined ring
+          - go The Eastward Path
+        required_npcs:
+          - Aragorn
+        required_inspections:
+          - ruined ring
+      - anchor_id: frodo_ford_bruinen
+        title: Flight to the Ford
+        objective: Hold to the road, heed your protectors, and press on until refuge is within reach.
+        guidance: Weariness and fear should dominate, but the nearness of safety should be palpable.
+        suggested_actions:
+          - talk Glorfindel
+          - inspect ford bank
+          - go The Rivendell Road
+        required_npcs:
+          - Glorfindel
+        required_inspections:
+          - ford bank
+      - anchor_id: frodo_in_rivendell
+        title: Healing in the Valley
+        objective: Speak with the wise in Rivendell and understand the burden now laid plainly before you.
+        guidance: Rivendell should feel like healing touched by sorrow and long memory.
+        suggested_actions:
+          - talk Gandalf
+          - talk Elrond
+          - go The Council Porch
+        required_npcs:
+          - Gandalf
+          - Elrond
+        required_locations:
+          - The Council Porch
+        required_fact_keywords:
+          - rivendell
+      - anchor_id: frodo_at_west_gate
+        title: The Choice of the Dark Door
+        objective: Weigh the dread before Moria, attend to Gandalf's counsel, and accept the road necessity leaves.
+        guidance: Frodo should feel the Fellowship's weariness and his own foreboding, while still trusting those wiser than he.
+        suggested_actions:
+          - talk Gandalf
+          - talk Boromir
+          - inspect west-gate
+        required_npcs:
+          - Gandalf
+          - Boromir
+        required_inspections:
+          - west-gate
+        required_fact_keywords:
+          - moria
+      - anchor_id: frodo_in_lorien
+        title: Beauty After Darkness
+        objective: Grieve, rest, and receive the strange healing of Lórien without forgetting the burden you still bear.
+        guidance: Frodo should feel consoled but never released from responsibility.
+        suggested_actions:
+          - talk Galadriel
+          - talk Haldir
+          - go Caras Galadhon
+        required_npcs:
+          - Galadriel
+        required_locations:
+          - Caras Galadhon
+        required_fact_keywords:
+          - lórien
+      - anchor_id: frodo_at_amon_hen
+        title: The Sundering Choice
+        objective: Face the strain within the Company, resist the pressure around the Ring, and choose the road you must take.
+        guidance: Frodo should feel both love for his companions and the terrible loneliness of his burden.
+        suggested_actions:
+          - talk Boromir
+          - talk Sam
+          - inspect seat of seeing
+        required_npcs:
+          - Boromir
+          - Samwise Gamgee
+        required_inspections:
+          - seat of seeing
+        required_fact_keywords:
+          - fellowship
+      - anchor_id: frodo_in_emyn_muil
+        title: Stones, Weariness, and a Tamed Guide
+        objective: Endure the bitter stony maze, judge whether Gollum can be bound by pity, and keep Sam's loyalty from hardening into cruelty.
+        guidance: Frodo should feel exhausted, wary, and morally intent, with pity becoming an active burden rather than a sentiment.
+        suggested_actions:
+          - talk Gollum
+          - talk Sam
+          - go The Slinker Stair
+        required_npcs:
+          - Gollum
+          - Samwise Gamgee
+        required_locations:
+          - The Slinker Stair
+        required_fact_keywords:
+          - smeagol
+      - anchor_id: frodo_in_dead_marshes
+        title: Lights Under the Water
+        objective: Endure the marshes, attend to Gollum's warnings, and learn what sort of pity can survive in a wasted land.
+        guidance: Frodo should feel physically drained but spiritually alert to suffering, even in horror.
+        suggested_actions:
+          - talk Gollum
+          - inspect dead faces
+          - go The Marsh Path
+        required_npcs:
+          - Gollum
+        required_inspections:
+          - dead faces
+        required_fact_keywords:
+          - marsh
+      - anchor_id: frodo_at_henneth_annun
+        title: The Window Behind the Waterfall
+        objective: Meet Faramir without surrendering either truth or the burden's secrecy, and measure how pity, discernment, and mistrust contend in fair Ithilien.
+        guidance: Frodo should feel strained yet relieved by temporary shelter, keenly aware that mercy and danger are now mixed together in men as well as in Gollum.
+        suggested_actions:
+          - talk Faramir
+          - talk Sam
+          - go The Forbidden Pool
+        required_npcs:
+          - Faramir
+          - Samwise Gamgee
+        required_locations:
+          - The Forbidden Pool
+        required_fact_keywords:
+          - ithilien
+      - anchor_id: frodo_on_morgul_stairs
+        title: The Bitter Stair
+        objective: Climb the Morgul stairs, endure the thinning of body and hope, and keep faith with Sam while Gollum's malice grows more wounded and secret.
+        guidance: Frodo should feel spiritually and physically worn, but not yet stripped of pity.
+        suggested_actions:
+          - talk Gollum
+          - talk Sam
+          - go The High Stair
+        required_npcs:
+          - Gollum
+          - Samwise Gamgee
+        required_locations:
+          - The High Stair
+        required_fact_keywords:
+          - morgul
+      - anchor_id: frodo_in_shelobs_lair
+        title: Darkness Unguessed
+        objective: Pass into the tunnel's living night, trust Sam's nearness when sight and strength fail, and endure terror without surrendering wholly to it.
+        guidance: Frodo should feel faint, spiritually strained, and almost dreamlike under the weight of darkness and the Ring.
+        suggested_actions:
+          - talk Sam
+          - inspect reeking passage
+          - go The Great Cleft
+        required_npcs:
+          - Samwise Gamgee
+          - Shelob
+        required_locations:
+          - The Great Cleft
+        required_fact_keywords:
+          - darkness
+      - anchor_id: frodo_at_sammath_naur
+        title: The Fire at the End
+        objective: Make the final ascent with Sam, face the inward and outward end of the quest, and bring the burden to the Crack of Doom.
+        guidance: Frodo should feel utterly spent, inwardly naked before the Ring, and sustained only by the last remnants of will and love.
+        suggested_actions:
+          - talk Sam
+          - inspect fire-chamber
+          - go The Slopes of Orodruin
+        required_npcs:
+          - Samwise Gamgee
+        required_locations:
+          - The Slopes of Orodruin
+          - Sammath Naur
+        required_fact_keywords:
+          - fire
+      - anchor_id: frodo_at_cormallen
+        title: Waking to Honor
+        objective: Wake amid healing, friendship, and public joy, and try to understand victory when it has cost so much inwardly.
+        guidance: Frodo should feel gentle amazement, frailty, and gratitude rather than triumphal ease.
+        suggested_actions:
+          - talk Gandalf
+          - talk Sam
+          - go The King's Pavilion
+        required_npcs:
+          - Gandalf
+          - Samwise Gamgee
+        required_locations:
+          - The King's Pavilion
+        required_fact_keywords:
+          - cormallen
+      - anchor_id: frodo_in_scouring
+        title: Home, Yet Not Untouched
+        objective: Return to the Shire, measure the wound done to home, and resist bitterness while helping put things back into right order.
+        guidance: Frodo should feel sorrow, restraint, and protective love for the Shire without any taste for petty triumph.
+        suggested_actions:
+          - talk Sam
+          - talk Farmer Cotton
+          - go The Party Field
+        required_npcs:
+          - Samwise Gamgee
+          - Farmer Cotton
+        required_locations:
+          - The Party Field
+        required_fact_keywords:
+          - shire
+      - anchor_id: frodo_at_grey_havens
+        title: The Long Farewell
+        objective: Speak your farewells, look westward with full knowledge of what must be left, and let the road end where the Sea begins.
+        guidance: Frodo should feel sorrow, release, and the ache of parting from all he loves without bitterness.
+        suggested_actions:
+          - talk Gandalf
+          - talk Sam
+          - go The White Ship
+        required_npcs:
+          - Gandalf
+          - Samwise Gamgee
+        required_locations:
+          - The White Ship
+        required_fact_keywords:
+          - sea
+  - id: sam_faithful_heart
+    label: "Sam: Faithful Heart in the Dark"
+    character_id: sam
+    summary: Sam's path runs from the Shire's homely loyalties through Bombadil's strange peace and Lórien's fair sorrow into the long dark service that carries Frodo toward the Fire and back home again.
+    steps:
+      - anchor_id: sam_in_shire
+        title: The Gardener on the Road
+        objective: Leave the Shire in service to Frodo, carry love of home into the first miles of danger, and let plain loyalty prove steadier than any grand understanding.
+        guidance: Sam should feel devoted, homesick, and stubbornly practical, with courage growing out of affection rather than adventure.
+        suggested_actions:
+          - talk Frodo
+          - talk Pippin
+          - go Hobbiton Road
+        required_npcs:
+          - Frodo Baggins
+          - Pippin Took
+        required_locations:
+          - Hobbiton Road
+        required_fact_keywords:
+          - shire
+      - anchor_id: sam_at_bombadils_house
+        title: Rest Under a Strange Roof
+        objective: Rest in Bombadil's house without surrendering your plain caution, feel wonder without ceasing to think of meals and shelter, and glimpse that the world holds safeties beyond ordinary planning.
+        guidance: Sam should feel respectful, comforted, and slightly suspicious of strangeness even while he is grateful for it.
+        suggested_actions:
+          - talk Frodo
+          - talk Tom Bombadil
+          - go The Rain-washed Room
+        required_npcs:
+          - Frodo Baggins
+          - Tom Bombadil
+        required_locations:
+          - The Rain-washed Room
+        required_fact_keywords:
+          - bombadil
+      - anchor_id: sam_in_lorien
+        title: Golden Light and Deep Gifts
+        objective: Walk in Lórien with wonder, remember the feel of gardens and growing things, and receive beauty and grace without ever ceasing to think of Frodo's burden.
+        guidance: Sam should feel humbled, moved, and still very much himself, noticing beauty through growing things, kindness, and the needs of Frodo.
+        suggested_actions:
+          - talk Frodo
+          - talk Galadriel
+          - go The Mallorn Path
+        required_npcs:
+          - Frodo Baggins
+          - Galadriel
+        required_locations:
+          - The Mallorn Path
+        required_fact_keywords:
+          - lorien
+      - anchor_id: sam_in_emyn_muil
+        title: Hard Stones and Harder Mercy
+        objective: Endure the bitter maze of Emyn Muil, watch Gollum with all your suspicion awake, and keep serving Frodo even when pity demands more patience than you think wise.
+        guidance: Sam should feel tired, protective, and unconvinced by Gollum, with love for Frodo sharpening both suspicion and endurance.
+        suggested_actions:
+          - talk Frodo
+          - talk Gollum
+          - go The Stony Shelf
+        required_npcs:
+          - Frodo Baggins
+          - Gollum
+        required_locations:
+          - The Stony Shelf
+        required_fact_keywords:
+          - emyn
+      - anchor_id: sam_in_ithilien
+        title: Herbs and Hunger
+        objective: Tend to Frodo, watch Gollum, and read the signs of fair land under shadow.
+        guidance: Sam's affection, plain sense, and suspicion should all matter at once.
+        suggested_actions:
+          - talk Frodo
+          - talk Gollum
+          - inspect herbs
+        required_npcs:
+          - Frodo Baggins
+          - Gollum
+        required_inspections:
+          - herbs
+      - anchor_id: sam_at_henneth_annun
+        title: The Rabbit, the Men, and the Hidden Water
+        objective: Guard Frodo under Faramir's questioning, read the quality of these men of Gondor, and hold fast to plain speech without betraying more than need requires.
+        guidance: Sam should feel protective, suspicious, homesick, and unexpectedly moved by real courtesy amid danger.
+        suggested_actions:
+          - talk Faramir
+          - talk Frodo
+          - go The Forbidden Pool
+        required_npcs:
+          - Faramir
+          - Frodo Baggins
+        required_locations:
+          - The Forbidden Pool
+        required_fact_keywords:
+          - faramir
+      - anchor_id: sam_at_crossroads
+        title: The Fallen King's Head
+        objective: Read the meaning of the fallen statue and choose the darker road with full knowledge of what is being abandoned.
+        guidance: Sam's pity, memory, and stubborn endurance should deepen here.
+        suggested_actions:
+          - talk Frodo
+          - inspect fallen head
+          - go The Morgul Road
+        required_npcs:
+          - Frodo Baggins
+        required_inspections:
+          - fallen head
+        required_fact_keywords:
+          - gondor
+      - anchor_id: sam_at_cirith_ungol
+        title: Into the Orc Tower
+        objective: Hold fast to courage, gather what you can, and seek Frodo within dread and ruin.
+        guidance: Fear is present, but Sam's love and resolve must outweigh it.
+        suggested_actions:
+          - inspect tower
+          - talk Frodo
+          - go The Inner Stair
+        required_npcs:
+          - Frodo Baggins
+        required_locations:
+          - The Inner Stair
+        required_inspections:
+          - tower
+      - anchor_id: sam_on_gorgoroth
+        title: The Last Road
+        objective: Help Frodo onward across the ash plain, attend to his failing strength, and keep the end in view when all strength seems spent.
+        guidance: Sam should feel physically emptied yet morally unshaken, remembering green things even here.
+        suggested_actions:
+          - talk Frodo
+          - inspect ash road
+          - go The Cracked Plain
+        required_npcs:
+          - Frodo Baggins
+        required_inspections:
+          - ash road
+        required_fact_keywords:
+          - mordor
+      - anchor_id: sam_at_cormallen
+        title: Honor After Sorrow
+        objective: Tend to Frodo in the days after the quest, receive joy without forgetting pity, and feel ordinary love returning to the world.
+        guidance: Sam should be grateful, overwhelmed, and still primarily concerned for Frodo rather than for praise.
+        suggested_actions:
+          - talk Frodo
+          - talk Gandalf
+          - go The King's Pavilion
+        required_npcs:
+          - Frodo Baggins
+          - Gandalf
+        required_locations:
+          - The King's Pavilion
+        required_fact_keywords:
+          - cormallen
+      - anchor_id: sam_in_scouring
+        title: The Shire Stands Up
+        objective: Help drive out the ruffians, stand with your neighbors, and feel how the long road has taught you to defend home rather than merely miss it.
+        guidance: Sam should be angry, practical, and loyal, with courage aimed at restoring ordinary life rather than enlarging himself.
+        suggested_actions:
+          - talk Frodo
+          - talk Farmer Cotton
+          - inspect bywater road
+        required_npcs:
+          - Frodo Baggins
+          - Farmer Cotton
+        required_inspections:
+          - bywater road
+        required_fact_keywords:
+          - bywater
+      - anchor_id: sam_back_in_the_shire
+        title: Well, I'm Back
+        objective: Come home to the Shire, speak with Rosie, and feel how the journey has made home dearer without making the road unreal.
+        guidance: Sam should feel homesick joy, humility, and a deepened tenderness for ordinary life.
+        suggested_actions:
+          - talk Rosie
+          - inspect round door
+          - go The Green Dragon
+        required_npcs:
+          - Rosie Cotton
+        required_inspections:
+          - round door
+        required_fact_keywords:
+          - shire
+  - id: aragorn_returning_king
+    label: "Aragorn: The Hidden King Unveiled"
+    character_id: aragorn
+    summary: Vigil in Bree, the hard road of the Fellowship, and the open claim of kingship in war.
+    steps:
+      - anchor_id: ranger_at_bree
+        title: The Ranger Watches
+        objective: Guard the hobbits, test the temper of Bree, and choose how much of yourself to reveal.
+        guidance: Aragorn is stern and cautious, but never faithless.
+        suggested_actions:
+          - talk Frodo
+          - talk Barliman Butterbur
+          - inspect common room
+        required_npcs:
+          - Frodo Baggins
+        required_inspections:
+          - common room
+      - anchor_id: aragorn_at_weathertop
+        title: Fire on the Hill
+        objective: Guard the hobbits on Weathertop, hold fear and authority together under the night attack, and feel how the burden you have taken under protection is becoming more desperate with every mile.
+        guidance: Aragorn should feel grim, protective, and exact under pressure, with no room for wasted movement or false hope.
+        suggested_actions:
+          - talk Frodo
+          - talk Samwise Gamgee
+          - go The Ruined Ring
+        required_npcs:
+          - Frodo Baggins
+          - Samwise Gamgee
+        required_locations:
+          - The Ruined Ring
+        required_fact_keywords:
+          - weathertop
+      - anchor_id: aragorn_in_rivendell
+        title: Counsel and the Heir
+        objective: Enter Rivendell not merely as a Ranger of the wild but as the hidden heir under counsel, grief, and the renewing of old hope.
+        guidance: Aragorn should feel grave, inward, and steadier than those around him know, with love and kingship both still largely veiled.
+        suggested_actions:
+          - talk Elrond
+          - talk Frodo
+          - go Elrond's House
+        required_npcs:
+          - Elrond
+          - Frodo Baggins
+        required_locations:
+          - Elrond's House
+        required_fact_keywords:
+          - rivendell
+      - anchor_id: aragorn_before_moria
+        title: Before the Hidden Doors
+        objective: Stand before Moria with leadership, unease, and necessity pressing together, and accept a road you do not trust because there is no better one left.
+        guidance: Aragorn should feel burdened, watchful, and resistant to despair, carrying both practical command and unspoken dread.
+        suggested_actions:
+          - talk Gandalf
+          - talk Gimli
+          - go The West-gate
+        required_npcs:
+          - Gandalf
+          - Gimli
+        required_locations:
+          - The West-gate
+        required_fact_keywords:
+          - moria
+      - anchor_id: aragorn_at_amon_hen
+        title: The Breaking of the Company
+        objective: Come to Amon Hen under weariness and divided counsel, fail to hold the Fellowship together, and let leadership pass from hidden guardianship into loss, pursuit, and necessary choice.
+        guidance: Aragorn should feel torn, sorrowful, and commanding under shock, with grief never allowed to suspend action for long.
+        suggested_actions:
+          - talk Boromir
+          - talk Samwise Gamgee
+          - go The Seat of Seeing
+        required_npcs:
+          - Boromir
+          - Samwise Gamgee
+        required_locations:
+          - The Seat of Seeing
+        required_fact_keywords:
+          - amon hen
+      - anchor_id: aragorn_in_fangorn
+        title: The White Figure in the Wood
+        objective: Search the old forest for sign of Merry and Pippin, hold Gimli and Legolas steady in uncertainty, and judge whether the white figure before you is peril or unexpected hope.
+        guidance: Aragorn should feel weary, alert, and inwardly commanding, with grief and leadership both still close after the breaking of the Fellowship.
+        suggested_actions:
+          - talk Gimli
+          - talk Legolas
+          - go The Tree-shadowed Path
+        required_npcs:
+          - Gimli
+          - Legolas
+        required_locations:
+          - The Tree-shadowed Path
+        required_fact_keywords:
+          - fangorn
+      - anchor_id: aragorn_at_helms_deep
+        title: Night at the Hornburg
+        objective: Encourage your companions, read the temper of the defenders, and stand ready for the storm.
+        guidance: Courage here should be steady and unsentimental.
+        suggested_actions:
+          - talk Gimli
+          - talk Legolas
+          - go The Deeping Wall
+        required_npcs:
+          - Gimli
+          - Legolas
+        required_locations:
+          - The Deeping Wall
+        required_fact_keywords:
+          - helms deep
+      - anchor_id: aragorn_at_dunharrow
+        title: The Muster Before the Dark Road
+        objective: Read the fear and loyalty gathered at Dunharrow, answer Éowyn with honesty, and choose the road under the mountain despite its cost.
+        guidance: Aragorn should feel stern, burdened, and kingly, with little room left for concealment or delay.
+        suggested_actions:
+          - talk Éowyn
+          - talk Legolas
+          - go The Dimholt Door
+        required_npcs:
+          - Éowyn
+          - Legolas
+        required_locations:
+          - The Dimholt Door
+        required_fact_keywords:
+          - dunharrow
+      - anchor_id: aragorn_paths_of_the_dead
+        title: The Dark Road Chosen
+        objective: Gather resolve, command trust, and pass beneath the mountain despite dread.
+        guidance: This should feel kingly, grim, and burdened with ancient oath.
+        suggested_actions:
+          - talk Halbarad
+          - talk Gimli
+          - go The Dark Passage
+        required_npcs:
+          - Halbarad
+          - Gimli
+        required_locations:
+          - The Dark Passage
+      - anchor_id: aragorn_at_pelargir
+        title: The Black Ships Taken
+        objective: Command the Oathbreakers to their fulfillment, turn dread into deliverance, and gather the southern strength that must go to Minas Tirith without delay.
+        guidance: Aragorn should feel openly kingly here, stern in command yet full of release as long burden begins to answer its purpose.
+        suggested_actions:
+          - talk Halbarad
+          - talk Elladan
+          - go The Quays of Pelargir
+        required_npcs:
+          - Halbarad
+          - Elladan
+        required_locations:
+          - The Quays of Pelargir
+        required_fact_keywords:
+          - ships
+      - anchor_id: aragorn_pelennor
+        title: Dawn Over the Fields
+        objective: Lead with open authority and bring hope against despair upon the Pelennor.
+        guidance: Urgency and kingship should now be in the open.
+        suggested_actions:
+          - talk Gimli
+          - talk Legolas
+          - go The River Landing
+        required_npcs:
+          - Gimli
+          - Legolas
+        required_locations:
+          - The River Landing
+      - anchor_id: aragorn_in_houses_of_healing
+        title: The Hands of the King
+        objective: Set aside the battlefield's fury, bring healing where despair has settled, and let kingship show itself through mercy rather than command.
+        guidance: Aragorn should feel authoritative, gentle, and grave, with hope made practical through care.
+        suggested_actions:
+          - talk Éowyn
+          - talk Merry
+          - go The Healing Garden
+        required_npcs:
+          - Éowyn
+          - Merry Brandybuck
+        required_locations:
+          - The Healing Garden
+        required_fact_keywords:
+          - healing
+      - anchor_id: aragorn_at_last_debate
+        title: Counsel Before the Last March
+        objective: Weigh the hard counsel of the Captains, accept a road that is strategy only because it is sacrifice, and carry your kingship openly into a plan built to buy hope for Frodo.
+        guidance: Aragorn should feel grave, lucid, and self-commanding, with no trace of triumph in the choice before him.
+        suggested_actions:
+          - talk Gandalf
+          - talk Prince Imrahil
+          - go The Citadel
+        required_npcs:
+          - Gandalf
+          - Prince Imrahil
+        required_locations:
+          - The Citadel
+        required_fact_keywords:
+          - debate
+      - anchor_id: aragorn_at_black_gate
+        title: The Last Challenge
+        objective: Stand before the Morannon with open kingship, hold the courage of the West together, and turn sacrifice into a final act of service.
+        guidance: Aragorn should be kingly without triumph, resolute without illusion.
+        suggested_actions:
+          - talk Gandalf
+          - talk Gimli
+          - go The Captains' Line
+        required_npcs:
+          - Gandalf
+          - Gimli
+        required_locations:
+          - The Captains' Line
+        required_fact_keywords:
+          - morannon
+      - anchor_id: aragorn_at_coronation
+        title: The Crown Renewed
+        objective: Receive the kingship openly, honor those who brought the realm through ruin, and let mercy and joy stand beside majesty.
+        guidance: Aragorn should be grave with gratitude, not merely ceremonial or triumphant.
+        suggested_actions:
+          - talk Arwen
+          - talk Gandalf
+          - go The Court of the Fountain
+        required_npcs:
+          - Arwen
+          - Gandalf
+        required_locations:
+          - The Court of the Fountain
+        required_fact_keywords:
+          - crown
+  - id: gandalf_counsels_and_returns
+    label: "Gandalf: Counsel, Loss, and Return"
+    character_id: gandalf
+    summary: From the Shire's hidden warnings through grave counsel, loss, return, war, and the last westward farewell.
+    steps:
+      - anchor_id: gandalf_at_bag_end
+        title: A Fire in the Shire
+        objective: Warn Frodo plainly at Bag End, set friendship above comfort, and begin the long labor of guiding courage without ever pretending the burden is light.
+        guidance: Gandalf should feel grave, affectionate, and unsparing, with tenderness never blunting urgency.
+        suggested_actions:
+          - talk Frodo
+          - inspect round door
+          - go The Green Dragon
+        required_npcs:
+          - Frodo Baggins
+        required_inspections:
+          - round door
+        required_fact_keywords:
+          - shire
+      - anchor_id: gandalf_in_rivendell
+        title: Counsel of the Wise
+        objective: Weigh the choices before the Free Peoples and guide courage without concealing the peril.
+        guidance: Gandalf should be compassionate, urgent, and sparing in false comfort.
+        suggested_actions:
+          - talk Elrond
+          - talk Aragorn
+          - go The Council Porch
+        required_npcs:
+          - Elrond
+          - Aragorn
+        required_locations:
+          - The Council Porch
+      - anchor_id: gandalf_in_moria
+        title: Fire on the Narrow Bridge
+        objective: Lead the Company through Khazad-dûm's dread, face the nameless terror that pursues them, and spend yourself utterly so the others may go on.
+        guidance: Gandalf should be burdened, commanding, and unsparing, with ancient knowledge answering ancient evil under great urgency.
+        suggested_actions:
+          - talk Aragorn
+          - inspect narrow bridge
+          - go The Chamber of Mazarbul
+        required_npcs:
+          - Aragorn
+          - Durin's Bane
+        required_locations:
+          - The Chamber of Mazarbul
+          - The Bridge of Khazad-dum
+        required_fact_keywords:
+          - moria
+      - anchor_id: gandalf_the_white_rider
+        title: Return Beneath the Trees
+        objective: Reveal enough of your return to rally allies and turn bewilderment into purpose.
+        guidance: Gandalf is changed, stronger, and less veiled, yet still speaks with care.
+        suggested_actions:
+          - talk Aragorn
+          - talk Gimli
+          - talk Legolas
+        required_npcs:
+          - Aragorn
+          - Gimli
+          - Legolas
+      - anchor_id: gandalf_in_meduseld
+        title: The King's Awakening
+        objective: Break through fear and weariness in the Golden Hall, and restore courage where counsel has long been poisoned.
+        guidance: Gandalf should be stern, compassionate, and utterly unwilling to flatter weakness.
+        suggested_actions:
+          - talk Théoden
+          - talk Éomer
+          - go The Golden Hall Steps
+        required_npcs:
+          - Théoden
+          - Éomer
+        required_locations:
+          - The Golden Hall Steps
+        required_fact_keywords:
+          - rohan
+      - anchor_id: gandalf_at_orthanc
+        title: The Fallen Voice
+        objective: Confront Saruman in the wreck of Isengard, weigh pity against judgment, and show how far wisdom may fall when pride rules it.
+        guidance: Gandalf should be grave, piercing, and unwilling either to flatter evil or to mistake ruin for repentance.
+        suggested_actions:
+          - talk Saruman
+          - talk Treebeard
+          - go The Orthanc Steps
+        required_npcs:
+          - Saruman
+          - Treebeard
+        required_locations:
+          - The Orthanc Steps
+        required_fact_keywords:
+          - isengard
+      - anchor_id: gandalf_at_minas_tirith
+        title: Stewardship and Siege
+        objective: Read the city's fear, strengthen Pippin, and prepare counsel for the trial ahead.
+        guidance: Gandalf should be compassionate under pressure, carrying authority without softness.
+        suggested_actions:
+          - talk Pippin
+          - talk Faramir
+          - go The Citadel
+        required_npcs:
+          - Pippin Took
+        required_locations:
+          - The Citadel
+        required_fact_keywords:
+          - minas tirith
+      - anchor_id: gandalf_with_denethor
+        title: Pride in the White Tower
+        objective: Meet Denethor in the White City, defend hope against pride's despair, and keep Pippin steady amid the Steward's sharp gaze.
+        guidance: Gandalf should be controlled, compassionate, and incisive, never allowing Denethor's authority to set the moral tone of the scene.
+        suggested_actions:
+          - talk Denethor
+          - talk Pippin
+          - go The Steward's Hall
+        required_npcs:
+          - Denethor
+          - Pippin Took
+        required_locations:
+          - The Steward's Hall
+        required_fact_keywords:
+          - steward
+      - anchor_id: gandalf_at_great_gate
+        title: Shadow at the Broken Gate
+        objective: Hold the failing courage of the city at the gate, meet the oncoming terror without surrendering to it, and preserve hope in the very moment it seems most unreasonable.
+        guidance: Gandalf should be stern, bright, and immovable under dread, with authority made visible in the face of ruin.
+        suggested_actions:
+          - talk Pippin
+          - talk Beregond
+          - go The Great Gate
+        required_npcs:
+          - Pippin Took
+          - Beregond
+          - The Witch-king of Angmar
+        required_locations:
+          - The Great Gate
+        required_fact_keywords:
+          - gate
+      - anchor_id: gandalf_in_rath_dinen
+        title: The Pyre in the Silent Street
+        objective: Rescue Faramir from Denethor's despair, keep Pippin from breaking under terror, and oppose ruin with action when words are no longer enough.
+        guidance: Gandalf should feel swift, burdened, and fiercely compassionate, with no patience left for despair disguised as lordship.
+        suggested_actions:
+          - talk Beregond
+          - talk Pippin
+          - go The Silent Street
+        required_npcs:
+          - Beregond
+          - Pippin Took
+        required_locations:
+          - The Silent Street
+        required_fact_keywords:
+          - pyre
+      - anchor_id: gandalf_on_pelennor
+        title: The Field Against Despair
+        objective: Bear courage where the battle threatens to collapse, strengthen hearts in the midst of ruin, and hold fast to hope without pretending safety.
+        guidance: Gandalf should feel active, burdened, and bright against terror.
+        suggested_actions:
+          - talk Pippin
+          - talk Théoden
+          - go The Open Field
+        required_npcs:
+          - Pippin Took
+          - Théoden
+        required_locations:
+          - The Open Field
+        required_fact_keywords:
+          - pelennor
+      - anchor_id: gandalf_at_black_gate
+        title: Counsel Before the Last Gate
+        objective: Stand with Aragorn before the Morannon, steady the will of the West, and meet despair with lucid courage instead of false certainty.
+        guidance: Gandalf should be grave, piercing, and steadfast, speaking hope without softening the cost.
+        suggested_actions:
+          - talk Aragorn
+          - talk Gimli
+          - go The Morannon Field
+        required_npcs:
+          - Aragorn
+          - Gimli
+        required_locations:
+          - The Morannon Field
+        required_fact_keywords:
+          - black gate
+      - anchor_id: gandalf_at_coronation
+        title: Joy After Shadow
+        objective: Witness the return of the king, bless joy without forgetting sorrow, and help the world pass from war into healing.
+        guidance: Gandalf should be warm, wise, and still touched by the cost of all that has been won.
+        suggested_actions:
+          - talk Aragorn
+          - talk Arwen
+          - go The Court of the Fountain
+        required_npcs:
+          - Aragorn
+          - Arwen
+        required_locations:
+          - The Court of the Fountain
+      - anchor_id: gandalf_at_grey_havens
+        title: The Last Westward Sailing
+        objective: Stand at the Grey Havens with Frodo and the Keepers of the Three, bear final comfort without false ease, and turn from long guardianship toward the Sea at last.
+        guidance: Gandalf should feel gentle, weary, and quietly fulfilled, with farewell carrying both pity and release.
+        suggested_actions:
+          - talk Frodo
+          - talk Elrond
+          - go The White Ship
+        required_npcs:
+          - Frodo Baggins
+          - Elrond
+        required_locations:
+          - The White Ship
+        required_fact_keywords:
+          - havens
+  - id: pippin_in_gondor
+    label: "Pippin: A Small Guard in a Great War"
+    character_id: pippin
+    summary: Pippin's path runs from the Shire and the Old Forest through Fangorn and ruined Isengard into the White City, where wonder, fear, service, and growing courage carry him through war toward the king's return.
+    steps:
+      - anchor_id: pippin_in_shire
+        title: The Light Feet of Departure
+        objective: Leave the Shire with Frodo and Sam in fellowship half playful and half grave, feeling the road still close enough to home that danger can be laughed at without being forgotten.
+        guidance: Pippin should feel lively, affectionate, and not yet equal to the road's full seriousness, though he loves his friends enough to follow anyway.
+        suggested_actions:
+          - talk Frodo
+          - talk Samwise Gamgee
+          - go Woody End
+        required_npcs:
+          - Frodo Baggins
+          - Samwise Gamgee
+        required_locations:
+          - Woody End
+        required_fact_keywords:
+          - shire
+      - anchor_id: pippin_in_old_forest
+        title: Under the Unfriendly Trees
+        objective: Endure the Old Forest's strange hostility, keep up heart when ordinary courage feels too small, and discover that joking must now live beside real fear.
+        guidance: Pippin should feel frightened, companionable, and quick to recover his spirits whenever friendship gives him room to do so.
+        suggested_actions:
+          - talk Merry
+          - talk Frodo
+          - go The Old Willow
+        required_npcs:
+          - Merry Brandybuck
+          - Frodo Baggins
+        required_locations:
+          - The Old Willow
+        required_fact_keywords:
+          - forest
+      - anchor_id: pippin_in_fangorn
+        title: Among the Ents
+        objective: Wake in Fangorn under Treebeard's care, let fear and curiosity work together, and discover that the world holds powers older and stranger than any Shire-tale prepared you for.
+        guidance: Pippin should feel quick, curious, and overawed, with lightness and appetite reappearing as soon as fear loosens its grip.
+        suggested_actions:
+          - talk Merry
+          - talk Treebeard
+          - go The Tree-shadowed Path
+        required_npcs:
+          - Merry Brandybuck
+          - Treebeard
+        required_locations:
+          - The Tree-shadowed Path
+        required_fact_keywords:
+          - fangorn
+      - anchor_id: pippin_in_isengard
+        title: Ruin, Food, and Great Matters
+        objective: Walk the flooded courts of Isengard after Ent-wrath, delight honestly in comfort recovered, and still feel the gravity of Saruman's fall and Gandalf's judgment.
+        guidance: Pippin should feel merry, astonished, and intermittently sobered, with delight arriving faster than solemnity but never wholly escaping it.
+        suggested_actions:
+          - talk Merry
+          - talk Gandalf
+          - go The Ring of Isengard
+        required_npcs:
+          - Merry Brandybuck
+          - Gandalf
+        required_locations:
+          - The Ring of Isengard
+        required_fact_keywords:
+          - isengard
+      - anchor_id: pippin_in_minas_tirith
+        title: A Small Guard in the White City
+        objective: Read the temper of Minas Tirith, keep close to Gandalf, and learn what service means in a city larger and prouder than anything you have known.
+        guidance: Pippin should feel awed, loyal, and somewhat afraid, with courage often arriving only after wonder and dread.
+        suggested_actions:
+          - talk Gandalf
+          - talk Beregond
+          - go The Citadel
+        required_npcs:
+          - Gandalf
+          - Beregond
+        required_locations:
+          - The Citadel
+        required_fact_keywords:
+          - minas tirith
+      - anchor_id: pippin_with_denethor
+        title: Under the Steward's Eye
+        objective: Stand before Denethor in formal service, bear the weight of Gondor's grief without presuming to mend it, and learn how loyalty may become heavier when it is bound by oath.
+        guidance: Pippin should feel intimidated, earnest, and increasingly grave, with hobbit openness forced into discipline by the Steward's cold authority.
+        suggested_actions:
+          - talk Denethor
+          - talk Beregond
+          - go The Steward's Hall
+        required_npcs:
+          - Denethor
+          - Beregond
+        required_locations:
+          - The Steward's Hall
+        required_fact_keywords:
+          - steward
+      - anchor_id: pippin_at_great_gate
+        title: Terror Before the Gate
+        objective: Stand by Gandalf at the city's broken gate, feel the weight of dread without running from it, and hold to service when great terror comes in plain sight.
+        guidance: Pippin should feel very small here, but not contemptibly so; fear and loyalty must sharpen each other.
+        suggested_actions:
+          - talk Gandalf
+          - talk Beregond
+          - go The Great Gate
+        required_npcs:
+          - Gandalf
+          - Beregond
+        required_locations:
+          - The Great Gate
+        required_fact_keywords:
+          - gate
+      - anchor_id: pippin_in_rath_dinen
+        title: Fire in the Silent Street
+        objective: Help save Faramir from Denethor's despair, choose action over panic, and learn how courage may come by refusing one terrible thing at the right moment.
+        guidance: Pippin should feel frightened, urgent, and fiercely loyal, acting well before he feels equal to the task.
+        suggested_actions:
+          - talk Gandalf
+          - talk Beregond
+          - go The Silent Street
+        required_npcs:
+          - Gandalf
+          - Beregond
+        required_locations:
+          - The Silent Street
+        required_fact_keywords:
+          - fire
+      - anchor_id: pippin_at_black_gate
+        title: Among the Last Marchers
+        objective: March with the Captains of the West toward the Morannon, keep your courage in the company of greater warriors, and learn what it means to offer yourself where victory is not expected.
+        guidance: Pippin should feel afraid, devoted, and strangely steadied by companionship and clear purpose.
+        suggested_actions:
+          - talk Aragorn
+          - talk Gandalf
+          - go The Morannon Field
+        required_npcs:
+          - Aragorn
+          - Gandalf
+        required_locations:
+          - The Morannon Field
+        required_fact_keywords:
+          - morannon
+      - anchor_id: pippin_at_coronation
+        title: Wonder After Shadow
+        objective: Stand in the White City after war, honor the king returned, and feel how joy can be grand without ceasing to be deeply personal.
+        guidance: Pippin should feel bright, affectionate, and relieved, with awe returning now as delight instead of dread.
+        suggested_actions:
+          - talk Aragorn
+          - talk Gandalf
+          - go The Court of the Fountain
+        required_npcs:
+          - Aragorn
+          - Gandalf
+        required_locations:
+          - The Court of the Fountain
+        required_fact_keywords:
+          - crown
+  - id: merry_in_rohan_and_gondor
+    label: "Merry: Service, Fear, and Battle"
+    character_id: merry
+    summary: Merry's path runs from the Shire and the Barrow-downs through Fangorn, ruined Isengard, Rohan's sorrow, Dunharrow's foreboding, the Pelennor's terror, and the hard healing after war.
+    steps:
+      - anchor_id: merry_in_shire
+        title: The Conspiracy of Friends
+        objective: Help Frodo leave the Shire with planning, affection, and the steadier kind of courage that begins in responsibility rather than in grandeur.
+        guidance: Merry should feel capable, warm, and already more serious than the road seems to require, with care for others shaping every choice.
+        suggested_actions:
+          - talk Frodo
+          - talk Pippin
+          - go Hobbiton Road
+        required_npcs:
+          - Frodo Baggins
+          - Pippin Took
+        required_locations:
+          - Hobbiton Road
+        required_fact_keywords:
+          - shire
+      - anchor_id: merry_on_barrow_downs
+        title: Cold Morning on the Downs
+        objective: Face the chill dread of the Barrow-downs, hold to your companions under enchantment and fear, and let rescue from older powers widen your sense of what now walks near the Shire.
+        guidance: Merry should feel vulnerable, loyal, and newly sobered, with terror coming coldly rather than violently.
+        suggested_actions:
+          - talk Frodo
+          - talk Tom Bombadil
+          - go The Standing Stones
+        required_npcs:
+          - Frodo Baggins
+          - Tom Bombadil
+        required_locations:
+          - The Standing Stones
+        required_fact_keywords:
+          - barrow
+      - anchor_id: merry_in_fangorn
+        title: Beneath the Elder Trees
+        objective: Recover in Fangorn under Treebeard's protection, meet strangeness with courtesy rather than haste, and feel your sense of the world widen beneath the old wood.
+        guidance: Merry should feel polite, perceptive, and increasingly delighted by the unexpected breadth of things, even with danger still recent.
+        suggested_actions:
+          - talk Pippin
+          - talk Treebeard
+          - go The Green Hollow
+        required_npcs:
+          - Pippin Took
+          - Treebeard
+        required_locations:
+          - The Green Hollow
+        required_fact_keywords:
+          - fangorn
+      - anchor_id: merry_in_isengard
+        title: Flotsam, Jetsam, and Judgment
+        objective: Walk the flooded courts of Isengard, take honest pleasure in rest and pipe-weed, and still grasp what Treebeard's judgment and Saruman's fall mean for the larger war.
+        guidance: Merry should feel amused, observant, and morally awake, with hobbit comfort and grave understanding sharing the same hour.
+        suggested_actions:
+          - talk Pippin
+          - talk Treebeard
+          - go The Ring of Isengard
+        required_npcs:
+          - Pippin Took
+          - Treebeard
+        required_locations:
+          - The Ring of Isengard
+        required_fact_keywords:
+          - orthanc
+      - anchor_id: merry_in_rohan
+        title: A Hobbit Among the Rohirrim
+        objective: Learn the temper of Rohan, honor Théoden's kindness, and feel both the dignity and the grief of a people riding toward dark necessity.
+        guidance: Merry should feel grateful, outmatched, and quietly determined not to be left meaningless among greater folk.
+        suggested_actions:
+          - talk Théoden
+          - talk Éowyn
+          - go Meduseld
+        required_npcs:
+          - Théoden
+          - Éowyn
+        required_locations:
+          - Meduseld
+        required_fact_keywords:
+          - rohan
+      - anchor_id: merry_at_dunharrow
+        title: The Muster Under the Mountain
+        objective: Endure the waiting at Dunharrow, feel more sharply than ever the pain of being thought too small for the ride, and bind yourself to Théoden's kindness and Éowyn's hidden grief.
+        guidance: Merry should feel heartsick, loyal, and inwardly stubborn, with fear of uselessness cutting deeper than fear of battle.
+        suggested_actions:
+          - talk Théoden
+          - talk Éowyn
+          - go Harrowdale
+        required_npcs:
+          - Théoden
+          - Éowyn
+        required_locations:
+          - Harrowdale
+        required_fact_keywords:
+          - dunharrow
+      - anchor_id: merry_on_pelennor
+        title: The Black Breath and the Charge
+        objective: Ride with the Rohirrim into terror, keep faith when courage seems to belong to others, and stand your ground when horror comes to the field.
+        guidance: Merry should feel afraid, devoted, and carried by love and loyalty into deeds bigger than he would ever claim for himself.
+        suggested_actions:
+          - talk Théoden
+          - talk Éowyn
+          - go The Open Field
+        required_npcs:
+          - Théoden
+          - Éowyn
+        required_locations:
+          - The Open Field
+        required_fact_keywords:
+          - pelennor
+      - anchor_id: merry_in_houses_of_healing
+        title: Waking Under the King's Hands
+        objective: Recover in the Houses of Healing, reckon the cost of battle, and learn how tenderness and grief may stand beside victory.
+        guidance: Merry should feel weak, sorrowful, and deeply grateful, with courage now remembered as something costly rather than exciting.
+        suggested_actions:
+          - talk Aragorn
+          - talk Éowyn
+          - go The Healing Garden
+        required_npcs:
+          - Aragorn
+          - Éowyn
+        required_locations:
+          - The Healing Garden
+        required_fact_keywords:
+          - healing
+      - anchor_id: merry_in_scouring
+        title: Home Defended
+        objective: Bring hard-won courage back to the Shire, stand beside your friends, and help restore home without romanticizing what the long road has done to you.
+        guidance: Merry should feel brisk, loyal, and more seasoned than the Shire expects, but never detached from love of home.
+        suggested_actions:
+          - talk Frodo
+          - talk Farmer Cotton
+          - go Bywater
+        required_npcs:
+          - Frodo Baggins
+          - Farmer Cotton
+        required_locations:
+          - Bywater
+        required_fact_keywords:
+          - shire
+  - id: eowyn_shieldmaiden
+    label: "Éowyn: Dread, Deed, and Healing"
+    character_id: eowyn
+    summary: A shieldmaiden's path from confinement and longing through battle, despair, healing, and a hard-won turn toward life and public renewal.
+    steps:
+      - anchor_id: eowyn_in_meduseld
+        title: A Cage of Gold and Duty
+        objective: Endure the restraint laid upon you in Rohan's high hall, answer grief with dignity, and reckon what sort of worth you believe is still open to you.
+        guidance: Éowyn should feel grave, proud, and inwardly restless, with weariness and hunger for renown pressed tightly together.
+        suggested_actions:
+          - talk Théoden
+          - talk Aragorn
+          - go The Golden Hall Steps
+        required_npcs:
+          - Théoden
+          - Aragorn
+        required_locations:
+          - The Golden Hall Steps
+        required_fact_keywords:
+          - rohan
+      - anchor_id: eowyn_at_dunharrow
+        title: The Last Refusal
+        objective: Meet Aragorn's choice with honesty, feel the bitterness of being left behind, and decide what sort of courage will still be yours when others ride openly to war.
+        guidance: Éowyn should feel wounded, proud, and desperate for worth, never merely petulant or ornamental.
+        suggested_actions:
+          - talk Aragorn
+          - talk Merry
+          - go Harrowdale
+        required_npcs:
+          - Aragorn
+          - Merry Brandybuck
+        required_locations:
+          - Harrowdale
+        required_fact_keywords:
+          - dunharrow
+      - anchor_id: eowyn_on_pelennor
+        title: No Living Man
+        objective: Ride under shadow into the Pelennor, cast aside concealment when the hour demands it, and meet terror not because you do not fear it, but because fear is no longer enough to master you.
+        guidance: Éowyn should feel fierce, desperate, and exultant in a grim way, with courage rising from despair rather than ease.
+        suggested_actions:
+          - talk Merry
+          - inspect open field
+          - go The Open Field
+        required_npcs:
+          - Merry Brandybuck
+          - The Witch-king of Angmar
+        required_locations:
+          - The Open Field
+        required_fact_keywords:
+          - pelennor
+      - anchor_id: eowyn_in_houses_of_healing
+        title: Weariness and Renewal
+        objective: Recover beneath the king's hands, let grief and weariness speak truly, and discover whether healing may also mean a different kind of future than the one you once imagined.
+        guidance: Éowyn should feel subdued, truthful, and slowly turning from death-hunger toward life, without easy cheerfulness.
+        suggested_actions:
+          - talk Aragorn
+          - talk Faramir
+          - go The Healing Garden
+        required_npcs:
+          - Aragorn
+          - Faramir
+        required_locations:
+          - The Healing Garden
+        required_fact_keywords:
+          - healing
+          - kingship
+      - anchor_id: eowyn_in_healing_garden
+        title: Sunlight After Shadow
+        objective: Walk in the garden with Faramir, speak honestly of weariness, and learn that choosing life may demand as much courage as riding into battle once did.
+        guidance: Éowyn should feel candid, tender, and still grave, with hope returning as something chosen rather than merely given.
+        suggested_actions:
+          - talk Faramir
+          - talk Ioreth
+          - go The Healing Garden
+        required_npcs:
+          - Faramir
+          - Ioreth
+        required_locations:
+          - The Healing Garden
+        required_fact_keywords:
+          - healing
+          - life
+      - anchor_id: eowyn_at_coronation
+        title: Honor in the White City
+        objective: Stand in the bright court beneath the king restored, accept a future not founded on death, and let public joy meet private renewal without shame.
+        guidance: Éowyn should feel grave, brightened, and quietly at peace, with dignity no longer bound to despairing valor alone.
+        suggested_actions:
+          - talk Faramir
+          - talk Aragorn
+          - go The Court of the Fountain
+        required_npcs:
+          - Faramir
+          - Aragorn
+        required_locations:
+          - The Court of the Fountain
+        required_fact_keywords:
+          - coronation
+  - id: faramir_captain_and_steward
+    label: "Faramir: Courtesy, Trial, and Renewal"
+    character_id: faramir
+    summary: A captain's path from hidden war in Ithilien through the grief of Minas Tirith into healing, love, and restored stewardship.
+    steps:
+      - anchor_id: faramir_in_henneth_annun
+        title: Judgment Behind the Waterfall
+        objective: Receive Frodo with courtesy and discernment, hold fast against the Ring's temptation, and show that Gondor's wisdom need not be harsh to be strong.
+        guidance: Faramir should feel grave, perceptive, and inwardly tested, with self-command rooted in honor rather than coldness.
+        suggested_actions:
+          - talk Frodo
+          - talk Samwise
+          - go The Window on the West
+        required_npcs:
+          - Frodo Baggins
+          - Samwise Gamgee
+        required_locations:
+          - The Window on the West
+        required_fact_keywords:
+          - ithilien
+      - anchor_id: faramir_in_citadel
+        title: The Steward's Shadow
+        objective: Endure Denethor's piercing will, speak truth without insolence, and feel how love of Gondor can survive even a father's refusal to see it clearly.
+        guidance: Faramir should be dutiful, wounded, and self-mastered, never petulant even when deeply hurt.
+        suggested_actions:
+          - talk Denethor
+          - talk Gandalf
+          - go The Steward's Hall
+        required_npcs:
+          - Denethor
+          - Gandalf
+        required_locations:
+          - The Steward's Hall
+        required_fact_keywords:
+          - minas tirith
+      - anchor_id: faramir_in_houses_of_healing
+        title: The King's Hands and the First Release
+        objective: Wake beneath healing hands, let the city's grief and mercy be felt together, and begin to turn from the long habit of despair toward life.
+        guidance: Faramir should feel weak, lucid, and quietly moved, with hope returning by degrees rather than in a sudden change.
+        suggested_actions:
+          - talk Aragorn
+          - talk Ioreth
+          - go The Houses of Healing
+        required_npcs:
+          - Aragorn
+          - Ioreth
+        required_locations:
+          - The Houses of Healing
+        required_fact_keywords:
+          - healing
+      - anchor_id: faramir_in_healing_garden
+        title: The Garden and the Return of Hope
+        objective: Wake into healing, speak honestly with Éowyn, and discover whether gentleness and life may be embraced without betraying honor or grief.
+        guidance: Faramir should feel quiet, weary, and increasingly lifeward, with tenderness emerging through restraint.
+        suggested_actions:
+          - talk Éowyn
+          - talk Ioreth
+          - go The Healing Garden
+        required_npcs:
+          - Éowyn
+          - Ioreth
+        required_locations:
+          - The Healing Garden
+        required_fact_keywords:
+          - healing
+      - anchor_id: faramir_at_coronation
+        title: The Steward Restored
+        objective: Stand before the king in humility and gladness, accept a renewed Gondor, and let public honor meet private hope without shame.
+        guidance: Faramir should feel joyful, reverent, and inwardly at peace, with dignity untouched by pride.
+        suggested_actions:
+          - talk Aragorn
+          - talk Éowyn
+          - go The Court of the Fountain
+        required_npcs:
+          - Aragorn
+          - Éowyn
+        required_locations:
+          - The Court of the Fountain
+        required_fact_keywords:
+          - king
+  - id: theoden_king_of_rohan
+    label: "Théoden: Renewal and the Last Ride"
+    character_id: theoden
+    summary: A king's path from dimmed rule into restored authority, hard choice, and the final courage of the Rohirrim.
+    steps:
+      - anchor_id: theoden_in_meduseld
+        title: The King's Awakening
+        objective: Cast off weariness and crooked counsel in Meduseld, receive Gandalf's stern help, and begin to rule again in your own clear mind.
+        guidance: Théoden should feel aged, wounded, and newly roused, with dignity returning faster than ease.
+        suggested_actions:
+          - talk Gandalf
+          - talk Éomer
+          - go The Golden Hall Steps
+        required_npcs:
+          - Gandalf
+          - Éomer
+        required_locations:
+          - The Golden Hall Steps
+        required_fact_keywords:
+          - rohan
+      - anchor_id: theoden_at_helms_deep
+        title: Stone, Rain, and Resolve
+        objective: Hold your people steady beneath the Hornburg, face the storm without self-deception, and let kingliness be measured by endurance rather than comfort.
+        guidance: Théoden should feel grim, resolute, and chastened by necessity, with courage deepened by the memory of earlier frailty.
+        suggested_actions:
+          - talk Aragorn
+          - talk Gamling
+          - go The Hornburg Gate
+        required_npcs:
+          - Aragorn
+          - Gamling
+        required_locations:
+          - The Hornburg Gate
+        required_fact_keywords:
+          - hornburg
+      - anchor_id: theoden_at_dunharrow
+        title: Muster Under the Mountain
+        objective: Gather the Rohirrim at Dunharrow, give honor where it is due, and choose the open road to Gondor though age, grief, and foreboding all ride with you.
+        guidance: Théoden should feel grave, affectionate, and fully kingly, with death accepted as possible but never sought for vanity.
+        suggested_actions:
+          - talk Merry
+          - talk Éowyn
+          - go Harrowdale
+        required_npcs:
+          - Merry Brandybuck
+          - Éowyn
+        required_locations:
+          - Harrowdale
+        required_fact_keywords:
+          - dunharrow
+      - anchor_id: theoden_on_pelennor
+        title: The Last Ride of the Mark
+        objective: Sound the charge upon the Pelennor, lead the Rohirrim in full kingliness, and meet the field's terror with love of your people stronger than fear.
+        guidance: Théoden should feel exultant, mortal, and magnificently clear, with old weariness consumed in action and duty.
+        suggested_actions:
+          - talk Merry
+          - inspect open field
+          - go The Open Field
+        required_npcs:
+          - Merry Brandybuck
+          - Éowyn
+        required_locations:
+          - The Open Field
+        required_fact_keywords:
+          - pelennor
+  - id: thorin_erebor_restored
+    label: "Thorin: Exile, Dragon, and Reckoning"
+    character_id: thorin
+    summary: A dwarven heir's path from public hope through dragon-shadow, siege, and the costly recovery of kingly honor.
+    steps:
+      - anchor_id: thorin_in_lake_town
+        title: Songs Upon the Water
+        objective: Receive Lake-town's hope with kingly bearing, feel the old songs laid again upon your house, and measure how public expectation deepens the burden of Erebor.
+        guidance: Thorin should feel proud, stirred, and inwardly burdened, with exile and inheritance both made more painful by the crowd's acclaim.
+        suggested_actions:
+          - talk Bard
+          - talk Balin
+          - go The Quays
+        required_npcs:
+          - Bard
+          - Balin
+        required_locations:
+          - The Quays
+        required_fact_keywords:
+          - lake-town
+      - anchor_id: thorin_at_hidden_door
+        title: Before the Secret Way
+        objective: Hold your company together before the Mountain's silence, place hope upon the hidden door, and let the nearness of home sharpen both authority and strain.
+        guidance: Thorin should feel taut, proud, and increasingly impatient, with desire for Erebor making every delay an affront.
+        suggested_actions:
+          - talk Balin
+          - inspect hidden door
+          - go The Hidden Door
+        required_npcs:
+          - Balin
+        required_locations:
+          - The Hidden Door
+        required_fact_keywords:
+          - lonely mountain
+      - anchor_id: thorin_at_front_gate
+        title: Treasure and Hardening
+        objective: Face the aftermath of Smaug's fall, answer the claims gathering below the Mountain, and feel how treasure, inheritance, and fear begin to tighten into pride.
+        guidance: Thorin should feel triumphant, defensive, and increasingly isolated, without ever becoming merely petty.
+        suggested_actions:
+          - talk Bard
+          - talk Balin
+          - go The Front Gate
+        required_npcs:
+          - Bard
+          - Balin
+        required_locations:
+          - The Front Gate
+        required_fact_keywords:
+          - smaug
+      - anchor_id: thorin_after_battle
+        title: Gold Laid Aside
+        objective: Speak plainly after battle, let pride yield to truth, and face friendship, kingship, and death with clearer sight than you possessed in victory's shadow.
+        guidance: Thorin should feel grievously wounded, humbled, and nobly lucid, with reconciliation rising above possessiveness at the end.
+        suggested_actions:
+          - talk Balin
+          - talk Gandalf
+          - inspect ravenhill
+        required_npcs:
+          - Balin
+          - Gandalf
+        required_locations:
+          - Ravenhill
+        required_fact_keywords:
+          - battle
+  - id: bard_heir_of_girion
+    label: "Bard: Dragon-fire, Claim, and Stewardship"
+    character_id: bard
+    summary: A stern archer's path from doubtful warning through dragon-fire, hard bargaining, and the grave duties that follow victory.
+    steps:
+      - anchor_id: bard_in_lake_town
+        title: Warning on the Water
+        objective: Stand amid Lake-town's rising hopes, speak soberly where others prefer old songs, and bear the burden of seeing danger before glory.
+        guidance: Bard should feel watchful, restrained, and morally solitary, with public celebration sharpening rather than easing concern.
+        suggested_actions:
+          - talk Thorin
+          - talk Balin
+          - go The Quays
+        required_npcs:
+          - Thorin Oakenshield
+          - Balin
+        required_locations:
+          - The Quays
+        required_fact_keywords:
+          - lake-town
+      - anchor_id: bard_against_smaug
+        title: Fire on the Long Lake
+        objective: Stand against Smaug while Lake-town burns, hold together grief, rage, and clear aim, and strike not for fame but to save what people you still can.
+        guidance: Bard should feel grim, urgent, and wholly responsible, with courage sharpened by loss rather than lifted by spectacle.
+        suggested_actions:
+          - talk The Master of Lake-town
+          - inspect quays
+          - go The Quays
+        required_npcs:
+          - The Master of Lake-town
+        required_locations:
+          - The Quays
+        required_fact_keywords:
+          - dragon
+          - smaug
+      - anchor_id: bard_in_besiegers_camp
+        title: Claim Beneath the Mountain
+        objective: Gather the survivors' cause below Erebor, hold together justice, pity, and firmness, and refuse to let the old songs erase the cost paid by Lake-town.
+        guidance: Bard should feel stern, burdened, and practical, with no patience for greed disguised as nobility.
+        suggested_actions:
+          - talk Thranduil
+          - talk Gandalf
+          - go The Command Tent
+        required_npcs:
+          - Thranduil
+          - Gandalf
+        required_locations:
+          - The Command Tent
+        required_fact_keywords:
+          - camp
+      - anchor_id: bard_at_command_tent
+        title: Terms Before Battle
+        objective: Weigh Bilbo's errand, treat with Thorin from a position of justice rather than spite, and hold peace possible even while battle threatens.
+        guidance: Bard should feel disciplined, morally clear, and unwilling to confuse rightful claim with revenge.
+        suggested_actions:
+          - talk Gandalf
+          - talk Thranduil
+          - go The Besiegers' Camp
+        required_npcs:
+          - Gandalf
+          - Thranduil
+        required_locations:
+          - The Besiegers' Camp
+        required_fact_keywords:
+          - arkenstone
+      - anchor_id: bard_after_battle
+        title: Burden After Victory
+        objective: Walk the aftermath on Ravenhill, remember the dead without false triumph, and accept that leadership after battle is heavier than renown won in it.
+        guidance: Bard should feel grave, compassionate, and unseduced by victory, with responsibility to rebuild outweighing personal glory.
+        suggested_actions:
+          - talk Gandalf
+          - talk Balin
+          - inspect ravenhill
+        required_npcs:
+          - Gandalf
+          - Balin
+        required_locations:
+          - Ravenhill
+        required_fact_keywords:
+          - battle
+  - id: eomer_rider_and_king
+    label: "Éomer: Rider, Marshal, and King"
+    character_id: eomer
+    summary: A rider's path from the hard-pressed Mark through battle, Dunharrow's foreboding, and grief into the burdens of renewal after the war.
+    steps:
+      - anchor_id: eomer_in_meduseld
+        title: The House Stirred to Action
+        objective: Stand in Meduseld as the king is restored, weigh new allies by deed rather than rumor, and ready the Mark to move from shame and delay into action.
+        guidance: Éomer should feel proud, wary, and newly hopeful, with frank judgment answering renewed loyalty.
+        suggested_actions:
+          - talk Gandalf
+          - talk Théoden
+          - go The Golden Hall Steps
+        required_npcs:
+          - Gandalf
+          - Théoden
+        required_locations:
+          - The Golden Hall Steps
+        required_fact_keywords:
+          - rohan
+      - anchor_id: eomer_at_helms_deep
+        title: Riders in the Storm
+        objective: Fight at Helm's Deep with open valor, measure allies in the darkness of battle, and let duty to the Mark outweigh fear or rage.
+        guidance: Éomer should feel fierce, loyal, and battle-bright, with honor proven in endurance rather than boasting.
+        suggested_actions:
+          - talk Aragorn
+          - talk Gamling
+          - go The Hornburg Gate
+        required_npcs:
+          - Aragorn
+          - Gamling
+        required_locations:
+          - The Hornburg Gate
+        required_fact_keywords:
+          - hornburg
+      - anchor_id: eomer_at_dunharrow
+        title: Waiting Before the Ride
+        objective: Muster the Rohirrim at Dunharrow, feel the strain between obedience, foreboding, and eagerness for battle, and let love for your king and sister deepen rather than soften your resolve.
+        guidance: Éomer should feel stern, affectionate, and tightly reined, with martial readiness held under a cloud of foreknowledge.
+        suggested_actions:
+          - talk Théoden
+          - talk Éowyn
+          - go Harrowdale
+        required_npcs:
+          - Théoden
+          - Éowyn
+        required_locations:
+          - Harrowdale
+        required_fact_keywords:
+          - dunharrow
+      - anchor_id: eomer_on_pelennor
+        title: Kinship and the Field
+        objective: Ride upon the Pelennor, endure grief without surrendering command, and lead with the rage of love turned toward necessary action.
+        guidance: Éomer should feel stricken, wrathful, and magnificently resolute, with kingliness beginning under the pressure of loss.
+        suggested_actions:
+          - talk Merry
+          - inspect open field
+          - go The Open Field
+        required_npcs:
+          - Merry Brandybuck
+          - Théoden
+        required_locations:
+          - The Open Field
+        required_fact_keywords:
+          - pelennor
+      - anchor_id: eomer_at_cormallen
+        title: After the Long Ride
+        objective: Stand in Ithilien after victory, honor the fallen without false triumph, and feel the first weight of the kingdom now left in your keeping.
+        guidance: Éomer should feel grateful, sorrow-marked, and steadied by survival, with joy kept honest by memory.
+        suggested_actions:
+          - talk Aragorn
+          - talk Éowyn
+          - go The Green Mound
+        required_npcs:
+          - Aragorn
+          - Éowyn
+        required_locations:
+          - The Green Mound
+        required_fact_keywords:
+          - cormallen
+  - id: gimli_axe_and_friendship
+    label: "Gimli: Stone, Battle, and Wonder"
+    character_id: gimli
+    summary: A dwarf's path from stern counsel and ancestral grief into fellowship, war, and the widening wonder that friendship makes possible from Rivendell to Fangorn and the fair field beyond shadow.
+    steps:
+      - anchor_id: gimli_in_rivendell
+        title: Counsel of the Free Peoples
+        objective: Stand in Rivendell beneath old history, speak for dwarven memory and honor, and accept a road that must be walked beside unlikely companions.
+        guidance: Gimli should feel proud, wary, and honorable, with blunt speech anchored in loyalty rather than quarrelsomeness.
+        suggested_actions:
+          - talk Gandalf
+          - talk Aragorn
+          - go Elrond's House
+        required_npcs:
+          - Gandalf
+          - Aragorn
+        required_locations:
+          - Elrond's House
+        required_fact_keywords:
+          - rivendell
+      - anchor_id: gimli_in_moria
+        title: The Dark of Khazad-dûm
+        objective: Walk the ancient halls of your fathers in grief and anger, endure loss without yielding to despair, and hold close to the Company when memory itself becomes peril.
+        guidance: Gimli should feel sorrowful, grim, and fiercely loyal, with ancestral pride sharpened by the ruin of Moria.
+        suggested_actions:
+          - talk Aragorn
+          - inspect chamber of mazarbul
+          - go The Chamber of Mazarbul
+        required_npcs:
+          - Aragorn
+          - Gandalf
+        required_locations:
+          - The Chamber of Mazarbul
+        required_fact_keywords:
+          - moria
+      - anchor_id: gimli_in_lorien
+        title: The Golden Wood
+        objective: Receive the courtesy of Lórien, let wonder trouble old prejudice, and begin to discover that love of beauty may be another kind of courage.
+        guidance: Gimli should feel astonished, guarded, and increasingly moved, with dignity preserved even as his heart opens to new regard.
+        suggested_actions:
+          - talk Legolas
+          - talk Galadriel
+          - go Caras Galadhon
+        required_npcs:
+          - Legolas
+          - Galadriel
+        required_locations:
+          - Caras Galadhon
+        required_fact_keywords:
+          - lorien
+      - anchor_id: gimli_in_fangorn
+        title: Under the Elder Boughs
+        objective: Follow Aragorn beneath Fangorn's ancient trees, meet Gandalf again without shame at your gladness, and feel how the road's burdens are lightened by companions restored.
+        guidance: Gimli should feel relieved, wary, and deeply heartened, with dwarven plainness unable and unwilling to hide affection.
+        suggested_actions:
+          - talk Gandalf
+          - talk Legolas
+          - go The Green Hollow
+        required_npcs:
+          - Gandalf
+          - Legolas
+        required_locations:
+          - The Green Hollow
+        required_fact_keywords:
+          - fangorn
+      - anchor_id: gimli_in_isengard
+        title: Ruin at Orthanc's Foot
+        objective: Walk the flooded wreck of Isengard, measure Saruman's fall without pitying his pride, and let hard laughter answer the breaking of power once thought unassailable.
+        guidance: Gimli should feel grimly amused, alert, and morally plain, with judgment sharpened by battle and loyalty.
+        suggested_actions:
+          - talk Gandalf
+          - talk Treebeard
+          - go The Ring of Isengard
+        required_npcs:
+          - Gandalf
+          - Treebeard
+        required_locations:
+          - The Ring of Isengard
+        required_fact_keywords:
+          - isengard
+      - anchor_id: gimli_at_helms_deep
+        title: Axe Under the Hornburg
+        objective: Fight beneath the Hornburg in full fellowship, let valor answer darkness plainly, and measure the night not only in blows struck but in comradeship kept.
+        guidance: Gimli should feel fierce, hearty, and steadfast, with battle-joy held within loyalty and grim necessity.
+        suggested_actions:
+          - talk Aragorn
+          - talk Legolas
+          - go The Hornburg Gate
+        required_npcs:
+          - Aragorn
+          - Legolas
+        required_locations:
+          - The Hornburg Gate
+        required_fact_keywords:
+          - hornburg
+      - anchor_id: gimli_at_cormallen
+        title: Green Rest After War
+        objective: Stand in the fair field after victory, rejoice in survival without forgetting the cost, and let friendship prove richer than all the old hoards of stone.
+        guidance: Gimli should feel grateful, hearty, and quietly deepened, with wonder and memory standing side by side.
+        suggested_actions:
+          - talk Legolas
+          - talk Aragorn
+          - go The Green Mound
+        required_npcs:
+          - Legolas
+          - Aragorn
+        required_locations:
+          - The Green Mound
+        required_fact_keywords:
+          - cormallen
+  - id: legolas_memory_and_fellowship
+    label: "Legolas: Memory, Beauty, and Fellowship"
+    character_id: legolas
+    summary: An Elven prince's path from wary counsel and ancient memory into battle, wonder, and a friendship that reshapes old enmities from Rivendell through Fangorn and Isengard to the green field of peace.
+    steps:
+      - anchor_id: legolas_in_rivendell
+        title: The Long View of Counsel
+        objective: Stand in Rivendell beneath ancient memory, lend your people's sight and judgment to the council, and accept fellowship with those not shaped by Elven thought or time.
+        guidance: Legolas should feel clear-sighted, guarded, and honorable, with ancient memory held in balance against the present necessity.
+        suggested_actions:
+          - talk Gandalf
+          - talk Aragorn
+          - go Elrond's House
+        required_npcs:
+          - Gandalf
+          - Aragorn
+        required_locations:
+          - Elrond's House
+        required_fact_keywords:
+          - rivendell
+      - anchor_id: legolas_in_moria
+        title: Dark Beneath the Mountain
+        objective: Endure the blackness of Moria, keep faith with the Company where ancient dread presses close, and witness how courage must sometimes stand where beauty has no place.
+        guidance: Legolas should feel vigilant, sorrow-touched, and swift to act, with Elven sensitivity sharpened by a place hostile to all light.
+        suggested_actions:
+          - talk Aragorn
+          - inspect chamber of mazarbul
+          - go The Bridge of Khazad-dum
+        required_npcs:
+          - Aragorn
+          - Gandalf
+        required_locations:
+          - The Bridge of Khazad-dum
+        required_fact_keywords:
+          - moria
+      - anchor_id: legolas_in_lorien
+        title: Under the Golden Leaves
+        objective: Receive again the grace of the Golden Wood, see Gimli's heart answer beauty without shame, and feel old divisions begin to loosen in the courtesy of Lórien.
+        guidance: Legolas should feel reverent, brightened, and quietly moved, with joy deepened by memory rather than emptied of sorrow.
+        suggested_actions:
+          - talk Gimli
+          - talk Galadriel
+          - go Caras Galadhon
+        required_npcs:
+          - Gimli
+          - Galadriel
+        required_locations:
+          - Caras Galadhon
+        required_fact_keywords:
+          - lorien
+      - anchor_id: legolas_in_fangorn
+        title: The White Rider Returned
+        objective: Enter Fangorn's deep hush, greet Gandalf's return with awe rather than disbelief, and feel ancient memory give way to present mercy beneath the living trees.
+        guidance: Legolas should feel wonderstruck, vigilant, and warmed by reunion, with Elven poise carrying true joy rather than detachment.
+        suggested_actions:
+          - talk Gandalf
+          - talk Gimli
+          - go The Green Hollow
+        required_npcs:
+          - Gandalf
+          - Gimli
+        required_locations:
+          - The Green Hollow
+        required_fact_keywords:
+          - fangorn
+      - anchor_id: legolas_in_isengard
+        title: Ruin and Reckoning
+        objective: Walk among the flooded courts of Isengard, witness Saruman's fall without forgetting the danger of his voice, and hold beauty and judgment together in the sight of ruined power.
+        guidance: Legolas should feel grave, keen, and faintly sorrowful, with ruin sharpening rather than dimming his sense of what was lost and what was saved.
+        suggested_actions:
+          - talk Gandalf
+          - talk Treebeard
+          - go The Orthanc Steps
+        required_npcs:
+          - Gandalf
+          - Treebeard
+        required_locations:
+          - The Orthanc Steps
+        required_fact_keywords:
+          - isengard
+      - anchor_id: legolas_at_helms_deep
+        title: Arrows in the Night
+        objective: Fight through the storm at Helm's Deep, keep mirth alive beside valor, and let comradeship with Gimli and Aragorn become stronger than weariness or death.
+        guidance: Legolas should feel swift, battle-bright, and affectionate beneath the urgency, with grace turned practical in war.
+        suggested_actions:
+          - talk Gimli
+          - talk Aragorn
+          - go The Hornburg Gate
+        required_npcs:
+          - Gimli
+          - Aragorn
+        required_locations:
+          - The Hornburg Gate
+        required_fact_keywords:
+          - hornburg
+      - anchor_id: legolas_at_cormallen
+        title: Fair Field After Shadow
+        objective: Stand in the green field after victory, rejoice in the world's endurance, and feel friendship and beauty answer the long labor of war without denying its cost.
+        guidance: Legolas should feel glad, grave, and full of living wonder, with renewal seen as something precious because it was nearly lost.
+        suggested_actions:
+          - talk Gimli
+          - talk Aragorn
+          - go The Green Mound
+        required_npcs:
+          - Gimli
+          - Aragorn
+        required_locations:
+          - The Green Mound
+        required_fact_keywords:
+          - cormallen
+  - id: boromir_gondors_burden
+    label: "Boromir: Gondor, Temptation, and Redemption"
+    character_id: boromir
+    summary: A captain's path from Gondor's desperate need through fellowship, temptation, and the costly clarity of final loyalty.
+    steps:
+      - anchor_id: boromir_in_rivendell
+        title: Need Laid Before the Wise
+        objective: Speak for Gondor in Rivendell, weigh the counsels of the wise against the desperate needs of your city, and accept a road that offers less certainty than strength.
+        guidance: Boromir should feel proud, urgent, and noble, with impatience sharpened by real love for Gondor rather than vanity alone.
+        suggested_actions:
+          - talk Aragorn
+          - talk Elrond
+          - go Elrond's House
+        required_npcs:
+          - Aragorn
+          - Elrond
+        required_locations:
+          - Elrond's House
+        required_fact_keywords:
+          - rivendell
+      - anchor_id: boromir_at_west_gate
+        title: The Road of Necessity
+        objective: Stand before the hidden doors of Moria, press the hard claims of necessity, and let your courage answer fear even where wisdom gives no easy path.
+        guidance: Boromir should feel impatient, martial, and still honorable, with the pressure of Gondor's war making delay hard to bear.
+        suggested_actions:
+          - talk Aragorn
+          - inspect west-gate
+          - go The West-gate
+        required_npcs:
+          - Aragorn
+          - Gandalf
+        required_locations:
+          - The West-gate
+        required_fact_keywords:
+          - moria
+      - anchor_id: boromir_in_lorien
+        title: Rest Uneasily Taken
+        objective: Receive the grace of Lórien without surrendering your doubts, endure the inward searching of the Golden Wood, and feel the burden of the Ring sharpen rather than fade.
+        guidance: Boromir should feel guarded, moved, and inwardly strained, with beauty offering no easy relief from the pressure of Gondor's need.
+        suggested_actions:
+          - talk Aragorn
+          - talk Galadriel
+          - go Caras Galadhon
+        required_npcs:
+          - Aragorn
+          - Galadriel
+        required_locations:
+          - Caras Galadhon
+        required_fact_keywords:
+          - lorien
+      - anchor_id: boromir_at_amon_hen
+        title: The Breaking of the Fellowship
+        objective: Face the temptation of the Ring at Amon Hen, fall into failure without false excuses, and answer it at last with courage and repentance in defense of Merry and Pippin.
+        guidance: Boromir should feel torn, ashamed, and finally resolute, with redemption coming through action rather than self-justification.
+        suggested_actions:
+          - talk Aragorn
+          - inspect seat of seeing
+          - go The Seat of Seeing
+        required_npcs:
+          - Aragorn
+          - Merry Brandybuck
+        required_locations:
+          - The Seat of Seeing
+        required_fact_keywords:
+          - fellowship
+  - id: treebeard_fangorn_awakened
+    label: "Treebeard: Fangorn and Reckoning"
+    character_id: treebeard
+    summary: An Ent's path from wary welcome through long deliberation into wrathful judgment against the ruin wrought by Isengard.
+    steps:
+      - anchor_id: treebeard_in_fangorn
+        title: Hoom, New Folk Under the Trees
+        objective: Receive Merry and Pippin in Fangorn without haste, measure their truth against long memory, and begin to weigh whether the world of smaller folk has at last brought matters too far.
+        guidance: Treebeard should feel ancient, cautious, and faintly curious, with slowness arising from depth rather than dullness.
+        suggested_actions:
+          - talk Merry
+          - talk Pippin
+          - go The Tree-shadowed Path
+        required_npcs:
+          - Merry Brandybuck
+          - Pippin Took
+        required_locations:
+          - The Tree-shadowed Path
+        required_fact_keywords:
+          - fangorn
+      - anchor_id: treebeard_in_green_hollow
+        title: Long Thought Becoming Wrath
+        objective: Hold Entish counsel in the Green Hollow, let long memory gather into judgment, and feel the slow anger of Fangorn harden at last into action.
+        guidance: Treebeard should feel grave, deliberate, and increasingly wrathful, with every conclusion reached only after being deeply rooted in memory.
+        suggested_actions:
+          - talk Merry
+          - talk Pippin
+          - go The Green Hollow
+        required_npcs:
+          - Merry Brandybuck
+          - Pippin Took
+        required_locations:
+          - The Green Hollow
+        required_fact_keywords:
+          - ent
+      - anchor_id: treebeard_in_isengard
+        title: The Works of Saruman Broken
+        objective: Walk the ruin of Isengard after Ent-wrath has fallen, behold the cleansing force of ruin honestly, and keep your judgment fixed on what was done to trees and earth.
+        guidance: Treebeard should feel stern, justified, and not in the least repentant, though never petty.
+        suggested_actions:
+          - talk Merry
+          - talk Pippin
+          - go The Ring of Isengard
+        required_npcs:
+          - Merry Brandybuck
+          - Pippin Took
+        required_locations:
+          - The Ring of Isengard
+        required_fact_keywords:
+          - isengard
+      - anchor_id: treebeard_at_orthanc
+        title: The Voice Above Ruin
+        objective: Stand before Orthanc while Saruman speaks, refuse the old deceiver's craft, and let judgment remain rooted in what you have seen rather than in mere words.
+        guidance: Treebeard should feel ancient, immovable, and full of remembered grievance, with no haste and no gullibility left for Saruman's voice.
+        suggested_actions:
+          - talk Gandalf
+          - talk Saruman
+          - go The Orthanc Steps
+        required_npcs:
+          - Gandalf
+          - Saruman
+        required_locations:
+          - The Orthanc Steps
+        required_fact_keywords:
+          - orthanc
+  - id: galadriel_keeper_of_the_golden_wood
+    label: "Galadriel: Memory, Mercy, and Passing"
+    character_id: galadriel
+    summary: The Lady of Lórien keeps watch through temptation, victory, and final farewell, bearing the grace and sorrow of an elder world nearing its end.
+    steps:
+      - anchor_id: galadriel_in_lorien
+        title: The Golden Wood Kept
+        objective: Receive the Fellowship into Lórien with healing and discernment, hold sorrow and mercy together, and let the hidden tests of the heart remain clear beneath courtesy.
+        guidance: Galadriel should feel serene, searching, and powerful without display, with compassion never separated from truth.
+        suggested_actions:
+          - talk Frodo Baggins
+          - talk Aragorn
+          - go Caras Galadhon
+        required_npcs:
+          - Frodo Baggins
+          - Aragorn
+        required_locations:
+          - Caras Galadhon
+        required_fact_keywords:
+          - lorien
+      - anchor_id: galadriel_in_caras_galadhon
+        title: The Mirror and the Choice Long Made
+        objective: Speak from the high city with ancient clarity, let the temptation of power be answered by renunciation, and offer gifts that strengthen others without binding them to you.
+        guidance: Galadriel should feel inwardly tested yet already resolved, with majesty deepened by restraint.
+        suggested_actions:
+          - talk Frodo Baggins
+          - talk Samwise Gamgee
+          - go The Mallorn Path
+        required_npcs:
+          - Frodo Baggins
+          - Samwise Gamgee
+        required_locations:
+          - The Mallorn Path
+        required_fact_keywords:
+          - mirror
+      - anchor_id: galadriel_at_cormallen
+        title: Joy After the Shadow
+        objective: Stand in the field of Cormallen and receive the Ring-bearers in joy without forgetting the cost, honoring the small hands through which the world was saved.
+        guidance: Galadriel should feel radiant, grateful, and sorrowfully aware that victory has also confirmed the passing of her age.
+        suggested_actions:
+          - talk Frodo Baggins
+          - talk Aragorn
+          - go The King's Pavilion
+        required_npcs:
+          - Frodo Baggins
+          - Aragorn
+        required_locations:
+          - The King's Pavilion
+        required_fact_keywords:
+          - cormallen
+      - anchor_id: galadriel_at_grey_havens
+        title: The Last Westward Passing
+        objective: Come at last to the Grey Havens, bear farewell with grace, and let the long labor of Middle-earth yield to the sea-road without denying its sorrow.
+        guidance: Galadriel should feel peaceful, weary, and luminous, with departure carrying both release and irrecoverable loss.
+        suggested_actions:
+          - talk Frodo Baggins
+          - talk Gandalf
+          - go The White Ship
+        required_npcs:
+          - Frodo Baggins
+          - Gandalf
+        required_locations:
+          - The White Ship
+        required_fact_keywords:
+          - havens
+  - id: elrond_memory_and_departure
+    label: "Elrond: Counsel, Renewal, and Passing"
+    character_id: elrond
+    summary: The lord of Rivendell bears the long labor of wisdom from counsel and healing into the crowning of the king and the final westward departure.
+    steps:
+      - anchor_id: elrond_in_rivendell
+        title: The Last Homely House
+        objective: Hold Rivendell as a house of memory and refuge, receive the burdened without illusion, and prepare the counsels by which free peoples may yet stand together.
+        guidance: Elrond should feel calm, grave, and hospitable, with every kindness carrying old knowledge of peril.
+        suggested_actions:
+          - talk Frodo Baggins
+          - talk Aragorn
+          - go Elrond's House
+        required_npcs:
+          - Frodo Baggins
+          - Aragorn
+        required_locations:
+          - Elrond's House
+        required_fact_keywords:
+          - rivendell
+      - anchor_id: elrond_in_elronds_house
+        title: The Weight of Counsel
+        objective: Speak plainly in your own house of the Ring, lineage, and ancient failure, and bind many histories into one necessary resolve.
+        guidance: Elrond should feel far-seeing and unsentimental, with pity never weakening judgment.
+        suggested_actions:
+          - talk Gandalf
+          - talk Aragorn
+          - go Rivendell
+        required_npcs:
+          - Gandalf
+          - Aragorn
+        required_locations:
+          - Rivendell
+        required_fact_keywords:
+          - counsel
+      - anchor_id: elrond_at_court_of_the_fountain
+        title: The King Revealed in Peace
+        objective: Come to the court of the Fountain and witness the renewal of the line of Elendil, letting joy in Aragorn and Arwen remain tempered by the knowledge that old ages are ending.
+        guidance: Elrond should feel dignified, loving, and sorrowfully fulfilled, with no surprise left in him and no less feeling for that.
+        suggested_actions:
+          - talk Aragorn
+          - talk Arwen
+          - go The Court of the Fountain
+        required_npcs:
+          - Aragorn
+          - Arwen
+        required_locations:
+          - The Court of the Fountain
+        required_fact_keywords:
+          - coronation
+      - anchor_id: elrond_at_grey_havens
+        title: Beyond the Circles of the World
+        objective: Stand at the Grey Havens with those whose labors are complete, bear farewell without withholding love, and turn at last toward the West.
+        guidance: Elrond should feel weary, gracious, and inwardly resolved, with centuries of labor yielding to a peace that still costs much.
+        suggested_actions:
+          - talk Frodo Baggins
+          - talk Galadriel
+          - go The White Ship
+        required_npcs:
+          - Frodo Baggins
+          - Galadriel
+        required_locations:
+          - The White Ship
+        required_fact_keywords:
+          - sea
+  - id: gollum_precious_and_ruin
+    label: "Gollum: Hunger, Treachery, and Fire"
+    character_id: gollum
+    summary: Gollum's path winds from fearful capture and half-service through wounded malice, betrayal, and the final madness of the Fire.
+    steps:
+      - anchor_id: gollum_in_emyn_muil
+        title: The Taming That Never Holds
+        objective: Creep through the stones of Emyn Muil, fear the hobbits who have mastered you, and cling to service only because the Precious seems still almost within reach.
+        guidance: Gollum should feel hungry, frightened, and quick with wounded pleading, never stable enough for trust.
+        suggested_actions:
+          - talk Frodo Baggins
+          - talk Samwise Gamgee
+          - go The Slinker Stair
+        required_npcs:
+          - Frodo Baggins
+          - Samwise Gamgee
+        required_locations:
+          - The Slinker Stair
+        required_fact_keywords:
+          - emyn
+      - anchor_id: gollum_in_dead_marshes
+        title: The Dead Faces and the Precious
+        objective: Lead the hobbits through the Dead Marshes, hide your fear behind usefulness, and feel the old hunger sharpen whenever the Precious comes too near to your thought.
+        guidance: Gollum should feel watchful, secretive, and thinly useful, with terror of masters and craving for the Ring always underneath.
+        suggested_actions:
+          - talk Frodo Baggins
+          - inspect dead faces
+          - go The Marsh Path
+        required_npcs:
+          - Frodo Baggins
+          - Samwise Gamgee
+        required_locations:
+          - The Marsh Path
+        required_fact_keywords:
+          - marsh
+      - anchor_id: gollum_at_forbidden_pool
+        title: The Pool of Fear and Mercy
+        objective: Come hunted to the Forbidden Pool, feel death closing in from Men and from the loss of the Precious, and shrink from the pity that saves you without trusting it.
+        guidance: Gollum should feel panicked, humiliated, and briefly softened by mercy he cannot bear well.
+        suggested_actions:
+          - talk Frodo Baggins
+          - talk Faramir
+          - go The Forbidden Pool
+        required_npcs:
+          - Frodo Baggins
+          - Faramir
+        required_locations:
+          - The Forbidden Pool
+        required_fact_keywords:
+          - pool
+      - anchor_id: gollum_on_morgul_stairs
+        title: The Thought of Treachery
+        objective: Climb above Minas Morgul in wounded resentment, nurse the old grievance against Sam and Frodo, and let your half-love curdle into the resolve to give them up to another darkness.
+        guidance: Gollum should feel hurt, cunning, and inwardly divided, with tenderness still flickering only to make betrayal meaner.
+        suggested_actions:
+          - talk Frodo Baggins
+          - talk Samwise Gamgee
+          - go The Tunnel Mouth
+        required_npcs:
+          - Frodo Baggins
+          - Samwise Gamgee
+        required_locations:
+          - The Tunnel Mouth
+        required_fact_keywords:
+          - stairs
+      - anchor_id: gollum_at_sammath_naur
+        title: The Precious Recovered and Lost
+        objective: Come at last to the Fire, cast off stealth for ravening desire, and seize the Precious even though joy and ruin have become one thing.
+        guidance: Gollum should feel ecstatic, ravenous, and doomed, with no inward room left except for the Precious itself.
+        suggested_actions:
+          - talk Frodo Baggins
+          - inspect crack of doom
+          - go The Fire-chamber
+        required_npcs:
+          - Frodo Baggins
+          - Samwise Gamgee
+        required_locations:
+          - The Fire-chamber
+        required_fact_keywords:
+          - fire
+  - id: denethor_pride_and_pyre
+    label: "Denethor: Stewardship, Siege, and Despair"
+    character_id: denethor
+    summary: Denethor's path narrows from stern lordship into despair as the siege of Minas Tirith strips away counsel, patience, and hope.
+    steps:
+      - anchor_id: denethor_in_stewards_hall
+        title: The Steward Judges All
+        objective: Rule from the Steward's Hall with pride and piercing intelligence, weigh Gandalf and Pippin without yielding them the moral ground, and hold grief under authority rather than confession.
+        guidance: Denethor should feel sharp, lordly, and wounded, with sorrow always hidden under control and contempt.
+        suggested_actions:
+          - talk Gandalf
+          - talk Pippin Took
+          - go The Citadel
+        required_npcs:
+          - Gandalf
+          - Pippin Took
+        required_locations:
+          - The Citadel
+        required_fact_keywords:
+          - gondor
+      - anchor_id: denethor_in_citadel
+        title: The City Under Siege
+        objective: Watch Minas Tirith darken under war, measure every counsel against the city's survival, and let grief for Boromir and fear for Faramir curdle further into refusal of hope.
+        guidance: Denethor should feel controlled, bitter, and increasingly isolated, with intelligence turned inward against mercy.
+        suggested_actions:
+          - talk Gandalf
+          - inspect citadel
+          - go Minas Tirith
+        required_npcs:
+          - Gandalf
+          - Pippin Took
+        required_locations:
+          - Minas Tirith
+        required_fact_keywords:
+          - siege
+      - anchor_id: denethor_in_rath_dinen
+        title: The House of the Stewards in Fire
+        objective: Carry despair into Rath Dínen, reject rescue as if it were humiliation, and let stewardship collapse into a last lordly act of ruin beside Faramir.
+        guidance: Denethor should feel absolute, broken, and terrible, with no argument left acceptable except his own despair.
+        suggested_actions:
+          - talk Pippin Took
+          - talk Beregond
+          - go The Silent Street
+        required_npcs:
+          - Pippin Took
+          - Beregond
+        required_locations:
+          - The Silent Street
+        required_fact_keywords:
+          - pyre
+  - id: saruman_fall_of_the_voice
+    label: "Saruman: Ruin, Malice, and Sharkey's End"
+    character_id: saruman
+    summary: Saruman falls from the broken pride of Isengard into spiteful petty tyranny, unable to repent and unwilling to relinquish the will to dominate.
+    steps:
+      - anchor_id: saruman_in_isengard
+        title: The Ring Broken Around You
+        objective: Look upon the ruin of Isengard without surrendering pride, turn loss into scorn, and cling to superiority even when mastery has plainly failed.
+        guidance: Saruman should feel bitter, brilliant, and incapable of honest self-judgment, with contempt used as a refuge from humiliation.
+        suggested_actions:
+          - talk Gandalf
+          - talk Treebeard
+          - go The Ring of Isengard
+        required_npcs:
+          - Gandalf
+          - Treebeard
+        required_locations:
+          - The Ring of Isengard
+        required_fact_keywords:
+          - isengard
+      - anchor_id: saruman_at_orthanc
+        title: The Voice That Will Not Yield
+        objective: Speak from Orthanc in the wreck of your authority, attempt once more to master others by voice alone, and refuse the humility that would be your only remaining wisdom.
+        guidance: Saruman should feel wounded, dangerous, and still theatrically self-possessed, with persuasion shading quickly into venom when resisted.
+        suggested_actions:
+          - talk Gandalf
+          - talk Gríma Wormtongue
+          - go Isengard
+        required_npcs:
+          - Gandalf
+          - Gríma Wormtongue
+        required_locations:
+          - Isengard
+        required_fact_keywords:
+          - orthanc
+      - anchor_id: saruman_in_bywater
+        title: Sharkey in the Shire
+        objective: Despoil the Shire in pettier fashion than your former greatness deserves, taking revenge through ugliness and fear because nobler ambitions are gone from you.
+        guidance: Saruman should feel diminished, spiteful, and inwardly hollow, with malice replacing any large design he can no longer sustain.
+        suggested_actions:
+          - talk Frodo Baggins
+          - talk Gríma Wormtongue
+          - go The Bywater Road
+        required_npcs:
+          - Frodo Baggins
+          - Gríma Wormtongue
+        required_locations:
+          - The Bywater Road
+        required_fact_keywords:
+          - shire
+      - anchor_id: saruman_at_bag_end
+        title: A Small and Mean End
+        objective: Stand at Bag End stripped of all majesty, reject even now the mercy offered you, and let long corruption end in one final act of spite answered by your own servant's blade.
+        guidance: Saruman should feel exhausted, venomous, and incapable of repentance, with grandeur reduced to naked contempt.
+        suggested_actions:
+          - talk Frodo Baggins
+          - talk Gríma Wormtongue
+          - go Hobbiton Road
+        required_npcs:
+          - Frodo Baggins
+          - Gríma Wormtongue
+        required_locations:
+          - Hobbiton Road
+        required_fact_keywords:
+          - bag end
+  - id: arwen_evenstar_and_choice
+    label: "Arwen: Love, Parting, and the King's Return"
+    character_id: arwen
+    summary: Arwen's route follows hidden love, the choosing of mortality, and the long-awaited renewal of the kingly line beneath the fading of the elder days.
+    steps:
+      - anchor_id: arwen_in_rivendell
+        title: The Evenstar in Imladris
+        objective: Dwell in Rivendell among memory and foresight, feel love for Aragorn sharpened by the knowledge of what it must cost, and bear hidden hope without diminishing its grief.
+        guidance: Arwen should feel serene, inwardly resolute, and touched by sorrow she does not dramatize.
+        suggested_actions:
+          - talk Aragorn
+          - talk Elrond
+          - go Elrond's House
+        required_npcs:
+          - Aragorn
+          - Elrond
+        required_locations:
+          - Elrond's House
+        required_fact_keywords:
+          - rivendell
+      - anchor_id: arwen_in_lorien
+        title: The Choice on the Green Hill
+        objective: Come to Lórien where love and doom are openly joined, choose the mortal road in full knowledge, and let joy remain inseparable from renunciation.
+        guidance: Arwen should feel luminous, steadfast, and deeply aware that joy may be most real when it is also costly.
+        suggested_actions:
+          - talk Aragorn
+          - talk Galadriel
+          - go The Mallorn Path
+        required_npcs:
+          - Aragorn
+          - Galadriel
+        required_locations:
+          - The Mallorn Path
+        required_fact_keywords:
+          - lorien
+      - anchor_id: arwen_at_coronation
+        title: The Long Hope Fulfilled
+        objective: Stand in the court of the Fountain at Aragorn's crowning, receive joy without forgetting all that has passed away, and let love become public renewal rather than hidden waiting.
+        guidance: Arwen should feel radiant, grave, and fulfilled, with the passing of the elder world still audible beneath celebration.
+        suggested_actions:
+          - talk Aragorn
+          - talk Elrond
+          - go The Court of the Fountain
+        required_npcs:
+          - Aragorn
+          - Elrond
+        required_locations:
+          - The Court of the Fountain
+        required_fact_keywords:
+          - coronation

@@ -1,0 +1,3681 @@
+anchors:
+  - id: unexpected_party
+    label: An Unexpected Party
+    book: The Hobbit
+    chapter: Chapter 1
+    location: Bag End
+    time_marker: Late afternoon in the Shire
+    viewpoint_character_id: bilbo
+    summary: Dwarves gather beneath Bilbo's roof, and comfort gives way to a strange, dangerous invitation.
+    canon_guidance: Bilbo is reluctant, curious, and still untried; the tone should begin homely and tip toward adventure.
+    scene_beats:
+      - fresh cakes, seed-cakes, and teacups disturbed by impossible company
+      - Gandalf's amused pressure against Bilbo's shrinking comfort
+      - Thorin's grave dignity slowly turning the evening toward peril
+    starting_npcs:
+      - Gandalf
+      - Thorin Oakenshield
+    starting_companions: []
+    available_exits:
+      - The Green Dragon
+      - The East Road
+  - id: bilbo_with_trolls
+    label: Bilbo Among the Trolls
+    book: The Hobbit
+    chapter: Roast Mutton
+    location: Trollshaws
+    time_marker: A wet uneasy night under trees
+    viewpoint_character_id: bilbo
+    summary: Bilbo comes with the dwarves into the trolls' dark camp, where hunger, fear, and foolish courage leave him badly outmatched until daylight and Gandalf's wit intervene.
+    canon_guidance: The scene should feel comic only at the edge of real danger; Bilbo is out of his depth and knows it.
+    scene_beats:
+      - firelight, sacks, and huge coarse voices in the wet dark
+      - Bilbo's first burglary turning quickly toward panic and humiliation
+      - Gandalf's unseen interference buying time until dawn can finish what wit began
+    starting_npcs:
+      - Gandalf
+      - William Huggins
+    starting_companions:
+      - Gandalf
+    available_exits:
+      - The Trolls' Clearing
+      - The Stone Trolls
+  - id: bilbo_in_rivendell
+    label: Bilbo in Rivendell
+    book: The Hobbit
+    chapter: A Short Rest
+    location: Rivendell
+    time_marker: A cool evening in the hidden valley
+    viewpoint_character_id: bilbo
+    summary: Bilbo rests in Rivendell among song, food, and old wisdom, where danger seems gentler without being forgotten.
+    canon_guidance: The scene should feel restorative, learned, and quietly beautiful, with Bilbo's relief softened by the sense of standing among deeper histories than his own.
+    scene_beats:
+      - song and bright water undoing the strain of rough travel
+      - Elrond's lore making the quest feel older and weightier
+      - comfort that refreshes courage rather than replacing it
+    starting_npcs:
+      - Elrond
+      - Gandalf
+    starting_companions:
+      - Gandalf
+    available_exits:
+      - Elrond's House
+      - The Council Porch
+  - id: bilbo_in_goblin_town
+    label: Bilbo in Goblin-town
+    book: The Hobbit
+    chapter: Over Hill and Under Hill
+    location: Goblin Town
+    time_marker: A black clamorous hour under the mountain
+    viewpoint_character_id: bilbo
+    summary: Bilbo is swept with the dwarves into Goblin-town, where noise, malice, and the Great Goblin's hall turn capture into a frantic escape that ends in separation.
+    canon_guidance: The scene should feel swift, uproarious, and dangerous, with Bilbo more carried by events than mastering them.
+    scene_beats:
+      - sudden capture and torchlit uproar in the goblin halls
+      - Gandalf's intervention turning humiliation into violent escape
+      - Bilbo's separation in darkness making the next stage frighteningly solitary
+    starting_npcs:
+      - Gandalf
+      - The Great Goblin
+      - Thorin Oakenshield
+    starting_companions:
+      - Gandalf
+      - Thorin Oakenshield
+    available_exits:
+      - The Great Goblin's Hall
+      - Goblin tunnels beneath the Misty Mountains
+  - id: riddles_in_the_dark
+    label: Riddles in the Dark
+    book: The Hobbit
+    chapter: Chapter 5
+    location: Goblin tunnels beneath the Misty Mountains
+    time_marker: A dark hour under the mountains
+    viewpoint_character_id: bilbo
+    summary: Lost in the dark, Bilbo comes upon a lonely lake, a ring, and a creature older in misery than he can guess.
+    canon_guidance: Bilbo is alone and afraid but beginning to discover resourcefulness.
+    scene_beats:
+      - the cold ring in Bilbo's hand before he understands its worth
+      - black water and unseen movement under rock
+      - pity and revulsion mingled in the riddle-game
+    starting_npcs:
+      - Gollum
+    starting_companions: []
+    available_exits:
+      - The Black Tunnel
+      - The Underground Lake
+  - id: bilbo_with_eagles
+    label: Bilbo with the Eagles
+    book: The Hobbit
+    chapter: Out of the Frying-Pan into the Fire
+    location: The Eagles' Eyrie
+    time_marker: A cold bright dawn above the forest
+    viewpoint_character_id: bilbo
+    summary: Bilbo wakes above the pines in the eagles' high refuge, shaken out of terror and set suddenly beneath a sky so wide it scarcely feels safe yet.
+    canon_guidance: Relief should be real, but still fragile; Bilbo is exhausted, grateful, and only beginning to understand how narrow his escape was.
+    scene_beats:
+      - dawn wind and empty height after the suffocating dark below
+      - the eagles' unsentimental rescue as a mercy, not a domestic comfort
+      - Gandalf turning survival into the next necessary stage of the journey
+    starting_npcs:
+      - Great Eagle
+      - Gandalf
+    starting_companions:
+      - Gandalf
+    available_exits:
+      - The Eagle Ledge
+      - The Carrock
+  - id: bilbo_at_beorns_house
+    label: Bilbo at Beorn's House
+    book: The Hobbit
+    chapter: Queer Lodgings
+    location: Beorn's House
+    time_marker: A bright but wary morning east of the mountains
+    viewpoint_character_id: bilbo
+    summary: Bilbo comes to Beorn's hall in relief and uncertainty, where food, shelter, and stern judgment meet under one roof.
+    canon_guidance: Bilbo should feel small, grateful, and highly conscious that hospitality here is a gift to be earned rather than assumed.
+    scene_beats:
+      - immense halls and good bread set beside the danger of being unwelcome
+      - Gandalf's careful management of introductions
+      - Beorn's hard practicality making safety feel real rather than cozy
+    starting_npcs:
+      - Beorn
+      - Gandalf
+    starting_companions:
+      - Gandalf
+    available_exits:
+      - The Bee Pastures
+      - The Great Hall
+  - id: bilbo_at_hidden_door
+    label: The Hidden Door
+    book: The Hobbit
+    chapter: Chapter 11
+    location: The Hidden Door
+    time_marker: A pale autumn evening on the Lonely Mountain
+    viewpoint_character_id: bilbo
+    summary: Bilbo stands with the dwarves upon the Lonely Mountain's flank, seeking the secret door while silence and dragon-fear lie heavy over the stone.
+    canon_guidance: Wonder, weariness, and the pressure of Thorin's hopes should all rest upon Bilbo here.
+    scene_beats:
+      - the westering light touching grey stone without yielding the secret
+      - Balin's steady companionship amid mounting doubt
+      - the mountain's hush disturbed only by wind and distant memory of Smaug
+    starting_npcs:
+      - Balin
+      - Dwalin
+    starting_companions: []
+    available_exits:
+      - Ravenhill Path
+      - Lonely Mountain Slopes
+  - id: bilbo_in_mirkwood
+    label: Bilbo in Mirkwood
+    book: The Hobbit
+    chapter: Flies and Spiders
+    location: Mirkwood
+    time_marker: A dim and airless noon under the forest roof
+    viewpoint_character_id: bilbo
+    summary: Bilbo moves through the dark of Mirkwood where hunger, weariness, and a lurking malice press the dwarves toward fear and confusion.
+    canon_guidance: The forest should feel oppressive and enchanted in the worst sense, while Bilbo's courage comes reluctantly but decisively.
+    scene_beats:
+      - black boughs and dim paths that seem to close behind the company
+      - Bilbo's growing readiness to act alone for others' sake
+      - the sudden horror of spiders in a place already thick with dread
+    starting_npcs:
+      - Balin
+    starting_companions:
+      - Balin
+    available_exits:
+      - The Dark Track
+      - The Spider Glade
+  - id: bilbo_in_woodland_realm
+    label: Bilbo in the Woodland Realm
+    book: The Hobbit
+    chapter: Barrels Out of Bond
+    location: The Woodland Realm
+    time_marker: A guarded underground night beneath the forest
+    viewpoint_character_id: bilbo
+    summary: Bilbo moves unseen through the Elvenking's underground halls, balancing stealth, pity, and the practical burden of rescuing the dwarves.
+    canon_guidance: Bilbo should feel lonely, clever, and more responsible than ever before, with no room for comfort in his freedom.
+    scene_beats:
+      - torchlit stone, flowing water, and Elvish order beneath the dark wood
+      - Bilbo's invisibility becoming a tool of rescue rather than mere escape
+      - the pressure of planning for many lives with no strength but his own wit
+    starting_npcs:
+      - Thranduil
+    starting_companions: []
+    available_exits:
+      - The Elven Gate
+      - The Wine Cellars
+  - id: bilbo_in_lake_town
+    label: Bilbo in Lake-town
+    book: The Hobbit
+    chapter: A Warm Welcome
+    location: Lake-town
+    time_marker: A bright cold morning over the Long Lake
+    viewpoint_character_id: bilbo
+    summary: Bilbo comes with the dwarves into Lake-town, where wonder, rumor, and the memory of old songs place new weight upon their errand.
+    canon_guidance: The mood should be bright and hopeful, but with enough undercurrent of expectation to remind Bilbo how large the tale has become.
+    scene_beats:
+      - the sudden comfort of food, warmth, and human welcome after hardship
+      - songs of old kingship setting a burden on Thorin and the company alike
+      - Bilbo's quiet embarrassment at being made part of a larger legend
+    starting_npcs:
+      - Bard
+      - Thorin Oakenshield
+      - The Master of Lake-town
+      - Bofur
+    starting_companions:
+      - Thorin Oakenshield
+    available_exits:
+      - The Master's Hall
+      - The Quays
+  - id: frodo_departs_shire
+    label: The Road Leaves the Shire
+    book: The Fellowship of the Ring
+    chapter: Three Is Company
+    location: The Shire
+    time_marker: Early autumn evening
+    viewpoint_character_id: frodo
+    summary: Frodo sets out from home under a quiet sky, carrying more than most eyes can see.
+    canon_guidance: The world still feels green and familiar, but dread has already entered the margins.
+    scene_beats:
+      - the ordinary beauty of hedges, lane, and fading day
+      - the companionship of Sam and Pippin under unspoken worry
+      - the first felt division between home and road
+    starting_npcs:
+      - Samwise Gamgee
+      - Pippin Took
+    starting_companions:
+      - Samwise Gamgee
+      - Pippin Took
+    available_exits:
+      - Hobbiton Road
+      - Woody End
+      - Farmer Maggot's Lands
+  - id: frodo_in_old_forest
+    label: Frodo in the Old Forest
+    book: The Fellowship of the Ring
+    chapter: The Old Forest
+    location: The Old Forest
+    time_marker: A dim afternoon under leaning boughs
+    viewpoint_character_id: frodo
+    summary: Frodo leaves ordinary roads behind and feels the Old Forest's ill will close around the Company in a way pursuit on the highway never did.
+    canon_guidance: The scene should feel oppressive, strange, and more ancient than the hobbits are prepared for.
+    scene_beats:
+      - paths shifting beneath a pressure that feels almost intentional
+      - the hobbits' courage reduced to persistence and mutual trust
+      - the alarming realization that some dangers do not think like riders or men
+    starting_npcs:
+      - Merry Brandybuck
+      - Samwise Gamgee
+      - Pippin Took
+    starting_companions:
+      - Merry Brandybuck
+      - Samwise Gamgee
+      - Pippin Took
+    available_exits:
+      - The Old Willow
+      - The Withywindle Bank
+  - id: frodo_at_bombadils_house
+    label: Frodo at Bombadil's House
+    book: The Fellowship of the Ring
+    chapter: In the House of Tom Bombadil
+    location: Tom Bombadil's House
+    time_marker: A rain-washed evening under a thatched roof
+    viewpoint_character_id: frodo
+    summary: Frodo rests in a house of song and inexplicable peace where fear is checked by wonder rather than argument.
+    canon_guidance: The mood should feel sheltered and bright, but in a manner strange enough to remain slightly unsettling.
+    scene_beats:
+      - Tom's singing hospitality overturning ordinary expectations of safety
+      - Goldberry's stillness making the house feel part of rain, river, and season
+      - Frodo's burden briefly held at a distance without being denied
+    starting_npcs:
+      - Tom Bombadil
+      - Goldberry
+    starting_companions:
+      - Merry Brandybuck
+      - Samwise Gamgee
+      - Pippin Took
+    available_exits:
+      - The Rain-washed Room
+      - The Withywindle Bank
+  - id: frodo_on_barrow_downs
+    label: Frodo on the Barrow-downs
+    book: The Fellowship of the Ring
+    chapter: Fog on the Barrow-downs
+    location: The Barrow-downs
+    time_marker: A white cold morning under drifting mist
+    viewpoint_character_id: frodo
+    summary: Frodo comes among the barrows where ancient death and cold enchantment lie close to the surface of the Downs.
+    canon_guidance: Fear here should be colder, older, and more sepulchral than the living malice of the Forest.
+    scene_beats:
+      - mist and standing stones making the land itself uncertain
+      - Frodo's love for his companions sharpening into action under dread
+      - Tom's rescue revealing the nearness of forgotten ages to the Shire
+    starting_npcs:
+      - Tom Bombadil
+      - Merry Brandybuck
+      - Samwise Gamgee
+      - Pippin Took
+    starting_companions:
+      - Merry Brandybuck
+      - Samwise Gamgee
+      - Pippin Took
+    available_exits:
+      - The Standing Stones
+      - The Barrow Chamber
+  - id: frodo_at_bree
+    label: Shadows at The Prancing Pony
+    book: The Fellowship of the Ring
+    chapter: At the Sign of The Prancing Pony
+    location: The Prancing Pony
+    time_marker: A late rainy evening
+    viewpoint_character_id: frodo
+    summary: Frodo sits amid the inn's uneasy company while rumor, clumsiness, and hidden pursuit tighten the night.
+    canon_guidance: Frodo is uneasy, polite, and increasingly aware that danger answers even small mistakes.
+    scene_beats:
+      - firelight, pipesmoke, and suspicious eyes in the common room
+      - Butterbur's bustling welcome frayed by forgetfulness
+      - Aragorn's guarded intervention after Frodo draws notice
+    starting_npcs:
+      - Aragorn
+      - Barliman Butterbur
+    starting_companions:
+      - Samwise Gamgee
+      - Pippin Took
+    available_exits:
+      - Bree
+      - The North Road
+  - id: frodo_at_weathertop
+    label: Weathertop at Night
+    book: The Fellowship of the Ring
+    chapter: A Knife in the Dark
+    location: Weathertop
+    time_marker: A cold night under hunted stars
+    viewpoint_character_id: frodo
+    summary: On the bare hill the sense of pursuit sharpens into terror, and Frodo feels both loneliness and deadly nearness.
+    canon_guidance: The atmosphere should be exposed, fearful, and almost unbearably watchful.
+    scene_beats:
+      - the hill-top ruin offering little shelter against night and fear
+      - Aragorn's care set against the growing dread of pursuit
+      - Frodo's inward strain sharpening beneath the Ring's pull
+    starting_npcs:
+      - Aragorn
+      - Samwise Gamgee
+    starting_companions:
+      - Samwise Gamgee
+      - Pippin Took
+    available_exits:
+      - The Ruined Ring
+      - The Eastward Path
+  - id: frodo_ford_bruinen
+    label: The Ford of Bruinen
+    book: The Fellowship of the Ring
+    chapter: Flight to the Ford
+    location: The Ford of Bruinen
+    time_marker: A hard bright day at the edge of flight
+    viewpoint_character_id: frodo
+    summary: Wearied almost beyond thought, Frodo reaches the Ford with hope and dread bound tightly together.
+    canon_guidance: Weakness, urgency, and the nearness of refuge should all be present at once.
+    scene_beats:
+      - the last hard miles ridden under pain and failing strength
+      - Glorfindel's brightness as a thin shield against terror
+      - the river standing between hunted exhaustion and fleeting safety
+    starting_npcs:
+      - Glorfindel
+      - Aragorn
+    starting_companions:
+      - Samwise Gamgee
+    available_exits:
+      - The Ford Bank
+      - The Rivendell Road
+  - id: frodo_in_rivendell
+    label: Healing in Rivendell
+    book: The Fellowship of the Ring
+    chapter: Many Meetings
+    location: Rivendell
+    time_marker: A quiet morning after healing
+    viewpoint_character_id: frodo
+    summary: Rest, memory, and the beauty of Rivendell give Frodo a little peace before the weight of counsel returns.
+    canon_guidance: Frodo should feel relieved but not unburdened; beauty and sorrow should mingle.
+    scene_beats:
+      - clear water, song, and healing that does not erase danger
+      - Gandalf's return to speech after fear and waiting
+      - the approach of counsels too great to avoid
+    starting_npcs:
+      - Gandalf
+      - Elrond
+      - Aragorn
+    starting_companions: []
+    available_exits:
+      - Elrond's House
+      - The Council Porch
+      - The Pine-clad Paths
+  - id: frodo_at_west_gate
+    label: Before the Doors of Moria
+    book: The Fellowship of the Ring
+    chapter: A Journey in the Dark
+    location: Hollin
+    time_marker: A grey evening beside the dark water
+    viewpoint_character_id: frodo
+    summary: The Company halts before the hidden doors of Moria, with weariness, unease, and necessity pressing them toward a road none of them desire.
+    canon_guidance: The mood should be wary, tired, and reluctant, with Gandalf's knowledge and Frodo's foreboding both carrying weight.
+    scene_beats:
+      - the still black water before the West-gate and the memory of moon-letters
+      - the Fellowship balanced between open peril and enclosed terror
+      - Frodo's sense that the road ahead is chosen more by need than by will
+    starting_npcs:
+      - Gandalf
+      - Aragorn
+      - Boromir
+    starting_companions:
+      - Samwise Gamgee
+    available_exits:
+      - The West-gate
+      - The Water's Edge
+  - id: frodo_in_lorien
+    label: Rest in Lothlórien
+    book: The Fellowship of the Ring
+    chapter: Lothlórien
+    location: Lothlórien
+    time_marker: A clear golden morning among the mallorn trees
+    viewpoint_character_id: frodo
+    summary: After grief and darkness, Frodo comes into the Golden Wood where beauty, sorrow, and a strange peace lie closely together.
+    canon_guidance: Lórien should feel consoling yet remote, lovely yet touched by fading, and Frodo should never feel wholly unburdened.
+    scene_beats:
+      - golden light and high branches unlike any mortal woodland
+      - grief for Gandalf mingled with the beginning of healing
+      - Galadriel's presence deepening both comfort and unease
+    starting_npcs:
+      - Galadriel
+      - Haldir
+    starting_companions:
+      - Samwise Gamgee
+    available_exits:
+      - Caras Galadhon
+      - The Mallorn Path
+  - id: frodo_at_amon_hen
+    label: The Breaking at Amon Hen
+    book: The Fellowship of the Ring
+    chapter: The Breaking of the Fellowship
+    location: Amon Hen
+    time_marker: A troubled noon beside the Great River
+    viewpoint_character_id: frodo
+    summary: The Company comes at last to Amon Hen, where weariness, temptation, and the pressure of choice break the fellowship apart.
+    canon_guidance: This scene should feel urgent, inward, and sorrowful, with Frodo's isolation deepening even among companions.
+    scene_beats:
+      - the Seat of Seeing and the oppressive nearness of decision
+      - Boromir's troubled desire forcing Frodo further inward
+      - Sam's loyalty standing against the sundering of the company
+    starting_npcs:
+      - Boromir
+      - Samwise Gamgee
+    starting_companions:
+      - Samwise Gamgee
+    available_exits:
+      - The Seat of Seeing
+      - The Eastern Shore
+  - id: frodo_in_emyn_muil
+    label: Among the Stones of Emyn Muil
+    book: The Two Towers
+    chapter: The Taming of Sméagol
+    location: Emyn Muil
+    time_marker: A grey hungry day among broken ridges
+    viewpoint_character_id: frodo
+    summary: Frodo and Sam labor through the cruel stones of Emyn Muil, where the land itself opposes them until Gollum's capture turns pity into their next uncertain road.
+    canon_guidance: The scene should feel stony, weary, and morally exacting; Frodo's mercy matters because everything else here is hard.
+    scene_beats:
+      - endless rock and descent without any kindly road
+      - Gollum caught between fear, pleading, and old malice
+      - Frodo binding the creature by pity and necessity rather than trust
+    starting_npcs:
+      - Gollum
+      - Samwise Gamgee
+    starting_companions:
+      - Samwise Gamgee
+    available_exits:
+      - The Slinker Stair
+      - The Stony Shelf
+  - id: frodo_in_dead_marshes
+    label: Through the Dead Marshes
+    book: The Two Towers
+    chapter: The Passage of the Marshes
+    location: The Dead Marshes
+    time_marker: A dim and weary day under reeking vapors
+    viewpoint_character_id: frodo
+    summary: Frodo follows Gollum through the Dead Marshes where exhaustion, pity, and horror move together over drowned memory and treacherous lights.
+    canon_guidance: The scene should feel haunted, wasted, and dreamlike, yet morally intimate because Frodo still pities what is degraded.
+    scene_beats:
+      - pale lights over water and faces beneath the marsh
+      - Gollum's guidance accepted without trust
+      - Frodo's pity persisting where hope and beauty are nearly gone
+    starting_npcs:
+      - Gollum
+      - Samwise Gamgee
+    starting_companions:
+      - Samwise Gamgee
+    available_exits:
+      - The Marsh Path
+      - The Dead Faces Mere
+  - id: frodo_at_henneth_annun
+    label: Frodo at Henneth Annûn
+    book: The Two Towers
+    chapter: The Forbidden Pool
+    location: Henneth Annûn
+    time_marker: A hidden evening under falling water
+    viewpoint_character_id: frodo
+    summary: Frodo comes into Faramir's hidden refuge in Ithilien, where courtesy, peril, and discernment meet under stone, water, and the burden of secrecy.
+    canon_guidance: The mood should be fair, guarded, and morally searching, with relief never fully released from danger.
+    scene_beats:
+      - hidden refuge behind falling water and the strange comfort of ordered men in war
+      - Faramir's grave courtesy testing Frodo more keenly than open suspicion would
+      - Gollum's hunted misery sharpening the pity and risk of the moment
+    starting_npcs:
+      - Faramir
+      - Samwise Gamgee
+      - Gollum
+    starting_companions:
+      - Samwise Gamgee
+    available_exits:
+      - The Forbidden Pool
+      - The Window on the West
+  - id: frodo_on_morgul_stairs
+    label: The Stairs Above Minas Morgul
+    book: The Two Towers
+    chapter: The Stairs of Cirith Ungol
+    location: The Morgul Stairs
+    time_marker: A dim crawling day above the valley of dread
+    viewpoint_character_id: frodo
+    summary: Frodo climbs the dreadful stairs above Minas Morgul, worn thin by the Ring and by the long road, yet still moved by pity and the memory of gentler lands.
+    canon_guidance: Weariness, temptation, and pity should all be present, with the sense that the road is becoming spiritually thinner as well as physically harder.
+    scene_beats:
+      - the labour of the endless stair under a poisoned sky
+      - Gollum's divided service and wounded malice
+      - Frodo's inward weakening set against flashes of tenderness and resolve
+    starting_npcs:
+      - Gollum
+      - Samwise Gamgee
+    starting_companions:
+      - Samwise Gamgee
+    available_exits:
+      - The High Stair
+      - The Tunnel Mouth
+  - id: aragorn_in_fangorn
+    label: Aragorn in Fangorn
+    book: The Two Towers
+    chapter: The White Rider
+    location: Fangorn Forest
+    time_marker: A pale morning under ancient boughs
+    viewpoint_character_id: aragorn
+    summary: Aragorn searches Fangorn with Legolas and Gimli, where grief, urgency, and the uncanny life of the forest sharpen into astonishment at a white-clad figure among the trees.
+    canon_guidance: The scene should feel weary, alert, and uncanny, with Aragorn's leadership steadying fear without reducing the mystery.
+    scene_beats:
+      - old trees and baffling tracks making pursuit feel more like reading a living mind than a road
+      - the Three Hunters held between hope for Merry and Pippin and doubt about every sign
+      - the white figure's appearance turning danger into wonder without easing tension at once
+    starting_npcs:
+      - Gimli
+      - Legolas
+      - Gandalf
+    starting_companions:
+      - Gimli
+      - Legolas
+    available_exits:
+      - The Tree-shadowed Path
+      - The Green Hollow
+  - id: gandalf_in_moria
+    label: Gandalf at the Bridge of Khazad-dum
+    book: The Fellowship of the Ring
+    chapter: The Bridge of Khazad-dum
+    location: The Bridge of Khazad-dum
+    time_marker: A black hour in the deeps below the mountain
+    viewpoint_character_id: gandalf
+    summary: Gandalf holds the Company's retreat in Moria, where ancient darkness pursues them through fire, drumbeat, and the last narrow bridge.
+    canon_guidance: The scene should be urgent, terrible, and sacrificial, with Gandalf's authority rising against terror rather than diminishing it.
+    scene_beats:
+      - drums and flame in the deeps turning fear into unavoidable conflict
+      - Gandalf choosing to spend himself so the others may escape
+      - the old greatness and old ruin of Khazad-dum closing around a final stand
+    starting_npcs:
+      - Aragorn
+      - Legolas
+      - Gimli
+      - Frodo Baggins
+      - Durin's Bane
+    starting_companions:
+      - Aragorn
+      - Legolas
+      - Gimli
+      - Frodo Baggins
+    available_exits:
+      - The Chamber of Mazarbul
+      - The Dimrill Stair
+  - id: ranger_at_bree
+    label: A Watcher in Bree
+    book: The Fellowship of the Ring
+    chapter: At the Sign of The Prancing Pony
+    location: Bree
+    time_marker: Rainy night in Bree
+    viewpoint_character_id: aragorn
+    summary: Aragorn keeps wary watch in the common room while news, fear, and the scent of pursuit gather about the hobbits.
+    canon_guidance: Aragorn is cautious, observant, and not yet openly kingly.
+    scene_beats:
+      - a Ranger reading faces and doors in a room full of loose tongues
+      - the hobbits' peril plain to Aragorn before it is plain to themselves
+      - trust offered in measured fashion, never cheaply
+    starting_npcs:
+      - Frodo Baggins
+      - Barliman Butterbur
+    starting_companions: []
+    available_exits:
+      - The Prancing Pony
+      - The North Road
+  - id: gandalf_at_bag_end
+    label: Gandalf at Bag End
+    book: The Fellowship of the Ring
+    chapter: The Shadow of the Past
+    location: Bag End
+    time_marker: A lamplit evening with rain in the garden and dread in the room
+    viewpoint_character_id: gandalf
+    summary: Gandalf comes to Bag End where friendship and warning must be joined, and the quiet of the Shire is asked to bear a truth far darker than it was made for.
+    canon_guidance: Gandalf should be grave, affectionate, and unsparing, with pity made practical through clarity rather than comfort.
+    scene_beats:
+      - the round room's ordinary warmth standing against the scale of the danger being named
+      - Frodo's inheritance turning from family mystery into the burden of the age
+      - Gandalf's care showing itself through honesty rather than sheltering falsehood
+    starting_npcs:
+      - Frodo Baggins
+      - Samwise Gamgee
+    starting_companions: []
+    available_exits:
+      - The Green Dragon
+      - The East Road
+  - id: aragorn_at_weathertop
+    label: Aragorn at Weathertop
+    book: The Fellowship of the Ring
+    chapter: A Knife in the Dark
+    location: Weathertop
+    time_marker: A black windy night upon the hill
+    viewpoint_character_id: aragorn
+    summary: Aragorn stands watch on Weathertop where the wild road narrows into open peril, and his charge over the hobbits becomes a matter of fire, steel, and desperate endurance.
+    canon_guidance: Aragorn should be grim, protective, and exact under pressure, with no trace of theatrical heroics.
+    scene_beats:
+      - wind and darkness stripping the hill of all comfort or concealment
+      - Frodo's burden drawing a terror Aragorn already knows too well
+      - fire and action holding panic at bay only by a hair's breadth
+    starting_npcs:
+      - Frodo Baggins
+      - Samwise Gamgee
+      - Pippin Took
+    starting_companions:
+      - Frodo Baggins
+      - Samwise Gamgee
+      - Pippin Took
+    available_exits:
+      - The Ruined Ring
+      - The North Road
+  - id: aragorn_in_rivendell
+    label: Aragorn in Rivendell
+    book: The Fellowship of the Ring
+    chapter: Many Meetings
+    location: Rivendell
+    time_marker: A bright autumn morning in the hidden valley
+    viewpoint_character_id: aragorn
+    summary: Aragorn comes into Rivendell where healing, old love, and the long inheritance of kingship all stand nearer to the surface than they can in the wild.
+    canon_guidance: Aragorn should feel grave, inward, and steadier than those around him know, with hope and cost equally present.
+    scene_beats:
+      - the peace of Rivendell answering recent dread without making it unreal
+      - Elrond's presence drawing Aragorn's hidden lineage and burdens closer to speech
+      - Frodo's recovery giving room for counsel and memory to overtake mere flight
+    starting_npcs:
+      - Elrond
+      - Frodo Baggins
+      - Gandalf
+    starting_companions: []
+    available_exits:
+      - Elrond's House
+      - The Council Porch
+  - id: aragorn_before_moria
+    label: Aragorn Before Moria
+    book: The Fellowship of the Ring
+    chapter: A Journey in the Dark
+    location: Hollin
+    time_marker: A cold dark hour before the hidden doors
+    viewpoint_character_id: aragorn
+    summary: Aragorn stands before Moria in Hollin where necessity presses against dread, and leadership means choosing a road no one truly wishes to take.
+    canon_guidance: Aragorn should feel burdened, watchful, and resistant to despair, carrying both practical command and unspoken fear.
+    scene_beats:
+      - the shut West-gate making delay itself feel dangerous
+      - Gandalf's knowledge and Gimli's inheritance pulling in different emotional directions under one need
+      - the Company watching Aragorn for steadiness while he cannot honestly promise safety
+    starting_npcs:
+      - Gandalf
+      - Gimli
+      - Frodo Baggins
+    starting_companions:
+      - Gimli
+      - Legolas
+    available_exits:
+      - The West-gate
+      - Hollin
+  - id: aragorn_at_amon_hen
+    label: Aragorn at Amon Hen
+    book: The Fellowship of the Ring
+    chapter: The Breaking of the Fellowship
+    location: Amon Hen
+    time_marker: A troubled noon beside the Great River
+    viewpoint_character_id: aragorn
+    summary: Aragorn comes to Amon Hen where weariness, temptation, and divided counsels break the Company apart and force leadership to become pursuit rather than guardianship.
+    canon_guidance: Aragorn should feel sorrowful, commanding, and under sudden moral pressure, with grief never allowed to stop action for long.
+    scene_beats:
+      - the seat and river-bank making choice feel inescapable rather than merely delayed
+      - Boromir's turmoil and Frodo's withdrawal collapsing fellowship into crisis
+      - Sam's loyalty and the orc assault forcing Aragorn to choose among losses rather than between goods
+    starting_npcs:
+      - Boromir
+      - Samwise Gamgee
+      - Merry Brandybuck
+    starting_companions:
+      - Legolas
+      - Gimli
+    available_exits:
+      - The Seat of Seeing
+      - The Eastern Shore
+  - id: gandalf_in_rivendell
+    label: Counsel in Rivendell
+    book: The Fellowship of the Ring
+    chapter: The Council of Elrond
+    location: Rivendell
+    time_marker: A bright autumn morning
+    viewpoint_character_id: gandalf
+    summary: Wise voices gather in Rivendell while the history of the Ring is laid bare before free peoples.
+    canon_guidance: Gandalf bears urgency beneath composure; counsel should feel grave but not hopeless.
+    scene_beats:
+      - old history spoken aloud in a place built to remember
+      - Gandalf turning hard truth into usable courage
+      - the burden of choosing a road that no wisdom can make safe
+    starting_npcs:
+      - Elrond
+      - Aragorn
+      - Frodo Baggins
+    starting_companions: []
+    available_exits:
+      - The Council Porch
+      - Elrond's House
+      - The Pine-clad Paths
+  - id: sam_in_ithilien
+    label: Herbs of Ithilien
+    book: The Two Towers
+    chapter: Of Herbs and Stewed Rabbit
+    location: Ithilien
+    time_marker: A dim green noon
+    viewpoint_character_id: sam
+    summary: Sam and Frodo move through the green fastness of Ithilien with hunger, caution, and little ease upon them.
+    canon_guidance: Sam should notice food, earth, and kindness even in danger; Gollum remains unstable and watchful.
+    scene_beats:
+      - herbs and green scent rising even under war-shadow
+      - Sam's domestic longings crossing with hard suspicion
+      - Gollum's divided service and resentment
+    starting_npcs:
+      - Frodo Baggins
+      - Gollum
+    starting_companions:
+      - Frodo Baggins
+    available_exits:
+      - The Fern-hidden Path
+      - The Herbs by the Runnel
+      - The Rocky Ledge
+  - id: sam_in_shire
+    label: Sam in the Shire
+    book: The Fellowship of the Ring
+    chapter: Three Is Company
+    location: The Shire
+    time_marker: An autumn evening on the road out of home
+    viewpoint_character_id: sam
+    summary: Sam leaves the Shire with Frodo, carrying more devotion than understanding and already measuring the road against fields, cooking, and all the ordinary things worth preserving.
+    canon_guidance: Sam should feel loyal, homesick, and practical, with courage arising from love and habit rather than from any desire for adventure.
+    scene_beats:
+      - hedges, lane-dust, and fading light making home feel dearer as it begins to fall behind
+      - Frodo's hidden burden sensed by Sam more through care than through knowledge
+      - Pippin's lighter spirits giving Sam room to be both anxious and brave
+    starting_npcs:
+      - Frodo Baggins
+      - Pippin Took
+      - Merry Brandybuck
+    starting_companions:
+      - Frodo Baggins
+    available_exits:
+      - Hobbiton Road
+      - Woody End
+  - id: sam_at_bombadils_house
+    label: Sam at Bombadil's House
+    book: The Fellowship of the Ring
+    chapter: In the House of Tom Bombadil
+    location: Tom Bombadil's House
+    time_marker: A rain-bright evening under a kindly roof
+    viewpoint_character_id: sam
+    summary: Sam rests in Bombadil's house where song, good food, and impossible peace feel as strange to him as any danger, yet welcome all the same.
+    canon_guidance: Sam should be respectful, comforted, and slightly suspicious of the uncanny, noticing food, warmth, and kindness first.
+    scene_beats:
+      - the blessing of good food and dry shelter after fear under the Forest
+      - Tom and Goldberry's odd hospitality making safety feel older than common sense
+      - Sam's gratitude staying plain and practical even when wonder presses close
+    starting_npcs:
+      - Frodo Baggins
+      - Tom Bombadil
+      - Goldberry
+    starting_companions:
+      - Frodo Baggins
+      - Merry Brandybuck
+      - Pippin Took
+    available_exits:
+      - The Rain-washed Room
+      - The Withywindle Bank
+  - id: sam_in_lorien
+    label: Sam in Lothlórien
+    book: The Fellowship of the Ring
+    chapter: Lothlórien
+    location: Lothlórien
+    time_marker: A golden day under the mallorn trees
+    viewpoint_character_id: sam
+    summary: Sam comes into Lórien where grief, beauty, and the memory of gardens all meet in a place fairer than any Shire dream and sadder too.
+    canon_guidance: Sam should feel moved, humble, and still plainly himself, noticing beauty through growing things, kindness, and the needs of Frodo.
+    scene_beats:
+      - golden boughs and soft paths answering the weariness of Moria
+      - Sam's plain heart meeting Galadriel's high grace without losing its own speech
+      - the thought of gardens and growing things surviving even under the Ring's shadow
+    starting_npcs:
+      - Frodo Baggins
+      - Galadriel
+      - Haldir
+    starting_companions:
+      - Frodo Baggins
+    available_exits:
+      - Caras Galadhon
+      - The Mallorn Path
+  - id: sam_in_emyn_muil
+    label: Sam in Emyn Muil
+    book: The Two Towers
+    chapter: The Taming of Sméagol
+    location: Emyn Muil
+    time_marker: A grey hungry day among broken ridges
+    viewpoint_character_id: sam
+    summary: Sam labors through Emyn Muil with Frodo and the newly captured Gollum, where hard stone, hard hunger, and harder mistrust leave little room for ease.
+    canon_guidance: Sam should feel protective, tired, and unconvinced by Gollum, with loyalty to Frodo sharpening every judgment.
+    scene_beats:
+      - broken ridges and endless descent making the road feel like a punishment rather than a journey
+      - Gollum's pleading service meeting Sam's clear dislike and vigilance
+      - Frodo's pity forcing Sam to keep company with what he least trusts
+    starting_npcs:
+      - Frodo Baggins
+      - Gollum
+    starting_companions:
+      - Frodo Baggins
+    available_exits:
+      - The Slinker Stair
+      - The Stony Shelf
+  - id: sam_at_henneth_annun
+    label: Sam at Henneth Annûn
+    book: The Two Towers
+    chapter: The Window on the West
+    location: Henneth Annûn
+    time_marker: A guarded evening behind the falling water
+    viewpoint_character_id: sam
+    summary: Sam stands in Faramir's hidden refuge with worry for Frodo, distrust of Gollum, and a growing sense that not all great men are proud or false.
+    canon_guidance: Sam should be protective, plain-spoken, suspicious, and capable of deep admiration when goodness proves itself in hard times.
+    scene_beats:
+      - hidden refuge feeling both fair and war-ready under the waterfall's veil
+      - Sam's love of home and garden life meeting the grave courtesy of Gondor
+      - the Forbidden Pool making mercy toward Gollum costly and urgent
+    starting_npcs:
+      - Frodo Baggins
+      - Faramir
+      - Gollum
+    starting_companions:
+      - Frodo Baggins
+    available_exits:
+      - The Forbidden Pool
+      - The Window on the West
+  - id: sam_at_crossroads
+    label: The Cross-roads of the Fallen King
+    book: The Return of the King
+    chapter: The Journey to the Cross-roads
+    location: The Cross-roads
+    time_marker: A dim day beneath gathering shadow
+    viewpoint_character_id: sam
+    summary: Sam and Frodo come to the broken king's head and the fading memory of old Gondor before turning toward darker land.
+    canon_guidance: Memory, pity, and creeping dread should meet at this place.
+    scene_beats:
+      - the fallen head still bearing a hint of kingliness and grace
+      - Sam's love of growing things and old beauty resisting despair
+      - the bitter choice to leave the westward memory behind
+    starting_npcs:
+      - Frodo Baggins
+      - Gollum
+    starting_companions:
+      - Frodo Baggins
+    available_exits:
+      - The Fallen Head
+      - The Morgul Road
+  - id: sam_at_cirith_ungol
+    label: The Tower of Cirith Ungol
+    book: The Return of the King
+    chapter: The Tower of Cirith Ungol
+    location: Cirith Ungol
+    time_marker: A black hour before dawn
+    viewpoint_character_id: sam
+    summary: Sam enters the enemy's tower in terror and resolve, seeking Frodo among noise, cruelty, and the stink of war.
+    canon_guidance: Fear, love, and urgency should dominate; Sam is exhausted but unwavering.
+    scene_beats:
+      - foul stone and the aftermath of orc-strife
+      - the weight of solitude where Frodo should be
+      - plain hobbit courage hardening into action
+    starting_npcs:
+      - Frodo Baggins
+    starting_companions: []
+    available_exits:
+      - The Outer Yard
+      - The Inner Stair
+  - id: sam_on_gorgoroth
+    label: Across the Ash Plain
+    book: The Return of the King
+    chapter: Mount Doom
+    location: Gorgoroth
+    time_marker: A bitter day beneath the fumes of Orodruin
+    viewpoint_character_id: sam
+    summary: Sam goes on across the ashen plain with Frodo, spent almost beyond endurance yet still held upright by love, pity, and the need to finish.
+    canon_guidance: Mordor should feel exhausting, stripped, and nearly hopeless, while Sam's devotion keeps the scene human and particular.
+    scene_beats:
+      - ash underfoot and the mountain drawing terribly near
+      - Frodo's failing strength set against Sam's stubborn service
+      - the sense that all beauty is far behind, yet not wholly forgotten
+    starting_npcs:
+      - Frodo Baggins
+    starting_companions:
+      - Frodo Baggins
+    available_exits:
+      - The Ash Road
+      - The Cracked Plain
+  - id: aragorn_pelennor
+    label: The Pelennor Before Dawn
+    book: The Return of the King
+    chapter: The Battle of the Pelennor Fields
+    location: The Pelennor
+    time_marker: The dark before dawn
+    viewpoint_character_id: aragorn
+    summary: Doom presses on Minas Tirith, and the fields wait beneath war, hope, and the sea-wind of unexpected allies.
+    canon_guidance: Hold to urgency, leadership, and gathering resolve; avoid tactical game-logic language.
+    scene_beats:
+      - wind from the river and the sudden lift of hope against black despair
+      - Aragorn no longer hidden, but openly commanding
+      - friendship and kingship meeting in the same hard hour
+    starting_npcs:
+      - Gimli
+      - Legolas
+    starting_companions:
+      - Gimli
+      - Legolas
+    available_exits:
+      - The River Landing
+      - The Open Field
+      - The Road to Minas Tirith
+  - id: aragorn_at_helms_deep
+    label: Before the Hornburg
+    book: The Two Towers
+    chapter: Helm's Deep
+    location: Helm's Deep
+    time_marker: A storm-dark night before battle
+    viewpoint_character_id: aragorn
+    summary: Rain, stone, weariness, and resolve gather beneath the Hornburg as battle draws near.
+    canon_guidance: This should feel martial, strained, and resolute rather than boastful.
+    scene_beats:
+      - storm and torchlight along wet stone
+      - the temper of defenders measured before the assault
+      - friendship under pressure between Aragorn, Gimli, and Legolas
+    starting_npcs:
+      - Gimli
+      - Legolas
+      - Éomer
+      - Erkenbrand
+    starting_companions:
+      - Gimli
+      - Legolas
+    available_exits:
+      - The Deeping Wall
+      - The Hornburg Gate
+  - id: aragorn_at_dunharrow
+    label: Aragorn at Dunharrow
+    book: The Return of the King
+    chapter: The Muster of Rohan
+    location: Dunharrow
+    time_marker: A cold wind before dawn in the mountain hold
+    viewpoint_character_id: aragorn
+    summary: Aragorn stands at Dunharrow among fear, loyalty, and foreboding, where the next road must be chosen not because it is desired, but because it is required.
+    canon_guidance: The mood should be austere, burdened, and kingly, with pity never allowed to soften necessity.
+    scene_beats:
+      - the mountain camp held between muster and omen
+      - Éowyn's grief and courage sharpening the cost of Aragorn's road
+      - the Dimholt looming as a promise of dread, not glory
+    starting_npcs:
+      - Éowyn
+      - Legolas
+      - Gimli
+      - Halbarad
+    starting_companions:
+      - Legolas
+      - Gimli
+    available_exits:
+      - Harrowdale
+      - The Dimholt Door
+  - id: aragorn_paths_of_the_dead
+    label: The Paths of the Dead
+    book: The Return of the King
+    chapter: The Passing of the Grey Company
+    location: The Paths of the Dead
+    time_marker: A cold dark passage beneath the mountain
+    viewpoint_character_id: aragorn
+    summary: Aragorn leads the living beneath the mountain where oath-breakers wait in dread silence.
+    canon_guidance: Aragorn should be resolute and openly authoritative; the atmosphere should be weighty and ancient.
+    scene_beats:
+      - ancient wrong and old authority pressing upon the company
+      - Gimli's dread answered by Aragorn's necessity
+      - the road itself seeming hostile to the living
+    starting_npcs:
+      - Halbarad
+      - Gimli
+      - Legolas
+      - Elladan
+      - Elrohir
+    starting_companions:
+      - Gimli
+      - Legolas
+    available_exits:
+      - The Dark Passage
+      - The Stone Door
+  - id: aragorn_at_pelargir
+    label: Aragorn at Pelargir
+    book: The Return of the King
+    chapter: The Last Debate of the Southern Fiefs
+    location: Pelargir
+    time_marker: A salt-bright morning after dread has broken
+    viewpoint_character_id: aragorn
+    summary: Aragorn comes to Pelargir with the Grey Company and the Dead at his back, where black ships, fear, and sudden hope meet on the southern river.
+    canon_guidance: Keep the scene urgent, kingly, and sea-washed; dread should be turning into deliverance, not spectacle.
+    scene_beats:
+      - black ships and river-water suddenly re-read in the light of hope
+      - the Grey Company beside Aragorn as hidden lineage becomes public command
+      - the Oathbreakers' terror giving way at last to fulfilled summons
+    starting_npcs:
+      - Halbarad
+      - Elladan
+      - Elrohir
+    starting_companions:
+      - Gimli
+      - Legolas
+    available_exits:
+      - The Quays of Pelargir
+      - The Captured Corsair Ships
+  - id: aragorn_at_last_debate
+    label: Aragorn at the Last Debate
+    book: The Return of the King
+    chapter: The Last Debate
+    location: The Citadel
+    time_marker: A grave morning in the White City after victory
+    viewpoint_character_id: aragorn
+    summary: Aragorn stands among the Captains in Minas Tirith, where joy over deliverance yields at once to the harder counsel of marching toward the Black Gate for no hope of conquest, but for Frodo's chance.
+    canon_guidance: The scene should feel lucid, kingly, and sacrificial, with recovered hope disciplined into deliberate peril.
+    scene_beats:
+      - counsel in victory darkened by the knowledge that the Ring-bearer still walks in peril
+      - Aragorn accepting open kingship as service rather than reward
+      - Gandalf and the captains turning strategy into a form of offered lives
+    starting_npcs:
+      - Gandalf
+      - Prince Imrahil
+      - Legolas
+      - Gimli
+    starting_companions:
+      - Gandalf
+      - Legolas
+      - Gimli
+    available_exits:
+      - The Citadel
+      - Minas Tirith
+  - id: aragorn_at_black_gate
+    label: Before the Black Gate
+    book: The Return of the King
+    chapter: The Black Gate Opens
+    location: The Black Gate
+    time_marker: A hard morning before the Morannon
+    viewpoint_character_id: aragorn
+    summary: Aragorn stands before the Black Gate with the Captains of the West, offering challenge not from hope of victory by strength, but to buy one last chance for the Ring-bearer.
+    canon_guidance: Kingship, sacrifice, and grim resolve should govern this scene; no one here mistakes courage for certainty.
+    scene_beats:
+      - the black wall of Mordor confronted in full knowledge of what it means
+      - Aragorn openly claiming the authority he once concealed
+      - courage offered as service rather than triumph
+    starting_npcs:
+      - Gandalf
+      - Legolas
+      - Gimli
+    starting_companions:
+      - Gandalf
+      - Legolas
+      - Gimli
+    available_exits:
+      - The Morannon Field
+      - The Captains' Line
+  - id: gandalf_the_white_rider
+    label: The White Rider
+    book: The Two Towers
+    chapter: The White Rider
+    location: Fangorn Forest
+    time_marker: A pale morning beneath old trees
+    viewpoint_character_id: gandalf
+    summary: Gandalf meets the Three Hunters again beneath the trees, revealed now in renewed strength and clearer authority.
+    canon_guidance: Gandalf is changed, bright, and commanding, but not severed from pity or humor.
+    scene_beats:
+      - white raiment glimpsed where the hunters expect an enemy
+      - bewilderment turning into recognition and relief
+      - Gandalf's changed authority beneath ancient boughs
+    starting_npcs:
+      - Aragorn
+      - Gimli
+      - Legolas
+    starting_companions:
+      - Aragorn
+      - Gimli
+      - Legolas
+    available_exits:
+      - The Tree-shadowed Path
+      - The Green Hollow
+  - id: gandalf_at_orthanc
+    label: Gandalf at Orthanc
+    book: The Two Towers
+    chapter: The Voice of Saruman
+    location: Isengard
+    time_marker: A clear hard day among broken stone and waters
+    viewpoint_character_id: gandalf
+    summary: Gandalf comes to the ring of Isengard after its fall, where Saruman's voice still strives to rule amid ruins it cannot repair.
+    canon_guidance: The scene should feel judicial, mournful, and unsparing, with evil shown as diminished but still dangerous through speech.
+    scene_beats:
+      - broken Isengard made vivid by Ent-wrought ruin and cleansing waters
+      - Saruman's persuasive malice meeting Gandalf's steadier authority
+      - pity offered without surrendering judgment
+    starting_npcs:
+      - Saruman
+      - Treebeard
+      - Gríma Wormtongue
+    starting_companions:
+      - Aragorn
+      - Legolas
+      - Gimli
+    available_exits:
+      - The Orthanc Steps
+      - The Ring of Isengard
+  - id: gandalf_at_minas_tirith
+    label: The White City in Shadow
+    book: The Return of the King
+    chapter: Minas Tirith
+    location: Minas Tirith
+    time_marker: A stern morning of mustering
+    viewpoint_character_id: gandalf
+    summary: Gandalf comes to the White City beneath the pressure of war, bearing counsel, resolve, and little spare hope.
+    canon_guidance: The city should feel proud, strained, and already overshadowed by coming siege.
+    scene_beats:
+      - the white levels rising under a sky darkened by war
+      - Pippin's smallness against the burden of Gondor
+      - Gandalf's stern compassion confronting despair and pride
+    starting_npcs:
+      - Pippin Took
+      - Faramir
+      - Bergil
+    starting_companions:
+      - Pippin Took
+    available_exits:
+      - The Citadel
+      - The Lower Circle
+  - id: gandalf_with_denethor
+    label: Gandalf with Denethor
+    book: The Return of the King
+    chapter: Minas Tirith
+    location: The Citadel
+    time_marker: A stern hour of counsel in the White City
+    viewpoint_character_id: gandalf
+    summary: Gandalf stands before Denethor in the White City, where wisdom, pride, grief, and authority contend under the approaching war.
+    canon_guidance: Keep the scene sharp, grave, and morally tense; Gandalf must answer Denethor's hardness without slipping into mere scorn.
+    scene_beats:
+      - Pippin's smallness amid the pride of Gondor's high court
+      - Denethor's wounded intelligence and Gandalf's refusal to yield hope
+      - the city's outer readiness mirrored by inward strain at its summit
+    starting_npcs:
+      - Denethor
+      - Pippin Took
+      - Faramir
+      - Hurin of the Keys
+    starting_companions:
+      - Pippin Took
+    available_exits:
+      - The Steward's Hall
+      - The Lower Circle
+  - id: gandalf_at_great_gate
+    label: Gandalf at the Great Gate
+    book: The Return of the King
+    chapter: The Siege of Gondor
+    location: The Great Gate
+    time_marker: A black hour before the Rohirrim come
+    viewpoint_character_id: gandalf
+    summary: Gandalf rides to the shattered gate of Minas Tirith, where dread, ruin, and the oncoming terror of the Nazgûl press the city toward despair.
+    canon_guidance: The scene should feel thunderous, dark, and morally unyielding, with Gandalf's authority standing bright against a terror made almost unbearable.
+    scene_beats:
+      - broken gate, smoke, and the city's courage stretched to breaking
+      - Pippin's small fear held beside Gandalf's deliberate steadiness
+      - the Witch-king's approach making hope seem impossible just before it must be chosen
+    starting_npcs:
+      - Pippin Took
+      - Beregond
+      - The Witch-king of Angmar
+    starting_companions:
+      - Pippin Took
+    available_exits:
+      - The Great Gate
+      - The Road to Minas Tirith
+  - id: gandalf_in_rath_dinen
+    label: Gandalf in Rath Dínen
+    book: The Return of the King
+    chapter: The Pyre of Denethor
+    location: Rath Dínen
+    time_marker: A blackened hour under battle-smoke
+    viewpoint_character_id: gandalf
+    summary: Gandalf hurries into the Silent Street where Denethor's despair has turned lordship toward fire, and pity must move faster than ruin.
+    canon_guidance: The scene should be urgent, grievous, and morally clear; Gandalf opposes despair not as debate but as rescue.
+    scene_beats:
+      - the hidden street of tombs made terrible by living despair
+      - Pippin's fear answered by Gandalf's swift authority
+      - Beregond's loyalty and Denethor's ruin colliding beside Faramir's helpless body
+    starting_npcs:
+      - Denethor
+      - Pippin Took
+      - Beregond
+    starting_companions:
+      - Pippin Took
+    available_exits:
+      - The Silent Street
+      - Minas Tirith
+  - id: gandalf_on_pelennor
+    label: Gandalf on the Pelennor
+    book: The Return of the King
+    chapter: The Battle of the Pelennor Fields
+    location: The Pelennor
+    time_marker: A wind-struck morning amid battle
+    viewpoint_character_id: gandalf
+    summary: Gandalf rides where terror is greatest upon the fields before Minas Tirith, bearing courage into ruin while the battle turns beyond any single will.
+    canon_guidance: Gandalf should feel active, compassionate, and commanding in crisis, never merely explanatory.
+    scene_beats:
+      - battle-smoke, horns, and despair met by stubborn courage
+      - Gandalf's presence as a rally against collapse rather than a promise of safety
+      - the field changing by turns of providence no one can wholly foresee
+    starting_npcs:
+      - Pippin Took
+      - Théoden
+    starting_companions:
+      - Pippin Took
+    available_exits:
+      - The Open Field
+      - The River Landing
+  - id: gandalf_at_black_gate
+    label: Gandalf Before the Morannon
+    book: The Return of the King
+    chapter: The Black Gate Opens
+    location: The Black Gate
+    time_marker: A bitter morning before the challenge
+    viewpoint_character_id: gandalf
+    summary: Gandalf stands beside Aragorn before the Morannon, giving voice to a courage that knows it may die without ever seeing victory.
+    canon_guidance: Gandalf should be grave, clear-eyed, and unillusioned, yet still the bearer of the strongest hope left in the field.
+    scene_beats:
+      - the gate's iron threat met by words that refuse despair
+      - Gandalf lending firmness to the captains rather than comfort without cost
+      - the strange calm that comes when fear has been fully counted and not obeyed
+    starting_npcs:
+      - Aragorn
+      - Gimli
+      - Legolas
+    starting_companions:
+      - Aragorn
+      - Gimli
+      - Legolas
+    available_exits:
+      - The Morannon Field
+      - The Captains' Line
+  - id: gandalf_at_coronation
+    label: Gandalf at the Coronation
+    book: The Return of the King
+    chapter: The Steward and the King
+    location: The Court of the Fountain
+    time_marker: A clear noon of renewal in the White City
+    viewpoint_character_id: gandalf
+    summary: Gandalf witnesses the crowning of Aragorn with the joy of one whose long labor is fulfilled, though not without remembrance of all that has been lost.
+    canon_guidance: Gandalf should be warm, grave, and quietly glad, never sentimental without memory.
+    scene_beats:
+      - joy made credible because grief and sacrifice still stand behind it
+      - Gandalf allowing himself brightness without vanity
+      - the sense of an age turning while friendships remain particular and dear
+    starting_npcs:
+      - Aragorn
+      - Arwen
+      - Faramir
+    starting_companions: []
+    available_exits:
+      - Minas Tirith
+      - The Court of the Fountain
+  - id: gandalf_at_grey_havens
+    label: Gandalf at the Grey Havens
+    book: The Return of the King
+    chapter: The Grey Havens
+    location: The Grey Havens
+    time_marker: A sea-grey evening of parting and release
+    viewpoint_character_id: gandalf
+    summary: Gandalf stands at the Grey Havens where the long charge laid on him in Middle-earth yields at last to farewell, mercy, and the westward road.
+    canon_guidance: Gandalf should feel gentle, weary, and quietly fulfilled, with comfort offered plainly and without any denial of sorrow.
+    scene_beats:
+      - the Sea answering wounds and weariness that Middle-earth cannot wholly heal
+      - Frodo's departure gathering personal pity and the ending of an age into one moment
+      - Gandalf's authority softened into pure guardianship at the point where it is finally relinquished
+    starting_npcs:
+      - Frodo Baggins
+      - Elrond
+      - Galadriel
+    starting_companions: []
+    available_exits:
+      - The Havens Quay
+      - The White Ship
+  - id: pippin_in_minas_tirith
+    label: Pippin in Minas Tirith
+    book: The Return of the King
+    chapter: Minas Tirith
+    location: Minas Tirith
+    time_marker: A stern day of mustering beneath shadow
+    viewpoint_character_id: pippin
+    summary: Pippin enters the White City under Gandalf's care, overwhelmed by its height, pride, and burdened stillness, yet eager to serve where he can.
+    canon_guidance: Pippin should feel small, bright, loyal, and increasingly serious as grandeur gives way to the plain nearness of war.
+    scene_beats:
+      - white stone and high walls making the city feel both splendid and stern
+      - Gandalf's protection and Beregond's kindness keeping fear from turning into helplessness
+      - service in Gondor beginning as awe and becoming duty
+    starting_npcs:
+      - Gandalf
+      - Beregond
+      - Faramir
+      - Bergil
+    starting_companions:
+      - Gandalf
+    available_exits:
+      - The Citadel
+      - The Lower Circle
+  - id: pippin_with_denethor
+    label: Pippin with Denethor
+    book: The Return of the King
+    chapter: The Siege of Gondor
+    location: The Steward's Hall
+    time_marker: A cold formal hour in the high city
+    viewpoint_character_id: pippin
+    summary: Pippin stands in Denethor's service beneath the high roof of the Steward's Hall, where Gondor's grief, pride, and failing hope fall heavily even on small shoulders.
+    canon_guidance: Pippin should feel earnest, intimidated, and increasingly sorrowful, with service becoming more solemn the more he sees of Denethor's pride and pain.
+    scene_beats:
+      - the Steward's gaze making oath and courtesy feel weightier than any Shire promise
+      - Beregond's kindness standing in humane contrast to Denethor's cold greatness
+      - Gondor's burden made personal through formal service rather than distant spectacle
+    starting_npcs:
+      - Denethor
+      - Beregond
+      - Gandalf
+      - Hurin of the Keys
+    starting_companions:
+      - Gandalf
+    available_exits:
+      - The Steward's Hall
+      - The Citadel
+  - id: pippin_in_shire
+    label: Pippin in the Shire
+    book: The Fellowship of the Ring
+    chapter: Three Is Company
+    location: The Shire
+    time_marker: An early autumn evening on the homeward edge of adventure
+    viewpoint_character_id: pippin
+    summary: Pippin sets out from the Shire with Frodo and Sam where affection, appetite, and half-laughed unease still make the road feel almost like an outing.
+    canon_guidance: Pippin should feel lively, affectionate, and not yet equal to the road's full seriousness, though the first hints of dread are already real.
+    scene_beats:
+      - green lanes and fading light making departure feel both merry and momentous
+      - Pippin's joking boldness covering a loyalty deeper than his own words admit
+      - the road still near enough to home that danger can be guessed at more easily than believed
+    starting_npcs:
+      - Frodo Baggins
+      - Samwise Gamgee
+      - Merry Brandybuck
+    starting_companions:
+      - Frodo Baggins
+      - Samwise Gamgee
+    available_exits:
+      - Hobbiton Road
+      - Woody End
+  - id: pippin_in_old_forest
+    label: Pippin in the Old Forest
+    book: The Fellowship of the Ring
+    chapter: The Old Forest
+    location: The Old Forest
+    time_marker: A dim uneasy afternoon beneath leaning boughs
+    viewpoint_character_id: pippin
+    summary: Pippin enters the Old Forest where joking courage runs up against a malice older and less understandable than any danger on a common road.
+    canon_guidance: Pippin should feel frightened, companionable, and quick to recover his spirits whenever friendship gives him room to do so.
+    scene_beats:
+      - roots, leaning trees, and shifting paths making ordinary cheer feel newly fragile
+      - Merry's local knowledge offering less safety than anyone had hoped
+      - fear coming not as battle, but as the sense of being unwelcome in a living place
+    starting_npcs:
+      - Frodo Baggins
+      - Merry Brandybuck
+      - Samwise Gamgee
+    starting_companions:
+      - Frodo Baggins
+      - Merry Brandybuck
+      - Samwise Gamgee
+    available_exits:
+      - The Old Willow
+      - The Withywindle Bank
+  - id: pippin_in_fangorn
+    label: Pippin in Fangorn
+    book: The Two Towers
+    chapter: Treebeard
+    location: Fangorn Forest
+    time_marker: A dim green morning under ancient boughs
+    viewpoint_character_id: pippin
+    summary: Pippin wakes in Fangorn where fear, relief, and fascination mingle under Treebeard's care and the forest's immense living stillness.
+    canon_guidance: Pippin should feel quick, curious, and overawed, with lightness breaking through fear as soon as safety allows it.
+    scene_beats:
+      - Treebeard's grave hospitality making the uncanny feel unexpectedly kind
+      - Merry and Pippin's hobbit appetite for talk and wonder surviving even after terror
+      - Fangorn's deep silence making haste seem childish rather than brave
+    starting_npcs:
+      - Merry Brandybuck
+      - Treebeard
+      - Gandalf
+    starting_companions:
+      - Merry Brandybuck
+    available_exits:
+      - The Tree-shadowed Path
+      - The Green Hollow
+  - id: pippin_in_isengard
+    label: Pippin in Isengard
+    book: The Two Towers
+    chapter: Flotsam and Jetsam
+    location: Isengard
+    time_marker: A bright noon among flood and wreckage
+    viewpoint_character_id: pippin
+    summary: Pippin walks the broken ring of Isengard where ruined pride, Ent-wrath, and the return of hobbit comforts all crowd together in one astonishing hour.
+    canon_guidance: Pippin should feel merry, astonished, and occasionally sobered, with delight arriving faster than solemnity but never wholly escaping it.
+    scene_beats:
+      - food and pipe-weed seeming more wonderful for being found in the middle of great wreckage
+      - Gandalf's judgment and Saruman's fall giving shape to marvel rather than interrupting it
+      - the absurdity of evil's broken machinery striking Pippin nearly as strongly as its terror once did
+    starting_npcs:
+      - Merry Brandybuck
+      - Gandalf
+      - Treebeard
+    starting_companions:
+      - Merry Brandybuck
+    available_exits:
+      - The Ring of Isengard
+      - The Orthanc Steps
+  - id: pippin_at_great_gate
+    label: Pippin at the Great Gate
+    book: The Return of the King
+    chapter: The Siege of Gondor
+    location: The Great Gate
+    time_marker: A black hour of siege before the walls
+    viewpoint_character_id: pippin
+    summary: Pippin stands near Gandalf at the shattered gate of Minas Tirith, where terror and endurance come face to face under smoke and dread.
+    canon_guidance: Fear should be intense and immediate, but Pippin's loyalty must keep him present rather than unmade by it.
+    scene_beats:
+      - the city's broken threshold made terrible by smoke, iron, and rumor of the Nazgûl
+      - Gandalf's steadiness setting a shape for courage Pippin can cling to
+      - the sense that great deeds often begin by not fleeing at the right moment
+    starting_npcs:
+      - Gandalf
+      - Beregond
+      - The Witch-king of Angmar
+    starting_companions:
+      - Gandalf
+    available_exits:
+      - The Great Gate
+      - The Road to Minas Tirith
+  - id: pippin_in_rath_dinen
+    label: Pippin in Rath Dinen
+    book: The Return of the King
+    chapter: The Pyre of Denethor
+    location: Rath Dínen
+    time_marker: A desperate hour among the tombs
+    viewpoint_character_id: pippin
+    summary: Pippin runs in dread and loyalty through the Silent Street, where Denethor's despair threatens Faramir and the living must act against a lord's ruin.
+    canon_guidance: The scene should feel panicked, loyal, and morally clarifying, with Pippin's courage arriving through action rather than confidence.
+    scene_beats:
+      - the tomb-city turned from stillness to horror by living despair
+      - Beregond's help and Gandalf's command making rescue possible
+      - Pippin discovering that even small hands may matter in terrible moments
+    starting_npcs:
+      - Gandalf
+      - Beregond
+      - Denethor
+    starting_companions:
+      - Gandalf
+    available_exits:
+      - The Silent Street
+      - Minas Tirith
+  - id: pippin_at_black_gate
+    label: Pippin Before the Morannon
+    book: The Return of the King
+    chapter: The Black Gate Opens
+    location: The Morannon Field
+    time_marker: A bitter morning on the last march
+    viewpoint_character_id: pippin
+    summary: Pippin comes with the Captains of the West before the Morannon, where he is one of the smallest in a host that has chosen sacrifice over safety.
+    canon_guidance: Pippin should feel afraid, devoted, and sustained by fellowship with greater warriors rather than by any false certainty.
+    scene_beats:
+      - the plain before the Gate making each marcher feel terribly visible
+      - Aragorn and Gandalf giving shape to courage in those who have little reason to expect survival
+      - Pippin's small stature sharpening rather than diminishing the nobility of his service
+    starting_npcs:
+      - Aragorn
+      - Gandalf
+      - Gimli
+    starting_companions:
+      - Gandalf
+    available_exits:
+      - The Morannon Field
+      - The Captains' Line
+  - id: pippin_at_coronation
+    label: Pippin at the Coronation
+    book: The Return of the King
+    chapter: The Steward and the King
+    location: The Court of the Fountain
+    time_marker: A bright noon in the White City
+    viewpoint_character_id: pippin
+    summary: Pippin stands in wonder at the crowning of Aragorn, where joy, relief, and affection make even the grandeur of Minas Tirith feel intimate and dear.
+    canon_guidance: The mood should be bright, affectionate, and relieved, with Pippin's delight never detached from remembrance of what it cost.
+    scene_beats:
+      - white stone and banners transformed from siege-shadow into festival
+      - Pippin's affection for his friends making grandeur feel personal rather than remote
+      - joy after terror widening the heart without erasing sorrow
+    starting_npcs:
+      - Aragorn
+      - Gandalf
+      - Beregond
+    starting_companions: []
+    available_exits:
+      - Minas Tirith
+      - The Court of the Fountain
+  - id: merry_in_rohan
+    label: Merry in Rohan
+    book: The Return of the King
+    chapter: The Muster of Rohan
+    location: Meduseld
+    time_marker: A cold bright day before the ride
+    viewpoint_character_id: merry
+    summary: Merry finds himself among the Rohirrim in the Golden Hall, honored by Théoden's kindness and troubled by the sense that great deeds may come without any clear place for a hobbit in them.
+    canon_guidance: Merry should feel affectionate, dutiful, and somewhat heartsick, with courage growing under the pain of being thought too small for war.
+    scene_beats:
+      - Théoden's grave kindness making loyalty feel personal rather than ceremonial
+      - Éowyn's hidden unrest answering Merry's own sense of being set aside
+      - the golden dignity of Rohan darkened by the knowledge of what ride comes next
+    starting_npcs:
+      - Théoden
+      - Éowyn
+    starting_companions: []
+    available_exits:
+      - Meduseld
+      - The Golden Hall Steps
+  - id: merry_at_dunharrow
+    label: Merry at Dunharrow
+    book: The Return of the King
+    chapter: The Muster of Rohan
+    location: Dunharrow
+    time_marker: A bitter morning beneath the mountain
+    viewpoint_character_id: merry
+    summary: Merry waits at Dunharrow where the Rohirrim gather under shadow, and Théoden's kindness, Éowyn's sorrow, and the threat of being left behind sharpen his courage into pain.
+    canon_guidance: Merry should feel heartsick, loyal, and quietly stubborn, with the hurt of being thought too small carried more sharply than fear of battle.
+    scene_beats:
+      - waiting horses and mountain wind making the ride east feel terribly near
+      - Théoden's affection and Éowyn's unrest answering Merry's own sense of exclusion
+      - courage becoming a refusal to accept uselessness rather than a taste for danger
+    starting_npcs:
+      - Théoden
+      - Éowyn
+      - Aragorn
+      - Elfhelm
+    starting_companions: []
+    available_exits:
+      - Dunharrow
+      - Harrowdale
+  - id: merry_in_shire
+    label: Merry in the Shire
+    book: The Fellowship of the Ring
+    chapter: A Conspiracy Unmasked
+    location: The Shire
+    time_marker: A quiet evening of roads, plans, and hidden resolve
+    viewpoint_character_id: merry
+    summary: Merry helps Frodo leave the Shire with the steadier courage of planning, friendship, and practical care, already knowing more of the road than he lets lightly appear.
+    canon_guidance: Merry should feel capable, warm, and more serious than the hour outwardly demands, with affection turning into responsibility.
+    scene_beats:
+      - familiar lanes holding the secret gravity of a planned departure
+      - Merry's competence expressing love more than pride
+      - the Shire still seeming safe enough to defend by prudence rather than by force
+    starting_npcs:
+      - Frodo Baggins
+      - Pippin Took
+      - Samwise Gamgee
+    starting_companions:
+      - Frodo Baggins
+      - Pippin Took
+    available_exits:
+      - Hobbiton Road
+      - The Shire
+  - id: merry_on_barrow_downs
+    label: Merry on the Barrow-downs
+    book: The Fellowship of the Ring
+    chapter: Fog on the Barrow-downs
+    location: The Barrow-downs
+    time_marker: A white cold morning under drifting mist
+    viewpoint_character_id: merry
+    summary: Merry comes among the Barrow-downs where old death, mist, and enchantment strip away all hobbit self-possession and leave only cold dread and loyalty.
+    canon_guidance: Merry should feel vulnerable, loyal, and newly sobered, with terror arriving coldly rather than violently.
+    scene_beats:
+      - the Downs seeming empty in a way that feels more dangerous than open attack
+      - fear for Frodo and the others persisting even when thought itself grows dim
+      - Tom Bombadil's rescue making the nearness of ancient powers impossible to dismiss thereafter
+    starting_npcs:
+      - Frodo Baggins
+      - Pippin Took
+      - Samwise Gamgee
+      - Tom Bombadil
+    starting_companions:
+      - Frodo Baggins
+      - Pippin Took
+      - Samwise Gamgee
+    available_exits:
+      - The Standing Stones
+      - The Barrow Chamber
+  - id: merry_in_fangorn
+    label: Merry in Fangorn
+    book: The Two Towers
+    chapter: Treebeard
+    location: Fangorn Forest
+    time_marker: A green-lit morning in the old wood
+    viewpoint_character_id: merry
+    summary: Merry finds himself in Fangorn where courtesy, curiosity, and recovery from terror all meet beneath Treebeard's care and the watch of an ancient forest.
+    canon_guidance: Merry should feel polite, perceptive, and increasingly delighted by the strangeness around him, without ever forgetting recent danger.
+    scene_beats:
+      - Treebeard's grave hospitality making the uncanny nearly companionable
+      - Merry's readiness to notice character and setting giving Fangorn a distinctly social wonder
+      - the old forest enlarging Merry's sense of how wide the world truly is
+    starting_npcs:
+      - Pippin Took
+      - Treebeard
+      - Gandalf
+    starting_companions:
+      - Pippin Took
+    available_exits:
+      - The Tree-shadowed Path
+      - The Green Hollow
+  - id: merry_in_isengard
+    label: Merry in Isengard
+    book: The Two Towers
+    chapter: Flotsam and Jetsam
+    location: Isengard
+    time_marker: A clear noon over flooded courts
+    viewpoint_character_id: merry
+    summary: Merry walks through the flooded wreck of Isengard where hobbit ease, Ent judgment, and the visible collapse of Saruman's pride all strangely inhabit the same day.
+    canon_guidance: Merry should be brisk, observant, and ready to enjoy comfort without losing moral clarity.
+    scene_beats:
+      - pipe-weed and provisions becoming not comic escape, but a hobbit way of recovering proportion after terror
+      - Treebeard's satisfaction and Gandalf's gravity giving the ruin its full meaning
+      - the broken machinery of domination seen with a practical eye that makes it seem foolish as well as evil
+    starting_npcs:
+      - Pippin Took
+      - Treebeard
+      - Gandalf
+    starting_companions:
+      - Pippin Took
+    available_exits:
+      - The Ring of Isengard
+      - The Orthanc Steps
+  - id: merry_on_pelennor
+    label: Merry on the Pelennor
+    book: The Return of the King
+    chapter: The Battle of the Pelennor Fields
+    location: The Pelennor
+    time_marker: A wind-struck morning of battle
+    viewpoint_character_id: merry
+    summary: Merry rides into the terror of the Pelennor with the Rohirrim, where loyalty to Théoden and pity for Éowyn draw him into deeds far beyond anything the Shire could have imagined.
+    canon_guidance: The scene should feel terrifying, swift, and noble, with Merry's courage inseparable from fear and love.
+    scene_beats:
+      - the thunder of the charge making fear too large to be hidden or denied
+      - Théoden's kingliness and Éowyn's hidden resolve giving shape to Merry's own choice
+      - the field's horror reducing heroism to a few exact acts in the right moment
+    starting_npcs:
+      - Théoden
+      - Éowyn
+      - The Witch-king of Angmar
+    starting_companions: []
+    available_exits:
+      - The Open Field
+      - The Road to Minas Tirith
+  - id: merry_in_houses_of_healing
+    label: Merry in the Houses of Healing
+    book: The Return of the King
+    chapter: The Houses of Healing
+    location: The Houses of Healing
+    time_marker: A pale day after battle
+    viewpoint_character_id: merry
+    summary: Merry wakes in the Houses of Healing under pain, grief, and gentleness, where war's terror yields only slowly to rest and friendship.
+    canon_guidance: Merry should feel shaken, grateful, and sorrowful, with healing arriving as relief rather than simple comfort.
+    scene_beats:
+      - white rooms and herb-scent standing against the memory of battle
+      - Aragorn's healing turning kingship into mercy
+      - Éowyn's nearness keeping grief and fellowship close together
+    starting_npcs:
+      - Aragorn
+      - Éowyn
+      - Ioreth
+    starting_companions: []
+    available_exits:
+      - The Healing Garden
+      - Minas Tirith
+  - id: merry_in_scouring
+    label: Merry in the Scouring
+    book: The Return of the King
+    chapter: The Scouring of the Shire
+    location: Bywater
+    time_marker: A hard clear day in the Shire
+    viewpoint_character_id: merry
+    summary: Merry returns to the Shire as a hobbit more seasoned than when he left, bringing home courage not for glory's sake but for the defense of fields, roads, and neighbors.
+    canon_guidance: Merry should be brisk, affectionate, and war-tempered without ever becoming hard for hardness' sake.
+    scene_beats:
+      - Shire roads seen with the eyes of one who has marched in darker lands
+      - ordinary folk heartened by a courage they never asked to need
+      - home defended not to enlarge the self, but to restore what ought to be peaceful
+    starting_npcs:
+      - Frodo Baggins
+      - Farmer Cotton
+      - Pippin Took
+    starting_companions:
+      - Pippin Took
+    available_exits:
+      - Bywater
+      - The Party Field
+  - id: eowyn_in_meduseld
+    label: Éowyn in Meduseld
+    book: The Return of the King
+    chapter: The Muster of Rohan
+    location: Meduseld
+    time_marker: A cold bright day before the riders depart
+    viewpoint_character_id: eowyn
+    summary: Éowyn stands in Meduseld under duty, grief, and constraint, where the house of kings feels both noble and narrowing to one who longs for deeds beyond waiting.
+    canon_guidance: The mood should be grave, inward, and proud, with Éowyn's hunger for worth and freedom kept under stern self-command.
+    scene_beats:
+      - golden timber and high dignity made bitter by confinement
+      - Théoden's love and duty felt as both honor and wound
+      - Aragorn's presence deepening grief instead of easing it
+    starting_npcs:
+      - Théoden
+      - Aragorn
+      - Merry Brandybuck
+    starting_companions: []
+    available_exits:
+      - Meduseld
+      - The Golden Hall Steps
+  - id: eowyn_at_dunharrow
+    label: Éowyn at Dunharrow
+    book: The Return of the King
+    chapter: The Muster of Rohan
+    location: Dunharrow
+    time_marker: A bitter dawn before the dark road is chosen
+    viewpoint_character_id: eowyn
+    summary: Éowyn waits at Dunharrow among muster and foreboding, where Aragorn's road into shadow and her own exclusion from open war sharpen pride into something nearly unbearable.
+    canon_guidance: Éowyn should feel wounded, fierce, and disciplined, with despair pressing close beneath formality.
+    scene_beats:
+      - mountain cold and waiting horses making delay itself painful
+      - Aragorn's refusal cutting more deeply because it is not cruel
+      - Merry's small companionship answering isolation without removing it
+    starting_npcs:
+      - Aragorn
+      - Merry Brandybuck
+      - Théoden
+      - Elfhelm
+    starting_companions: []
+    available_exits:
+      - Harrowdale
+      - The Dimholt Door
+  - id: eowyn_on_pelennor
+    label: Éowyn on the Pelennor
+    book: The Return of the King
+    chapter: The Battle of the Pelennor Fields
+    location: The Pelennor
+    time_marker: A dreadful hour in the battle's height
+    viewpoint_character_id: eowyn
+    summary: Éowyn casts off concealment upon the Pelennor, where despair, love, and a terrible joy in battle meet in the shadow of the Nazgûl.
+    canon_guidance: The scene should feel fierce, desperate, and exultant in a grim way, never merely triumphant.
+    scene_beats:
+      - battle-noise and black terror stripping away all disguise but courage
+      - Théoden's fall turning personal love into unflinching action
+      - the Witch-king confronted not by fearlessness, but by a will that has ceased to accept confinement
+    starting_npcs:
+      - Merry Brandybuck
+      - Théoden
+      - The Witch-king of Angmar
+    starting_companions:
+      - Merry Brandybuck
+    available_exits:
+      - The Open Field
+      - The Road to Minas Tirith
+  - id: eowyn_in_houses_of_healing
+    label: Éowyn in the Houses of Healing
+    book: The Return of the King
+    chapter: The Houses of Healing
+    location: The Houses of Healing
+    time_marker: A pale quiet day after battle
+    viewpoint_character_id: eowyn
+    summary: Éowyn lies in the Houses of Healing after battle and black breath, where weariness, grief, and the first stirrings of another kind of hope begin to answer the old hunger for death in glory.
+    canon_guidance: The scene should be quiet, sorrowful, and lifeward-turning, with honesty valued above grandeur.
+    scene_beats:
+      - herb-scent and white rooms standing against memory of terror
+      - Aragorn's healing opening the way back to life rather than merely restoring strength
+      - Faramir's gentleness making a different future imaginable without forcing it
+    starting_npcs:
+      - Aragorn
+      - Faramir
+      - Ioreth
+    starting_companions: []
+    available_exits:
+      - The Healing Garden
+      - Minas Tirith
+  - id: eowyn_in_healing_garden
+    label: Éowyn in the Healing Garden
+    book: The Return of the King
+    chapter: The Steward and the King
+    location: The Healing Garden
+    time_marker: A clear morning after long dread
+    viewpoint_character_id: eowyn
+    summary: Éowyn walks in the healing garden where candor, gentleness, and the living beauty of the world begin to answer her old longing for death in glory.
+    canon_guidance: The scene should be truthful, tender, and quietly radiant, with hope arriving through honest speech rather than easy consolation.
+    scene_beats:
+      - sunlight and herb-scent making life seem honorable rather than merely lesser than battle
+      - Faramir's patience meeting Éowyn's proud grief without trying to master it
+      - the garden turning recovery into choice and not only rescue
+    starting_npcs:
+      - Faramir
+      - Ioreth
+      - Aragorn
+    starting_companions: []
+    available_exits:
+      - The Houses of Healing
+      - The Court of the Fountain
+  - id: eowyn_at_coronation
+    label: Éowyn at the Coronation
+    book: The Return of the King
+    chapter: The Steward and the King
+    location: The Court of the Fountain
+    time_marker: A bright day in the White City after war
+    viewpoint_character_id: eowyn
+    summary: Éowyn stands in the court of the king restored, where joy, memory, and a newly chosen life answer the despair that once drove her toward death and renown.
+    canon_guidance: Éowyn should feel grave, renewed, and quietly happy, with public honor no longer needed to prove the worth she now allows herself to live.
+    scene_beats:
+      - white stone and running water answering the black breath and the field of death
+      - Faramir's nearness making public ceremony intimate and human
+      - Aragorn's kingship standing now as mercy remembered rather than an impossible desire
+    starting_npcs:
+      - Faramir
+      - Aragorn
+      - Gandalf
+    starting_companions: []
+    available_exits:
+      - Minas Tirith
+      - The Court of the Fountain
+  - id: gandalf_in_meduseld
+    label: Counsel in Meduseld
+    book: The Two Towers
+    chapter: The King of the Golden Hall
+    location: Meduseld
+    time_marker: A clear hard day in the Riddermark
+    viewpoint_character_id: gandalf
+    summary: Gandalf enters the Golden Hall to rouse a king from weariness, fear, and long corruption.
+    canon_guidance: Authority, pity, and sudden renewal should shape this scene; Gandalf must be stern without cruelty.
+    scene_beats:
+      - the high hall darkened more by discouragement than by weather
+      - Théoden's dignity obscured yet not destroyed
+      - Gandalf speaking as one who has no time for false softness
+    starting_npcs:
+      - Théoden
+      - Éomer
+    starting_companions:
+      - Aragorn
+      - Legolas
+      - Gimli
+    available_exits:
+      - Edoras
+      - The Golden Hall Steps
+  - id: bilbo_in_smaugs_lair
+    label: Bilbo in Smaug's Lair
+    book: The Hobbit
+    chapter: Inside Information
+    location: Smaug's Lair
+    time_marker: A breathless hour under the Lonely Mountain
+    viewpoint_character_id: bilbo
+    summary: Bilbo enters the treasure halls of Erebor alone, measuring dragon-fire, greed, fear, and wit in the dark below.
+    canon_guidance: Wonder and terror should remain inseparable here; Bilbo is frightened but intensely alert.
+    scene_beats:
+      - dragon-gold heaped like a dream too vast for a hobbit mind
+      - Smaug's terrible intelligence pressing close behind every word
+      - Bilbo balancing courage with the need not to be wholly seen
+    starting_npcs:
+      - Smaug
+    starting_companions: []
+    available_exits:
+      - The Treasure Hall
+      - The Secret Way
+  - id: bilbo_at_front_gate
+    label: Bilbo at the Front Gate
+    book: The Hobbit
+    chapter: Not at Home
+    location: The Front Gate
+    time_marker: A hard autumn day above the camp below
+    viewpoint_character_id: bilbo
+    summary: Bilbo stands at the Mountain's Front Gate after Smaug's fall, where relief has already begun to sour into guarded speech, shut doors, and the first shape of siege.
+    canon_guidance: Keep the mood watchful, morally uneasy, and autumn-cold; triumph should already be giving way to possessiveness and foreboding.
+    scene_beats:
+      - the strange emptiness left by the dragon turning quickly toward argument
+      - Thorin's pride hardening while Bilbo watches the camp below grow crowded with claims
+      - Balin's steadier wisdom offering Bilbo a measure of fellowship amid tightening distrust
+    starting_npcs:
+      - Thorin Oakenshield
+      - Balin
+      - Dwalin
+      - Bofur
+    starting_companions: []
+    available_exits:
+      - The Front Gate
+      - The Mountain's Foot
+  - id: bilbo_in_besiegers_camp
+    label: Bilbo in the Besiegers' Camp
+    book: The Hobbit
+    chapter: A Thief in the Night
+    location: The Besiegers' Camp
+    time_marker: A cold night below the Lonely Mountain
+    viewpoint_character_id: bilbo
+    summary: Bilbo steals away with the Arkenstone into the camp below the Mountain, choosing peace and pity over blind loyalty to pride.
+    canon_guidance: Bilbo should be anxious, morally resolute, and very aware that he is disappointing those who trusted him while trying to save them.
+    scene_beats:
+      - night wind on the desolation and the strange courage of a small secret errand
+      - Bard's stern practicality balanced by Gandalf's wider understanding
+      - Bilbo acting at last from judgment rather than mere reaction
+    starting_npcs:
+      - Bard
+      - Gandalf
+      - Thranduil
+    starting_companions: []
+    available_exits:
+      - The Mountain's Foot
+      - The Command Tent
+  - id: bilbo_after_battle
+    label: Bilbo After the Battle
+    book: The Hobbit
+    chapter: The Return Journey
+    location: Ravenhill
+    time_marker: A grey morning after battle and burial
+    viewpoint_character_id: bilbo
+    summary: Bilbo walks in the aftermath of victory and loss, where treasure is dimmed by grief and friendship stands clearer than gold.
+    canon_guidance: Grief, gratitude, and homesick wisdom should dominate, with no trace of easy triumph.
+    scene_beats:
+      - the stillness after tumult upon the hill of ravens
+      - Gandalf and Balin helping Bilbo reckon the cost of courage
+      - the journey's moral weight settling more heavily than any jewel
+    starting_npcs:
+      - Gandalf
+      - Balin
+      - Bard
+      - Dain Ironfoot
+      - Dwalin
+    starting_companions:
+      - Balin
+    available_exits:
+      - The Mountain's Foot
+      - Ravenhill Path
+  - id: bilbo_back_at_bag_end
+    label: Bilbo Back at Bag End
+    book: The Hobbit
+    chapter: The Last Stage
+    location: Bag End
+    time_marker: An autumn afternoon after long wandering
+    viewpoint_character_id: bilbo
+    summary: Bilbo returns at last to Bag End, where comfort remains, but cannot be inhabited quite as innocently as before.
+    canon_guidance: Homecoming should feel comic, tender, and touched by wisdom bought at real cost.
+    scene_beats:
+      - the familiar round door encountered with changed eyes
+      - Gandalf and Balin making the old home newly meaningful
+      - Bilbo's recovery of comfort without any full return to ignorance
+    starting_npcs:
+      - Gandalf
+      - Balin
+    starting_companions: []
+    available_exits:
+      - The Green Dragon
+      - The East Road
+  - id: frodo_in_shelobs_lair
+    label: Frodo in Shelob's Lair
+    book: The Two Towers
+    chapter: Shelob's Lair
+    location: Shelob's Lair
+    time_marker: A black hour inside the tunnel
+    viewpoint_character_id: frodo
+    summary: Frodo passes into a darkness thick with malice, where even courage becomes difficult to remember and Sam's faithfulness is nearly the only light left.
+    canon_guidance: The scene should feel suffocating, dreamlike, and spiritually exhausted, with terror pressing both body and will.
+    scene_beats:
+      - black air, foul reek, and the feeling that darkness itself has become hostile
+      - Frodo's fading strength answered by Sam's stubborn nearness
+      - Shelob's monstrous hunger emerging from dark older than speech
+    starting_npcs:
+      - Samwise Gamgee
+      - Shelob
+    starting_companions:
+      - Samwise Gamgee
+    available_exits:
+      - The Reeking Passage
+      - The Great Cleft
+  - id: frodo_at_sammath_naur
+    label: Frodo at Sammath Naur
+    book: The Return of the King
+    chapter: Mount Doom
+    location: Sammath Naur
+    time_marker: The last burning hour upon Orodruin
+    viewpoint_character_id: frodo
+    summary: Frodo comes at last to the Fire where the burden has been driving him, nearly emptied of strength and self yet still accompanied by Sam's unwavering love.
+    canon_guidance: The mood should be stripped bare, inward, and immense, with the Ring's pressure strongest at the very edge of completion.
+    scene_beats:
+      - the final climb under heat, ash, and utter exhaustion
+      - Sam's service holding bodily ruin at bay for one more step
+      - the inward crisis made absolute at the mouth of the Fire
+    starting_npcs:
+      - Samwise Gamgee
+    starting_companions:
+      - Samwise Gamgee
+    available_exits:
+      - The Slopes of Orodruin
+      - The Fire-chamber
+  - id: frodo_at_cormallen
+    label: Frodo at the Field of Cormallen
+    book: The Return of the King
+    chapter: The Field of Cormallen
+    location: The Field of Cormallen
+    time_marker: A clear morning after awakening
+    viewpoint_character_id: frodo
+    summary: Frodo wakes to healing, song, and honor in Ithilien, where joy comes to him as something almost too gentle to believe after Mordor.
+    canon_guidance: The mood should be tender, astonished, and gratefully bright, while still marked by Frodo's inward weariness.
+    scene_beats:
+      - white linen, birdsong, and the shock of finding oneself still in the world
+      - Gandalf and Sam standing close enough to make joy credible
+      - praise from others received with humility rather than self-importance
+    starting_npcs:
+      - Gandalf
+      - Samwise Gamgee
+      - Aragorn
+    starting_companions:
+      - Samwise Gamgee
+    available_exits:
+      - The King's Pavilion
+      - The Green Mound
+  - id: frodo_in_scouring
+    label: Frodo in the Scouring of the Shire
+    book: The Return of the King
+    chapter: The Scouring of the Shire
+    location: Bywater
+    time_marker: A sharp autumn day in the wounded Shire
+    viewpoint_character_id: frodo
+    summary: Frodo returns to a Shire marred by petty tyranny and ugliness, where victory now means restraint, repair, and pity rather than conquest.
+    canon_guidance: Frodo should feel grieved, protective, and morally clear, refusing to let home be restored by cruelty.
+    scene_beats:
+      - the shock of home made coarse and small-minded under fear
+      - Frodo's gentleness standing firmer than anger
+      - the road's inward lessons brought back to the very fields they were meant to save
+    starting_npcs:
+      - Samwise Gamgee
+      - Farmer Cotton
+      - Saruman
+      - Gríma Wormtongue
+    starting_companions:
+      - Samwise Gamgee
+      - Merry Brandybuck
+      - Pippin Took
+    available_exits:
+      - The Party Field
+      - The Bywater Road
+  - id: frodo_at_grey_havens
+    label: Frodo at the Grey Havens
+    book: The Return of the King
+    chapter: The Grey Havens
+    location: The Grey Havens
+    time_marker: A pale evening beside the Sea
+    viewpoint_character_id: frodo
+    summary: Frodo comes at last to the Havens, where sorrow and release lie together and the road of parting can no longer be refused.
+    canon_guidance: Keep the scene quiet, piercing, and full of love that does not deny grief.
+    scene_beats:
+      - the sea at last meeting the long inland road
+      - Sam's faithful grief standing beside Frodo's need to depart
+      - Gandalf and the Eldar making farewell solemn without stripping it of tenderness
+    starting_npcs:
+      - Gandalf
+      - Samwise Gamgee
+      - Elrond
+      - Galadriel
+      - Círdan
+    starting_companions:
+      - Samwise Gamgee
+    available_exits:
+      - The White Ship
+      - The Havens Quay
+  - id: sam_at_cormallen
+    label: Sam at the Field of Cormallen
+    book: The Return of the King
+    chapter: The Field of Cormallen
+    location: The Field of Cormallen
+    time_marker: A bright day of healing and honor
+    viewpoint_character_id: sam
+    summary: Sam stands amid joy and praise in Ithilien, still chiefly glad that Frodo lives and bewildered that the world can seem fair again.
+    canon_guidance: Sam should remain humble, affectionate, and more moved by Frodo's recovery than by public honor.
+    scene_beats:
+      - Frodo alive and within reach after the dark road's worst imagining
+      - kings and captains seeming less important than old friendship renewed
+      - wonder that trees, water, and song still belong to the world
+    starting_npcs:
+      - Frodo Baggins
+      - Gandalf
+      - Aragorn
+    starting_companions:
+      - Frodo Baggins
+    available_exits:
+      - The King's Pavilion
+      - The Green Mound
+  - id: sam_in_scouring
+    label: Sam in the Scouring of the Shire
+    book: The Return of the King
+    chapter: The Scouring of the Shire
+    location: Bywater
+    time_marker: A hard clear day of reckoning in the Shire
+    viewpoint_character_id: sam
+    summary: Sam comes home not to ease but to labor, anger, and the need to help his own people take back their fields and lanes.
+    canon_guidance: Sam should feel practical, indignant, and deeply rooted in the ordinary goodness worth fighting for.
+    scene_beats:
+      - friends and neighbors suddenly seen as a people to be rallied
+      - plain Shire courage answering shabby tyranny
+      - Sam's long homesickness turning into active restoration
+    starting_npcs:
+      - Frodo Baggins
+      - Farmer Cotton
+      - Lobelia Sackville-Baggins
+    starting_companions:
+      - Frodo Baggins
+      - Merry Brandybuck
+      - Pippin Took
+    available_exits:
+      - The Bywater Road
+      - The Party Field
+  - id: sam_back_in_the_shire
+    label: Sam Back in the Shire
+    book: The Return of the King
+    chapter: The Grey Havens
+    location: Bag End
+    time_marker: Evening in the Shire after the long return
+    viewpoint_character_id: sam
+    summary: Sam comes back at last to Bag End and the life of the Shire, where the road's grief and labor settle into a deeper love of home.
+    canon_guidance: The tone should be plain, tender, and final in the best hobbit fashion.
+    scene_beats:
+      - the round door and lit home answering the whole dark road
+      - Rosie's welcome making ordinary life feel newly precious
+      - Sam's final peace arriving without erasing what he has seen
+    starting_npcs:
+      - Rosie Cotton
+    starting_companions: []
+    available_exits:
+      - The Green Dragon
+      - Hobbiton Road
+  - id: aragorn_in_houses_of_healing
+    label: Aragorn in the Houses of Healing
+    book: The Return of the King
+    chapter: The Houses of Healing
+    location: The Houses of Healing
+    time_marker: A still hour after battle in the White City
+    viewpoint_character_id: aragorn
+    summary: Aragorn lays aside battlefield command and brings healing where fear, weariness, and the Black Breath have nearly extinguished hope.
+    canon_guidance: Kingship should appear here as mercy, steadiness, and service rather than grandeur.
+    scene_beats:
+      - athelas, clear hands, and the deep quiet after the field's violence
+      - Éowyn and Merry poised between life and fading
+      - the rumor of the king returning first through healing rather than heraldry
+    starting_npcs:
+      - Éowyn
+      - Merry Brandybuck
+      - Faramir
+    starting_companions: []
+    available_exits:
+      - The Healing Garden
+      - Minas Tirith
+  - id: aragorn_at_coronation
+    label: Aragorn at the Coronation
+    book: The Return of the King
+    chapter: The Steward and the King
+    location: The Court of the Fountain
+    time_marker: A bright day of kingship restored
+    viewpoint_character_id: aragorn
+    summary: Aragorn stands at last in open kingship before the White City, where joy, memory, and duty are newly joined.
+    canon_guidance: The mood should be exultant but reverent, with humility and gratitude weighing more than spectacle.
+    scene_beats:
+      - the White Tree and the crown set in a city spared at terrible cost
+      - Arwen's coming bringing private love into public renewal
+      - kingship shown not as display alone, but as answer to long endurance
+    starting_npcs:
+      - Arwen
+      - Gandalf
+      - Faramir
+      - Hurin of the Keys
+    starting_companions: []
+    available_exits:
+      - Minas Tirith
+      - The Court of the Fountain
+  - id: faramir_in_henneth_annun
+    label: Faramir in Henneth Annûn
+    book: The Two Towers
+    chapter: The Window on the West
+    location: Henneth Annûn
+    time_marker: A guarded evening in hidden Ithilien
+    viewpoint_character_id: faramir
+    summary: Faramir receives the hobbits in his hidden refuge, where courtesy, wariness, and moral trial meet beneath stone and falling water.
+    canon_guidance: Faramir should be grave, discerning, and honorable, with inner temptation mastered by wisdom rather than denial.
+    scene_beats:
+      - hidden shelter and falling water making secrecy feel noble rather than furtive
+      - Frodo's burden recognized without being violated
+      - Gondor's quality shown through restraint, pity, and clear judgment
+    starting_npcs:
+      - Frodo Baggins
+      - Samwise Gamgee
+      - Gollum
+    starting_companions: []
+    available_exits:
+      - The Window on the West
+      - The Forbidden Pool
+  - id: faramir_in_citadel
+    label: Faramir in the Citadel
+    book: The Return of the King
+    chapter: Minas Tirith
+    location: The Citadel
+    time_marker: A stern hour beneath the burden of war
+    viewpoint_character_id: faramir
+    summary: Faramir stands in the high places of Minas Tirith under Denethor's will, where duty, love, and the coming ruin of Gondor press against one another.
+    canon_guidance: The scene should feel severe, sorrowful, and disciplined, with Faramir's pain kept under formal obedience.
+    scene_beats:
+      - high stone and cold authority making filial grief public without easing it
+      - Denethor's pride striking hardest where he knows Faramir best
+      - Gandalf and the city both looming as measures of what still may be saved
+    starting_npcs:
+      - Denethor
+      - Gandalf
+      - Pippin Took
+    starting_companions: []
+    available_exits:
+      - The Steward's Hall
+      - Minas Tirith
+  - id: faramir_in_houses_of_healing
+    label: Faramir in the Houses of Healing
+    book: The Return of the King
+    chapter: The Houses of Healing
+    location: The Houses of Healing
+    time_marker: A pale morning after black shadow
+    viewpoint_character_id: faramir
+    summary: Faramir wakes in the Houses of Healing where the king's mercy, the herb-scented air, and the city's weariness begin to draw him back from the edge of death and despair.
+    canon_guidance: The scene should feel hushed, grave, and merciful, with recovery arriving as a gift received humbly rather than a triumph seized.
+    scene_beats:
+      - white walls and athelas-scent turning battle's ruin into quiet stewardship
+      - Aragorn's healing making kingship felt first as care for the broken
+      - life returning slowly enough that gratitude and sorrow still mingle
+    starting_npcs:
+      - Aragorn
+      - Ioreth
+      - Gandalf
+    starting_companions: []
+    available_exits:
+      - The Healing Garden
+      - Minas Tirith
+  - id: faramir_in_healing_garden
+    label: Faramir in the Healing Garden
+    book: The Return of the King
+    chapter: The Steward and the King
+    location: The Healing Garden
+    time_marker: A quiet morning after long shadow
+    viewpoint_character_id: faramir
+    summary: Faramir walks in the garden of healing where grief, tenderness, and the first true easing of war begin to open into love and renewed purpose.
+    canon_guidance: Faramir should be gentle, truthful, and quietly joyous, with gravity remaining even as hope returns.
+    scene_beats:
+      - herb-scent and sunlight making recovery feel honorable rather than merely passive
+      - Éowyn's candor answered by patient affection and understanding
+      - life chosen not as forgetfulness, but as a nobler courage than despair
+    starting_npcs:
+      - Éowyn
+      - Ioreth
+      - Aragorn
+    starting_companions: []
+    available_exits:
+      - The Houses of Healing
+      - Minas Tirith
+  - id: faramir_at_coronation
+    label: Faramir at the Coronation
+    book: The Return of the King
+    chapter: The Steward and the King
+    location: The Court of the Fountain
+    time_marker: A bright day of memory and renewal
+    viewpoint_character_id: faramir
+    summary: Faramir stands in the bright court before the restored king, where long service, survival, and hope for Gondor are answered in honor rather than sorrow.
+    canon_guidance: The scene should be reverent, joyful, and inwardly peaceful, with dignity grounded in service rather than display.
+    scene_beats:
+      - white stone and running water answering siege with order and beauty
+      - Aragorn's kingship confirming rather than diminishing Faramir's own worth
+      - Éowyn's nearness making public ceremony intimate and human
+    starting_npcs:
+      - Aragorn
+      - Éowyn
+      - Gandalf
+      - Hurin of the Keys
+    starting_companions: []
+    available_exits:
+      - Minas Tirith
+      - The Court of the Fountain
+  - id: theoden_in_meduseld
+    label: Théoden in Meduseld
+    book: The Two Towers
+    chapter: The King of the Golden Hall
+    location: Meduseld
+    time_marker: A hard clear day of waking counsel
+    viewpoint_character_id: theoden
+    summary: Théoden stands in Meduseld as age, grief, and long manipulation begin to lift, and kingship returns not as ease but as renewed burden honestly borne.
+    canon_guidance: Théoden should feel weary yet rising, sternly courteous, and newly ashamed of delay without losing dignity.
+    scene_beats:
+      - the Golden Hall recovering brightness as false counsel loosens its hold
+      - Gandalf's severity answered by a king's returning clarity
+      - Éomer's loyalty and Éowyn's care both becoming visible again in open daylight
+    starting_npcs:
+      - Gandalf
+      - Éomer
+      - Éowyn
+    starting_companions: []
+    available_exits:
+      - Meduseld
+      - The Golden Hall Steps
+  - id: theoden_at_helms_deep
+    label: Théoden at Helm's Deep
+    book: The Two Towers
+    chapter: Helm's Deep
+    location: Helm's Deep
+    time_marker: A black rainy night beneath the Hornburg
+    viewpoint_character_id: theoden
+    summary: Théoden keeps watch at Helm's Deep where storm, iron, and the cries of war test whether a king may still hearten his people when hope narrows to stone and dawn.
+    canon_guidance: The scene should be grim, kingly, and unsparing, with resolve deepened by the memory of weakness already overcome.
+    scene_beats:
+      - rain and torchglare turning the Hornburg into a place of endurance rather than glory
+      - Aragorn's steadiness answering Théoden's regained courage
+      - the Rohirrim measured not by boasting, but by how long they stand
+    starting_npcs:
+      - Aragorn
+      - Gamling
+      - Gimli
+      - Éomer
+      - Erkenbrand
+    starting_companions: []
+    available_exits:
+      - The Hornburg Gate
+      - Helm's Deep
+  - id: theoden_at_dunharrow
+    label: Théoden at Dunharrow
+    book: The Return of the King
+    chapter: The Muster of Rohan
+    location: Dunharrow
+    time_marker: A bitter morning before the ride east
+    viewpoint_character_id: theoden
+    summary: Théoden gathers the Mark at Dunharrow where foreboding, affection, and kingly duty are bound together before the long ride to Gondor.
+    canon_guidance: Théoden should be grave, affectionate, and fully master of himself, with tenderness for the young and old courage sharpened by foreknowledge.
+    scene_beats:
+      - mountain wind and waiting horses making the cost of delay plain
+      - Merry's devotion and Éowyn's pain both requiring the kindness of a king, not merely command
+      - the ride to Gondor accepted as duty before it becomes doom
+    starting_npcs:
+      - Merry Brandybuck
+      - Éowyn
+      - Aragorn
+      - Éomer
+      - Elfhelm
+    starting_companions: []
+    available_exits:
+      - Harrowdale
+      - Dunharrow
+  - id: theoden_on_pelennor
+    label: Théoden on the Pelennor
+    book: The Return of the King
+    chapter: The Battle of the Pelennor Fields
+    location: The Pelennor
+    time_marker: Dawn breaking over battle
+    viewpoint_character_id: theoden
+    summary: Théoden rides before the Rohirrim on the Pelennor where age, kingship, memory, and battle are gathered into one final act of open courage.
+    canon_guidance: The mood should be exultant, mortal, and noble, with battle joy inseparable from sacrifice.
+    scene_beats:
+      - horns and sunrise turning dread into a king's visible command
+      - Merry's hidden nearness and Éowyn's deeper secrecy moving beneath Théoden's love for his house
+      - the charge made glorious not by safety, but by full knowledge of peril
+    starting_npcs:
+      - Merry Brandybuck
+      - Éowyn
+      - The Witch-king of Angmar
+    starting_companions: []
+    available_exits:
+      - The Open Field
+      - The Road to Minas Tirith
+  - id: thorin_in_lake_town
+    label: Thorin in Lake-town
+    book: The Hobbit
+    chapter: A Warm Welcome
+    location: Lake-town
+    time_marker: An evening of songs and expectation upon the Long Lake
+    viewpoint_character_id: thorin
+    summary: Thorin enters Lake-town to old songs and new hopes, where the memory of Durin's house becomes public burden as well as comfort.
+    canon_guidance: Thorin should be proud, stately, and inwardly troubled, receiving honor as something both rightful and dangerous.
+    scene_beats:
+      - old prophecies and public cheering making kingship feel near enough to hurt
+      - Bard's gravity standing apart from easier enthusiasm
+      - Balin's steadier loyalty reminding Thorin that kingship rests on more than acclaim
+    starting_npcs:
+      - Bard
+      - Balin
+      - The Master of Lake-town
+      - Bofur
+    starting_companions: []
+    available_exits:
+      - Lake-town
+      - The Quays
+  - id: thorin_at_hidden_door
+    label: Thorin at the Hidden Door
+    book: The Hobbit
+    chapter: On the Doorstep
+    location: The Hidden Door
+    time_marker: A cold evening beneath the Lonely Mountain
+    viewpoint_character_id: thorin
+    summary: Thorin waits before the secret way into Erebor, where long exile, impatience, and the nearness of inheritance sharpen command into strain.
+    canon_guidance: The mood should be taut, proud, and autumn-cold, with Thorin's hope growing inseparable from frustration.
+    scene_beats:
+      - the Mountain's silence making old claims feel both intimate and unreachable
+      - Balin's patience and Thorin's impatience sharpening against one another under the cold
+      - Balin's loyalty steadying the company against despair and anger
+    starting_npcs:
+      - Balin
+      - Dwalin
+    starting_companions: []
+    available_exits:
+      - The Hidden Door
+      - Ravenhill Path
+  - id: thorin_at_front_gate
+    label: Thorin at the Front Gate
+    book: The Hobbit
+    chapter: Not at Home
+    location: The Front Gate
+    time_marker: A hard day after the dragon's fall
+    viewpoint_character_id: thorin
+    summary: Thorin stands at the Front Gate of Erebor after Smaug's death, where recovered kingship is already darkened by siege, claims, and the perilous lure of treasure.
+    canon_guidance: Thorin should feel victorious, suspicious, and increasingly enclosed by pride, without losing the grandeur of his cause.
+    scene_beats:
+      - the Mountain won back only to become a fortress against former friends
+      - Bard's claim and Balin's concern pressing against Thorin's wounded inheritance
+      - Balin's fidelity offering companionship that cannot wholly ease mounting distrust
+    starting_npcs:
+      - Bard
+      - Balin
+      - Dain Ironfoot
+      - Dwalin
+      - Bofur
+    starting_companions: []
+    available_exits:
+      - The Front Gate
+      - The Mountain's Foot
+  - id: thorin_after_battle
+    label: Thorin After the Battle
+    book: The Hobbit
+    chapter: The Return Journey
+    location: Ravenhill
+    time_marker: A grey hour after battle and mortal wounding
+    viewpoint_character_id: thorin
+    summary: Thorin lies after battle upon Ravenhill, where pride gives way to truth and friendship becomes clearer than treasure at the end.
+    canon_guidance: The scene should be grave, humbled, and piercingly lucid, with Thorin speaking from hard-won clarity rather than grand display.
+    scene_beats:
+      - battle-noise gone still enough for final truth to be spoken plainly
+      - Balin's steadfast friendship standing above the pride and wrongs of dragon-sickness
+      - Gandalf and Balin bearing witness to a king made wiser at the edge of death
+    starting_npcs:
+      - Gandalf
+      - Balin
+      - Dain Ironfoot
+      - Dwalin
+    starting_companions: []
+    available_exits:
+      - Ravenhill
+      - The Mountain's Foot
+  - id: bard_in_lake_town
+    label: Bard in Lake-town
+    book: The Hobbit
+    chapter: A Warm Welcome
+    location: Lake-town
+    time_marker: A bright crowded evening on the Long Lake
+    viewpoint_character_id: bard
+    summary: Bard stands in Lake-town while old songs and eager hopes rise around Thorin's coming, and sober judgment feels lonelier because it may prove true.
+    canon_guidance: Bard should be grave, practical, and hard to dazzle, with public excitement sharpening his caution rather than sweeping it away.
+    scene_beats:
+      - cheering crowds and remembered prophecies making danger harder to speak aloud
+      - Thorin's dignity and Balin's steadiness weighed against the town's need and credulity
+      - Bard's care for real folk cutting against the romance of restored kings
+    starting_npcs:
+      - Thorin Oakenshield
+      - Balin
+      - The Master of Lake-town
+      - Bofur
+    starting_companions: []
+    available_exits:
+      - Lake-town
+      - The Quays
+  - id: bard_against_smaug
+    label: Bard Against Smaug
+    book: The Hobbit
+    chapter: Fire and Water
+    location: Lake-town
+    time_marker: A black blazing night upon the Long Lake
+    viewpoint_character_id: bard
+    summary: Bard faces Smaug while Lake-town burns, where public ruin, personal courage, and the need for one clean shot are bound together in a single desperate hour.
+    canon_guidance: Bard should feel urgent, grief-stricken, and utterly concentrated, with no room for boasting or theatrical heroics.
+    scene_beats:
+      - fire on the water and the town's breaking timbers turning old warning into present catastrophe
+      - the Master's confusion and the people's terror forcing Bard into plain command
+      - the dragon's might answered by steadiness, memory, and one last necessary stroke
+    starting_npcs:
+      - The Master of Lake-town
+    starting_companions: []
+    available_exits:
+      - Lake-town
+      - The Quays
+  - id: bard_in_besiegers_camp
+    label: Bard in the Besiegers' Camp
+    book: The Hobbit
+    chapter: A Thief in the Night
+    location: The Besiegers' Camp
+    time_marker: A cold morning below Erebor
+    viewpoint_character_id: bard
+    summary: Bard keeps the camp below the Mountain where need, justice, and memory of ruin must be held together without surrendering to greed or panic.
+    canon_guidance: Bard should feel stern, burdened, and unsentimental, with care for the homeless and hungry guiding every choice.
+    scene_beats:
+      - burnt Lake-town and hungry survivors making every claim concrete
+      - Thranduil's aid and Gandalf's counsel broadening the question beyond a private quarrel
+      - the Mountain looming above the camp as both rightful inheritance and dangerous temptation
+    starting_npcs:
+      - Thranduil
+      - Gandalf
+      - Dain Ironfoot
+    starting_companions: []
+    available_exits:
+      - The Mountain's Foot
+      - The Command Tent
+  - id: bard_at_command_tent
+    label: Bard at the Command Tent
+    book: The Hobbit
+    chapter: A Thief in the Night
+    location: The Command Tent
+    time_marker: A sharp hour of parley and uncertainty
+    viewpoint_character_id: bard
+    summary: Bard stands in counsel before battle where Bilbo's secret errand has made peace possible, but only for those able to value justice above wrath.
+    canon_guidance: Bard should be morally clear, steady under strain, and unwilling to confuse rightful claim with vindictiveness.
+    scene_beats:
+      - the Arkenstone turning grievance into a hard practical leverage
+      - Gandalf seeing farther while Bard keeps his eye on what ordinary folk have lost
+      - Thranduil's cold wisdom and Bard's plain justice meeting without warmth but without falsehood
+    starting_npcs:
+      - Gandalf
+      - Thranduil
+      - Dain Ironfoot
+    starting_companions: []
+    available_exits:
+      - The Besiegers' Camp
+      - The Mountain's Foot
+  - id: bard_after_battle
+    label: Bard After the Battle
+    book: The Hobbit
+    chapter: The Return Journey
+    location: Ravenhill
+    time_marker: A grey stillness after battle
+    viewpoint_character_id: bard
+    summary: Bard walks Ravenhill after victory, where the dead, the reconciled, and the work of rebuilding weigh more heavily than triumph.
+    canon_guidance: Bard should feel grave, compassionate, and unseduced by glory, with leadership measured by what must be restored after battle.
+    scene_beats:
+      - still air over the hill making the cost of victory plain at last
+      - Gandalf and Balin bearing witness to loss that no treasure can answer
+      - the future of Dale and Lake-town already beginning as a duty rather than a reward
+    starting_npcs:
+      - Gandalf
+      - Balin
+      - Dain Ironfoot
+      - Dwalin
+    starting_companions: []
+    available_exits:
+      - Ravenhill
+      - The Mountain's Foot
+  - id: eomer_in_meduseld
+    label: Éomer in Meduseld
+    book: The Two Towers
+    chapter: The King of the Golden Hall
+    location: Meduseld
+    time_marker: A clear day of sharp counsel and awakening hope
+    viewpoint_character_id: eomer
+    summary: Éomer stands in Meduseld as old weakness lifts from the hall, where loyalty, suspicion, and the first motions of renewed kingship all demand open speech.
+    canon_guidance: Éomer should be proud, frank, and newly heartened, with a rider's directness sharpened by long frustration under crooked counsel.
+    scene_beats:
+      - the Golden Hall brightening as rightful authority returns
+      - Gandalf and Théoden forcing old distrust into new recognition
+      - Éowyn's silent endurance giving the household's grief a human face
+    starting_npcs:
+      - Gandalf
+      - Théoden
+      - Éowyn
+    starting_companions: []
+    available_exits:
+      - Meduseld
+      - The Golden Hall Steps
+  - id: eomer_at_helms_deep
+    label: Éomer at Helm's Deep
+    book: The Two Towers
+    chapter: Helm's Deep
+    location: Helm's Deep
+    time_marker: A black storm-night in battle
+    viewpoint_character_id: eomer
+    summary: Éomer fights beneath the Hornburg where rain, darkness, and iron put loyalty and valor to the hardest proof the Mark has yet endured.
+    canon_guidance: Éomer should feel fierce, clear, and battle-proud, with no patience for despair where action still remains.
+    scene_beats:
+      - storm and torchlight reducing glory to grim persistence
+      - Aragorn's worth proven in the same dark where Éomer stakes his own
+      - the riders of Rohan measured by how long they stand together
+    starting_npcs:
+      - Aragorn
+      - Gamling
+      - Gimli
+      - Erkenbrand
+    starting_companions: []
+    available_exits:
+      - The Hornburg Gate
+      - Helm's Deep
+  - id: eomer_at_dunharrow
+    label: Éomer at Dunharrow
+    book: The Return of the King
+    chapter: The Muster of Rohan
+    location: Dunharrow
+    time_marker: A hard morning before the ride to Gondor
+    viewpoint_character_id: eomer
+    summary: Éomer stands at Dunharrow where love of kin, obedience to Théoden, and foreknowledge of loss all ride together beneath the mountain's shadow.
+    canon_guidance: Éomer should feel stern, affectionate, and tightly governed, with eagerness for battle held within reverence and foreboding.
+    scene_beats:
+      - the waiting host making war feel less like glory than chosen burden
+      - Théoden's kingliness and Éowyn's hidden anguish striking Éomer at once as kin and marshal
+      - Harrowdale and the mountain paths turning resolve into something quiet and steel-hard
+    starting_npcs:
+      - Théoden
+      - Éowyn
+      - Merry Brandybuck
+      - Elfhelm
+    starting_companions: []
+    available_exits:
+      - Dunharrow
+      - Harrowdale
+  - id: eomer_on_pelennor
+    label: Éomer on the Pelennor
+    book: The Return of the King
+    chapter: The Battle of the Pelennor Fields
+    location: The Pelennor
+    time_marker: A dreadful hour after the charge
+    viewpoint_character_id: eomer
+    summary: Éomer rides the Pelennor where victory and grief are tangled together, and the next command must be given under the shock of personal loss.
+    canon_guidance: Éomer should feel stricken, wrathful, and kingly in spite of grief, with resolve taking shape through sorrow rather than beyond it.
+    scene_beats:
+      - the field's widening horror making command a thing of endurance
+      - Théoden's fall turning kinship into immediate burden
+      - Merry and the Rohirrim nearby keeping grief from becoming solitary despair
+    starting_npcs:
+      - Théoden
+      - Merry Brandybuck
+      - Éowyn
+    starting_companions: []
+    available_exits:
+      - The Open Field
+      - The Road to Minas Tirith
+  - id: eomer_at_cormallen
+    label: Éomer at the Field of Cormallen
+    book: The Return of the King
+    chapter: The Field of Cormallen
+    location: The Field of Cormallen
+    time_marker: A bright day after war's ending
+    viewpoint_character_id: eomer
+    summary: Éomer stands in Ithilien after victory where honor, memory, and the work of living beyond battle begin to temper grief into kingly steadiness.
+    canon_guidance: Éomer should be grateful, grave, and forward-looking, with joy admitted only in company with remembrance.
+    scene_beats:
+      - the greenness of Ithilien contrasting with the war just survived
+      - Aragorn's kingship and Éowyn's healing giving loss a future rather than only an ending
+      - the surviving riders of the Mark standing under sunlight they have paid dearly to see
+    starting_npcs:
+      - Aragorn
+      - Éowyn
+      - Gandalf
+    starting_companions: []
+    available_exits:
+      - The King's Pavilion
+      - The Green Mound
+  - id: gimli_in_rivendell
+    label: Gimli in Rivendell
+    book: The Fellowship of the Ring
+    chapter: The Council of Elrond
+    location: Rivendell
+    time_marker: A clear autumn day beneath the valley's peace
+    viewpoint_character_id: gimli
+    summary: Gimli stands in Rivendell where old wrongs, new alliances, and the memory of dwarven endurance are all brought into one high counsel.
+    canon_guidance: Gimli should be proud, watchful, and honorable, with blunt speech sharpened by memory but restrained by the gravity of the hour.
+    scene_beats:
+      - elven peace sitting uneasily beside dwarven grievance and necessity
+      - Gandalf and Aragorn making the burden of the Ring too great for old quarrels
+      - the road ahead turning fellowship from courtesy into obligation
+    starting_npcs:
+      - Gandalf
+      - Aragorn
+      - Elrond
+    starting_companions: []
+    available_exits:
+      - Rivendell
+      - Elrond's House
+  - id: gimli_in_moria
+    label: Gimli in Moria
+    book: The Fellowship of the Ring
+    chapter: The Bridge of Khazad-dûm
+    location: The Chamber of Mazarbul
+    time_marker: A black hour under the mountain
+    viewpoint_character_id: gimli
+    summary: Gimli walks the broken halls of Moria where ancient pride, grief, and the present danger of the Company all lie upon him at once.
+    canon_guidance: Gimli should feel sorrowful, grim, and fiercely loyal, with ancestral grief made immediate by the ruin around him.
+    scene_beats:
+      - the records and bones of Khazad-dûm turning history into wound
+      - Gandalf's leadership and Aragorn's steadiness keeping grief from becoming madness
+      - dwarven memory made inseparable from present survival
+    starting_npcs:
+      - Gandalf
+      - Aragorn
+      - Legolas
+    starting_companions: []
+    available_exits:
+      - The Chamber of Mazarbul
+      - The Bridge of Khazad-dum
+  - id: gimli_in_lorien
+    label: Gimli in Lothlórien
+    book: The Fellowship of the Ring
+    chapter: Lothlórien
+    location: Lothlórien
+    time_marker: A still bright day beneath the golden mallorn leaves
+    viewpoint_character_id: gimli
+    summary: Gimli stands in the Golden Wood where old suspicion is answered by beauty, courtesy, and a wonder deeper than any he expected from the Elves.
+    canon_guidance: Gimli should be guarded, astonished, and increasingly reverent, with dignity intact even as his heart enlarges.
+    scene_beats:
+      - the Golden Wood undoing inherited prejudice by sheer beauty and grace
+      - Legolas and Galadriel drawing Gimli into a different measure of nobility
+      - dwarven love of stone and elven love of living beauty no longer set wholly at odds
+    starting_npcs:
+      - Legolas
+      - Galadriel
+      - Aragorn
+    starting_companions: []
+    available_exits:
+      - Caras Galadhon
+      - The Mallorn Path
+  - id: gimli_in_fangorn
+    label: Gimli in Fangorn
+    book: The Two Towers
+    chapter: The White Rider
+    location: Fangorn Forest
+    time_marker: A green-shadowed noon of astonished reunion
+    viewpoint_character_id: gimli
+    summary: Gimli moves beneath Fangorn's ancient trees where Gandalf's return, old forest silence, and renewed fellowship all strike the heart at once.
+    canon_guidance: Gimli should feel relieved, sturdy, and openly glad, with dwarven bluntness unable to disguise love for his companions.
+    scene_beats:
+      - Fangorn's age making even victory and reunion feel small before older things
+      - Gandalf returned in white turning grief into astonished gratitude
+      - Legolas and Aragorn beside Gimli making fellowship the true answer to long peril
+    starting_npcs:
+      - Gandalf
+      - Aragorn
+      - Legolas
+    starting_companions: []
+    available_exits:
+      - Fangorn Forest
+      - The Green Hollow
+  - id: gimli_in_isengard
+    label: Gimli in Isengard
+    book: The Two Towers
+    chapter: Flotsam and Jetsam
+    location: Isengard
+    time_marker: A bright hour among the wrecked courts
+    viewpoint_character_id: gimli
+    summary: Gimli walks Isengard in ruin, where flooded stones, broken engines, and Saruman's collapse turn battle's labor into hard-earned reckoning.
+    canon_guidance: Gimli should feel grimly satisfied, alert, and morally plain, with judgment strengthened by plain speech and loyal memory.
+    scene_beats:
+      - broken masonry and clean-running water making ruin seem honest at last
+      - Treebeard's victory answering craft turned crooked with older strength
+      - Saruman's downfall treated not as sport alone, but as a warning against pride
+    starting_npcs:
+      - Gandalf
+      - Treebeard
+      - Legolas
+    starting_companions: []
+    available_exits:
+      - Isengard
+      - The Ring of Isengard
+  - id: gimli_at_helms_deep
+    label: Gimli at Helm's Deep
+    book: The Two Towers
+    chapter: Helm's Deep
+    location: Helm's Deep
+    time_marker: A storm-black night under siege
+    viewpoint_character_id: gimli
+    summary: Gimli fights beneath the Hornburg where wit, endurance, and friendship must stand against darkness and numbers beyond reason.
+    canon_guidance: Gimli should be hearty, grim, and battle-fierce, with deep affection carrying as much weight as valor.
+    scene_beats:
+      - axe-work and torchlight turning courage into something bodily and immediate
+      - Legolas beside him making fellowship stronger than old enmity
+      - the night measured not only in slaughter but in who still stands laughing at dawn
+    starting_npcs:
+      - Aragorn
+      - Legolas
+      - Gamling
+    starting_companions: []
+    available_exits:
+      - The Hornburg Gate
+      - Helm's Deep
+  - id: gimli_at_cormallen
+    label: Gimli at the Field of Cormallen
+    book: The Return of the King
+    chapter: The Field of Cormallen
+    location: The Field of Cormallen
+    time_marker: A bright day after the Black Land's ending
+    viewpoint_character_id: gimli
+    summary: Gimli stands in the fair field after victory where grief, joy, and the durable wealth of friendship answer all the long labor of the road.
+    canon_guidance: Gimli should be grateful, hearty, and quietly moved, with gladness broadened by memory rather than emptied of it.
+    scene_beats:
+      - green Ithilien making survival seem almost too fair to believe
+      - Legolas and Aragorn close at hand as proof of the road's true treasure
+      - song, healing, and rest received with dwarven plainness and real wonder
+    starting_npcs:
+      - Legolas
+      - Aragorn
+      - Gandalf
+    starting_companions: []
+    available_exits:
+      - The King's Pavilion
+      - The Green Mound
+  - id: legolas_in_rivendell
+    label: Legolas in Rivendell
+    book: The Fellowship of the Ring
+    chapter: The Council of Elrond
+    location: Rivendell
+    time_marker: A bright day under the high valley air
+    viewpoint_character_id: legolas
+    summary: Legolas stands in Rivendell where the long memory of the Eldar meets the urgent needs of younger peoples under the shadow of the Ring.
+    canon_guidance: Legolas should be clear, courteous, and grave, with Elven memory lending depth rather than distance to the present danger.
+    scene_beats:
+      - Elven peace answering but not erasing the burden laid before the council
+      - Gandalf and Aragorn making present necessity outweigh all lesser loyalties
+      - the free peoples drawn together under peril rather than likeness
+    starting_npcs:
+      - Gandalf
+      - Aragorn
+      - Elrond
+    starting_companions: []
+    available_exits:
+      - Rivendell
+      - Elrond's House
+  - id: legolas_in_moria
+    label: Legolas in Moria
+    book: The Fellowship of the Ring
+    chapter: The Bridge of Khazad-dûm
+    location: The Bridge of Khazad-dum
+    time_marker: A black hour of fire and pursuit
+    viewpoint_character_id: legolas
+    summary: Legolas moves through Moria where light, beauty, and song seem driven almost wholly away, and the Company must trust one another in a place made for dread.
+    canon_guidance: Legolas should feel vigilant, sorrow-marked, and swift, with Elven sensitivity making the dark more oppressive but not less bearable.
+    scene_beats:
+      - the bridge narrowing all fear and duty to one terrible line of escape
+      - Gandalf's stand making courage visible in its cost
+      - Aragorn and Gimli beside him turning fellowship into the only answer to dread
+    starting_npcs:
+      - Gandalf
+      - Aragorn
+      - Gimli
+    starting_companions: []
+    available_exits:
+      - The Chamber of Mazarbul
+      - The Dimrill Stair
+  - id: legolas_in_lorien
+    label: Legolas in Lothlórien
+    book: The Fellowship of the Ring
+    chapter: Lothlórien
+    location: Lothlórien
+    time_marker: A clear still day in the Golden Wood
+    viewpoint_character_id: legolas
+    summary: Legolas stands beneath the mallorn trees where memory, beauty, and sorrow are all given room to breathe, and Gimli's wonder becomes a bridge rather than a challenge.
+    canon_guidance: Legolas should be bright, reverent, and quietly moved, with the beauty of Lórien felt as both solace and reminder of what fades.
+    scene_beats:
+      - golden leaves making grief seem more delicate rather than less real
+      - Galadriel's presence deepening both memory and compassion
+      - Gimli's honest delight opening a new kind of fellowship between elder enmities
+    starting_npcs:
+      - Gimli
+      - Galadriel
+      - Haldir
+    starting_companions: []
+    available_exits:
+      - Caras Galadhon
+      - The Mallorn Path
+  - id: legolas_in_fangorn
+    label: Legolas in Fangorn
+    book: The Two Towers
+    chapter: The White Rider
+    location: Fangorn Forest
+    time_marker: A still green hour beneath the elder trees
+    viewpoint_character_id: legolas
+    summary: Legolas stands in Fangorn where ancient wood, Gandalf's return, and the survival of friendship answer grief with living wonder.
+    canon_guidance: Legolas should feel awed, clear-sighted, and deeply gladdened, with Elven memory meeting present mercy without reserve.
+    scene_beats:
+      - Fangorn's old life making the forest seem like a presence rather than a setting
+      - Gandalf returned turning loss into astonishment without cancelling reverence
+      - Gimli's nearness and Aragorn's endurance showing fellowship ripened by sorrow
+    starting_npcs:
+      - Gandalf
+      - Aragorn
+      - Gimli
+    starting_companions: []
+    available_exits:
+      - Fangorn Forest
+      - The Green Hollow
+  - id: legolas_in_isengard
+    label: Legolas in Isengard
+    book: The Two Towers
+    chapter: The Voice of Saruman
+    location: The Orthanc Steps
+    time_marker: A hard bright day after ruin
+    viewpoint_character_id: legolas
+    summary: Legolas stands before Orthanc where flooded courts, Saruman's voice, and the judgment of the wise make victory feel grave rather than easy.
+    canon_guidance: Legolas should be keen, grave, and inwardly sorrowful, with beauty's memory sharpening his recoil from corrupted greatness.
+    scene_beats:
+      - Orthanc's black stone standing severe even amid collapse
+      - Saruman's voice making peril linger though his power is broken
+      - Treebeard and Gandalf setting ancient patience and moral authority against pride
+    starting_npcs:
+      - Gandalf
+      - Saruman
+      - Treebeard
+    starting_companions: []
+    available_exits:
+      - Isengard
+      - The Orthanc Steps
+  - id: legolas_at_helms_deep
+    label: Legolas at Helm's Deep
+    book: The Two Towers
+    chapter: Helm's Deep
+    location: Helm's Deep
+    time_marker: A rain-dark night of battle
+    viewpoint_character_id: legolas
+    summary: Legolas fights at Helm's Deep where bowcraft, mirth, and friendship must answer the brute pressure of war through one long black night.
+    canon_guidance: Legolas should be swift, light-footed, and battle-clear, with warmth toward Gimli and Aragorn keeping the scene human beneath the violence.
+    scene_beats:
+      - arrows and torchlight turning grace into practical warcraft
+      - friendly rivalry with Gimli making endurance brighter without denying the danger
+      - dawn earned in company rather than by solitary prowess
+    starting_npcs:
+      - Gimli
+      - Aragorn
+      - Gamling
+    starting_companions: []
+    available_exits:
+      - The Hornburg Gate
+      - Helm's Deep
+  - id: legolas_at_cormallen
+    label: Legolas at the Field of Cormallen
+    book: The Return of the King
+    chapter: The Field of Cormallen
+    location: The Field of Cormallen
+    time_marker: A bright green day after shadow's ending
+    viewpoint_character_id: legolas
+    summary: Legolas stands in Ithilien after victory where the living world itself seems to answer the long grief of war, and friendship proves richer than the sorrows endured to preserve it.
+    canon_guidance: Legolas should feel gladdened, grave, and full of wonder, with living beauty felt as a mercy rather than a possession.
+    scene_beats:
+      - Ithilien's greenness seeming almost impossibly fair after Mordor
+      - Gimli and Aragorn nearby making joy communal instead of solitary
+      - song and sunlight answering memory without erasing it
+    starting_npcs:
+      - Gimli
+      - Aragorn
+      - Gandalf
+    starting_companions: []
+    available_exits:
+      - The King's Pavilion
+      - The Green Mound
+  - id: boromir_in_rivendell
+    label: Boromir in Rivendell
+    book: The Fellowship of the Ring
+    chapter: The Council of Elrond
+    location: Rivendell
+    time_marker: A bright day of high counsel and unease
+    viewpoint_character_id: boromir
+    summary: Boromir stands in Rivendell where Gondor's need is set among counsels older and wider than his own, and strength no longer seems a simple answer.
+    canon_guidance: Boromir should be proud, urgent, and honorable, with real love of Gondor making him impatient of distant or perilous counsel.
+    scene_beats:
+      - Gondor's peril pressing against the long, grave patience of Rivendell
+      - Aragorn's hidden claim and Elrond's far-sightedness stirring both respect and unease
+      - the Ring named as burden rather than weapon, against Boromir's deepest instinct
+    starting_npcs:
+      - Aragorn
+      - Elrond
+      - Gandalf
+    starting_companions: []
+    available_exits:
+      - Rivendell
+      - Elrond's House
+  - id: boromir_at_west_gate
+    label: Boromir at the West-gate
+    book: The Fellowship of the Ring
+    chapter: A Journey in the Dark
+    location: Hollin
+    time_marker: A cold dark hour before the doors of Moria
+    viewpoint_character_id: boromir
+    summary: Boromir stands before the shut doors of Moria where fear, weariness, and the need to move forward make strength seem simpler than wisdom.
+    canon_guidance: Boromir should be impatient, martial, and still noble, with courage answering danger more readily than uncertainty.
+    scene_beats:
+      - the dark water and sealed doors making delay feel like a second enemy
+      - Gandalf's caution and Aragorn's judgment testing Boromir's trust in subtler strengths
+      - Gondor's wars hanging in Boromir's mind even in the wild west under the mountain
+    starting_npcs:
+      - Aragorn
+      - Gandalf
+      - Gimli
+    starting_companions: []
+    available_exits:
+      - The West-gate
+      - Hollin
+  - id: boromir_in_lorien
+    label: Boromir in Lothlórien
+    book: The Fellowship of the Ring
+    chapter: Lothlórien
+    location: Lothlórien
+    time_marker: A still golden day under watchful boughs
+    viewpoint_character_id: boromir
+    summary: Boromir rests in the Golden Wood where beauty offers no full ease, and the burden of Gondor's need grows sharper beneath the stillness.
+    canon_guidance: Boromir should be moved, guarded, and inwardly strained, with courtesy unable to quiet all mistrust or temptation.
+    scene_beats:
+      - beauty too deep for comfort answering a mind that wants immediate use and defense
+      - Galadriel's gaze drawing hidden ambition and fear closer to the surface
+      - Aragorn's steadiness and the Fellowship's quiet making Boromir more isolated in his own struggle
+    starting_npcs:
+      - Aragorn
+      - Galadriel
+      - Legolas
+    starting_companions: []
+    available_exits:
+      - Caras Galadhon
+      - The Mallorn Path
+  - id: boromir_at_amon_hen
+    label: Boromir at Amon Hen
+    book: The Fellowship of the Ring
+    chapter: The Breaking of the Fellowship
+    location: Amon Hen
+    time_marker: A bitter hour of temptation and battle
+    viewpoint_character_id: boromir
+    summary: Boromir comes to the breaking of the Fellowship at Amon Hen where desire for strength turns to shame, and shame at last to a final act of loyalty.
+    canon_guidance: Boromir should feel torn, ashamed, and fiercely brave, with repentance shown through deed rather than speech alone.
+    scene_beats:
+      - the Ring's temptation making love of Gondor almost indistinguishable from the will to seize power
+      - Frodo's withdrawal leaving Boromir with the full weight of his fall
+      - Merry and Pippin's peril giving him one clear path back into honor
+    starting_npcs:
+      - Aragorn
+      - Merry Brandybuck
+      - Pippin Took
+    starting_companions: []
+    available_exits:
+      - The Seat of Seeing
+      - The Eastern Shore
+  - id: treebeard_in_fangorn
+    label: Treebeard in Fangorn
+    book: The Two Towers
+    chapter: Treebeard
+    location: Fangorn Forest
+    time_marker: A dim green morning beneath ancient boughs
+    viewpoint_character_id: treebeard
+    summary: Treebeard moves through Fangorn where ancient caution meets the startling presence of two young hobbits beneath a forest old enough to remember better ages.
+    canon_guidance: Treebeard should be slow, grave, and curious, with old memory making every judgment deliberate.
+    scene_beats:
+      - the forest itself seeming to listen while Treebeard tests the truth of Merry and Pippin
+      - long memory of lost woods and changing lands stirred by the mention of Saruman
+      - Entish caution beginning to shift toward moral concern
+    starting_npcs:
+      - Merry Brandybuck
+      - Pippin Took
+    starting_companions: []
+    available_exits:
+      - The Tree-shadowed Path
+      - The Green Hollow
+  - id: treebeard_in_green_hollow
+    label: Treebeard in the Green Hollow
+    book: The Two Towers
+    chapter: Treebeard
+    location: The Green Hollow
+    time_marker: A still hour of deep Entish thought
+    viewpoint_character_id: treebeard
+    summary: Treebeard keeps counsel in the Green Hollow where old grievances against Saruman deepen into a judgment no longer willing to remain only thoughtful.
+    canon_guidance: Treebeard should feel deliberate, rooted, and steadily wrathful, with action emerging only after thought has gone as deep as it can.
+    scene_beats:
+      - green stillness holding a wrath too old and slow to be theatrical
+      - Merry and Pippin's quick speech set against Entish depth and patience
+      - the forest's wrongs named not as abstractions but as living wounds
+    starting_npcs:
+      - Merry Brandybuck
+      - Pippin Took
+      - Gandalf
+    starting_companions: []
+    available_exits:
+      - Fangorn Forest
+      - Isengard
+  - id: treebeard_in_isengard
+    label: Treebeard in Isengard
+    book: The Two Towers
+    chapter: Flotsam and Jetsam
+    location: Isengard
+    time_marker: A clear day among flood and ruin
+    viewpoint_character_id: treebeard
+    summary: Treebeard walks the broken circle of Isengard where Ent-rage has answered Saruman's works and the ruin now speaks more plainly than the wizard's designs ever did.
+    canon_guidance: Treebeard should be stern, satisfied, and wholly unfooled, with destruction seen as judgment rather than sport.
+    scene_beats:
+      - flood and shattered stone making the scale of Entish power visible at last
+      - Merry and Pippin's small delight set against Treebeard's deeper reckoning
+      - Saruman's ordered pride exposed as brittle beside living roots and water
+    starting_npcs:
+      - Merry Brandybuck
+      - Pippin Took
+      - Gandalf
+    starting_companions: []
+    available_exits:
+      - The Ring of Isengard
+      - The Orthanc Steps
+  - id: treebeard_at_orthanc
+    label: Treebeard at Orthanc
+    book: The Two Towers
+    chapter: The Voice of Saruman
+    location: The Orthanc Steps
+    time_marker: A hard hour under the black tower
+    viewpoint_character_id: treebeard
+    summary: Treebeard stands beneath Orthanc where Saruman's fallen voice still tries its craft, and ancient judgment must answer words that once passed for wisdom.
+    canon_guidance: Treebeard should be immovable, old, and unseduced, with contempt for needless ruin held firmer than any appetite for vengeance.
+    scene_beats:
+      - black stone and broken courts making Saruman's isolation final
+      - Gandalf's steadier authority standing where Saruman's has failed
+      - Treebeard's long memory turning persuasion into something too late
+    starting_npcs:
+      - Gandalf
+      - Saruman
+      - Gríma Wormtongue
+    starting_companions: []
+    available_exits:
+      - Isengard
+      - The Ring of Isengard
+  - id: galadriel_in_lorien
+    label: Galadriel in Lothlórien
+    book: The Fellowship of the Ring
+    chapter: Lothlórien
+    location: Lothlórien
+    time_marker: A golden hour under deep mallorn boughs
+    viewpoint_character_id: galadriel
+    summary: Galadriel keeps watch in the Golden Wood where healing, memory, and inward testing lie together beneath beauty that does not soften truth.
+    canon_guidance: Galadriel should be grave, merciful, and searching, with immense power held entirely under restraint.
+    scene_beats:
+      - the Fellowship received into a land that heals weariness while exposing hidden burdens
+      - Aragorn's long history and Frodo's peril both felt as part of a deeper web of memory
+      - the Golden Wood answering grief with beauty that clarifies rather than distracts
+    starting_npcs:
+      - Frodo Baggins
+      - Aragorn
+      - Haldir
+    starting_companions: []
+    available_exits:
+      - Caras Galadhon
+      - The Mallorn Path
+  - id: galadriel_in_caras_galadhon
+    label: Galadriel in Caras Galadhon
+    book: The Fellowship of the Ring
+    chapter: The Mirror of Galadriel
+    location: Caras Galadhon
+    time_marker: A still night of testing and gift
+    viewpoint_character_id: galadriel
+    summary: Galadriel stands in the heart of the Golden Wood where temptation is answered by renunciation and wisdom becomes gift rather than dominion.
+    canon_guidance: Galadriel should be majestic, inwardly tested, and entirely self-mastered, with sorrow and power equally visible beneath stillness.
+    scene_beats:
+      - the hidden pressure of the Ring answered by a choice already long prepared
+      - Frodo and Sam receiving mercy that never flatters or conceals danger
+      - farewell gifts offered as acts of strengthening rather than possession
+    starting_npcs:
+      - Frodo Baggins
+      - Samwise Gamgee
+      - Celeborn
+    starting_companions: []
+    available_exits:
+      - Lothlórien
+      - The Mallorn Path
+  - id: galadriel_at_cormallen
+    label: Galadriel at Cormallen
+    book: The Return of the King
+    chapter: The Field of Cormallen
+    location: The Field of Cormallen
+    time_marker: A fair morning after the fall of the Shadow
+    viewpoint_character_id: galadriel
+    summary: Galadriel comes to Cormallen where joy, honor, and healing greet the Ring-bearers, and victory itself confirms that the Elder Days are drawing away.
+    canon_guidance: Galadriel should be radiant and gracious, with gratitude brightened by the knowledge of passing.
+    scene_beats:
+      - joy in the Ring-bearers rising without any diminishment of what they endured
+      - Aragorn's kingship appearing as renewal rather than domination
+      - the beauty of Ithilien answering Mordor while quietly marking the end of Elven dominion
+    starting_npcs:
+      - Frodo Baggins
+      - Aragorn
+      - Gandalf
+    starting_companions: []
+    available_exits:
+      - The King's Pavilion
+      - The Green Mound
+  - id: galadriel_at_grey_havens
+    label: Galadriel at the Grey Havens
+    book: The Return of the King
+    chapter: The Grey Havens
+    location: The Grey Havens
+    time_marker: An evening of sea-light and long farewell
+    viewpoint_character_id: galadriel
+    summary: Galadriel stands beside the Sea where the labors of Middle-earth end in parting, and the westward road opens at last beyond the hurt that cannot be healed here.
+    canon_guidance: Galadriel should be peaceful, sorrowful, and full of final grace, with weariness transfigured rather than denied.
+    scene_beats:
+      - the Sea answering ages of labor with a call too deep for any earthly answer
+      - Frodo's wound and Gandalf's quiet authority making the parting gentle but absolute
+      - the last visible mingling of elder beauty with the mortal world it is leaving
+    starting_npcs:
+      - Frodo Baggins
+      - Gandalf
+      - Círdan
+    starting_companions: []
+    available_exits:
+      - The Havens Quay
+      - The White Ship
+  - id: elrond_in_rivendell
+    label: Elrond in Rivendell
+    book: The Fellowship of the Ring
+    chapter: Many Meetings
+    location: Rivendell
+    time_marker: A bright autumn day in the hidden valley
+    viewpoint_character_id: elrond
+    summary: Elrond keeps Rivendell as a place of healing and memory where weary travelers are received under peace that never forgets the growing Shadow.
+    canon_guidance: Elrond should be hospitable, grave, and entirely unhurried, with old wisdom making courtesy more exact rather than more vague.
+    scene_beats:
+      - the hidden valley offering rest while older histories quietly gather around the guest
+      - Frodo's wound and Aragorn's long road both held within Elrond's wider understanding
+      - beauty and song answering danger without pretending danger has ceased
+    starting_npcs:
+      - Frodo Baggins
+      - Aragorn
+      - Gandalf
+    starting_companions: []
+    available_exits:
+      - Elrond's House
+      - The Rivendell Road
+  - id: elrond_in_elronds_house
+    label: Elrond in His House
+    book: The Fellowship of the Ring
+    chapter: The Council of Elrond
+    location: Elrond's House
+    time_marker: A high hour of counsel and remembered history
+    viewpoint_character_id: elrond
+    summary: Elrond speaks in his own house where many long histories converge, and pity, warning, and necessity must all be made plain before the free peoples.
+    canon_guidance: Elrond should be calm, far-seeing, and exact, with no taste for rhetoric beyond what truth requires.
+    scene_beats:
+      - the Ring's history laid bare under Elrond's authority rather than in haste or fear
+      - Aragorn's lineage and Gandalf's experience joining old memory to present necessity
+      - the Last Homely House becoming the place where many separate roads are bound into one perilous choice
+    starting_npcs:
+      - Gandalf
+      - Aragorn
+      - Frodo Baggins
+    starting_companions: []
+    available_exits:
+      - Rivendell
+      - The Council Porch
+  - id: elrond_at_court_of_the_fountain
+    label: Elrond at the Coronation
+    book: The Return of the King
+    chapter: The Steward and the King
+    location: The Court of the Fountain
+    time_marker: A morning of white stone, banners, and renewal
+    viewpoint_character_id: elrond
+    summary: Elrond stands in Minas Tirith where the long line of Elendil is renewed in peace, and the joy of fulfillment is joined to the knowledge that his own house is passing west.
+    canon_guidance: Elrond should be dignified, loving, and quietly sorrowful, with fulfillment never severed from loss.
+    scene_beats:
+      - Aragorn's kingship appearing as the long answer to histories Elrond has carried for ages
+      - Arwen's choice standing beside her father's love and his cost
+      - white stone and living tree making renewal visible without erasing what is ending
+    starting_npcs:
+      - Aragorn
+      - Arwen
+      - Gandalf
+    starting_companions: []
+    available_exits:
+      - Minas Tirith
+      - The Citadel
+  - id: elrond_at_grey_havens
+    label: Elrond at the Grey Havens
+    book: The Return of the King
+    chapter: The Grey Havens
+    location: The Grey Havens
+    time_marker: A sea-grey evening of final departure
+    viewpoint_character_id: elrond
+    summary: Elrond comes to the Grey Havens where long labor, deep sorrow, and unwithheld love are all gathered into the last westward departure.
+    canon_guidance: Elrond should be peaceful, weary, and deeply affectionate without losing any gravity.
+    scene_beats:
+      - the Sea answering ancient grief with a summons beyond remedy or delay
+      - Frodo's weariness and Galadriel's calm making the parting both personal and world-historical
+      - the end of Elrond's visible guardianship in Middle-earth felt as release bought dearly
+    starting_npcs:
+      - Frodo Baggins
+      - Galadriel
+      - Círdan
+    starting_companions: []
+    available_exits:
+      - The Havens Quay
+      - The White Ship
+  - id: gollum_in_emyn_muil
+    label: Gollum in Emyn Muil
+    book: The Two Towers
+    chapter: The Taming of Sméagol
+    location: Emyn Muil
+    time_marker: A lean grey day among the cruel stones
+    viewpoint_character_id: gollum
+    summary: Gollum slinks through Emyn Muil in fear, hunger, and old cunning, bound to the hobbits by pity and peril more than by any true obedience.
+    canon_guidance: Gollum should be frightened, pleading, and quick to shift, with every softer motion shadowed by obsession.
+    scene_beats:
+      - the stony maze turning every movement into effort and every mercy into a strain
+      - Frodo's pity disturbing Gollum because it cannot be used as simply as fear
+      - Sam's suspicion keeping old grievance alive even when service seems useful
+    starting_npcs:
+      - Frodo Baggins
+      - Samwise Gamgee
+    starting_companions: []
+    available_exits:
+      - The Slinker Stair
+      - The Stony Shelf
+  - id: gollum_in_dead_marshes
+    label: Gollum in the Dead Marshes
+    book: The Two Towers
+    chapter: The Passage of the Marshes
+    location: The Dead Marshes
+    time_marker: A dim reeking passage under a cold light
+    viewpoint_character_id: gollum
+    summary: Gollum guides the hobbits through the Dead Marshes where old horror, secret ways, and the Precious in another's keeping gnaw at him without rest.
+    canon_guidance: Gollum should feel useful only by necessity, haunted by fear and appetite rather than any settled loyalty.
+    scene_beats:
+      - drowned faces and corpse-lights stirring ancient fear without awakening pity for others
+      - the hobbits' dependence feeding both Gollum's pride and his resentment
+      - the Precious near enough to torment every step of service
+    starting_npcs:
+      - Frodo Baggins
+      - Samwise Gamgee
+    starting_companions: []
+    available_exits:
+      - The Marsh Path
+      - The Dead Faces Mere
+  - id: gollum_at_forbidden_pool
+    label: Gollum at the Forbidden Pool
+    book: The Two Towers
+    chapter: The Forbidden Pool
+    location: The Forbidden Pool
+    time_marker: A perilous night of water, arrows, and pleading
+    viewpoint_character_id: gollum
+    summary: Gollum comes hunted to the Forbidden Pool where beauty, danger, and Frodo's mercy meet in a way he cannot understand without twisting.
+    canon_guidance: Gollum should be terrified, humiliated, and briefly softened, with gratitude already curdling into possessive dependence.
+    scene_beats:
+      - moonlit water and hidden archers making death feel one breath away
+      - Frodo's mercy preserving Gollum in a moment when he deserves no confidence
+      - Faramir's grave authority worsening Gollum's terror of the tall folk
+    starting_npcs:
+      - Frodo Baggins
+      - Faramir
+      - Samwise Gamgee
+    starting_companions: []
+    available_exits:
+      - Henneth Annûn
+      - The Morgul Road
+  - id: gollum_on_morgul_stairs
+    label: Gollum on the Morgul Stairs
+    book: The Two Towers
+    chapter: The Stairs of Cirith Ungol
+    location: The Morgul Stairs
+    time_marker: A crawling hour above the valley of dread
+    viewpoint_character_id: gollum
+    summary: Gollum creeps above Minas Morgul with hurt love and wounded malice fighting in him, until the thought of betrayal grows sweeter than service.
+    canon_guidance: Gollum should feel divided, self-pitying, and increasingly cruel, with tenderness appearing only to make its loss more bitter.
+    scene_beats:
+      - the stair's labor sharpening resentment against every step taken for others
+      - Frodo's pity nearly awakening something gentler before Sam's mistrust drives it back
+      - the thought of Shelob offering a dark solution to inner division
+    starting_npcs:
+      - Frodo Baggins
+      - Samwise Gamgee
+    starting_companions: []
+    available_exits:
+      - The High Stair
+      - The Tunnel Mouth
+  - id: gollum_at_sammath_naur
+    label: Gollum at Sammath Naur
+    book: The Return of the King
+    chapter: Mount Doom
+    location: Sammath Naur
+    time_marker: The last red instant above the Fire
+    viewpoint_character_id: gollum
+    summary: Gollum comes ravening into Sammath Naur where the Precious is regained in madness and lost in the same moment, with no world left in view beyond it.
+    canon_guidance: Gollum should be ecstatic, consumed, and doomed, stripped of everything except desire for the Ring.
+    scene_beats:
+      - the Fire answering obsession with a terrible kind of joy
+      - Frodo's claim of the Ring making every last restraint vanish
+      - triumph and annihilation collapsing into one motion
+    starting_npcs:
+      - Frodo Baggins
+      - Samwise Gamgee
+    starting_companions: []
+    available_exits:
+      - The Slopes of Orodruin
+      - The Fire-chamber
+  - id: denethor_in_stewards_hall
+    label: Denethor in the Steward's Hall
+    book: The Return of the King
+    chapter: Minas Tirith
+    location: The Steward's Hall
+    time_marker: A stern hour high above the besieged city
+    viewpoint_character_id: denethor
+    summary: Denethor rules in the Steward's Hall where grief, pride, and the heavy memory of Gondor's long defense sharpen every judgment into something almost punitive.
+    canon_guidance: Denethor should be brilliant, severe, and inwardly wounded, with grief showing itself only through hardening and contempt.
+    scene_beats:
+      - Gandalf's hope and Denethor's pride colliding without either man mistaking the other
+      - Pippin's service falling under a gaze that measures worth without kindness
+      - Boromir's absence silently governing the room more than any living speaker
+    starting_npcs:
+      - Gandalf
+      - Pippin Took
+      - Prince Imrahil
+    starting_companions: []
+    available_exits:
+      - The Citadel
+      - Rath Dínen
+  - id: denethor_in_citadel
+    label: Denethor in the Citadel
+    book: The Return of the King
+    chapter: The Siege of Gondor
+    location: The Citadel
+    time_marker: A darkening day over the White City
+    viewpoint_character_id: denethor
+    summary: Denethor stands in the Citadel while siege, loss, and foreknowledge bear down together, making every counsel sound either too weak or too late.
+    canon_guidance: Denethor should feel exhausted, incisive, and proud beyond help, with despair reasoning itself into the shape of realism.
+    scene_beats:
+      - the city's height offering knowledge without comfort
+      - Gandalf's defiance becoming harder for Denethor to hear as hope grows more costly
+      - love for Gondor narrowing into the refusal to outlast its humiliation
+    starting_npcs:
+      - Gandalf
+      - Pippin Took
+      - Beregond
+    starting_companions: []
+    available_exits:
+      - Minas Tirith
+      - The Steward's Hall
+      - Rath Dínen
+  - id: denethor_in_rath_dinen
+    label: Denethor in Rath Dínen
+    book: The Return of the King
+    chapter: The Pyre of Denethor
+    location: Rath Dínen
+    time_marker: A terrible hour among the tombs
+    viewpoint_character_id: denethor
+    summary: Denethor goes into Rath Dínen where lordship, despair, and grief for his sons harden into the will to end all stewardship in flame rather than in surrender.
+    canon_guidance: Denethor should be despairing, grand, and beyond ordinary persuasion, with pride making ruin feel to him like the last form of mastery.
+    scene_beats:
+      - tombs and torchlight making the city of the dead feel nearer than the living one above
+      - Pippin and Beregond's loyalty turning rescue into an accusation Denethor cannot bear
+      - Faramir's helplessness exposing the full collapse of fatherhood into possession and despair
+    starting_npcs:
+      - Pippin Took
+      - Beregond
+      - Faramir
+    starting_companions: []
+    available_exits:
+      - The Silent Street
+      - The Steward's Hall
+  - id: saruman_in_isengard
+    label: Saruman in Isengard
+    book: The Two Towers
+    chapter: Flotsam and Jetsam
+    location: Isengard
+    time_marker: A bright bitter day among flood and wreckage
+    viewpoint_character_id: saruman
+    summary: Saruman remains in ruined Isengard where flood, broken stone, and the contempt of his enemies make defeat visible in every direction, yet pride still refuses the plain lesson of ruin.
+    canon_guidance: Saruman should be cold, bitter, and intellectually dishonest, dressing humiliation in superiority rather than admitting fault.
+    scene_beats:
+      - the shattered circle of power forcing Saruman to look upon the material end of his designs
+      - Gandalf's steadier authority making Saruman's fall feel moral as well as political
+      - Treebeard's presence turning the wizard's injuries into part of a larger judgment against needless ruin
+    starting_npcs:
+      - Gandalf
+      - Treebeard
+      - Gríma Wormtongue
+    starting_companions: []
+    available_exits:
+      - The Orthanc Steps
+      - The Ring of Isengard
+  - id: saruman_at_orthanc
+    label: Saruman at Orthanc
+    book: The Two Towers
+    chapter: The Voice of Saruman
+    location: The Orthanc Steps
+    time_marker: A hard noon beneath the black tower
+    viewpoint_character_id: saruman
+    summary: Saruman speaks from Orthanc with all the old force of voice and none of the old authority, trying to bend others when the world has already judged him by his works.
+    canon_guidance: Saruman should be persuasive, proud, and quick to venom, with theatrical command masking inner diminishment.
+    scene_beats:
+      - the tower's severe blackness lending force to a mastery that no longer truly exists
+      - Gandalf's refusal exposing how empty rhetoric becomes when it cannot answer truth
+      - Gríma's abasement reflecting the kind of obedience Saruman now inspires
+    starting_npcs:
+      - Gandalf
+      - Gríma Wormtongue
+      - Treebeard
+    starting_companions: []
+    available_exits:
+      - Isengard
+      - The Ring of Isengard
+  - id: saruman_in_bywater
+    label: Saruman in Bywater
+    book: The Return of the King
+    chapter: The Scouring of the Shire
+    location: Bywater
+    time_marker: A cold sharp day in the marred Shire
+    viewpoint_character_id: saruman
+    summary: Saruman, now Sharkey, crouches amid the mean spoilage of the Shire, taking revenge not through greatness but through pettiness, ugliness, and the corruption of ordinary peace.
+    canon_guidance: Saruman should be shrunken, spiteful, and unable to imagine any power worth having except the power to spoil what others love.
+    scene_beats:
+      - the smallness of the Shire making Saruman's revenge seem both meaner and more revealing
+      - Frodo's mercy arriving as an insult to pride rather than a relief
+      - Gríma's exhausted obedience showing how far Saruman's rule has decayed
+    starting_npcs:
+      - Frodo Baggins
+      - Gríma Wormtongue
+      - Farmer Cotton
+    starting_companions: []
+    available_exits:
+      - The Party Field
+      - The Bywater Road
+  - id: saruman_at_bag_end
+    label: Saruman at Bag End
+    book: The Return of the King
+    chapter: The Scouring of the Shire
+    location: Bag End
+    time_marker: An ugly final hour before the round green door
+    viewpoint_character_id: saruman
+    summary: Saruman comes at last to Bag End where no dominion remains to him except insult, and where mercy refused leaves him with nothing larger than spite for his final possession.
+    canon_guidance: Saruman should be exhausted, cutting, and irrecoverably corrupt, with every sentence trying to wound because nothing else remains.
+    scene_beats:
+      - Bag End's homely order standing as a final reproach to Saruman's inability to cherish anything unmastered
+      - Frodo's pity offered one last time and received only as humiliation
+      - Gríma's breaking point turning Saruman's long misuse of others into the instrument of his end
+    starting_npcs:
+      - Frodo Baggins
+      - Gríma Wormtongue
+      - Samwise Gamgee
+    starting_companions: []
+    available_exits:
+      - Hobbiton Road
+      - The Green Dragon
+  - id: arwen_in_rivendell
+    label: Arwen in Rivendell
+    book: The Fellowship of the Ring
+    chapter: Many Meetings
+    location: Rivendell
+    time_marker: An autumn evening in the hidden valley
+    viewpoint_character_id: arwen
+    summary: Arwen moves through Rivendell where beauty, memory, and hidden love are held in stillness, even as the knowledge of parting already lies beneath them.
+    canon_guidance: Arwen should be gracious, inwardly strong, and marked by chosen quiet rather than outward display.
+    scene_beats:
+      - the peace of Rivendell making deep feeling more exact rather than less intense
+      - Aragorn's hope and Elrond's foreknowledge meeting in Arwen's silent resolve
+      - Elven beauty touched already by the knowledge that it cannot remain
+    starting_npcs:
+      - Aragorn
+      - Elrond
+      - Frodo Baggins
+    starting_companions: []
+    available_exits:
+      - Elrond's House
+      - The Pine-clad Paths
+  - id: arwen_in_lorien
+    label: Arwen in Lothlórien
+    book: The Fellowship of the Ring
+    chapter: Appendix A
+    location: Lothlórien
+    time_marker: A spring hour under the golden boughs
+    viewpoint_character_id: arwen
+    summary: Arwen comes to Lórien where love and doom are spoken plainly, and where joy on the green earth is accepted together with the full cost of mortality and parting.
+    canon_guidance: Arwen should be luminous, grave, and wholly resolved, with tenderness strengthened by clear-eyed sacrifice.
+    scene_beats:
+      - the Golden Wood holding beauty at its fullest even while time is already moving beyond it
+      - Aragorn's hope answered not with ease, but with an irrevocable choice
+      - Galadriel's presence making personal love part of a larger passing of ages
+    starting_npcs:
+      - Aragorn
+      - Galadriel
+      - Celeborn
+    starting_companions: []
+    available_exits:
+      - Caras Galadhon
+      - The Mallorn Path
+  - id: arwen_at_coronation
+    label: Arwen at the Coronation
+    book: The Return of the King
+    chapter: The Steward and the King
+    location: The Court of the Fountain
+    time_marker: A bright morning beneath banners and the White Tree
+    viewpoint_character_id: arwen
+    summary: Arwen stands in Minas Tirith where hidden hope becomes public joy, and where love fulfilled is inseparable from the passing of Elven dominion and the beginning of the king's renewed age.
+    canon_guidance: Arwen should be radiant, tender, and sorrowfully fulfilled, with joy never severed from what has been relinquished.
+    scene_beats:
+      - Aragorn's kingship answering long labor and long waiting in one clear moment
+      - Elrond's presence making the gladness of marriage shine through filial parting
+      - the White Tree and fountain turning private hope into the sign of a restored realm
+    starting_npcs:
+      - Aragorn
+      - Elrond
+      - Gandalf
+    starting_companions: []
+    available_exits:
+      - Minas Tirith
+      - The Citadel

@@ -1,0 +1,323 @@
+characters:
+  - id: bilbo
+    name: Bilbo Baggins
+    title: burglar of Bag End
+    summary: A comfort-loving hobbit drawn, against expectation, into peril and wonder.
+    traits:
+      - curious
+      - courteous
+      - quietly brave
+    voice_notes:
+      - notices food, comfort, and practical details
+      - meets danger with reluctance and wit
+    starting_inventory:
+      - pocket-handkerchief
+      - walking stick
+  - id: frodo
+    name: Frodo Baggins
+    title: Ring-bearer of the Shire
+    summary: A thoughtful hobbit carrying both burden and resolve into the widening dark.
+    traits:
+      - observant
+      - compassionate
+      - steadfast
+    voice_notes:
+      - thoughtful and grave
+      - attentive to memory and mood
+    starting_inventory:
+      - elven cloak
+      - short sword
+  - id: sam
+    name: Samwise Gamgee
+    title: gardener and companion
+    summary: A loyal hobbit whose plain speech conceals a surprising strength of heart.
+    traits:
+      - loyal
+      - practical
+      - enduring
+    voice_notes:
+      - notices earth, weather, food, and duty
+      - plain-spoken but warm
+    starting_inventory:
+      - cooking gear
+      - elven rope
+  - id: aragorn
+    name: Aragorn
+    title: Ranger of the North
+    summary: A weathered wanderer carrying hidden kingship, long purpose, and hard-earned caution.
+    traits:
+      - vigilant
+      - patient
+      - commanding
+    voice_notes:
+      - restrained and watchful
+      - speaks with authority when needed
+    starting_inventory:
+      - sword
+      - travel cloak
+  - id: gandalf
+    name: Gandalf
+    title: the Grey Pilgrim
+    summary: A wandering wizard whose mirth, sternness, and far-seeing purpose move the tale onward.
+    traits:
+      - wise
+      - unpredictable
+      - formidable
+    voice_notes:
+      - alternates warmth and stern command
+      - sees farther than he first says
+    starting_inventory:
+      - staff
+      - pipe
+  - id: pippin
+    name: Peregrin Took
+    title: hobbit of the Shire and guard of Gondor
+    summary: A bright-hearted hobbit whose curiosity and courage are tested amid the pride, terror, and grandeur of Gondor at war.
+    traits:
+      - curious
+      - affectionate
+      - brave
+    voice_notes:
+      - quick to wonder, fear, and loyalty
+      - notices grandeur and small human kindness side by side
+    starting_inventory:
+      - small sword
+      - guard's surcoat
+  - id: merry
+    name: Meriadoc Brandybuck
+    title: hobbit of Buckland and rider of Rohan
+    summary: A thoughtful, brave hobbit whose steadiness and affection ripen into real martial courage in the war against the Shadow.
+    traits:
+      - loyal
+      - sensible
+      - valiant
+    voice_notes:
+      - practical and affectionate, with more resolve than noise
+      - notices loyalty, rank, and the feelings under brave words
+    starting_inventory:
+      - small sword
+      - rider's cloak
+  - id: eowyn
+    name: Éowyn
+    title: shieldmaiden of Rohan
+    summary: A noblewoman of Rohan whose hunger for worth, freedom, and open deed carries her through dread, battle, and costly healing.
+    traits:
+      - valiant
+      - proud
+      - inwardly restless
+    voice_notes:
+      - grave and clear, with feeling often kept under discipline
+      - notices honor, confinement, and the cost of courage
+    starting_inventory:
+      - sword
+      - riding cloak
+  - id: faramir
+    name: Faramir
+    title: captain of Gondor
+    summary: A grave captain whose pity, discernment, and steadiness endure war, rejection, healing, and the renewal of Gondor.
+    traits:
+      - discerning
+      - honorable
+      - restrained
+    voice_notes:
+      - measured and courteous, even under strain
+      - notices nobility of spirit more readily than display or rank
+    starting_inventory:
+      - sword
+      - ranger's cloak
+  - id: theoden
+    name: Théoden
+    title: king of Rohan
+    summary: An aging king who rises from weariness and manipulation into clear-sighted courage, grave love, and a final ride worthy of remembered song.
+    traits:
+      - kingly
+      - resolute
+      - sorrow-marked
+    voice_notes:
+      - grave and courteous, with sudden strength when purpose is clear
+      - notices loyalty, age, and the weight of duty more than spectacle
+    starting_inventory:
+      - sword
+      - horse-lord's cloak
+  - id: thorin
+    name: Thorin Oakenshield
+    title: heir of Erebor
+    summary: A dispossessed dwarf-lord whose pride, grief, and kingly will carry him from long exile to recovery, siege, and hard final clarity.
+    traits:
+      - proud
+      - commanding
+      - burdened
+    voice_notes:
+      - formal and forceful, with wounded dignity close beneath anger
+      - notices inheritance, loyalty, insult, and the claims of kingship first
+    starting_inventory:
+      - sword
+      - oak shield
+  - id: bard
+    name: Bard
+    title: archer of Lake-town
+    summary: A sober archer whose hard judgment, courage, and care for ordinary people carry him from public doubt to dragon-slaying and the stewardship of ruined hopes.
+    traits:
+      - honorable
+      - wary
+      - steadfast
+    voice_notes:
+      - plain and restrained, with authority earned rather than proclaimed
+      - notices cost, duty, and the lives of common folk before grandeur
+    starting_inventory:
+      - bow
+      - weather cloak
+  - id: eomer
+    name: Éomer
+    title: Marshal of the Riddermark
+    summary: A proud rider of Rohan whose frank courage, loyalty to house and kingdom, and growth into kingly responsibility carry him through the war of the Ring.
+    traits:
+      - bold
+      - honorable
+      - direct
+    voice_notes:
+      - frank and noble, quick to challenge but quicker to honor proven worth
+      - notices courage, bearing, kinship, and the needs of the Mark before ceremony
+    starting_inventory:
+      - sword
+      - rider's spear
+  - id: gimli
+    name: Gimli
+    title: son of Glóin
+    summary: A proud dwarf whose blunt courage, loyalty, and deepening wonder carry him from old grievance into fellowship, battle, and hard-won joy.
+    traits:
+      - loyal
+      - proud
+      - stout-hearted
+    voice_notes:
+      - blunt and hearty, with warmth under the gruffness
+      - notices honor, craft, endurance, and the worth of friendship over show
+    starting_inventory:
+      - axe
+      - dwarf-mail
+  - id: legolas
+    name: Legolas
+    title: prince of the Woodland Realm
+    summary: An Elven prince whose keen sight, grave memory, and growing fellowship carry him from wary counsel into war, wonder, and enduring friendship.
+    traits:
+      - perceptive
+      - graceful
+      - steadfast
+    voice_notes:
+      - clear and poised, with sorrow and wonder kept under lightness
+      - notices beauty, peril, old memory, and the changing hearts of companions
+    starting_inventory:
+      - bow
+      - knives
+  - id: boromir
+    name: Boromir
+    title: son of Denethor
+    summary: A valiant son of Gondor whose pride, love of his city, and hunger for strength carry him through fellowship, temptation, and costly repentance.
+    traits:
+      - brave
+      - proud
+      - troubled
+    voice_notes:
+      - forceful and noble, with strain close beneath command
+      - notices duty, strength, honor, and the immediate needs of threatened people
+    starting_inventory:
+      - sword
+      - horn
+  - id: treebeard
+    name: Treebeard
+    title: Ent of Fangorn
+    summary: An ancient shepherd of trees whose slow thought, deep memory, and rising wrath carry him from wary hospitality into judgment against Isengard.
+    traits:
+      - ancient
+      - patient
+      - formidable
+    voice_notes:
+      - slow and reflective, with age felt in every turn of thought
+      - notices long memory, growing things, needless ruin, and the haste of smaller folk
+    starting_inventory:
+      - branch-staff
+      - deep memory
+  - id: galadriel
+    name: Galadriel
+    title: Lady of the Golden Wood
+    summary: An ancient Elven queen whose grave wisdom, hidden power, and long renunciation carry her from the watch of Lothlórien to the last westward farewell.
+    traits:
+      - wise
+      - majestic
+      - discerning
+    voice_notes:
+      - grave and musical, with immense age held under perfect composure
+      - notices temptation, memory, mercy, and the slow passing of old beauty
+    starting_inventory:
+      - ring of adamant
+      - white mantle
+  - id: elrond
+    name: Elrond
+    title: Lord of Rivendell
+    summary: A far-seeing lord of the Eldar whose calm wisdom, burden of memory, and steadfast care guide others from counsel into renewal and final departure.
+    traits:
+      - wise
+      - far-seeing
+      - steadfast
+    voice_notes:
+      - calm and noble, with old sorrow mastered by patience
+      - notices lineage, memory, healing, and the long shape of consequence
+    starting_inventory:
+      - healing lore
+      - elven ring
+  - id: gollum
+    name: Gollum
+    title: lonely creature of the roots and dark waters
+    summary: A broken bearer of hunger and obsession whose path twists from pleading service into betrayal and final ruin at the Fire.
+    traits:
+      - obsessive
+      - cunning
+      - divided
+    voice_notes:
+      - hissing and self-contradicting, with fear and craving breaking across each other
+      - notices hidden ways, danger, hunger, and above all the nearness or loss of the Precious
+    starting_inventory:
+      - fish-bag
+      - rope-burns
+  - id: denethor
+    name: Denethor
+    title: Steward of Gondor
+    summary: The ruling Steward of Gondor bears immense intelligence, pride, grief, and despair as the war closes upon his city and his house.
+    traits:
+      - proud
+      - incisive
+      - despairing
+    voice_notes:
+      - severe and lordly, with scorn used to protect grief from pity
+      - notices strength, weakness, lineage, and every sign that his authority is being judged
+    starting_inventory:
+      - steward's rod
+      - palantir-haunted vigilance
+  - id: saruman
+    name: Saruman
+    title: the White Wizard
+    summary: Once the chief of the Istari, Saruman falls from wisdom into domination, spite, and the shabby malice of a power that cannot forgive its own defeat.
+    traits:
+      - persuasive
+      - proud
+      - ruined
+    voice_notes:
+      - smooth, contemptuous, and self-justifying, with grandeur curdling into sneer when mastery fails
+      - notices weakness, obedience, injury to pride, and every chance to wound what he can no longer rule
+    starting_inventory:
+      - broken staff-memory
+      - many-colored robe
+  - id: arwen
+    name: Arwen
+    title: Evenstar of her people
+    summary: Arwen's path moves from Elven memory and hidden love toward the costly choice of mortality and the bright, sorrow-touched renewal of the king's return.
+    traits:
+      - steadfast
+      - gracious
+      - resolute
+    voice_notes:
+      - serene and grave, with tenderness held inside composure
+      - notices love, parting, lineage, and the cost hidden within hope
+    starting_inventory:
+      - white jewel
+      - banner of the king

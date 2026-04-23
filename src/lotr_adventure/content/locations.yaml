@@ -1,0 +1,3602 @@
+locations:
+  - id: bag_end
+    name: Bag End
+    region: The Shire
+    summary: A well-kept hobbit-hole of comfort, polish, and hidden restlessness.
+    atmosphere:
+      - warm lamplight
+      - good order
+      - uneasily interrupted comfort
+    sensory_details:
+      - polished wood, seed-cakes, and a fire made for untroubled evenings
+      - the smell of tea and supper slightly overrun by wet cloaks and dwarf-boots
+    landmarks:
+      - round green door
+      - polished hall
+      - pantry and cellars
+    resident_npcs:
+      - Gandalf
+      - Thorin Oakenshield
+      - Rosie Cotton
+    linked_locations:
+      - The Green Dragon
+      - The East Road
+    travel_keywords:
+      - pantry
+      - baggins
+  - id: green_dragon
+    name: The Green Dragon
+    region: The Shire
+    summary: A familiar inn where beer, gossip, and local opinion gather with the evening.
+    atmosphere:
+      - hearth-smoke
+      - laughter
+      - gossip
+    landmarks:
+      - common room
+      - taproom benches
+    resident_npcs:
+      - Pippin Took
+    linked_locations:
+      - Bag End
+      - Hobbiton Road
+      - Bywater
+    travel_keywords:
+      - inn
+      - tavern
+      - dragon
+  - id: east_road
+    name: The East Road
+    region: Eriador
+    summary: The long road east, carrying rumor, trade, and peril between homely lands and the wild.
+    atmosphere:
+      - wheel-ruts
+      - open sky
+      - distant risk
+    landmarks:
+      - hedgerows
+      - way stones
+    resident_npcs: []
+    linked_locations:
+      - Bag End
+      - Hobbiton Road
+      - Bree
+      - Trollshaws
+    travel_keywords:
+      - road east
+      - road
+  - id: hobbiton_road
+    name: Hobbiton Road
+    region: The Shire
+    summary: A winding Shire road bordered by tilled fields, hedges, and the last ease of home.
+    atmosphere:
+      - quiet fields
+      - damp earth
+      - autumn light
+    landmarks:
+      - hedges
+      - cart-ruts
+      - turning lanes
+    resident_npcs:
+      - Samwise Gamgee
+      - Pippin Took
+    linked_locations:
+      - The Green Dragon
+      - The East Road
+      - Woody End
+      - Farmer Maggot's Lands
+      - The Shire
+      - The Bywater Road
+      - Bywater
+    travel_keywords:
+      - hobbiton
+      - shire road
+  - id: woody_end
+    name: Woody End
+    region: The Shire
+    summary: The edge of the Eastfarthing woods, where song, shadow, and rumor mingle among the trees.
+    atmosphere:
+      - leaves overhead
+      - birdsong
+      - watchful quiet
+    landmarks:
+      - tree roots
+      - narrow track
+    resident_npcs:
+      - Pippin Took
+    linked_locations:
+      - Hobbiton Road
+      - The Shire
+    travel_keywords:
+      - woody
+      - wood
+  - id: farmer_maggots_lands
+    name: Farmer Maggot's Lands
+    region: The Shire
+    summary: Tilth, mushrooms, and wary farmstead order stand firm against trespass.
+    atmosphere:
+      - damp furrows
+      - barking dogs
+      - practical hospitality
+    landmarks:
+      - mushroom beds
+      - farm gate
+    resident_npcs: []
+    linked_locations:
+      - Hobbiton Road
+      - The Shire
+    travel_keywords:
+      - maggot
+      - farm
+  - id: the_shire
+    name: The Shire
+    region: Eriador
+    summary: Green, ordered, and deceptively sheltered, the Shire still feels near to peace.
+    atmosphere:
+      - meadows
+      - hedges
+      - familiar quiet
+    sensory_details:
+      - lane-dust, cut grass, and the mild gold of a world not made for war
+      - birdsong and distant homely sounds lingering behind the travelers
+    landmarks:
+      - lanes and fields
+      - low hills
+    resident_npcs:
+      - Samwise Gamgee
+      - Pippin Took
+    linked_locations:
+      - Hobbiton Road
+      - Woody End
+      - Farmer Maggot's Lands
+      - The Old Forest
+      - Bywater
+    travel_keywords:
+      - shire
+  - id: bywater
+    name: Bywater
+    region: The Shire
+    summary: Bywater stands close to the old heart of hobbit life, now made rough and bruised where it ought to have been cheerful, decent, and plain.
+    atmosphere:
+      - autumn chill
+      - rough disquiet
+      - stubborn homeliness
+    sensory_details:
+      - trampled verges, ugly newness, and the felt insult of spoilage in a land made for tilth and beer
+      - anger growing not into grandeur, but into the plain wish to set things right
+    landmarks:
+      - party field
+      - bywater road
+      - small bridge
+    resident_npcs:
+      - Farmer Cotton
+      - Lobelia Sackville-Baggins
+      - Samwise Gamgee
+      - Frodo Baggins
+    linked_locations:
+      - The Shire
+      - Hobbiton Road
+      - The Green Dragon
+      - The Party Field
+      - The Bywater Road
+    travel_keywords:
+      - bywater
+      - village
+  - id: party_field
+    name: The Party Field
+    region: Bywater
+    summary: Once a place of cheer and lantern-light, the Party Field now carries the memory of merrier days as a reproach to what the Shire has been made to endure.
+    atmosphere:
+      - trampled grass
+      - memory
+      - resolve
+    sensory_details:
+      - field grass underfoot and the bitter sense of festivity remembered in a place turned mean
+      - the weight of old gladness making present ugliness harder to bear
+    landmarks:
+      - field slope
+      - cut stumps
+    resident_npcs:
+      - Farmer Cotton
+      - Samwise Gamgee
+    linked_locations:
+      - Bywater
+      - The Bywater Road
+    travel_keywords:
+      - party field
+      - field
+  - id: bywater_road
+    name: The Bywater Road
+    region: Bywater
+    summary: The road through Bywater bears the marks of ruffian rule, but also the first visible signs that hobbits mean to reclaim what is theirs.
+    atmosphere:
+      - road dust
+      - anger
+      - gathering nerve
+    sensory_details:
+      - wheel-ruts, rough voices, and the sharp awakening of local defiance
+      - the strange sight of the Shire learning to answer meanness with solidarity
+    landmarks:
+      - road bend
+      - hedge gap
+    resident_npcs:
+      - Farmer Cotton
+      - Frodo Baggins
+      - Samwise Gamgee
+    linked_locations:
+      - Bywater
+      - The Party Field
+      - Hobbiton Road
+    travel_keywords:
+      - road
+      - bywater road
+  - id: old_forest
+    name: The Old Forest
+    region: Buckland Borders
+    summary: Trees lean, roots twist, and even the paths seem unfriendly in a wood older and less innocent than Shire-folk can easily imagine.
+    atmosphere:
+      - oppressive leaf-shadow
+      - creaking boughs
+      - old hostility
+    sensory_details:
+      - branches closing overhead and a silence that feels watchful rather than empty
+      - roots and trunks turning simple walking into a trial of nerve
+    landmarks:
+      - old willow
+      - withywindle bank
+    resident_npcs:
+      - Merry Brandybuck
+      - Samwise Gamgee
+      - Pippin Took
+    linked_locations:
+      - The Shire
+      - The Old Willow
+      - The Withywindle Bank
+    travel_keywords:
+      - forest
+      - old forest
+  - id: old_willow
+    name: The Old Willow
+    region: The Old Forest
+    summary: An ancient willow by the Withywindle stands with a malice too rooted and drowsy to be mistaken for mere treehood.
+    atmosphere:
+      - heavy shade
+      - drowsiness
+      - hidden menace
+    sensory_details:
+      - warm bark, lapping water, and the dangerous softness of unwanted sleep
+      - the sense that the tree means to keep what comes too near
+    landmarks:
+      - great trunk
+      - river roots
+    resident_npcs:
+      - Merry Brandybuck
+      - Pippin Took
+    linked_locations:
+      - The Old Forest
+      - The Withywindle Bank
+    travel_keywords:
+      - willow
+      - tree
+  - id: withywindle_bank
+    name: The Withywindle Bank
+    region: The Old Forest
+    summary: The Withywindle runs bright but unsettling through the Forest, beautiful in a manner too old to be entirely comforting.
+    atmosphere:
+      - bright water
+      - drowsy air
+      - strangeness
+    sensory_details:
+      - yellow irises, slow water, and a quiet that seems to listen back
+      - beauty made perilous by the wrong kind of ease
+    landmarks:
+      - river-bank
+      - willow roots
+    resident_npcs:
+      - Tom Bombadil
+    linked_locations:
+      - The Old Forest
+      - The Old Willow
+      - Tom Bombadil's House
+    travel_keywords:
+      - withywindle
+      - bank
+  - id: bombadil_house
+    name: Tom Bombadil's House
+    region: The Old Forest
+    summary: A bright house of song, rain, and simple plenty stands untouched by the fear that presses on the surrounding lands.
+    atmosphere:
+      - lamplight
+      - song
+      - impossible peace
+    sensory_details:
+      - firelight, good bread, and rain on the roof without dread beneath it
+      - the odd security of a place that does not care for power in the world's ordinary way
+    landmarks:
+      - rain-washed room
+      - hearth
+    resident_npcs:
+      - Tom Bombadil
+      - Goldberry
+    linked_locations:
+      - The Withywindle Bank
+      - The Rain-washed Room
+      - The Barrow-downs
+    travel_keywords:
+      - bombadil
+      - house
+  - id: rain_washed_room
+    name: The Rain-washed Room
+    region: Tom Bombadil's House
+    summary: A bright room of rest within Bombadil's house, where food, sleep, and song seem almost to belong to another order of safety.
+    atmosphere:
+      - warmth
+      - ease
+      - wonder
+    sensory_details:
+      - rain on panes, clean boards, and the peace of being allowed to rest without bargain
+      - food and song so homely they become strange again
+    landmarks:
+      - table
+      - guest bed
+    resident_npcs:
+      - Tom Bombadil
+      - Goldberry
+    linked_locations:
+      - Tom Bombadil's House
+    travel_keywords:
+      - room
+      - rain
+  - id: barrow_downs
+    name: The Barrow-downs
+    region: Eriador
+    summary: Green hills and standing stones lie under a chill memory older than the kingdoms of Men, fair in daylight and dreadful in mist.
+    atmosphere:
+      - cold mist
+      - silence
+      - ancient dread
+    sensory_details:
+      - white fog, distant stones, and the feeling of old death lying too near the grass
+      - the downs seeming wider and emptier than the world has any right to be
+    landmarks:
+      - standing stones
+      - barrow chamber
+    resident_npcs:
+      - Tom Bombadil
+      - Frodo Baggins
+      - Samwise Gamgee
+      - Merry Brandybuck
+      - Pippin Took
+    linked_locations:
+      - Tom Bombadil's House
+      - The Standing Stones
+      - The Barrow Chamber
+    travel_keywords:
+      - barrows
+      - downs
+  - id: standing_stones
+    name: The Standing Stones
+    region: The Barrow-downs
+    summary: Upright stones mark the heights of the Downs, where the wide sky and wide land do nothing to lessen the chill beneath them.
+    atmosphere:
+      - high wind
+      - mist
+      - exposure
+    sensory_details:
+      - wind over grass and the unnerving sense of being watched by memory itself
+      - open land made claustrophobic by fog and ancient fear
+    landmarks:
+      - standing stones
+      - ridge line
+    resident_npcs:
+      - Frodo Baggins
+    linked_locations:
+      - The Barrow-downs
+      - The Barrow Chamber
+    travel_keywords:
+      - stones
+      - standing stones
+  - id: barrow_chamber
+    name: The Barrow Chamber
+    region: The Barrow-downs
+    summary: Cold stone, treasure, and funeral silence enclose the living beneath the Downs where old death reaches back toward the day.
+    atmosphere:
+      - cold stone
+      - sepulchral dread
+      - stillness
+    sensory_details:
+      - clammy stone and the horror of waking among grave-goods not meant for the living
+      - ancient burial made suddenly, intimately present
+    landmarks:
+      - stone bier
+      - grave treasures
+    resident_npcs:
+      - Frodo Baggins
+      - Merry Brandybuck
+      - Samwise Gamgee
+      - Pippin Took
+    linked_locations:
+      - The Barrow-downs
+      - The Standing Stones
+    travel_keywords:
+      - barrow
+      - chamber
+  - id: trollshaws
+    name: Trollshaws
+    region: Eriador
+    summary: Rough wooded country east of Bree holds wet tracks, uneasy camps, and the kind of dark in which a hobbit may discover how little burglar-songs prepare him for trolls.
+    atmosphere:
+      - wet dark
+      - rough woodland
+      - ambush fear
+    sensory_details:
+      - dripping branches, muddy ground, and the nervous sense of being far from decent roads
+      - firelight in the distance promising warmth and danger in equal measure
+    landmarks:
+      - trolls' clearing
+      - stone trolls
+    resident_npcs:
+      - Gandalf
+      - William Huggins
+    linked_locations:
+      - The East Road
+      - The Trolls' Clearing
+      - The Stone Trolls
+      - Rivendell
+    travel_keywords:
+      - trollshaws
+      - troll country
+  - id: trolls_clearing
+    name: The Trolls' Clearing
+    region: Trollshaws
+    summary: A raw campfire clearing under the trees holds sacks, bones, and the ugly signs of a life built on appetite and robbery.
+    atmosphere:
+      - firelight
+      - damp earth
+      - coarse danger
+    landmarks:
+      - campfire
+      - sacks
+      - roasting spit
+    resident_npcs:
+      - William Huggins
+      - Gandalf
+    linked_locations:
+      - Trollshaws
+      - The Stone Trolls
+    travel_keywords:
+      - clearing
+      - campfire
+  - id: stone_trolls
+    name: The Stone Trolls
+    region: Trollshaws
+    summary: Three trolls stand frozen in rude surprise, a comic and dreadful reminder that daylight may finish what wit merely delays.
+    atmosphere:
+      - grey dawn
+      - uncanny stillness
+      - relieved unease
+    landmarks:
+      - stone trolls
+      - stony clearing
+    resident_npcs: []
+    linked_locations:
+      - Trollshaws
+      - The Trolls' Clearing
+    travel_keywords:
+      - stone trolls
+      - statues
+  - id: goblin_tunnels
+    name: Goblin tunnels beneath the Misty Mountains
+    region: Misty Mountains
+    summary: Dark passages twist through stone, full of stale air, sudden drops, and lurking fear.
+    atmosphere:
+      - blackness
+      - dripping stone
+      - claustrophobic silence
+    landmarks:
+      - black tunnel
+      - slick ledges
+    resident_npcs:
+      - Gollum
+    linked_locations:
+      - Goblin Town
+      - The Great Goblin's Hall
+      - The Underground Lake
+      - The Black Tunnel
+    travel_keywords:
+      - tunnels
+      - goblin
+      - under the mountains
+  - id: goblin_town
+    name: Goblin Town
+    region: Misty Mountains
+    summary: Torchlit tunnels, rough stairs, and jeering noise fill Goblin-town, where underground malice is made busy, crowded, and cruel.
+    atmosphere:
+      - torch smoke
+      - clamor
+      - subterranean menace
+    sensory_details:
+      - foul torchlight, harsh laughter, and the unsettling sense of a whole hidden world thriving below the mountain
+      - ropes, stairs, and tunnel-mouths turning escape into confusion rather than freedom
+    landmarks:
+      - great goblin's hall
+      - goblin stairs
+      - torch galleries
+    resident_npcs:
+      - The Great Goblin
+      - Gandalf
+      - Thorin Oakenshield
+    linked_locations:
+      - Goblin tunnels beneath the Misty Mountains
+      - The Great Goblin's Hall
+      - The Black Tunnel
+    travel_keywords:
+      - goblin town
+      - goblin halls
+  - id: great_goblin_hall
+    name: The Great Goblin's Hall
+    region: Goblin Town
+    summary: A broad underground hall of mockery and command, where the Great Goblin's strength depends on noise, numbers, and the humiliation of captives.
+    atmosphere:
+      - jeering noise
+      - torch glare
+      - crowded threat
+    landmarks:
+      - high seat
+      - torch brackets
+      - rough dais
+    resident_npcs:
+      - The Great Goblin
+      - Gandalf
+      - Thorin Oakenshield
+    linked_locations:
+      - Goblin Town
+      - Goblin tunnels beneath the Misty Mountains
+    travel_keywords:
+      - hall
+      - great goblin
+  - id: underground_lake
+    name: The Underground Lake
+    region: Misty Mountains
+    summary: A cold blind water lies still in the dark, broken only by the sound of paddles and breath.
+    atmosphere:
+      - still water
+      - echo
+      - hunger
+    sensory_details:
+      - black water without breeze and the small slap of a paddle in the dark
+      - cold stone under hand and a sound too large for comfort in the silence
+    landmarks:
+      - narrow ledge
+      - black water
+    resident_npcs:
+      - Gollum
+    linked_locations:
+      - Goblin tunnels beneath the Misty Mountains
+      - The Black Tunnel
+    travel_keywords:
+      - lake
+      - water
+  - id: black_tunnel
+    name: The Black Tunnel
+    region: Misty Mountains
+    summary: A lightless passage where each step is guessed and dread presses close behind.
+    atmosphere:
+      - pitch dark
+      - rough stone
+      - fear
+    sensory_details:
+      - blind walls and a floor guessed at by touch alone
+      - stale underground air pressing close to the face
+    landmarks:
+      - narrow passage
+      - unseen turnings
+    resident_npcs: []
+    linked_locations:
+      - Goblin tunnels beneath the Misty Mountains
+      - The Underground Lake
+      - Goblin Town
+      - The Eagles' Eyrie
+    travel_keywords:
+      - tunnel
+  - id: eagles_eyrie
+    name: The Eagles' Eyrie
+    region: Misty Mountains
+    summary: High among the peaks, the eagles' refuge holds cold wind, stern safety, and a sense of the world suddenly thrown wide below.
+    atmosphere:
+      - high wind
+      - clear dawn
+      - precarious relief
+    sensory_details:
+      - pine scent rising from great depths and cold air keen enough to make survival feel startlingly sharp
+      - the open sky after underground blackness, no less dangerous for being beautiful
+    landmarks:
+      - eagle ledge
+      - wind-worn crag
+    resident_npcs:
+      - Great Eagle
+      - Gandalf
+    linked_locations:
+      - The Black Tunnel
+      - The Eagle Ledge
+      - The Carrock
+    travel_keywords:
+      - eyrie
+      - eagles
+  - id: eagle_ledge
+    name: The Eagle Ledge
+    region: The Eagles' Eyrie
+    summary: A narrow high perch above the forest where Bilbo can look out across distances that make recent terror feel at once smaller and more astonishing.
+    atmosphere:
+      - mountain wind
+      - height
+      - fragile safety
+    landmarks:
+      - rock ledge
+      - sheer drop
+    resident_npcs:
+      - Great Eagle
+    linked_locations:
+      - The Eagles' Eyrie
+      - The Carrock
+    travel_keywords:
+      - ledge
+      - high ledge
+  - id: carrock
+    name: The Carrock
+    region: Vale of Anduin
+    summary: A great rock above the river marks the edge between mountain-peril and the wary hospitality of the lands east of the mountains.
+    atmosphere:
+      - broad daylight
+      - river wind
+      - hard-earned respite
+    sensory_details:
+      - bright water below and the feeling of solid earth returning after too much danger in the dark and air
+      - hunger and weariness easing just enough to remember the road must still go on
+    landmarks:
+      - high rock
+      - river edge
+    resident_npcs:
+      - Gandalf
+    linked_locations:
+      - The Eagles' Eyrie
+      - The Eagle Ledge
+      - Beorn's House
+    travel_keywords:
+      - carrock
+      - rock
+  - id: beorns_house
+    name: Beorn's House
+    region: Vale of Anduin
+    summary: Great timbered halls and ordered yards stand in a wide green country where hospitality and warning are offered together.
+    atmosphere:
+      - broad daylight
+      - clean order
+      - stern welcome
+    sensory_details:
+      - honey, bread, and open air under the eye of a host not easily fooled
+      - the relief of shelter that never quite forgets the danger outside
+    landmarks:
+      - great hall
+      - bee pastures
+    resident_npcs:
+      - Beorn
+      - Gandalf
+    linked_locations:
+      - The Great Hall
+      - The Bee Pastures
+      - Mirkwood
+      - The Carrock
+    travel_keywords:
+      - beorn
+      - hall
+  - id: great_hall
+    name: The Great Hall
+    region: Beorn's House
+    summary: Beorn's hall is plain, large, and full of good provisions, made for work and welcome without softness.
+    atmosphere:
+      - hearth warmth
+      - plain plenty
+      - scrutiny
+    sensory_details:
+      - wooden beams, fresh cream, and the keen feeling of being judged while being fed
+      - food and safety accepted with gratitude rather than comfort alone
+    landmarks:
+      - long table
+      - hearth
+    resident_npcs:
+      - Beorn
+      - Gandalf
+    linked_locations:
+      - Beorn's House
+      - The Bee Pastures
+    travel_keywords:
+      - hall
+      - table
+  - id: bee_pastures
+    name: The Bee Pastures
+    region: Beorn's House
+    summary: Wide meadows and ordered hives show a gentler side of Beorn's keeping, though nothing here is careless.
+    atmosphere:
+      - summer air
+      - beesong
+      - guarded ease
+    sensory_details:
+      - flowers, hives, and sunlight bright enough to make the mountain-dark seem far away
+      - peaceful labor held within the strength of a house that can defend itself
+    landmarks:
+      - bee hives
+      - pasture fence
+    resident_npcs:
+      - Beorn
+    linked_locations:
+      - Beorn's House
+      - The Great Hall
+      - Mirkwood
+    travel_keywords:
+      - bees
+      - pasture
+  - id: hidden_door
+    name: The Hidden Door
+    region: Lonely Mountain
+    summary: Grey stone and secret craft conceal the narrow way into Erebor while evening light and anxious hope work against despair.
+    atmosphere:
+      - mountain silence
+      - waiting
+      - dragon-shadow
+    sensory_details:
+      - cold stone warming briefly under the westering sun
+      - a hush so deep that every word seems to affront the mountain
+    landmarks:
+      - hidden door
+      - thrush marks
+      - grey ledge
+    resident_npcs:
+      - Balin
+    linked_locations:
+      - Ravenhill Path
+      - Lonely Mountain Slopes
+      - The Secret Way
+      - The Mountain's Foot
+      - The Front Gate
+    travel_keywords:
+      - secret door
+      - erebor
+  - id: ravenhill_path
+    name: Ravenhill Path
+    region: Lonely Mountain
+    summary: A stony way above the desolation where watchers may look over waste and wait upon signs.
+    atmosphere:
+      - thin wind
+      - lookout stillness
+      - hard patience
+    sensory_details:
+      - loose stones beneath the feet and a vast emptiness falling away below
+      - cold air carrying no birdsong save what chance may send
+    landmarks:
+      - lookout stones
+      - steep path
+    resident_npcs:
+      - Balin
+    linked_locations:
+      - The Hidden Door
+      - Lonely Mountain Slopes
+      - The Mountain's Foot
+      - Ravenhill
+    travel_keywords:
+      - ravenhill
+      - lookout
+  - id: lonely_mountain_slopes
+    name: Lonely Mountain Slopes
+    region: Lonely Mountain
+    summary: Bare heights and broken stone lie under the mountain's silence, with Smaug's desolation still haunting the land below.
+    atmosphere:
+      - lonely wind
+      - bare rock
+      - watchful unease
+    sensory_details:
+      - the empty reaches of the desolation and the smell of old ash
+      - cliff-borne gusts that make speech feel small and temporary
+    landmarks:
+      - broken shelves of stone
+      - high ledges
+    resident_npcs: []
+    linked_locations:
+      - The Hidden Door
+      - Ravenhill Path
+    travel_keywords:
+      - lonely mountain
+      - slopes
+  - id: mirkwood
+    name: Mirkwood
+    region: Wilderland
+    summary: A dark and oppressive forest where the trees crowd close, the air lies still, and weariness turns easily toward fear.
+    atmosphere:
+      - dim boughs
+      - oppressive stillness
+      - enchanted dread
+    sensory_details:
+      - stale forest air and leaf-shadow without birdsong
+      - roots, black trunks, and a path that never seems kindly
+    landmarks:
+      - dark track
+      - spider glade
+      - black branches
+    resident_npcs:
+      - Balin
+    linked_locations:
+      - The Dark Track
+      - The Spider Glade
+      - Beorn's House
+      - The Bee Pastures
+    travel_keywords:
+      - mirkwood
+      - forest
+  - id: dark_track
+    name: The Dark Track
+    region: Mirkwood
+    summary: A narrow path under heavy branches where each mile feels longer than the last.
+    atmosphere:
+      - cramped shadow
+      - weariness
+      - ill ease
+    sensory_details:
+      - a path of roots and dimness where light never properly settles
+      - the sense of being led deeper into something that does not welcome guests
+    landmarks:
+      - narrow path
+      - leaning roots
+    resident_npcs:
+      - Balin
+    linked_locations:
+      - Mirkwood
+      - The Spider Glade
+    travel_keywords:
+      - track
+      - path
+  - id: spider_glade
+    name: The Spider Glade
+    region: Mirkwood
+    summary: A foul clearing of web, hanging shadow, and sudden menace where Bilbo's fear must turn into action.
+    atmosphere:
+      - webs
+      - lurking malice
+      - panic
+    sensory_details:
+      - clinging web and the hateful stir of many lightless eyes
+      - a clearing that seems made less for air than for trapping the living
+    landmarks:
+      - spider glade
+      - hanging webs
+    resident_npcs: []
+    linked_locations:
+      - Mirkwood
+      - The Dark Track
+      - The Woodland Realm
+    travel_keywords:
+      - spider
+      - glade
+  - id: woodland_realm
+    name: The Woodland Realm
+    region: Northern Mirkwood
+    summary: Hidden halls under the forest hold Elven order, suspicion, and beauty cut off from easy trust.
+    atmosphere:
+      - torchlit stone
+      - woodland secrecy
+      - guarded elegance
+    sensory_details:
+      - underground water, lantern-light, and the disciplined hush of a realm that expects intrusion
+      - beauty held close against a darkening forest world
+    landmarks:
+      - elven gate
+      - wine cellars
+    resident_npcs:
+      - Thranduil
+    linked_locations:
+      - The Spider Glade
+      - The Elven Gate
+      - The Wine Cellars
+      - Lake-town
+    travel_keywords:
+      - woodland realm
+      - elvenking
+  - id: elven_gate
+    name: The Elven Gate
+    region: The Woodland Realm
+    summary: A guarded stone gate controls the underground river and the hidden comings and goings of the Elvenking's halls.
+    atmosphere:
+      - cold water
+      - vigilance
+      - constraint
+    sensory_details:
+      - the river's dark course under stone and the watchfulness of a realm that does not forgive carelessness
+      - freedom glimpsed only as a difficult practical problem
+    landmarks:
+      - river gate
+      - stone arch
+    resident_npcs:
+      - Thranduil
+    linked_locations:
+      - The Woodland Realm
+      - The Wine Cellars
+      - Lake-town
+    travel_keywords:
+      - gate
+      - elven gate
+  - id: wine_cellars
+    name: The Wine Cellars
+    region: The Woodland Realm
+    summary: Great casks, storerooms, and underground passages give Bilbo his best chance to turn hidden freedom into escape for the dwarves.
+    atmosphere:
+      - cool stone
+      - secrecy
+      - practical urgency
+    sensory_details:
+      - casks, damp stone, and the racing mind of a hobbit solving too large a problem alone
+      - the smell of wine and wood in halls built for careful keeping
+    landmarks:
+      - casks
+      - trapdoor
+    resident_npcs:
+      - Thranduil
+    linked_locations:
+      - The Woodland Realm
+      - The Elven Gate
+    travel_keywords:
+      - cellars
+      - wine
+  - id: laketown
+    name: Lake-town
+    region: Long Lake
+    summary: Built upon the waters of the Long Lake, Lake-town is full of trade, rumor, music, and the quick rise of hope around old tales.
+    atmosphere:
+      - cold sunlight
+      - woodsmoke
+      - eager expectancy
+    sensory_details:
+      - lake-water under timbered ways and the sound of voices rising faster than caution
+      - warmth, food, and public welcome after long hardship on the road
+    landmarks:
+      - master's hall
+      - quays
+      - wooden bridges
+    resident_npcs:
+      - Bard
+      - Thorin Oakenshield
+    linked_locations:
+      - The Master's Hall
+      - The Quays
+      - The Woodland Realm
+      - The Elven Gate
+    travel_keywords:
+      - lake-town
+      - esgaroth
+  - id: masters_hall
+    name: The Master's Hall
+    region: Lake-town
+    summary: A hall of welcome and ceremony where old songs quickly become present expectations.
+    atmosphere:
+      - lamplight
+      - feasting
+      - expectation
+    sensory_details:
+      - crowded boards, loud praise, and a sense that old names are being laid upon living shoulders
+      - hospitality turning almost at once into demand
+    landmarks:
+      - high table
+      - carved beams
+    resident_npcs:
+      - Thorin Oakenshield
+      - Bard
+    linked_locations:
+      - Lake-town
+      - The Quays
+    travel_keywords:
+      - hall
+      - master's hall
+  - id: quays
+    name: The Quays
+    region: Lake-town
+    summary: The waterside ways of Lake-town hold boats, commerce, and the practical life behind all public ceremony.
+    atmosphere:
+      - river sound
+      - trade
+      - movement
+    sensory_details:
+      - ropes, water, and busy hands under the colder air of the lake
+      - the ordinary labor that keeps grand hopes from floating away entirely
+    landmarks:
+      - boats
+      - piles
+    resident_npcs:
+      - Bard
+    linked_locations:
+      - Lake-town
+      - The Master's Hall
+    travel_keywords:
+      - quay
+      - docks
+  - id: bree
+    name: Bree
+    region: Bree-land
+    summary: Bree is weather-worn and wary, full of lanes, hedges, and eyes that miss little.
+    atmosphere:
+      - rain
+      - lantern-glow
+      - suspicion
+    sensory_details:
+      - wet lanes, shuttered windows, and the feeling of being measured as you pass
+      - weather and rumor working together to keep strangers from ease
+    landmarks:
+      - muddy lanes
+      - house lights
+    resident_npcs:
+      - Barliman Butterbur
+      - Aragorn
+    linked_locations:
+      - The Prancing Pony
+      - The North Road
+      - The East Road
+    travel_keywords:
+      - bree-land
+  - id: prancing_pony
+    name: The Prancing Pony
+    region: Bree
+    summary: A crowded inn of firelight, ale, travel talk, and half-heard danger.
+    atmosphere:
+      - hearth-fire
+      - crowded benches
+      - watchfulness
+    sensory_details:
+      - ale, wet wool, and pipe-smoke under a low inn roof
+      - local talk repeatedly faltering when strangers draw notice
+    landmarks:
+      - common room
+      - private parlour
+    resident_npcs:
+      - Barliman Butterbur
+      - Aragorn
+    linked_locations:
+      - Bree
+      - The North Road
+    travel_keywords:
+      - pony
+      - inn
+  - id: north_road
+    name: The North Road
+    region: Eriador
+    summary: A weathered way between settled lands and harsher country, trodden by traders, Rangers, and darker pursuers.
+    atmosphere:
+      - wind
+      - wet stone
+      - exposure
+    landmarks:
+      - road stones
+      - ditches
+    resident_npcs: []
+    linked_locations:
+      - Bree
+      - The Prancing Pony
+      - Rivendell
+      - Weathertop
+    travel_keywords:
+      - road north
+  - id: weathertop
+    name: Weathertop
+    region: Eriador
+    summary: A lonely hill of ancient ruins and far sight, now laid bare to wind, memory, and peril.
+    atmosphere:
+      - cold wind
+      - exposed stone
+      - watchfulness
+    sensory_details:
+      - the hill's bare crown open to every gust and shadow
+      - old stone chilled by night and the sense of eyes beyond sight
+    landmarks:
+      - ruined ring
+      - eastward path
+    resident_npcs:
+      - Aragorn
+      - Samwise Gamgee
+    linked_locations:
+      - The Ruined Ring
+      - The Eastward Path
+      - The North Road
+    travel_keywords:
+      - amath weath
+      - weather hill
+  - id: ruined_ring
+    name: The Ruined Ring
+    region: Weathertop
+    summary: Broken stone crowns the hill, leaving little shelter and much memory.
+    atmosphere:
+      - broken walls
+      - open night
+      - unease
+    landmarks:
+      - shattered crown
+      - bare fire-site
+    resident_npcs:
+      - Aragorn
+      - Samwise Gamgee
+    linked_locations:
+      - Weathertop
+      - The Eastward Path
+    travel_keywords:
+      - ring
+      - ruins
+  - id: eastward_path
+    name: The Eastward Path
+    region: Eriador
+    summary: A hard road onward through fear, weariness, and a danger not easily shaken.
+    atmosphere:
+      - haste
+      - wind
+      - pursuit
+    landmarks:
+      - narrow track
+      - stony rise
+    resident_npcs:
+      - Aragorn
+    linked_locations:
+      - Weathertop
+      - The Ruined Ring
+      - The Ford of Bruinen
+    travel_keywords:
+      - eastward
+      - path east
+  - id: ford_bruinen
+    name: The Ford of Bruinen
+    region: Approaches to Rivendell
+    summary: Water, stone, and the final threshold of refuge meet beneath strain and pursuit.
+    atmosphere:
+      - bright water
+      - urgency
+      - failing strength
+    sensory_details:
+      - white water flashing over stones while pursuit presses close behind
+      - the hard edge between rescue and ruin felt in every breath
+    landmarks:
+      - ford bank
+      - rivendell road
+    resident_npcs:
+      - Glorfindel
+      - Aragorn
+    linked_locations:
+      - The Ford Bank
+      - The Rivendell Road
+      - The Eastward Path
+    travel_keywords:
+      - ford
+      - bruinen
+  - id: ford_bank
+    name: The Ford Bank
+    region: Ford of Bruinen
+    summary: The water's edge where pursuit and safety stand almost within the same breath.
+    atmosphere:
+      - river-sound
+      - urgency
+      - exposure
+    landmarks:
+      - stones at the water
+      - steep bank
+    resident_npcs:
+      - Glorfindel
+    linked_locations:
+      - The Ford of Bruinen
+      - The Rivendell Road
+      - Rivendell
+    travel_keywords:
+      - bank
+  - id: rivendell_road
+    name: The Rivendell Road
+    region: Hidden Valley
+    summary: A final sheltered road into the valley where the wearied may at last begin to rest.
+    atmosphere:
+      - shelter
+      - relief
+      - fading fear
+    landmarks:
+      - valley turn
+      - descending path
+    resident_npcs:
+      - Glorfindel
+    linked_locations:
+      - The Ford of Bruinen
+      - The Ford Bank
+      - Rivendell
+    travel_keywords:
+      - road to rivendell
+  - id: rivendell
+    name: Rivendell
+    region: Hidden Valley
+    summary: A house of memory and healing set among water, pine, and clear counsel.
+    atmosphere:
+      - bright water
+      - song
+      - grave peace
+    sensory_details:
+      - clear falls, pine-scent, and voices that hold both welcome and remembrance
+      - beauty so deep that sorrow seems gentler without being less true
+    landmarks:
+      - porches
+      - halls
+      - pine paths
+    resident_npcs:
+      - Elrond
+      - Gandalf
+      - Aragorn
+    linked_locations:
+      - Elrond's House
+      - The Council Porch
+      - The Pine-clad Paths
+      - The North Road
+      - The Ford Bank
+      - The Rivendell Road
+      - Trollshaws
+    travel_keywords:
+      - imladris
+  - id: elronds_house
+    name: Elrond's House
+    region: Rivendell
+    summary: Pillared halls, song, lore, and rest dwell together under Elrond's keeping.
+    atmosphere:
+      - lamps
+      - old wisdom
+      - shelter
+    landmarks:
+      - library
+      - hall of fire
+    resident_npcs:
+      - Elrond
+      - Gandalf
+    linked_locations:
+      - Rivendell
+      - The Council Porch
+    travel_keywords:
+      - house
+      - hall of fire
+  - id: council_porch
+    name: The Council Porch
+    region: Rivendell
+    summary: A place of high counsel open to air and memory, where words may alter the fate of kingdoms.
+    atmosphere:
+      - clear air
+      - listening silence
+      - grave resolve
+    sensory_details:
+      - bright air and long memory gathered above the valley
+      - words carrying further than voices because of what depends upon them
+    landmarks:
+      - carved seats
+      - view of the valley
+    resident_npcs:
+      - Elrond
+      - Gandalf
+      - Aragorn
+      - Frodo Baggins
+    linked_locations:
+      - Rivendell
+      - Elrond's House
+      - The Pine-clad Paths
+    travel_keywords:
+      - porch
+      - council
+  - id: pine_paths
+    name: The Pine-clad Paths
+    region: Rivendell
+    summary: High, cool ways beneath pine boughs where thought runs clearer than in the noisy world below.
+    atmosphere:
+      - resin-scent
+      - high air
+      - quiet
+    landmarks:
+      - stone paths
+      - pine roots
+    resident_npcs: []
+    linked_locations:
+      - Rivendell
+      - The Council Porch
+    travel_keywords:
+      - pines
+      - paths
+  - id: hollin
+    name: Hollin
+    region: Eregion
+    summary: A bare and silent land before the mountains, beautiful only in memory and dangerous in its emptiness.
+    atmosphere:
+      - cold evening
+      - open land
+      - unease
+    sensory_details:
+      - wind over holly and stone with the mountain-wall darkening ahead
+      - the feeling of a road narrowing toward a choice none of the Company desires
+    landmarks:
+      - west-gate
+      - water's edge
+      - holly trees
+    resident_npcs:
+      - Gandalf
+      - Aragorn
+      - Boromir
+    linked_locations:
+      - The West-gate
+      - The Water's Edge
+    travel_keywords:
+      - hollin
+      - eregion
+  - id: west_gate
+    name: The West-gate
+    region: Hollin
+    summary: The shut doors of Moria stand hidden in stone, promising both secrecy and terror to those forced toward them.
+    atmosphere:
+      - closed stone
+      - foreboding
+      - necessity
+    sensory_details:
+      - smooth stone, holly shadows, and the memory of words that open old doors
+      - a threshold whose silence is more threatening than noise
+    landmarks:
+      - west-gate
+      - moon-letters
+    resident_npcs:
+      - Gandalf
+      - Aragorn
+    linked_locations:
+      - Hollin
+      - The Water's Edge
+      - The Chamber of Mazarbul
+    travel_keywords:
+      - gate
+      - moria door
+  - id: waters_edge
+    name: The Water's Edge
+    region: Hollin
+    summary: A dark still pool lies before Moria, where delay becomes perilous and the surface hides more than reflection.
+    atmosphere:
+      - still water
+      - waiting danger
+      - reluctance
+    sensory_details:
+      - black water without wind and the discomfort of something unseen beneath it
+      - the Company's hesitating camp on a shore no one wishes to trust
+    landmarks:
+      - water's edge
+      - black pool
+    resident_npcs:
+      - Boromir
+      - Samwise Gamgee
+    linked_locations:
+      - Hollin
+      - The West-gate
+    travel_keywords:
+      - water
+      - pool
+  - id: chamber_of_mazarbul
+    name: The Chamber of Mazarbul
+    region: Moria
+    summary: Broken records, dim stone, and the memory of desperate dwarven resistance gather in this chamber where Khazad-dum's grief becomes immediate and personal.
+    atmosphere:
+      - echoing stone
+      - old grief
+      - siege dread
+    sensory_details:
+      - dust, records, and the hard knowledge of brave folk overborne in darkness
+      - drums in the deep turning memory into present danger
+    landmarks:
+      - stone book
+      - broken door
+      - dim hall
+    resident_npcs:
+      - Gandalf
+      - Aragorn
+      - Gimli
+      - Legolas
+      - Frodo Baggins
+    linked_locations:
+      - The West-gate
+      - The Bridge of Khazad-dum
+    travel_keywords:
+      - mazarbul
+      - chamber
+  - id: bridge_of_khazad_dum
+    name: The Bridge of Khazad-dum
+    region: Moria
+    summary: A narrow bridge spans black depth in the heart of Khazad-dum, where escape and sacrifice meet under fire and shadow.
+    atmosphere:
+      - fire and shadow
+      - depth
+      - last stand
+    sensory_details:
+      - flame in the dark, stone over abyss, and the pressure of doom reduced to one perilous crossing
+      - Gandalf's command sounding against a terror older than the halls around it
+    landmarks:
+      - narrow bridge
+      - abyss
+      - broken stair
+    resident_npcs:
+      - Gandalf
+      - Durin's Bane
+      - Aragorn
+    linked_locations:
+      - The Chamber of Mazarbul
+      - The Dimrill Stair
+    travel_keywords:
+      - bridge
+      - khazad-dum
+  - id: dimrill_stair
+    name: The Dimrill Stair
+    region: East-gate of Moria
+    summary: Cold steps descend from the eastern gate of Moria into daylight, where grief and survival stand side by side under the open sky.
+    atmosphere:
+      - cold daylight
+      - relief and grief
+      - mountain air
+    sensory_details:
+      - bright air after the deeps and the shock of loss made sharper by escape
+      - stone steps opening toward the world again, though never toward innocence
+    landmarks:
+      - stone stair
+      - eastward light
+    resident_npcs:
+      - Aragorn
+      - Legolas
+      - Gimli
+      - Frodo Baggins
+    linked_locations:
+      - The Bridge of Khazad-dum
+      - Lothlórien
+    travel_keywords:
+      - dimrill
+      - stair
+  - id: lothlorien
+    name: Lothlórien
+    region: Golden Wood
+    summary: A hidden wood of golden light and grave beauty where healing and sorrow are both deepened rather than denied.
+    atmosphere:
+      - golden leaves
+      - high quiet
+      - deep consolation
+    sensory_details:
+      - clear light among mallorn boughs and a beauty too pure for haste
+      - grief gentled but not erased by the stillness of the Golden Wood
+    landmarks:
+      - Caras Galadhon
+      - mallorn path
+      - silver stream
+    resident_npcs:
+      - Galadriel
+      - Haldir
+    linked_locations:
+      - The Dimrill Stair
+      - Caras Galadhon
+      - The Mallorn Path
+    travel_keywords:
+      - lórien
+      - lorien
+      - golden wood
+  - id: caras_galadhon
+    name: Caras Galadhon
+    region: Lothlórien
+    summary: The heart of the Golden Wood rises in grace and quiet authority, where memory and Elven power are felt in every height.
+    atmosphere:
+      - golden height
+      - still majesty
+      - shelter
+    sensory_details:
+      - high platforms, pale bark, and a city that seems half woven out of light
+      - the sense of being welcomed and measured in the same gentle moment
+    landmarks:
+      - tree city
+      - high flets
+    resident_npcs:
+      - Galadriel
+      - Haldir
+    linked_locations:
+      - Lothlórien
+      - The Mallorn Path
+    travel_keywords:
+      - caras
+      - city
+  - id: mallorn_path
+    name: The Mallorn Path
+    region: Lothlórien
+    summary: A fair path beneath golden branches where each step seems lighter than the burden the travelers still bear.
+    atmosphere:
+      - soft light
+      - hush
+      - renewal
+    sensory_details:
+      - golden leaves overhead and the strange ease of feet moving without weariness
+      - air so clear that even sorrow seems briefly ordered
+    landmarks:
+      - mallorn path
+      - golden leaves
+    resident_npcs:
+      - Haldir
+    linked_locations:
+      - Lothlórien
+      - Caras Galadhon
+    travel_keywords:
+      - mallorn
+      - path
+  - id: amon_hen
+    name: Amon Hen
+    region: Nen Hithoel
+    summary: A high hill beside the Great River where the burden of choice presses as heavily as the long road itself.
+    atmosphere:
+      - river wind
+      - unease
+      - impending sundering
+    sensory_details:
+      - high air and the sound of the river below, with no peace in the height
+      - the sense that the Company has reached not shelter but a breaking-point
+    landmarks:
+      - seat of seeing
+      - eastern shore
+      - river bank
+    resident_npcs:
+      - Boromir
+      - Samwise Gamgee
+    linked_locations:
+      - The Seat of Seeing
+      - The Eastern Shore
+    travel_keywords:
+      - amon hen
+      - hill of sight
+  - id: seat_of_seeing
+    name: The Seat of Seeing
+    region: Amon Hen
+    summary: The ancient seat atop Amon Hen offers height and sight, but no comfort to one already oppressed by the Eye's searching pressure.
+    atmosphere:
+      - exposed height
+      - inward strain
+      - vision
+    sensory_details:
+      - wind over stone and the dreadful feeling of seeing too far
+      - the hill's old power answering a heart already near its limit
+    landmarks:
+      - stone seat
+      - summit platform
+    resident_npcs: []
+    linked_locations:
+      - Amon Hen
+      - The Eastern Shore
+    travel_keywords:
+      - seat
+      - seeing
+  - id: eastern_shore
+    name: The Eastern Shore
+    region: Anduin
+    summary: The river-bank below Amon Hen is a place of departure, haste, and the first practical shape of separation.
+    atmosphere:
+      - river-sound
+      - haste
+      - grief
+    sensory_details:
+      - water against the bank and the desperate business of leaving before all is ready
+      - the plain fact that parting has ceased to be a fear and become an act
+    landmarks:
+      - boats
+      - river bank
+    resident_npcs:
+      - Samwise Gamgee
+    linked_locations:
+      - Amon Hen
+      - The Seat of Seeing
+      - Emyn Muil
+    travel_keywords:
+      - shore
+      - bank
+  - id: emyn_muil
+    name: Emyn Muil
+    region: Wilderland East of Anduin
+    summary: A bitter maze of ridges, shelves, and broken descents stretches eastward, offering neither clear road nor kindness to the weary.
+    atmosphere:
+      - bare stone
+      - hunger
+      - weary frustration
+    sensory_details:
+      - jagged rock, harsh drops, and the labor of choosing each step without ever feeling nearer ease
+      - the land's stony indifference making mercy toward Gollum seem all the more difficult and necessary
+    landmarks:
+      - slinker stair
+      - stony shelf
+      - broken ridge
+    resident_npcs:
+      - Frodo Baggins
+      - Samwise Gamgee
+      - Gollum
+    linked_locations:
+      - The Eastern Shore
+      - The Slinker Stair
+      - The Stony Shelf
+      - The Dead Marshes
+    travel_keywords:
+      - emyn muil
+      - broken hills
+  - id: slinker_stair
+    name: The Slinker Stair
+    region: Emyn Muil
+    summary: A narrow downward scramble among the rocks where Gollum's body remembers paths the hobbits could never have found alone.
+    atmosphere:
+      - steep stone
+      - secrecy
+      - uneasy dependence
+    landmarks:
+      - narrow descent
+      - handholds
+    resident_npcs:
+      - Gollum
+      - Frodo Baggins
+    linked_locations:
+      - Emyn Muil
+      - The Stony Shelf
+    travel_keywords:
+      - stair
+      - descent
+  - id: stony_shelf
+    name: The Stony Shelf
+    region: Emyn Muil
+    summary: A hard ledge among the broken hills offers scant rest and too much time for hunger, argument, and pity to work upon the mind.
+    atmosphere:
+      - cold stone
+      - exposure
+      - strained rest
+    landmarks:
+      - shelf
+      - broken ledge
+    resident_npcs:
+      - Frodo Baggins
+      - Samwise Gamgee
+    linked_locations:
+      - Emyn Muil
+      - The Slinker Stair
+    travel_keywords:
+      - shelf
+      - ledge
+  - id: dead_marshes
+    name: The Dead Marshes
+    region: Borders of Mordor
+    summary: A waste of water, mist, and drowned memory where the living walk among lights and faces that should have long been lost.
+    atmosphere:
+      - reeking mist
+      - haunted stillness
+      - exhaustion
+    sensory_details:
+      - cold slime, dim lights, and a sick weariness hanging over every pool
+      - ancient death made present beneath the marsh-water
+    landmarks:
+      - marsh path
+      - dead faces mere
+      - corpse-lights
+    resident_npcs:
+      - Gollum
+      - Samwise Gamgee
+      - Frodo Baggins
+    linked_locations:
+      - Emyn Muil
+      - The Marsh Path
+      - The Dead Faces Mere
+      - Ithilien
+    travel_keywords:
+      - dead marshes
+      - marsh
+  - id: marsh_path
+    name: The Marsh Path
+    region: Dead Marshes
+    summary: A narrow uncertain way through bog and reed where each step depends on Gollum's guidance and cannot be fully trusted.
+    atmosphere:
+      - mist
+      - caution
+      - weariness
+    sensory_details:
+      - sodden footing and the need to place every step as though life depends on it
+      - a path that seems less chosen than suffered
+    landmarks:
+      - reed path
+      - black pools
+    resident_npcs:
+      - Gollum
+      - Frodo Baggins
+      - Samwise Gamgee
+    linked_locations:
+      - The Dead Marshes
+      - The Dead Faces Mere
+    travel_keywords:
+      - marsh path
+      - path
+  - id: dead_faces_mere
+    name: The Dead Faces Mere
+    region: Dead Marshes
+    summary: A dreadful pool where the faces of the long dead can still be seen beneath the water when the lights shift over them.
+    atmosphere:
+      - horror
+      - dim lights
+      - pity
+    sensory_details:
+      - pale faces under dark water and lights wavering above them like false stars
+      - the shock of old battle lingering without honor or rest
+    landmarks:
+      - dead faces
+      - corpse-lights
+    resident_npcs:
+      - Gollum
+      - Frodo Baggins
+    linked_locations:
+      - The Dead Marshes
+      - The Marsh Path
+    travel_keywords:
+      - dead faces
+      - mere
+  - id: morgul_stairs
+    name: The Morgul Stairs
+    region: Ephel Dúath
+    summary: The long stair above Minas Morgul rises in bitter labor toward a pass that seems less a road than a wearing-away of hope.
+    atmosphere:
+      - poisoned dusk
+      - exhaustion
+      - dread ascent
+    sensory_details:
+      - endless climbing under a sickly sky and the sense of leaving the ordinary world behind
+      - breath, stone, and weariness all growing harsher together
+    landmarks:
+      - high stair
+      - tunnel mouth
+      - broken steps
+    resident_npcs:
+      - Gollum
+      - Frodo Baggins
+      - Samwise Gamgee
+    linked_locations:
+      - The High Stair
+      - The Tunnel Mouth
+    travel_keywords:
+      - morgul stairs
+      - stairs
+  - id: high_stair
+    name: The High Stair
+    region: The Morgul Stairs
+    summary: A perilous upper reach of the stair where each step is a separate act of endurance.
+    atmosphere:
+      - steep labor
+      - fading strength
+      - peril
+    sensory_details:
+      - narrow footing and the oppressive need to keep climbing when all desire for climbing is gone
+      - the body reduced to effort while the mind tries not to fail before it
+    landmarks:
+      - upper stair
+      - narrow ledge
+    resident_npcs:
+      - Frodo Baggins
+      - Samwise Gamgee
+    linked_locations:
+      - The Morgul Stairs
+      - The Tunnel Mouth
+    travel_keywords:
+      - high stair
+      - upper stair
+  - id: tunnel_mouth
+    name: The Tunnel Mouth
+    region: Cirith Ungol Pass
+    summary: A black opening waits beyond the stair, promising concealment and horror in equal measure.
+    atmosphere:
+      - black opening
+      - foreboding
+      - weariness
+    sensory_details:
+      - stale dark ahead and the knowledge that the stair was only the lesser ordeal
+      - the sense of entering something living only in malice
+    landmarks:
+      - tunnel mouth
+      - black cleft
+    resident_npcs:
+      - Gollum
+      - Frodo Baggins
+    linked_locations:
+      - The Morgul Stairs
+      - The High Stair
+      - Cirith Ungol
+      - Shelob's Lair
+    travel_keywords:
+      - tunnel
+      - mouth
+  - id: shelobs_lair
+    name: Shelob's Lair
+    region: Cirith Ungol Pass
+    summary: A living dark of web, reek, and predatory patience fills the lair where sight, courage, and direction all begin to fail together.
+    atmosphere:
+      - suffocating dark
+      - foul reek
+      - lurking hunger
+    sensory_details:
+      - web-strands, stale venomous air, and darkness thick enough to feel
+      - the knowledge of something vast and malignant moving just beyond sight
+    landmarks:
+      - reeking passage
+      - webbed stone
+      - black gulf
+    resident_npcs:
+      - Shelob
+      - Frodo Baggins
+      - Samwise Gamgee
+    linked_locations:
+      - The Tunnel Mouth
+      - The Reeking Passage
+    travel_keywords:
+      - shelob
+      - lair
+  - id: reeking_passage
+    name: The Reeking Passage
+    region: Shelob's Lair
+    summary: A low winding way through stink, dark, and clinging webs where every yard seems taken at the cost of another measure of strength.
+    atmosphere:
+      - stench
+      - blind groping
+      - dread
+    sensory_details:
+      - foul stone and web tangling hand and face alike in the dark
+      - the sick feeling of pressing deeper where no sane creature should dwell
+    landmarks:
+      - low arch
+      - clinging webs
+    resident_npcs:
+      - Shelob
+      - Samwise Gamgee
+    linked_locations:
+      - Shelob's Lair
+      - The Great Cleft
+    travel_keywords:
+      - passage
+      - reeking
+  - id: great_cleft
+    name: The Great Cleft
+    region: Cirith Ungol Pass
+    summary: A harsh opening beyond the tunnel gives bitter air and a little space again, though no true safety lies before or behind.
+    atmosphere:
+      - bitter wind
+      - exhausted relief
+      - peril
+    sensory_details:
+      - cold air after suffocating dark and the shocking nearness of open sky
+      - relief checked at once by the sight of enemy stone nearby
+    landmarks:
+      - cleft
+      - rocky lip
+    resident_npcs:
+      - Samwise Gamgee
+      - Frodo Baggins
+    linked_locations:
+      - The Reeking Passage
+      - Cirith Ungol
+    travel_keywords:
+      - cleft
+      - pass
+  - id: field_of_cormallen
+    name: The Field of Cormallen
+    region: Ithilien
+    summary: Green Ithilien opens in healing light at Cormallen, where song, honor, and astonished peace greet those who have come back from the Fire.
+    atmosphere:
+      - birdsong
+      - fair green
+      - grateful joy
+    sensory_details:
+      - clean air, leaf-light, and the almost unbelievable return of beauty after Mordor
+      - banners, song, and healing made gentle by the surrounding land
+    landmarks:
+      - king's pavilion
+      - green mound
+      - singing field
+    resident_npcs:
+      - Frodo Baggins
+      - Samwise Gamgee
+      - Gandalf
+      - Aragorn
+    linked_locations:
+      - Ithilien
+      - The King's Pavilion
+      - The Green Mound
+    travel_keywords:
+      - cormallen
+      - field
+  - id: kings_pavilion
+    name: The King's Pavilion
+    region: The Field of Cormallen
+    summary: A fair pavilion of rest and honor shelters those recovered from the Fire and the captains who rejoice over them.
+    atmosphere:
+      - white linen
+      - healing
+      - honor
+    sensory_details:
+      - cool shade, clean linens, and the careful gentleness owed to those who have suffered greatly
+      - praise entering softly so as not to wound weariness
+    landmarks:
+      - pavilion bed
+      - bannered opening
+    resident_npcs:
+      - Frodo Baggins
+      - Samwise Gamgee
+      - Gandalf
+    linked_locations:
+      - The Field of Cormallen
+      - The Green Mound
+    travel_keywords:
+      - pavilion
+      - king
+  - id: green_mound
+    name: The Green Mound
+    region: The Field of Cormallen
+    summary: A grassy rise gives view across the field of joy, where honor is proclaimed under trees and open sky rather than under stone.
+    atmosphere:
+      - sunlight
+      - song
+      - relief
+    sensory_details:
+      - warm grass, bright banners, and the strange lightness that comes when nightmare has ended
+      - the sound of voices no longer constrained by fear
+    landmarks:
+      - grassy rise
+      - banner poles
+    resident_npcs:
+      - Aragorn
+      - Gandalf
+    linked_locations:
+      - The Field of Cormallen
+      - The King's Pavilion
+    travel_keywords:
+      - mound
+      - green
+  - id: fangorn_forest
+    name: Fangorn Forest
+    region: Rohan
+    summary: Ancient trees, deep roots, and old thought fill Fangorn with a living watchfulness not meant for the hasty.
+    atmosphere:
+      - old wood
+      - leaf-shadow
+      - deep silence
+    sensory_details:
+      - bark, root, and dim green light older than kingdoms of men
+      - a hush so living that haste itself feels like discourtesy
+    landmarks:
+      - tree-shadowed path
+      - green hollow
+    resident_npcs:
+      - Treebeard
+      - Gandalf
+      - Aragorn
+      - Gimli
+      - Legolas
+    linked_locations:
+      - The Tree-shadowed Path
+      - The Green Hollow
+    travel_keywords:
+      - fangorn
+      - forest
+  - id: tree_shadowed_path
+    name: The Tree-shadowed Path
+    region: Fangorn
+    summary: A dim way under boughs where sound is muffled and each trunk seems older than memory.
+    atmosphere:
+      - shade
+      - roots
+      - watchfulness
+    sensory_details:
+      - roots and moss underfoot, with no sense that the forest has ceased to observe
+      - dim green light where every sound seems borrowed
+    landmarks:
+      - roots
+      - mossy stones
+    resident_npcs:
+      - Gandalf
+      - Aragorn
+      - Gimli
+      - Legolas
+    linked_locations:
+      - Fangorn Forest
+      - The Green Hollow
+    travel_keywords:
+      - tree path
+      - shadowed path
+  - id: green_hollow
+    name: The Green Hollow
+    region: Fangorn
+    summary: A breathing space beneath the forest's age where counsel may be given without the world hearing.
+    atmosphere:
+      - filtered light
+      - green silence
+      - hidden speech
+    sensory_details:
+      - a soft breathing place under the trees where counsel may take root
+      - filtered light and living quiet unmarred by the outer world
+    landmarks:
+      - grassy floor
+      - ring of trees
+    resident_npcs:
+      - Treebeard
+      - Gandalf
+    linked_locations:
+      - Fangorn Forest
+      - The Tree-shadowed Path
+      - Isengard
+    travel_keywords:
+      - hollow
+  - id: isengard
+    name: Isengard
+    region: Gap of Rohan
+    summary: Once a ring of ordered power, Isengard now stands broken and flooded, its ruin speaking more truly than Saruman's pride ever did.
+    atmosphere:
+      - wrecked stone
+      - running water
+      - fallen greatness
+    sensory_details:
+      - shattered masonry, pools among the courts, and the clean force of water undoing engines of domination
+      - ruin made strangely honest by the end of pretense
+    landmarks:
+      - orthanc steps
+      - ring of isengard
+    resident_npcs:
+      - Saruman
+      - Gríma Wormtongue
+      - Treebeard
+      - Gandalf
+    linked_locations:
+      - The Green Hollow
+      - The Orthanc Steps
+      - The Ring of Isengard
+    travel_keywords:
+      - isengard
+      - orthanc
+  - id: orthanc_steps
+    name: The Orthanc Steps
+    region: Isengard
+    summary: The black tower's foot remains severe and commanding even in defeat, a fitting perch for Saruman's fallen voice.
+    atmosphere:
+      - black stone
+      - accusation
+      - cold authority
+    sensory_details:
+      - sheer dark stone rising above ruins and the sharp unease of a place built for domination
+      - words from above seeming to reach farther than they ought
+    landmarks:
+      - stair
+      - black tower
+    resident_npcs:
+      - Saruman
+      - Gríma Wormtongue
+      - Gandalf
+    linked_locations:
+      - Isengard
+      - The Ring of Isengard
+    travel_keywords:
+      - steps
+      - orthanc steps
+  - id: ring_of_isengard
+    name: The Ring of Isengard
+    region: Isengard
+    summary: The broad paved circle around Orthanc is marred by flood and ruin, where pride's works lie exposed to mockery and judgment.
+    atmosphere:
+      - flooded courts
+      - echo
+      - reckoning
+    sensory_details:
+      - broken engines, standing water, and the curious silence after long violence
+      - the sense that cunning has collapsed into mere wreckage
+    landmarks:
+      - broken courts
+      - flood channels
+    resident_npcs:
+      - Treebeard
+      - Gandalf
+    linked_locations:
+      - Isengard
+      - The Orthanc Steps
+    travel_keywords:
+      - ring
+      - courts
+  - id: helms_deep
+    name: Helm's Deep
+    region: Rohan
+    summary: Stone, storm, and grim endurance gather beneath the Hornburg while war presses close.
+    atmosphere:
+      - rain
+      - torchlight
+      - resolve
+    sensory_details:
+      - rain on stone, armor, and horse-lines beneath a darkening sky
+      - the noise of men preparing themselves because fear has no use now
+    landmarks:
+      - deeping wall
+      - hornburg gate
+    resident_npcs:
+      - Aragorn
+      - Gimli
+      - Legolas
+      - Halbarad
+      - Elladan
+      - Elrohir
+      - Éomer
+    linked_locations:
+      - The Deeping Wall
+      - The Hornburg Gate
+      - Dunharrow
+    travel_keywords:
+      - hornburg
+      - deep
+  - id: deeping_wall
+    name: The Deeping Wall
+    region: Helm's Deep
+    summary: A hard line of stone where men wait beneath rain and the first fury of assault.
+    atmosphere:
+      - wet stone
+      - wind
+      - strain
+    landmarks:
+      - battlements
+      - torch brackets
+    resident_npcs:
+      - Aragorn
+      - Gimli
+      - Legolas
+      - Halbarad
+    linked_locations:
+      - Helm's Deep
+      - The Hornburg Gate
+    travel_keywords:
+      - wall
+  - id: hornburg_gate
+    name: The Hornburg Gate
+    region: Helm's Deep
+    summary: A grim stronghold entrance where courage must stand against ruin and noise.
+    atmosphere:
+      - thunder
+      - shouting
+      - siege-pressure
+    landmarks:
+      - gate arch
+      - stone steps
+    resident_npcs:
+      - Aragorn
+      - Éomer
+    linked_locations:
+      - Helm's Deep
+      - The Deeping Wall
+      - Dunharrow
+    travel_keywords:
+      - gate
+  - id: dunharrow
+    name: Dunharrow
+    region: White Mountains
+    summary: A high refuge under the mountain gathers muster, dread, and old memory before the road into darkness is chosen.
+    atmosphere:
+      - mountain cold
+      - waiting host
+      - foreboding
+    sensory_details:
+      - wind over stone, tethered horses, and the held breath of men who know what road may be asked of them
+      - old standing places made stern by rumor and necessity
+    landmarks:
+      - dimholt door
+      - harrowdale
+    resident_npcs:
+      - Aragorn
+      - Éowyn
+      - Legolas
+      - Gimli
+      - Halbarad
+      - Elladan
+      - Elrohir
+    linked_locations:
+      - Helm's Deep
+      - The Hornburg Gate
+      - Harrowdale
+      - The Dimholt Door
+    travel_keywords:
+      - dunharrow
+      - muster
+  - id: harrowdale
+    name: Harrowdale
+    region: Dunharrow
+    summary: The dale below Dunharrow holds campfires, horse-lines, and the uneasy business of waiting on a choice no one envies.
+    atmosphere:
+      - camp smoke
+      - mountain dusk
+      - unease
+    sensory_details:
+      - low voices, horse-breath, and the plain work of a host delaying fear by labor
+      - the valley seeming too narrow for all the thoughts it contains
+    landmarks:
+      - campfires
+      - horse-lines
+    resident_npcs:
+      - Éowyn
+      - Legolas
+      - Gimli
+      - Halbarad
+    linked_locations:
+      - Dunharrow
+      - The Dimholt Door
+    travel_keywords:
+      - dale
+      - camp
+  - id: dimholt_door
+    name: The Dimholt Door
+    region: Dunharrow
+    summary: A black opening under the mountain marks the way of oath-breakers, dreaded more for memory than for any visible guard.
+    atmosphere:
+      - black opening
+      - dread silence
+      - necessity
+    sensory_details:
+      - cold air breathing from the mountain and the sense that living feet do not belong there
+      - fear made sharper because no one can deny its cause
+    landmarks:
+      - dark arch
+      - mountain door
+    resident_npcs:
+      - Aragorn
+      - Legolas
+      - Gimli
+      - Halbarad
+      - Elladan
+      - Elrohir
+    linked_locations:
+      - Dunharrow
+      - Harrowdale
+      - The Paths of the Dead
+    travel_keywords:
+      - dimholt
+      - door
+  - id: ithilien
+    name: Ithilien
+    region: Gondor
+    summary: Green, scented, and wounded by war, Ithilien remains fair beyond reasonable hope.
+    atmosphere:
+      - herbs
+      - hidden water
+      - wary beauty
+    sensory_details:
+      - thyme, sage, and growing things still fair despite the Shadow
+      - green shade and secret water crossing a land made half into memory
+    landmarks:
+      - fern-hidden path
+      - runnel
+      - rocky ledge
+      - forbidden pool
+    resident_npcs:
+      - Frodo Baggins
+      - Gollum
+      - Samwise Gamgee
+      - Faramir
+    linked_locations:
+      - The Dead Marshes
+      - The Herbs by the Runnel
+      - The Rocky Ledge
+      - The Fern-hidden Path
+      - The Cross-roads
+      - Henneth Annûn
+      - The Forbidden Pool
+      - The Field of Cormallen
+    travel_keywords:
+      - herbs
+      - ithilien
+  - id: herbs_runnel
+    name: The Herbs by the Runnel
+    region: Ithilien
+    summary: Fragrant growth surrounds a little thread of water, offering both comfort and danger to hungry travelers.
+    atmosphere:
+      - sweet scent
+      - trickling water
+      - concealed movement
+    landmarks:
+      - sage
+      - thyme
+      - stream edge
+    resident_npcs:
+      - Frodo Baggins
+      - Samwise Gamgee
+      - Gollum
+    linked_locations:
+      - Ithilien
+      - The Rocky Ledge
+      - The Fern-hidden Path
+    travel_keywords:
+      - runnel
+      - herbs
+  - id: rocky_ledge
+    name: The Rocky Ledge
+    region: Ithilien
+    summary: A hard perch above the green where one may watch, hide, or fear discovery.
+    atmosphere:
+      - stone
+      - lookout
+      - tension
+    landmarks:
+      - broken rock
+      - view across the green
+    resident_npcs:
+      - Frodo Baggins
+      - Samwise Gamgee
+    linked_locations:
+      - Ithilien
+      - The Herbs by the Runnel
+    travel_keywords:
+      - ledge
+      - rocks
+  - id: fern_path
+    name: The Fern-hidden Path
+    region: Ithilien
+    summary: A narrow way under growth and shadow, fit for secrecy rather than ease.
+    atmosphere:
+      - damp fern
+      - secrecy
+      - soft footfall
+    landmarks:
+      - hidden turning
+      - wet leaves
+    resident_npcs:
+      - Gollum
+    linked_locations:
+      - Ithilien
+      - The Herbs by the Runnel
+      - The Forbidden Pool
+    travel_keywords:
+      - fern
+      - hidden path
+  - id: henneth_annun
+    name: Henneth Annûn
+    region: Ithilien
+    summary: Hidden behind a falling veil of water, Henneth Annûn holds watchful refuge, courtesy, and war-borne discipline in fair Ithilien.
+    atmosphere:
+      - falling water
+      - hidden refuge
+      - guarded courtesy
+    sensory_details:
+      - cool spray, shadowed stone, and the relief of shelter that must still be earned under careful eyes
+      - disciplined quiet among men who remain gentle without ceasing to be dangerous
+    landmarks:
+      - window on the west
+      - hidden hall
+      - waterfall veil
+    resident_npcs:
+      - Faramir
+      - Frodo Baggins
+      - Samwise Gamgee
+    linked_locations:
+      - Ithilien
+      - The Forbidden Pool
+      - The Window on the West
+    travel_keywords:
+      - henneth annun
+      - refuge
+  - id: forbidden_pool
+    name: The Forbidden Pool
+    region: Ithilien
+    summary: A deep pool below the hidden refuge shines fair and perilous, where beauty and danger meet in the fate of Gollum.
+    atmosphere:
+      - still water
+      - moonlight
+      - pity and danger
+    sensory_details:
+      - falling water, pale light, and the ache of seeing hunted misery framed in beauty
+      - a place where mercy toward Gollum becomes both more difficult and more necessary
+    landmarks:
+      - dark pool
+      - rock brink
+    resident_npcs:
+      - Gollum
+      - Frodo Baggins
+      - Faramir
+    linked_locations:
+      - Ithilien
+      - Henneth Annûn
+      - The Fern-hidden Path
+      - The Window on the West
+      - The Morgul Road
+    travel_keywords:
+      - forbidden pool
+      - pool
+  - id: window_on_the_west
+    name: The Window on the West
+    region: Henneth Annûn
+    summary: A secret opening looks westward over fair Ithilien, offering a rare breadth of sight in a tale otherwise grown narrow and burdened.
+    atmosphere:
+      - high air
+      - green distance
+      - brief perspective
+    landmarks:
+      - western opening
+      - waterfall light
+    resident_npcs:
+      - Faramir
+      - Frodo Baggins
+    linked_locations:
+      - Henneth Annûn
+      - The Forbidden Pool
+    travel_keywords:
+      - window
+      - west
+  - id: cirith_ungol
+    name: Cirith Ungol
+    region: Mordor
+    summary: A foul tower and pass of fear, stone, and watchfulness on the very edge of the Black Land.
+    atmosphere:
+      - stench
+      - dread
+      - exhaustion
+    sensory_details:
+      - foul stone and rank air rising from the enemy's hold
+      - a weariness so deep it must be mastered simply to move
+    landmarks:
+      - outer yard
+      - inner stair
+      - tower gate
+    resident_npcs:
+      - Frodo Baggins
+    linked_locations:
+      - The Tunnel Mouth
+      - The Outer Yard
+      - The Inner Stair
+      - The Morgul Road
+      - The Great Cleft
+    travel_keywords:
+      - tower
+      - ungol
+  - id: outer_yard
+    name: The Outer Yard
+    region: Cirith Ungol
+    summary: Bare stone and foul air surround the tower's approach, where every sound seems hostile.
+    atmosphere:
+      - bare stone
+      - harsh cries
+      - dread
+    landmarks:
+      - broken flags
+      - tower arch
+    resident_npcs: []
+    linked_locations:
+      - Cirith Ungol
+      - The Inner Stair
+    travel_keywords:
+      - yard
+      - gate
+  - id: inner_stair
+    name: The Inner Stair
+    region: Cirith Ungol
+    summary: A dark climb within the enemy's place, rank with fear and urgent secrecy.
+    atmosphere:
+      - steep stone
+      - bad air
+      - haste
+    landmarks:
+      - stair
+      - dark landings
+    resident_npcs:
+      - Frodo Baggins
+    linked_locations:
+      - Cirith Ungol
+      - The Outer Yard
+    travel_keywords:
+      - stair
+  - id: crossroads
+    name: The Cross-roads
+    region: Ithilien
+    summary: The old ways meet beneath ruin and memory where the fallen king still seems to look westward.
+    atmosphere:
+      - broken majesty
+      - dust
+      - sorrow
+    sensory_details:
+      - dry road-dust around carved stone that still remembers kingship
+      - withered flowers and a beauty not quite extinguished by ruin
+    landmarks:
+      - fallen head
+      - morgul road
+    resident_npcs:
+      - Frodo Baggins
+      - Gollum
+      - Samwise Gamgee
+    linked_locations:
+      - The Fallen Head
+      - The Morgul Road
+      - Ithilien
+    travel_keywords:
+      - cross roads
+      - crossroads
+  - id: fallen_head
+    name: The Fallen Head
+    region: The Cross-roads
+    summary: The broken stone head of a king lies cast down yet not wholly dishonored.
+    atmosphere:
+      - memory
+      - pity
+      - faded nobility
+    landmarks:
+      - stone brow
+      - wreath of flowers
+    resident_npcs:
+      - Frodo Baggins
+      - Samwise Gamgee
+    linked_locations:
+      - The Cross-roads
+      - The Morgul Road
+    travel_keywords:
+      - head
+      - king's head
+  - id: morgul_road
+    name: The Morgul Road
+    region: Borders of Mordor
+    summary: A foul road running upward into dread where the air itself seems unclean.
+    atmosphere:
+      - foul air
+      - dread
+      - weary resolve
+    landmarks:
+      - black road
+      - climbing way
+    resident_npcs:
+      - Gollum
+    linked_locations:
+      - The Cross-roads
+      - The Fallen Head
+      - Cirith Ungol
+      - The Forbidden Pool
+    travel_keywords:
+      - morgul
+      - black road
+  - id: paths_of_the_dead
+    name: The Paths of the Dead
+    region: White Mountains
+    summary: An ancient way beneath the mountain where broken oaths seem to linger in the air itself.
+    atmosphere:
+      - cold stone
+      - echo
+      - dread silence
+    sensory_details:
+      - mountain-cold air and an emptiness that feels inhabited by old vows
+      - hoof, foot, and voice all diminished by the ancient dark
+    landmarks:
+      - dark passage
+      - stone door
+    resident_npcs:
+      - Aragorn
+      - Gimli
+      - Legolas
+    linked_locations:
+      - The Dark Passage
+      - The Stone Door
+      - The Dimholt Door
+    travel_keywords:
+      - dead
+      - mountain path
+  - id: dark_passage
+    name: The Dark Passage
+    region: Paths of the Dead
+    summary: A black road under stone where courage must walk before sight can.
+    atmosphere:
+      - blackness
+      - echo
+      - pressure
+    landmarks:
+      - worn floor
+      - unseen vault
+    resident_npcs:
+      - Aragorn
+      - Gimli
+      - Legolas
+    linked_locations:
+      - The Paths of the Dead
+      - The Stone Door
+    travel_keywords:
+      - passage
+      - dark road
+  - id: stone_door
+    name: The Stone Door
+    region: Paths of the Dead
+    summary: A threshold of old kingship and fear where the mountain seems to judge the living.
+    atmosphere:
+      - stillness
+      - weight
+      - old authority
+    landmarks:
+      - sealed door
+      - carved stone
+    resident_npcs:
+      - Aragorn
+      - Legolas
+      - Gimli
+      - Elladan
+      - Elrohir
+    linked_locations:
+      - The Paths of the Dead
+      - The Dark Passage
+      - Pelargir
+    travel_keywords:
+      - door
+  - id: pelargir
+    name: Pelargir
+    region: Gondor
+    summary: Great quays and river-waters gather the southern strength of Gondor here, where black ships and sea-wind turn dread toward deliverance.
+    atmosphere:
+      - salt wind
+      - river harbor
+      - sudden hope
+    sensory_details:
+      - gull-cries, rope-creak, and the wash of the Anduin against crowded quays
+      - men shouting in astonishment as fear gives way to the first shape of rescue
+    landmarks:
+      - quays
+      - corsair ships
+      - harbor court
+    resident_npcs:
+      - Aragorn
+      - Halbarad
+      - Elladan
+      - Elrohir
+    linked_locations:
+      - The Quays of Pelargir
+      - The Captured Corsair Ships
+      - The Stone Door
+    travel_keywords:
+      - pelargir
+      - harbor
+  - id: quays_of_pelargir
+    name: The Quays of Pelargir
+    region: Pelargir
+    summary: Long piers, hawsers, and crowded river-steps make the quays a place of labor suddenly transformed by the arrival of the King's banner.
+    atmosphere:
+      - rope and tar
+      - cries over water
+      - gathering command
+    landmarks:
+      - mooring posts
+      - stone steps
+      - gangways
+    resident_npcs:
+      - Aragorn
+      - Halbarad
+      - Prince Imrahil
+    linked_locations:
+      - Pelargir
+      - The Captured Corsair Ships
+    travel_keywords:
+      - quays
+      - dock
+  - id: captured_corsair_ships
+    name: The Captured Corsair Ships
+    region: Pelargir
+    summary: Once a threat from the south, the black ships now bear a different authority as banners change and dread is turned to haste.
+    atmosphere:
+      - black timber
+      - surf-wind
+      - command
+    landmarks:
+      - black sails
+      - gangplank
+      - river deck
+    resident_npcs:
+      - Aragorn
+      - Legolas
+      - Gimli
+      - Elladan
+      - Elrohir
+    linked_locations:
+      - Pelargir
+      - The Quays of Pelargir
+      - The River Landing
+    travel_keywords:
+      - ships
+      - corsair
+  - id: minas_tirith
+    name: Minas Tirith
+    region: Gondor
+    summary: The White City stands proud and strained, its beauty shadowed by the imminence of war.
+    atmosphere:
+      - white stone
+      - mustering
+      - gravity
+    sensory_details:
+      - bright walls dimmed by war-shadow and the sound of a city holding its breath
+      - armor, hoofbeats, and rumor moving through courts built for older glory
+    landmarks:
+      - citadel
+      - lower circle
+    resident_npcs:
+      - Gandalf
+      - Pippin Took
+      - Faramir
+      - Beregond
+      - Prince Imrahil
+    linked_locations:
+      - The Citadel
+      - The Lower Circle
+      - The Houses of Healing
+      - The Court of the Fountain
+      - The Steward's Hall
+      - Rath Dínen
+      - The Silent Street
+      - The Great Gate
+    travel_keywords:
+      - white city
+      - tirith
+  - id: citadel
+    name: The Citadel
+    region: Minas Tirith
+    summary: High halls of rule and watchfulness where counsel must hold against despair.
+    atmosphere:
+      - high stone
+      - wind
+      - stern authority
+    landmarks:
+      - high court
+      - guard steps
+    resident_npcs:
+      - Gandalf
+      - Pippin Took
+      - Beregond
+    linked_locations:
+      - Minas Tirith
+      - The Lower Circle
+      - The Court of the Fountain
+      - The Steward's Hall
+    travel_keywords:
+      - citadel
+  - id: lower_circle
+    name: The Lower Circle
+    region: Minas Tirith
+    summary: The lower ways of the city carry rumor, labor, and fear beneath the upper courts.
+    atmosphere:
+      - crowded stone
+      - rumor
+      - readiness
+    landmarks:
+      - market court
+      - lower gate
+    resident_npcs:
+      - Faramir
+      - Beregond
+    linked_locations:
+      - Minas Tirith
+      - The Citadel
+      - The Houses of Healing
+      - The Steward's Hall
+      - The Great Gate
+    travel_keywords:
+      - lower city
+  - id: great_gate
+    name: The Great Gate
+    region: Minas Tirith
+    summary: The broken gate of the White City stands amid smoke, ruin, and defiance, where courage must answer terror in plain sight.
+    atmosphere:
+      - smoke
+      - shattered stone
+      - siege dread
+    sensory_details:
+      - blackened masonry, splintered gate-leaves, and the hard nearness of ruin under a sky dark with war
+      - the city's will reduced to a few riders, a few words, and the refusal to yield before horror
+    landmarks:
+      - broken gate
+      - shattered arch
+      - city threshold
+    resident_npcs:
+      - Gandalf
+      - Pippin Took
+      - Beregond
+      - The Witch-king of Angmar
+    linked_locations:
+      - Minas Tirith
+      - The Lower Circle
+      - The Road to Minas Tirith
+      - The Open Field
+      - The Pelennor
+    travel_keywords:
+      - great gate
+      - city gate
+  - id: stewards_hall
+    name: The Steward's Hall
+    region: Minas Tirith
+    summary: High within the city, the Steward's hall is a place of pride, grief, and hard scrutiny where words can wound as sharply as weapons.
+    atmosphere:
+      - severe stone
+      - command
+      - inward strain
+    sensory_details:
+      - tall chairs, white stone, and the air of a room where authority has grown too lonely
+      - grief and pride standing together without any wish to be reconciled
+    landmarks:
+      - steward's chair
+      - high windows
+    resident_npcs:
+      - Denethor
+      - Pippin Took
+      - Gandalf
+      - Prince Imrahil
+    linked_locations:
+      - Minas Tirith
+      - The Citadel
+      - The Lower Circle
+      - Rath Dínen
+    travel_keywords:
+      - steward
+      - hall
+  - id: houses_of_healing
+    name: The Houses of Healing
+    region: Minas Tirith
+    summary: Quiet chambers and herb-scented rooms lie apart from the city's noise, where the hurts of war are answered by patience, skill, and kingly hands.
+    atmosphere:
+      - stillness
+      - herb-scent
+      - guarded hope
+    sensory_details:
+      - athelas on the air and the strange peace that follows long cries and steel
+      - white linens, low voices, and the first return of breath after despair
+    landmarks:
+      - healing beds
+      - herb room
+      - garden door
+    resident_npcs:
+      - Aragorn
+      - Éowyn
+      - Merry Brandybuck
+      - Faramir
+      - Ioreth
+    linked_locations:
+      - Minas Tirith
+      - The Lower Circle
+      - The Healing Garden
+      - The Court of the Fountain
+    travel_keywords:
+      - healing
+      - houses
+  - id: healing_garden
+    name: The Healing Garden
+    region: The Houses of Healing
+    summary: A walled garden of herbs and clean air offers a gentler kind of strength than the battlefield, yet no less needed.
+    atmosphere:
+      - clean air
+      - quiet renewal
+      - soft light
+    sensory_details:
+      - leaves, stone paths, and the easing of pain into weary wakefulness
+      - a place where war seems farther away without being forgotten
+    landmarks:
+      - herb beds
+      - stone bench
+    resident_npcs:
+      - Éowyn
+      - Faramir
+      - Ioreth
+    linked_locations:
+      - The Houses of Healing
+    travel_keywords:
+      - garden
+      - herbs
+  - id: court_of_the_fountain
+    name: The Court of the Fountain
+    region: Minas Tirith
+    summary: White stone, the Tree, and the fountain make this court a place where the city gathers memory, kingship, and renewal into one bright space.
+    atmosphere:
+      - clear light
+      - ceremony
+      - renewal
+    sensory_details:
+      - bright stone and running water under banners lifted by a clean wind
+      - joy tempered by remembrance in a court that has seen both siege and deliverance
+    landmarks:
+      - white tree
+      - fountain
+      - king's court
+    resident_npcs:
+      - Aragorn
+      - Arwen
+      - Gandalf
+      - Faramir
+      - Prince Imrahil
+    linked_locations:
+      - Minas Tirith
+      - The Citadel
+      - The Houses of Healing
+    travel_keywords:
+      - fountain
+      - court
+  - id: pelennor
+    name: The Pelennor
+    region: Minas Tirith
+    summary: Wide fields lie under war-shadow, banners, fear, and the gathering strength of desperate hope.
+    atmosphere:
+      - cold dawn
+      - trampled field
+      - urgency
+    sensory_details:
+      - churned earth, wind off the river, and the nearness of battle before it breaks
+      - banners and cries crossing a field too wide for any one hope to master
+    landmarks:
+      - open field
+      - road to the city
+      - river landing
+    resident_npcs:
+      - Gimli
+      - Legolas
+      - Aragorn
+      - Théoden
+      - Merry Brandybuck
+      - Prince Imrahil
+    linked_locations:
+      - The River Landing
+      - The Open Field
+      - The Road to Minas Tirith
+      - The Great Gate
+    travel_keywords:
+      - pelennor
+      - fields
+  - id: river_landing
+    name: The River Landing
+    region: Pelennor
+    summary: A place of haste, surf-wind, and arriving strength where hope may seem to come from the river itself.
+    atmosphere:
+      - river wind
+      - banners
+      - haste
+    sensory_details:
+      - wet wind from the Anduin and the snap of standards over arriving strength
+      - timbers, ropes, and voices all straining toward the same urgent hour
+    landmarks:
+      - landing posts
+      - ships
+    resident_npcs:
+      - Aragorn
+      - Gimli
+      - Legolas
+      - Prince Imrahil
+    linked_locations:
+      - The Pelennor
+      - The Open Field
+      - The Captured Corsair Ships
+    travel_keywords:
+      - river
+      - landing
+  - id: rath_dinen
+    name: Rath Dínen
+    region: Minas Tirith
+    summary: The Silent Street lies apart from the living city, where tombs, memory, and lordly despair gather under stone and shadow.
+    atmosphere:
+      - sepulchral stillness
+      - smoke
+      - dread
+    sensory_details:
+      - torch-glow on pale walls and the bitter smell of fire where no fire should be
+      - the hidden city of the dead made terrible by living grief turned ruinous
+    landmarks:
+      - silent street
+      - tomb door
+      - house of the stewards
+    resident_npcs:
+      - Denethor
+      - Beregond
+      - Pippin Took
+    linked_locations:
+      - Minas Tirith
+      - The Steward's Hall
+      - The Silent Street
+    travel_keywords:
+      - rath dinen
+      - tombs
+  - id: silent_street
+    name: The Silent Street
+    region: Rath Dínen
+    summary: A narrow way among the tombs, silent in custom and terrible now beneath the crackle of an unlawful pyre.
+    atmosphere:
+      - echoing stone
+      - firelight
+      - urgency
+    landmarks:
+      - tomb passage
+      - pyre house
+      - guard lantern
+    resident_npcs:
+      - Gandalf
+      - Beregond
+      - Pippin Took
+    linked_locations:
+      - Rath Dínen
+      - Minas Tirith
+    travel_keywords:
+      - silent street
+      - pyre
+  - id: meduseld
+    name: Meduseld
+    region: Edoras
+    summary: The Golden Hall rises above Edoras in weathered splendor, a house of kingship, memory, and hard counsel.
+    atmosphere:
+      - gold timber
+      - old dignity
+      - renewed resolve
+    sensory_details:
+      - carved beams, high light, and the lingering heaviness of long discouragement
+      - a hall meant for strong hearts, even when those hearts have grown weary
+    landmarks:
+      - golden roof
+      - king's dais
+      - hall doors
+    resident_npcs:
+      - Théoden
+      - Éomer
+      - Gandalf
+    linked_locations:
+      - Edoras
+      - The Golden Hall Steps
+    travel_keywords:
+      - golden hall
+      - meduseld
+  - id: edoras
+    name: Edoras
+    region: Rohan
+    summary: The hill-city of the Mark stands windswept and proud, holding memory, horse-lore, and a people's kingly heart.
+    atmosphere:
+      - horse-wind
+      - hilltop light
+      - guarded hope
+    sensory_details:
+      - clean wind over the hill and the smell of horses, grass, and timber
+      - the look of a people waiting to see whether courage will fully wake again
+    landmarks:
+      - winding road
+      - hall above
+      - burial mounds
+    resident_npcs:
+      - Théoden
+      - Éomer
+    linked_locations:
+      - Meduseld
+      - The Golden Hall Steps
+    travel_keywords:
+      - edoras
+      - rohan city
+  - id: golden_hall_steps
+    name: The Golden Hall Steps
+    region: Edoras
+    summary: Wide timbered steps descend from Meduseld, where commands, farewells, and the first motions of renewal take visible shape.
+    atmosphere:
+      - open air
+      - expectation
+      - recovered strength
+    sensory_details:
+      - bright hill-wind and the sense of movement returning where stagnation had lingered
+      - voices carrying down from the hall into the city's waiting life
+    landmarks:
+      - hall steps
+      - carved rail
+    resident_npcs:
+      - Théoden
+      - Éomer
+      - Gandalf
+    linked_locations:
+      - Meduseld
+      - Edoras
+    travel_keywords:
+      - steps
+      - hall steps
+  - id: smaugs_lair
+    name: Smaug's Lair
+    region: Erebor
+    summary: The vast treasure halls of the Mountain lie under dragon-shadow, bright with gold and terrible with watchful sleep.
+    atmosphere:
+      - dragon-heat
+      - gold-light
+      - suffocating peril
+    sensory_details:
+      - treasure glimmering in dim firelight beneath the vast breathing of Smaug
+      - heat, gold, and fear so thick that wonder itself becomes dangerous
+    landmarks:
+      - treasure hall
+      - secret way
+      - dragon couch
+    resident_npcs:
+      - Smaug
+    linked_locations:
+      - The Treasure Hall
+      - The Secret Way
+      - The Front Gate
+    travel_keywords:
+      - smaug
+      - lair
+      - treasure
+  - id: treasure_hall
+    name: The Treasure Hall
+    region: Smaug's Lair
+    summary: Wealth without measure lies heaped in silence, made dreadful by the will that claims it all.
+    atmosphere:
+      - gleam
+      - hush
+      - enchantment and fear
+    sensory_details:
+      - jewels and worked gold scattered like stars fallen into darkness
+      - a stillness too tense to trust because the dragon is near
+    landmarks:
+      - dragon-hoard
+      - jeweled cup
+    resident_npcs:
+      - Smaug
+    linked_locations:
+      - Smaug's Lair
+      - The Secret Way
+    travel_keywords:
+      - hoard
+      - treasure hall
+  - id: secret_way
+    name: The Secret Way
+    region: Erebor
+    summary: A narrow hidden passage gives the smallest chance of entering and leaving the Mountain alive.
+    atmosphere:
+      - concealment
+      - stone
+      - urgent caution
+    sensory_details:
+      - close stone and the relief of shadowed escape after the blinding hoard
+      - a passage too narrow for safety, yet precious for that very reason
+    landmarks:
+      - narrow stair
+      - secret door
+    resident_npcs: []
+    linked_locations:
+      - Smaug's Lair
+      - The Treasure Hall
+      - The Hidden Door
+      - The Front Gate
+    travel_keywords:
+      - secret
+      - way out
+  - id: front_gate
+    name: The Front Gate
+    region: Erebor
+    summary: The great gate of the Mountain looks out over the camp below, where dragon-fear has yielded to shut doors, hard words, and the first shape of siege.
+    atmosphere:
+      - mountain wind
+      - guarded silence
+      - foreboding
+    sensory_details:
+      - cold stone and distant voices carrying upward from the camps below
+      - the strange stillness that follows a dragon's fall when greed and claim remain alive
+    landmarks:
+      - great gate
+      - stone threshold
+      - mountain road
+    resident_npcs:
+      - Thorin Oakenshield
+      - Balin
+    linked_locations:
+      - Smaug's Lair
+      - The Secret Way
+      - The Hidden Door
+      - The Mountain's Foot
+    travel_keywords:
+      - front gate
+      - mountain gate
+  - id: mountains_foot
+    name: The Mountain's Foot
+    region: Erebor
+    summary: The stony ground below the Lonely Mountain holds waiting armies, cold counsel, and the hard nearness of a treasure no one can claim without cost.
+    atmosphere:
+      - cold wind
+      - watchful camps
+      - strained expectancy
+    sensory_details:
+      - tent-lines, rocky ground, and the mountain looming over all arguments
+      - the sense of wealth above and war below, each feeding the other
+    landmarks:
+      - campfires
+      - stony field
+      - mountain road
+    resident_npcs:
+      - Bard
+      - Gandalf
+    linked_locations:
+      - The Hidden Door
+      - The Front Gate
+      - Ravenhill Path
+      - The Besiegers' Camp
+      - Ravenhill
+    travel_keywords:
+      - mountain foot
+      - camp below
+  - id: besiegers_camp
+    name: The Besiegers' Camp
+    region: Erebor
+    summary: Tents, watchfires, and guarded speech fill the camp below the Mountain where Elves, Men, and one uneasy hobbit weigh treasure against peace.
+    atmosphere:
+      - watchfires
+      - stern counsel
+      - cold patience
+    sensory_details:
+      - canvas, frost, and low-voiced judgment beneath the shadow of Erebor
+      - a camp held together by discipline rather than ease
+    landmarks:
+      - command tent
+      - watchfires
+    resident_npcs:
+      - Bard
+      - Gandalf
+    linked_locations:
+      - The Mountain's Foot
+      - The Command Tent
+      - Ravenhill
+    travel_keywords:
+      - besiegers
+      - camp
+  - id: command_tent
+    name: The Command Tent
+    region: The Besiegers' Camp
+    summary: Here counsel grows sharp and practical, with little room left for pride unexamined.
+    atmosphere:
+      - lamplight
+      - stern debate
+      - strategy
+    sensory_details:
+      - rough tables, cloaks damp with night air, and voices forced low by necessity
+      - the pressure of choosing peace or war while the Mountain waits above
+    landmarks:
+      - field table
+      - lanterns
+    resident_npcs:
+      - Bard
+      - Gandalf
+    linked_locations:
+      - The Besiegers' Camp
+    travel_keywords:
+      - tent
+      - command
+  - id: ravenhill
+    name: Ravenhill
+    region: Lonely Mountain
+    summary: Ravenhill stands bleak above the field, a place of vantage, battle-memory, and grief after victory.
+    atmosphere:
+      - grey wind
+      - mourning
+      - hard clarity
+    sensory_details:
+      - torn earth, chill air, and the silence that follows when shouting has spent itself
+      - a hill that remembers the battle more sternly than any song
+    landmarks:
+      - battle-slope
+      - raven stones
+    resident_npcs:
+      - Balin
+      - Gandalf
+    linked_locations:
+      - Ravenhill Path
+      - The Mountain's Foot
+      - The Besiegers' Camp
+    travel_keywords:
+      - ravenhill
+      - hill
+  - id: gorgoroth
+    name: Gorgoroth
+    region: Mordor
+    summary: A blasted plain of ash, smoke, and weariness where every step forward seems asked at too great a cost.
+    atmosphere:
+      - ash
+      - heat-haze
+      - exhaustion
+    sensory_details:
+      - bitter ash underfoot and the weight of fumes from the Mountain
+      - a land so emptied of comfort that memory itself becomes sustenance
+    landmarks:
+      - ash road
+      - cracked plain
+      - mount doom road
+    resident_npcs:
+      - Frodo Baggins
+      - Samwise Gamgee
+    linked_locations:
+      - The Ash Road
+      - The Cracked Plain
+      - The Slopes of Orodruin
+    travel_keywords:
+      - gorgoroth
+      - ash plain
+  - id: black_gate
+    name: The Black Gate
+    region: Mordor
+    summary: The Morannon stands as a wall of iron dread, where courage can only mean standing before overwhelming ruin with eyes open.
+    atmosphere:
+      - black iron
+      - challenge
+      - desperate resolve
+    sensory_details:
+      - hard earth, bitter wind, and the looming gate that no one present expects to master by force
+      - the stripping away of illusion until only duty remains
+    landmarks:
+      - captains' line
+      - morannon field
+      - black gate
+    resident_npcs:
+      - Gandalf
+      - Aragorn
+      - Gimli
+      - Legolas
+    linked_locations:
+      - The Morannon Field
+      - The Captains' Line
+    travel_keywords:
+      - black gate
+      - morannon
+  - id: morannon_field
+    name: The Morannon Field
+    region: Before the Black Gate
+    summary: A barren fighting-ground lies before the Morannon where the Captains of the West make their last stand on borrowed time.
+    atmosphere:
+      - barren earth
+      - tension
+      - last defiance
+    sensory_details:
+      - dust, iron, and the kind of silence that comes before a final onset
+      - the plain fact that courage here is measured against extinction, not victory
+    landmarks:
+      - battle line
+      - black gate
+    resident_npcs:
+      - Aragorn
+      - Gandalf
+    linked_locations:
+      - The Black Gate
+      - The Captains' Line
+    travel_keywords:
+      - field
+      - morannon field
+  - id: captains_line
+    name: The Captains' Line
+    region: Before the Black Gate
+    summary: The front rank of the West stands in ordered courage, awaiting whatever the Dark Lord chooses to send against them.
+    atmosphere:
+      - waiting
+      - discipline
+      - sacrifice
+    sensory_details:
+      - armor, breath, and held resolve under the eye of the gate
+      - comradeship sharpened by the knowledge that none came here for safety
+    landmarks:
+      - captains' line
+      - standards
+    resident_npcs:
+      - Aragorn
+      - Gandalf
+      - Gimli
+      - Legolas
+    linked_locations:
+      - The Black Gate
+      - The Morannon Field
+    travel_keywords:
+      - line
+      - captains
+  - id: ash_road
+    name: The Ash Road
+    region: Gorgoroth
+    summary: A choking way across the plain where endurance matters more than speed and hope must be remembered, not felt.
+    atmosphere:
+      - dust
+      - weariness
+      - grim persistence
+    sensory_details:
+      - powdery ash rising at every step and settling on cloak, hand, and breath
+      - the hard knowledge that there is no strength to spare, yet still some left to give
+    landmarks:
+      - ash road
+      - black slag
+    resident_npcs:
+      - Frodo Baggins
+      - Samwise Gamgee
+    linked_locations:
+      - Gorgoroth
+      - The Cracked Plain
+    travel_keywords:
+      - road
+      - ash road
+  - id: cracked_plain
+    name: The Cracked Plain
+    region: Gorgoroth
+    summary: Broken ground stretches toward the Mountain, harsh and heat-struck, denying rest while promising only the nearer end.
+    atmosphere:
+      - broken earth
+      - fumes
+      - last effort
+    sensory_details:
+      - cracked slag and torn ground under a sky stained by fire
+      - Orodruin looming nearer with every miserable step
+    landmarks:
+      - cracked plain
+      - mount doom road
+    resident_npcs:
+      - Frodo Baggins
+      - Samwise Gamgee
+    linked_locations:
+      - Gorgoroth
+      - The Ash Road
+      - The Slopes of Orodruin
+    travel_keywords:
+      - cracked
+      - plain
+  - id: orodruin_slopes
+    name: The Slopes of Orodruin
+    region: Mordor
+    summary: The mountain's lower slopes are steep with ash and heat, where every upward step strips away strength that no traveler can spare.
+    atmosphere:
+      - volcanic heat
+      - ash wind
+      - final effort
+    sensory_details:
+      - hot stone under hand and foot with the fire of the Mountain breathing through the air
+      - the body reduced to pain and will alone on the last ascent
+    landmarks:
+      - fire path
+      - slag slope
+    resident_npcs:
+      - Frodo Baggins
+      - Samwise Gamgee
+    linked_locations:
+      - Gorgoroth
+      - The Cracked Plain
+      - Sammath Naur
+    travel_keywords:
+      - slopes
+      - orodruin
+  - id: sammath_naur
+    name: Sammath Naur
+    region: Mount Doom
+    summary: The Chambers of Fire lie at the heart of the Mountain, where the quest narrows to a single unbearable act.
+    atmosphere:
+      - fire-glow
+      - doom
+      - inward crisis
+    sensory_details:
+      - firelight on black stone and the terrible nearness of the abyss below
+      - the sense that all the road's weight has been gathered into one chamber
+    landmarks:
+      - fire-chamber
+      - crack of doom
+    resident_npcs:
+      - Frodo Baggins
+      - Samwise Gamgee
+    linked_locations:
+      - The Slopes of Orodruin
+      - The Fire-chamber
+    travel_keywords:
+      - sammath naur
+      - mount doom
+  - id: fire_chamber
+    name: The Fire-chamber
+    region: Sammath Naur
+    summary: The last ledge above the Fire is a place of final testing, where choice and burden can no longer be separated.
+    atmosphere:
+      - heat
+      - brink
+      - extremity
+    sensory_details:
+      - blistering air and red light rising from below like judgment made visible
+      - the last step beyond which no delay, disguise, or divided will remains possible
+    landmarks:
+      - brink
+      - fire fissure
+    resident_npcs:
+      - Frodo Baggins
+      - Samwise Gamgee
+    linked_locations:
+      - Sammath Naur
+    travel_keywords:
+      - fire
+      - chamber
+  - id: grey_havens
+    name: The Grey Havens
+    region: Lindon
+    summary: The Havens stand in sea-light and sorrow, where long roads end in ships and even farewell is touched by grace.
+    atmosphere:
+      - sea-wind
+      - gull-cries
+      - farewell
+    sensory_details:
+      - salt air, grey water, and the ache of parting borne with dignity
+      - the westward pull of the Sea answering weariness deeper than bodily hurt
+    landmarks:
+      - havens quay
+      - white ship
+      - sea-wall
+    resident_npcs:
+      - Gandalf
+      - Elrond
+      - Galadriel
+      - Círdan
+      - Frodo Baggins
+      - Samwise Gamgee
+    linked_locations:
+      - The Havens Quay
+      - The White Ship
+    travel_keywords:
+      - havens
+      - sea
+  - id: havens_quay
+    name: The Havens Quay
+    region: The Grey Havens
+    summary: The stone quay looks west over the water, where farewells gather themselves into their final words.
+    atmosphere:
+      - grey water
+      - hush
+      - parting
+    sensory_details:
+      - ropes, timber, and the sound of the Sea waiting without haste
+      - speech growing soft because the moment does not allow waste
+    landmarks:
+      - quay stones
+      - mooring posts
+    resident_npcs:
+      - Círdan
+      - Samwise Gamgee
+    linked_locations:
+      - The Grey Havens
+      - The White Ship
+    travel_keywords:
+      - quay
+      - harbor
+  - id: white_ship
+    name: The White Ship
+    region: The Grey Havens
+    summary: White and still at the shore, the ship waits as a final answer to pain that cannot be mended within Middle-earth.
+    atmosphere:
+      - white timbers
+      - stillness
+      - release
+    sensory_details:
+      - pale hull and quiet deck touched by the last light over the Sea
+      - the terrible gentleness of a departure chosen because it must be
+    landmarks:
+      - gangplank
+      - white deck
+    resident_npcs:
+      - Gandalf
+      - Elrond
+      - Galadriel
+      - Frodo Baggins
+    linked_locations:
+      - The Grey Havens
+      - The Havens Quay
+    travel_keywords:
+      - ship
+      - white ship
+  - id: open_field
+    name: The Open Field
+    region: Pelennor
+    summary: Bare ground where resolve must stand against fear beneath the first hard light.
+    atmosphere:
+      - exposure
+      - noise of war
+      - resolve
+    landmarks:
+      - trampled grass
+      - broken gear
+    resident_npcs:
+      - Gimli
+      - Legolas
+    linked_locations:
+      - The Pelennor
+      - The River Landing
+      - The Road to Minas Tirith
+      - The Great Gate
+    travel_keywords:
+      - field
+  - id: minas_tirith_road
+    name: The Road to Minas Tirith
+    region: Pelennor
+    summary: A war-road leading toward the White City, full of dust, cries, and grim necessity.
+    atmosphere:
+      - dust
+      - horns
+      - strain
+    landmarks:
+      - city road
+      - broken wheels
+    resident_npcs: []
+    linked_locations:
+      - The Pelennor
+      - The Open Field
+      - The Great Gate
+    travel_keywords:
+      - minas tirith
+      - city road

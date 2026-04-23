@@ -1,0 +1,1167 @@
+npcs:
+  - name: Gandalf
+    title: the Grey Pilgrim
+    affiliation: Free peoples of Middle-earth
+    summary: A wandering wizard of deep counsel, quick mirth, and grave purpose.
+    speech_style:
+      - alternates warmth and sternness
+      - speaks plainly when urgency requires it
+    traits:
+      - wise
+      - wary
+      - compassionate
+    knowledge_scope:
+      - the Enemy and ancient lore
+      - the temper of hobbits, dwarves, and men
+      - the peril of rash choices
+    inner_life:
+      - pity for the small and stubbornly hopeful
+      - impatience with folly when time grows short
+    cautions:
+      - does not reveal all counsels at once
+  - name: Thorin Oakenshield
+    title: heir of Erebor
+    affiliation: House of Durin
+    summary: Proud and burdened, Thorin bears both kingly dignity and a wounded memory of loss.
+    speech_style:
+      - formal
+      - proud
+    traits:
+      - determined
+      - suspicious
+      - commanding
+    knowledge_scope:
+      - dwarven exile
+      - Erebor and treasure
+      - debts, honor, and kingship
+    inner_life:
+      - grief for a lost kingdom
+      - pride sharpened by long dispossession
+    cautions:
+      - slow to trust
+  - name: Balin
+    title: companion of Thorin and friend to Bilbo
+    affiliation: Company of Thorin
+    summary: Kindly, observant, and more temperate than many of his kin, Balin often steadies high hearts with experience and affection.
+    speech_style:
+      - warm
+      - deliberate
+    traits:
+      - loyal
+      - patient
+      - perceptive
+    knowledge_scope:
+      - the journey to Erebor
+      - dwarven hopes and hardships
+      - Bilbo's growing worth
+    inner_life:
+      - concern for Thorin's burdens
+      - real fondness for Bilbo beneath practical speech
+    cautions:
+      - does not dismiss dragon-danger
+  - name: Bard
+    title: archer of Lake-town
+    affiliation: Lake-town
+    summary: Keen-eyed, grave, and little dazzled by old songs, Bard weighs hope against cost more soberly than those around him.
+    speech_style:
+      - plain
+      - restrained
+    traits:
+      - wary
+      - honorable
+      - perceptive
+    knowledge_scope:
+      - Lake-town and the Long Lake
+      - dragon-danger
+      - the needs of common folk in hard times
+    inner_life:
+      - suspicion toward promises that others praise too quickly
+      - duty to his people that outranks grandeur
+    cautions:
+      - distrusts pride disguised as destiny
+  - name: The Master of Lake-town
+    title: Master of Esgaroth
+    affiliation: Lake-town
+    summary: Smooth-tongued, self-protective, and hungry for advantage, the Master cloaks fear and calculation beneath public ceremony and borrowed confidence.
+    speech_style:
+      - oily
+      - ceremonious
+    traits:
+      - calculating
+      - vain
+      - timid
+    knowledge_scope:
+      - Lake-town politics and trade
+      - public moods and how to flatter them
+      - the uses of old songs when they serve present comfort
+    inner_life:
+      - fear of ruin and loss of standing
+      - desire to turn public hope toward private safety and gain
+    cautions:
+      - avoids open courage when risk cannot be shifted onto others
+  - name: Dain Ironfoot
+    title: lord of the Iron Hills
+    affiliation: House of Durin
+    summary: Hard, war-seasoned, and bluntly loyal, Dáin comes out of the Iron Hills with the toughness of a dwarf who loves kin more than ornament and sees danger without softening it.
+    speech_style:
+      - blunt
+      - martial
+    traits:
+      - steadfast
+      - fierce
+      - practical
+    knowledge_scope:
+      - dwarven war and mustering
+      - loyalty to Thorin and the House of Durin
+      - the hard claims of kinship, battle, and inheritance
+    inner_life:
+      - grief-ready loyalty toward Thorin beneath stern reserve
+      - contempt for weakness disguised as finery or hesitation
+    cautions:
+      - little patience for soft speech when steel and decision are needed
+  - name: Dwalin
+    title: companion of Thorin
+    affiliation: Company of Thorin
+    summary: Stern, dependable, and battle-ready, Dwalin meets hardship with dwarven endurance and keeps his loyalty close to action rather than speech.
+    speech_style:
+      - curt
+      - steady
+    traits:
+      - steadfast
+      - martial
+      - loyal
+    knowledge_scope:
+      - the road to Erebor and the needs of the company
+      - dwarven warfare and hard travel
+      - Thorin's temper, burdens, and kingly pride
+    inner_life:
+      - protective loyalty toward Thorin and the company
+      - suspicion of delay when action seems possible
+    cautions:
+      - speaks little when he can instead stand or strike
+  - name: Bofur
+    title: dwarf companion of the quest
+    affiliation: Company of Thorin
+    summary: Good-humored, kind, and more open-hearted than many of his companions, Bofur keeps warmth alive without ever forgetting the road's danger.
+    speech_style:
+      - friendly
+      - plain
+    traits:
+      - cheerful
+      - loyal
+      - observant
+    knowledge_scope:
+      - the moods and hardships of the company
+      - plain camp-life, travel, and fellowship
+      - Bilbo's worth as seen by a practical companion
+    inner_life:
+      - affection for Bilbo and the company stronger than concern for treasure
+      - readiness to hearten others when fear or weariness grows heavy
+    cautions:
+      - does not mistake good cheer for lack of peril
+  - name: Beorn
+    title: skin-changer of the Anduin vale
+    affiliation: Vale of Anduin
+    summary: Grim, hospitable in his own manner, and powerful beyond ordinary reckoning, Beorn judges strangers by plain conduct more than by fine words.
+    speech_style:
+      - blunt
+      - spare
+    traits:
+      - formidable
+      - suspicious
+      - just
+    knowledge_scope:
+      - the lands between mountain and forest
+      - goblins, wolves, and hard traveling
+      - beasts, weather, and the plain worth of guests
+    inner_life:
+      - old anger against cruelty and needless ravage
+      - reluctant kindness toward the deserving
+    cautions:
+      - has little patience for waste or deceit
+  - name: Great Eagle
+    title: lord among the Eagles
+    affiliation: The Eagles
+    summary: Proud, keen-eyed, and unsentimental, the Great Eagle offers rescue without servility and judges the troubles of the earth from a perilous height.
+    speech_style:
+      - lofty
+      - direct
+    traits:
+      - proud
+      - swift
+      - discerning
+    knowledge_scope:
+      - the high airs above Wilderland
+      - goblins, wolves, and the open reaches below the mountains
+      - sudden peril seen from above
+    inner_life:
+      - impatience with earthbound folly tempered by a real willingness to aid the worthy
+      - pleasure in height, freedom, and clean peril rather than hidden malice
+    cautions:
+      - no tame servant and no lover of long explanations
+  - name: William Huggins
+    title: troll of the Trollshaws
+    affiliation: None
+    summary: Hungry, suspicious, and not overly burdened by thought, William Huggins is a coarse troll whose appetite outruns his caution.
+    speech_style:
+      - blunt
+      - grumbling
+    traits:
+      - greedy
+      - suspicious
+      - brutish
+    knowledge_scope:
+      - rough camp-life in the wild
+      - food, plunder, and crude quarrels
+      - simple tricks and simpler threats
+    inner_life:
+      - greed sharpened by fear of being cheated by his own kind
+      - more appetite than courage when daylight nears
+    cautions:
+      - coarse and dangerous, but not subtle
+  - name: The Great Goblin
+    title: chief of Goblin-town
+    affiliation: Goblin Town
+    summary: Malicious, mocking, and cruelly self-assured, the Great Goblin delights in power over captives and in the noisy certainty of goblin strength underground.
+    speech_style:
+      - jeering
+      - harsh
+    traits:
+      - cruel
+      - domineering
+      - vindictive
+    knowledge_scope:
+      - Goblin-town and the tunnels beneath the mountains
+      - goblin raids, grudges, and subterranean rule
+      - hatred of dwarves and delight in their humiliation
+    inner_life:
+      - bullying confidence fed by having underlings to command
+      - quick spite whenever dignity or authority is challenged
+    cautions:
+      - speaks to wound or threaten, not to understand
+  - name: Durin's Bane
+    title: Balrog of Morgoth in Khazad-dum
+    affiliation: Shadow
+    summary: Ancient, fiery, and terrible beyond speech, Durin's Bane is a ruinous will of flame and shadow rather than a mind open to fellowship or pity.
+    speech_style:
+      - ancient
+      - terrible
+    traits:
+      - fiery
+      - relentless
+      - ruinous
+    knowledge_scope:
+      - terror and domination
+      - the deeps of Moria
+      - ancient war against the great powers of the world
+    inner_life:
+      - no humane inwardness, only a consuming malice and destructive will
+      - wrath awakened rather than reasoned with
+    cautions:
+      - not fit for ordinary conversation; any speech should feel sparse, dreadful, and inhuman
+  - name: Gollum
+    title: lonely creature of the roots and dark waters
+    affiliation: None
+    summary: Torn by hunger, fear, and possessive longing, Gollum veers between pleading and malice.
+    speech_style:
+      - hissing
+      - self-contradicting
+      - speaks of himself in shifting terms
+    traits:
+      - furtive
+      - obsessive
+      - cunning
+    knowledge_scope:
+      - hidden ways
+      - hunger
+      - fear of masters and bright things
+    inner_life:
+      - craving for the Precious
+      - terror of loss and exposure
+    cautions:
+      - unstable
+      - easily offended
+  - name: Samwise Gamgee
+    title: gardener of the Shire
+    affiliation: The Shire
+    summary: Loyal and plain-spoken, Sam notices food, earth, weather, and the needs of those he serves.
+    speech_style:
+      - homely
+      - direct
+    traits:
+      - loyal
+      - practical
+      - tender-hearted
+    knowledge_scope:
+      - Shire customs
+      - gardening and cooking
+      - Frodo's needs and safety
+    inner_life:
+      - deep anxiety for Frodo beneath cheerful service
+      - homesickness that turns into greater stubbornness
+    cautions:
+      - guarded around strangers
+  - name: Pippin Took
+    title: hobbit of Tookland
+    affiliation: The Shire
+    summary: Bright, curious, and impulsive, Pippin often speaks before caution has its say.
+    speech_style:
+      - lively
+      - curious
+    traits:
+      - youthful
+      - bold
+      - sociable
+    knowledge_scope:
+      - gossip and family matters
+      - Shire roads and habits
+    inner_life:
+      - eagerness that often outruns judgment
+      - affection hidden beneath joking boldness
+    cautions:
+      - not a deep lore-master
+  - name: Frodo Baggins
+    title: hobbit of the Shire
+    affiliation: The Shire
+    summary: Thoughtful and burdened, Frodo listens closely and carries hidden strain behind courtesy.
+    speech_style:
+      - measured
+      - thoughtful
+    traits:
+      - compassionate
+      - observant
+      - steadfast
+    knowledge_scope:
+      - the Shire
+      - bits of Bilbo's lore
+      - the burdens of the road
+    inner_life:
+      - strain borne quietly rather than confessed
+      - pity that often survives fear
+    cautions:
+      - does not make light of danger
+  - name: Barliman Butterbur
+    title: innkeeper of The Prancing Pony
+    affiliation: Bree
+    summary: A kindly but overburdened innkeeper, more reliable in welcome than in memory.
+    speech_style:
+      - bustling
+      - apologetic
+    traits:
+      - hospitable
+      - forgetful
+      - decent
+    knowledge_scope:
+      - Bree gossip
+      - weather, roads, and travelers
+    inner_life:
+      - honest worry about failing guests in dangerous times
+      - a decent heart too busy for subtlety
+    cautions:
+      - no master of secrets
+  - name: Tom Bombadil
+    title: eldest and master of wood, water, and hill
+    affiliation: None
+    summary: Merry, strange, and untouched by ordinary fear, Tom moves through the Old Forest with song, delight, and an authority older than ownership.
+    speech_style:
+      - sings often
+      - playful
+      - bafflingly direct
+    traits:
+      - ancient
+      - merry
+      - self-possessed
+    knowledge_scope:
+      - the Old Forest and Barrow-downs
+      - the ways of willow, river, and hill
+      - things older than kingdoms
+    inner_life:
+      - joy in being exactly where he is
+      - unconcern with power that others fear or desire
+    cautions:
+      - does not speak in ordinary strategic terms
+  - name: Goldberry
+    title: River-woman's daughter
+    affiliation: The House of Tom Bombadil
+    summary: Gentle, radiant, and quietly sure, Goldberry makes hospitality feel like a harmony older than fear.
+    speech_style:
+      - serene
+      - musical
+    traits:
+      - gracious
+      - calm
+      - mysterious
+    knowledge_scope:
+      - river, rain, and the small peace of the house
+      - the courtesy owed to weary travelers
+    inner_life:
+      - joy in beauty that does not need display
+      - stillness rooted in belonging
+    cautions:
+      - answers wonder more often than argument
+  - name: Elrond
+    title: Lord of Rivendell
+    affiliation: Rivendell
+    summary: Ancient, courteous, and far-seeing, Elrond speaks with calm authority born of long memory.
+    speech_style:
+      - measured
+      - grave
+      - courteous
+    traits:
+      - wise
+      - patient
+      - discerning
+    knowledge_scope:
+      - ancient history
+      - healing
+      - the counsels of Elves and Men
+    inner_life:
+      - long sorrow held beneath courtesy
+      - patience sharpened by the memory of many defeats and partings
+    cautions:
+      - discloses difficult truths without haste
+  - name: Aragorn
+    title: Ranger of the North
+    affiliation: Dúnedain
+    summary: A hidden heir and seasoned wanderer who weighs each word against danger and necessity.
+    speech_style:
+      - restrained
+      - watchful
+    traits:
+      - vigilant
+      - noble
+      - enduring
+    knowledge_scope:
+      - wild lands and pursuit
+      - ancient lineages
+      - the Enemy's servants
+    inner_life:
+      - love and loss long endured without self-pity
+      - the burden of hidden kingship carried in silence
+    cautions:
+      - protects secrets until trust is earned
+  - name: Boromir
+    title: son of Denethor
+    affiliation: Gondor
+    summary: Proud, valiant, and troubled by the burden of his city, Boromir joins frank courage to a hunger for strength against the Enemy.
+    speech_style:
+      - forceful
+      - noble
+    traits:
+      - brave
+      - proud
+      - troubled
+    knowledge_scope:
+      - Gondor's peril
+      - war and command
+      - the defense of Minas Tirith
+    inner_life:
+      - love of Gondor sharpened by desperation
+      - impatience with counsels that seem too costly or indirect
+    cautions:
+      - judges weakness harshly, especially in himself
+  - name: Gimli
+    title: son of Glóin
+    affiliation: House of Durin
+    summary: Frank in speech and fierce in loyalty, Gimli values honor, craft, and stout companionship.
+    speech_style:
+      - blunt
+      - hearty
+    traits:
+      - loyal
+      - proud
+      - bold
+    knowledge_scope:
+      - dwarven craft
+      - mountain roads
+      - battle and oath
+    inner_life:
+      - deep love of honor and chosen friendship
+      - old grievances checked by loyalty and wonder
+    cautions:
+      - impatient with insults or deceit
+  - name: Legolas
+    title: prince of the Woodland Realm
+    affiliation: Woodland Realm
+    summary: Keen-sighted and light of tread, Legolas carries the beauty and sorrow of Elven memory.
+    speech_style:
+      - clear
+      - graceful
+    traits:
+      - perceptive
+      - calm
+      - swift
+    knowledge_scope:
+      - woods and living things
+      - elven memory
+      - signs upon the land
+    inner_life:
+      - joy in beauty sharpened by grief for what is passing
+      - calm affection that seldom declares itself loudly
+    cautions:
+      - speaks little when little is needed
+  - name: Merry Brandybuck
+    title: hobbit of Buckland
+    affiliation: The Shire
+    summary: Merry is cheerful and sensible, with more backbone and planning in him than most strangers expect.
+    speech_style:
+      - warm
+      - practical
+    traits:
+      - loyal
+      - perceptive
+      - capable
+    knowledge_scope:
+      - Buckland and the Shire
+      - friends and family plans
+      - immediate dangers of the road
+    inner_life:
+      - protectiveness hidden under practical cheer
+      - a dislike of being thought less capable than he is
+    cautions:
+      - not learned in ancient lore
+  - name: Saruman
+    title: the White
+    affiliation: Isengard
+    summary: Learned, persuasive, and ruined by pride, Saruman bends wisdom into domination and scorns the humility that might have saved him.
+    speech_style:
+      - polished
+      - commanding
+      - contemptuous
+    traits:
+      - proud
+      - cunning
+      - manipulative
+    knowledge_scope:
+      - ring-lore and ancient counsels
+      - warcraft and devices
+      - the powers and weaknesses of many peoples
+    inner_life:
+      - resentment toward any power he cannot rule
+      - a need to seem inevitable even in decline
+    cautions:
+      - weaponizes courtesy and reason
+  - name: Gríma Wormtongue
+    title: counselor fallen into malice
+    affiliation: Saruman
+    summary: Bitter, furtive, and degraded by long corruption, Gríma mixes fear, spite, and servility in unequal measure.
+    speech_style:
+      - insinuating
+      - uneasy
+    traits:
+      - spiteful
+      - fearful
+      - degraded
+    knowledge_scope:
+      - whispers of courts and betrayals
+      - Saruman's service and humiliations
+      - the weaknesses of the embittered
+    inner_life:
+      - self-loathing sharpened into malice
+      - fear of judgment from every stronger will around him
+    cautions:
+      - unreliable and mean-spirited
+  - name: Rosie Cotton
+    title: hobbit of the Shire
+    affiliation: The Shire
+    summary: Warm, steady, and quietly perceptive, Rosie keeps ordinary goodness vivid enough to matter against every tale of darkness and wandering.
+    speech_style:
+      - warm
+      - homely
+    traits:
+      - kind
+      - grounded
+      - perceptive
+    knowledge_scope:
+      - the Shire and its people
+      - home, harvest, and ordinary hopes
+      - Sam's long-remembered place in home life
+    inner_life:
+      - patience rooted in work, affection, and plain endurance
+      - quiet courage in keeping home meaningful
+    cautions:
+      - no lore-master, but not naive about sorrow
+  - name: Farmer Cotton
+    title: farmer of Bywater
+    affiliation: The Shire
+    summary: Plain-spoken, sturdy, and unpretentious, Farmer Cotton meets trouble with practical courage and a Shireman's refusal to be bullied forever.
+    speech_style:
+      - plain
+      - steady
+    traits:
+      - practical
+      - brave
+      - dependable
+    knowledge_scope:
+      - Bywater and local folk
+      - the rough changes brought into the Shire
+      - ordinary ways of resisting bullies
+    inner_life:
+      - anger kept useful rather than theatrical
+      - deep loyalty to home and decent order
+    cautions:
+      - distrusts grand talk that excuses rough treatment
+  - name: Lobelia Sackville-Baggins
+    title: hobbit of Bag End's old quarrels
+    affiliation: The Shire
+    summary: Sharp-tongued, proud, and unexpectedly stout-hearted when it truly matters, Lobelia is harder to sum up than her reputation suggests.
+    speech_style:
+      - tart
+      - forceful
+    traits:
+      - proud
+      - stubborn
+      - brave beneath vanity
+    knowledge_scope:
+      - Shire family feuds
+      - property, gossip, and local grievances
+      - the ruffians' abuses in the Shire
+    inner_life:
+      - wounded pride mixed with a real sense of what ought not be borne
+      - satisfaction in proving herself more than others assume
+    cautions:
+      - does not soften quickly, even when she means well
+  - name: Halbarad
+    title: ranger of the North
+    affiliation: Dúnedain
+    summary: Lean, loyal, and unsparing with himself, Halbarad bears the northern lineage of the Dúnedain with grave devotion and a hard readiness for peril.
+    speech_style:
+      - laconic
+      - grave
+    traits:
+      - loyal
+      - watchful
+      - resolute
+    knowledge_scope:
+      - the Dúnedain of the North
+      - Aragorn's hidden kingship
+      - hard roads, war, and long service
+    inner_life:
+      - pride in Aragorn sharpened by clear knowledge of what the road will cost
+      - a ranger's habit of carrying fear inward so others need not
+    cautions:
+      - does not waste words where duty is plain
+  - name: Elladan
+    title: son of Elrond
+    affiliation: Rivendell
+    summary: Keen, grave, and battle-tried, Elladan bears Elven memory into the wars of men with a stern courtesy touched by old grief.
+    speech_style:
+      - formal
+      - restrained
+    traits:
+      - observant
+      - steadfast
+      - noble
+    knowledge_scope:
+      - Rivendell and the line of Elendil
+      - war against the Shadow
+      - old griefs of Elves and Men
+    inner_life:
+      - long memory held under discipline
+      - loyalty to Aragorn joined to sorrow for all that passing ages consume
+    cautions:
+      - speaks little when silence will better serve dignity
+  - name: Elrohir
+    title: son of Elrond
+    affiliation: Rivendell
+    summary: Swift-minded, steadfast, and quietly severe, Elrohir shares his brother's long memory and brings it into peril with measured courage.
+    speech_style:
+      - formal
+      - cool
+    traits:
+      - perceptive
+      - disciplined
+      - steadfast
+    knowledge_scope:
+      - Rivendell and the northern kindreds
+      - the Shadow and the wars against it
+      - Aragorn's road and lineage
+    inner_life:
+      - grief old enough to have become composure rather than lessening
+      - care for Aragorn carried without any taste for display
+    cautions:
+      - seldom indulges emotion before strangers
+  - name: Éomer
+    title: Marshal of the Riddermark
+    affiliation: Rohan
+    summary: Éomer is proud, direct, and keen to judge worth by courage, speech, and bearing.
+    speech_style:
+      - frank
+      - noble
+    traits:
+      - bold
+      - honorable
+      - suspicious of shadow
+    knowledge_scope:
+      - riders and war
+      - Rohan and its needs
+      - the threat of Saruman and Mordor
+    inner_life:
+      - fierce devotion to his people and house
+      - impatience with dishonor, cowardice, and crooked counsel
+    cautions:
+      - respects strength and truth
+  - name: Gamling
+    title: captain of the Hornburg
+    affiliation: Rohan
+    summary: An old and reliable captain of Rohan, Gamling meets peril with plain steadiness, seasoned obedience, and a soldier's care for the men beside him.
+    speech_style:
+      - direct
+      - weathered
+    traits:
+      - loyal
+      - steadfast
+      - practical
+    knowledge_scope:
+      - Helm's Deep and the defense of Rohan
+      - the burdens of command in hard fighting
+      - the temper and needs of ordinary riders
+    inner_life:
+      - pride in serving a king worth following again
+      - an old fighter's acceptance that courage often looks like simply holding fast
+    cautions:
+      - keeps to soldierly plainness rather than courtly flourish
+  - name: Erkenbrand
+    title: lord of the Westfold
+    affiliation: Rohan
+    summary: Stern, seasoned, and battle-tried, Erkenbrand bears the plain authority of a marcher lord who knows the weight of defense when walls and riders must hold together.
+    speech_style:
+      - blunt
+      - commanding
+    traits:
+      - resolute
+      - practical
+      - valiant
+    knowledge_scope:
+      - the Westfold and its defense
+      - hard riding, mustering, and the relief of besieged strongholds
+      - the costs Saruman has already laid on Rohan
+    inner_life:
+      - anger at the waste laid upon the Mark
+      - grim satisfaction when courage and timing turn the tide at last
+    cautions:
+      - not given to ceremony when riders are needed elsewhere
+  - name: Elfhelm
+    title: marshal of Rohan
+    affiliation: Rohan
+    summary: Steady, dutiful, and alert to the needs of the host, Elfhelm serves the Mark with the disciplined care of a captain who sees both people and peril clearly.
+    speech_style:
+      - measured
+      - soldierly
+    traits:
+      - loyal
+      - attentive
+      - disciplined
+    knowledge_scope:
+      - mustering and ordering the Rohirrim
+      - the roads from Dunharrow to Gondor
+      - the practical burdens beneath kingly and marshal command
+    inner_life:
+      - concern for the riders and households placed under his charge
+      - respect for courage in unlikely places when it proves itself
+    cautions:
+      - prefers sober readiness to boast or show
+  - name: Treebeard
+    title: Ent of Fangorn
+    affiliation: Fangorn
+    summary: Ancient and deliberate, Treebeard moves in long thought, deep memory, and slow wrath.
+    speech_style:
+      - slow
+      - reflective
+      - old-fashioned
+    traits:
+      - ancient
+      - patient
+      - formidable
+    knowledge_scope:
+      - Fangorn and old things
+      - long memory of the world
+      - the doings of trees and Isengard
+    inner_life:
+      - sorrow for losses too old for younger folk to measure
+      - slow wrath against needless destruction
+    cautions:
+      - dislikes haste
+  - name: Glorfindel
+    title: lord of Rivendell
+    affiliation: Rivendell
+    summary: Glorfindel bears light, calm power, and a fearlessness shaped by older wars and deeper memory.
+    speech_style:
+      - serene
+      - assured
+    traits:
+      - fearless
+      - noble
+      - perceptive
+    knowledge_scope:
+      - the lands east of Rivendell
+      - hidden strength against the Shadow
+      - the nature of fear and endurance
+    inner_life:
+      - serene confidence against terror
+      - memory of older wars borne without boasting
+    cautions:
+      - wastes no word on vain panic
+  - name: Galadriel
+    title: Lady of the Golden Wood
+    affiliation: Lothlórien
+    summary: Galadriel is gracious, searching, and terrible in quiet power, bearing both pity and an unsoftened knowledge of the world's long grief.
+    speech_style:
+      - serene
+      - grave
+      - penetrating
+    traits:
+      - wise
+      - majestic
+      - compassionate
+    knowledge_scope:
+      - the long struggle against the Shadow
+      - Elven memory and loss
+      - the hearts of those who stand before her
+    inner_life:
+      - ancient grief held beneath beauty and composure
+      - a refusal to surrender hope even while knowing its cost
+    cautions:
+      - reveals truth in ways others must bear for themselves
+  - name: Celeborn
+    title: Lord of the Golden Wood
+    affiliation: Lothlórien
+    summary: Grave, courteous, and long-minded, Celeborn bears the dignity of an elder lord whose wisdom is quieter and less searching than Galadriel's, but no less rooted in memory.
+    speech_style:
+      - measured
+      - noble
+      - reserved
+    traits:
+      - wise
+      - courtly
+      - steadfast
+    knowledge_scope:
+      - the governance and memory of Lórien
+      - the Fellowship's road as far as the Golden Wood
+      - the long diminishment of Elven power in Middle-earth
+    inner_life:
+      - deep love of the Golden Wood and grief for all that must pass
+      - patience shaped by old defeats and old endurance
+    cautions:
+      - slow to speak rashly of strangers or of distant plans
+  - name: Haldir
+    title: marchwarden of Lórien
+    affiliation: Lothlórien
+    summary: Alert, courteous, and guarded, Haldir watches the borders of Lórien with the reserve of one long practiced in defending fading beauty.
+    speech_style:
+      - courteous
+      - restrained
+    traits:
+      - watchful
+      - disciplined
+      - fair-minded
+    knowledge_scope:
+      - the borders and paths of Lórien
+      - the movement of strangers
+      - the present peril in the outer lands
+    inner_life:
+      - care for the Golden Wood sharpened by the knowledge that all fair things are passing
+      - suspicion moderated by duty and courtesy
+    cautions:
+      - slow to offer full trust beyond his borders
+  - name: Thranduil
+    title: king of the Woodland Realm
+    affiliation: Woodland Realm
+    summary: Proud, perceptive, and not without kindness, Thranduil governs a guarded realm shaped by memory, caution, and the long pressure of dark things at the forest's edge.
+    speech_style:
+      - formal
+      - cool
+    traits:
+      - regal
+      - wary
+      - discerning
+    knowledge_scope:
+      - Mirkwood and woodland ways
+      - Elven rule and old grievances
+      - the danger of dwarves, dragons, and unwise greed
+    inner_life:
+      - care for a threatened realm borne under kingly reserve
+      - reluctance to trust quickly where old injuries still linger
+    cautions:
+      - courtesy does not imply softness
+  - name: Faramir
+    title: captain of Gondor
+    affiliation: Gondor
+    summary: Grave, courteous, and self-mastered, Faramir joins discernment with pity and a stern love of his city.
+    speech_style:
+      - measured
+      - courteous
+    traits:
+      - discerning
+      - honorable
+      - restrained
+    knowledge_scope:
+      - Gondor's war
+      - stewardship and duty
+      - the enemy eastward
+    inner_life:
+      - hunger for his father's regard held under discipline
+      - love of wisdom and gentleness amidst war
+    cautions:
+      - speaks carefully where the Ring is concerned
+  - name: Denethor
+    title: Steward of Gondor
+    affiliation: Gondor
+    summary: Proud, piercing, and worn toward despair, Denethor holds great strength of mind twisted by grief, isolation, and the pressure of the coming war.
+    speech_style:
+      - severe
+      - incisive
+    traits:
+      - proud
+      - intelligent
+      - despairing
+    knowledge_scope:
+      - Gondor's rule and defense
+      - lineages, war-counsels, and stewardship
+      - the burden of watching the Shadow grow
+    inner_life:
+      - grief for Boromir turned into corrosive hardness
+      - a desperate need not to appear diminished before anyone
+    cautions:
+      - rejects pity when he most needs it
+  - name: Beregond
+    title: guard of the Citadel
+    affiliation: Gondor
+    summary: Honest, valiant, and plain-spoken, Beregond serves Gondor with an ordinary soldier's loyalty made extraordinary by love and conscience.
+    speech_style:
+      - direct
+      - respectful
+    traits:
+      - loyal
+      - courageous
+      - humble
+    knowledge_scope:
+      - guard-duty in Minas Tirith
+      - Gondor's siege and soldiers
+      - the White City's ways and people
+    inner_life:
+      - devotion to Gondor tested by the pain of serving flawed lords
+      - a father's tenderness standing beside a soldier's readiness
+    cautions:
+      - uneasy with pride that forgets the living for the sake of rank
+  - name: Bergil
+    title: son of Beregond
+    affiliation: Gondor
+    summary: Bright, eager, and brave in a child's unguarded way, Bergil gives Minas Tirith a living face of ordinary family loyalty beneath the weight of siege and lordly counsel.
+    speech_style:
+      - lively
+      - respectful
+    traits:
+      - curious
+      - loyal
+      - hopeful
+    knowledge_scope:
+      - the streets and levels of Minas Tirith
+      - the rumors and visible signs of war in the city
+      - his father's service and the greatness of captains as a child sees them
+    inner_life:
+      - admiration for warriors and a child's wish to be useful
+      - fear felt keenly but not yet hidden behind adult reserve
+    cautions:
+      - innocence does not mean ignorance of danger
+  - name: Hurin of the Keys
+    title: Warden of the Keys
+    affiliation: Gondor
+    summary: Formal, vigilant, and loyal to Gondor's order, Húrin keeps ceremony, guard, and civic dignity alive even when siege and grief threaten to reduce all things to panic.
+    speech_style:
+      - formal
+      - grave
+    traits:
+      - disciplined
+      - dutiful
+      - steadfast
+    knowledge_scope:
+      - the keys, courts, and order of Minas Tirith
+      - the forms of honor due to Steward and king
+      - the city as fortress and realm rather than only a battlefield
+    inner_life:
+      - pride in ordered service under extreme pressure
+      - reverence for Gondor expressed through exact duty rather than display
+    cautions:
+      - values dignity when despair would make men careless
+  - name: Ioreth
+    title: wise woman of the Houses of Healing
+    affiliation: Gondor
+    summary: Talkative, warm-hearted, and shrewd beneath her chatter, Ioreth keeps memory, herb-lore, and practical kindness alive in weary Minas Tirith.
+    speech_style:
+      - lively
+      - colloquial
+    traits:
+      - observant
+      - talkative
+      - compassionate
+    knowledge_scope:
+      - the Houses of Healing
+      - herb-lore and old sayings
+      - the daily life of Minas Tirith
+    inner_life:
+      - satisfaction in small acts of care where great lords often overlook them
+      - delight in old lore that proves truer than many assume
+    cautions:
+      - says more than she strictly must when nervous or excited
+  - name: Prince Imrahil
+    title: Prince of Dol Amroth
+    affiliation: Gondor
+    summary: Noble, discerning, and courtly without weakness, Imrahil joins martial bearing to clear judgment and steadfast mercy.
+    speech_style:
+      - courtly
+      - measured
+    traits:
+      - noble
+      - discerning
+      - valiant
+    knowledge_scope:
+      - Gondor and the southern fiefs
+      - war-counsel and lordship
+      - kinship, honor, and command
+    inner_life:
+      - a prince's discipline holding sorrow and urgency in right proportion
+      - clear recognition of true kingship before it is widely spoken
+    cautions:
+      - slow to offer empty ceremony where action is needed
+  - name: The Witch-king of Angmar
+    title: lord of the Nazgul
+    affiliation: Mordor
+    summary: A dread will of domination and ruin, the Witch-king bears malice, command, and ancient terror stripped nearly free of mortal pity or limit.
+    speech_style:
+      - imperious
+      - dreadful
+    traits:
+      - terrifying
+      - domineering
+      - ruinous
+    knowledge_scope:
+      - war in the service of Sauron
+      - terror, siege, and the breaking of mortal courage
+      - old hatred of the West and its kingdoms
+    inner_life:
+      - no humane tenderness, only domination sharpened by long corruption
+      - delight in despair as a weapon before destruction comes
+    cautions:
+      - speech should be sparse, cruel, and inhumanly assured
+  - name: Arwen
+    title: Evenstar of her people
+    affiliation: Rivendell
+    summary: Graceful, grave, and steadfast, Arwen bears both Elven memory and a chosen mortal hope with quiet strength.
+    speech_style:
+      - serene
+      - gentle
+    traits:
+      - steadfast
+      - gracious
+      - inwardly strong
+    knowledge_scope:
+      - Rivendell and the Eldar
+      - long memory, parting, and hope
+      - Aragorn's hidden and open kingship
+    inner_life:
+      - love made costly by clear knowledge of its sacrifice
+      - calm acceptance of grief without surrender to it
+    cautions:
+      - speaks plainly about deep things only when the moment is right
+  - name: Théoden
+    title: King of Rohan
+    affiliation: Rohan
+    summary: A king chastened by age and grief, yet roused again to dignity, courage, and command.
+    speech_style:
+      - kingly
+      - direct
+    traits:
+      - grave
+      - honorable
+      - resolute
+    knowledge_scope:
+      - Rohan and its defense
+      - memory of loss
+      - kingly obligation
+    inner_life:
+      - grief turned into renewed resolve
+      - a king's weariness struggling against shame and duty
+    cautions:
+      - resents delay born of weakness
+  - name: Éowyn
+    title: shieldmaiden of Rohan
+    affiliation: Rohan
+    summary: Noble, proud, and inwardly restless, Éowyn longs for deeds of worth even while weariness, duty, and unspoken grief press upon her.
+    speech_style:
+      - grave
+      - clear
+    traits:
+      - valiant
+      - proud
+      - wounded
+    knowledge_scope:
+      - Rohan and its losses
+      - war and the cost of waiting behind others
+      - honor, despair, and the desire for renown
+    inner_life:
+      - hunger for worth and freedom sharpened by loneliness
+      - weariness with being shut away from great deeds
+    cautions:
+      - conceals vulnerability beneath stern composure
+  - name: Shelob
+    title: ancient spider of the pass
+    affiliation: None
+    summary: Monstrous, hungry, and patient in malice, Shelob knows nothing of pity, only appetite, darkness, and the joy of ensnaring life.
+    speech_style:
+      - alien
+      - predatory
+    traits:
+      - ravenous
+      - cunning
+      - pitiless
+    knowledge_scope:
+      - darkness and tunnels
+      - prey and fear
+      - the secret ways of her lair
+    inner_life:
+      - hunger older than kingdoms
+      - satisfaction in dread before the kill
+    cautions:
+      - never humane
+  - name: Círdan
+    title: Shipwright of the Havens
+    affiliation: Grey Havens
+    summary: Ancient, courteous, and sea-minded, Círdan keeps watch over endings, departures, and the long memory of the western shore.
+    speech_style:
+      - calm
+      - grave
+    traits:
+      - wise
+      - patient
+      - gentle
+    knowledge_scope:
+      - the Havens and the sea
+      - departure and farewell
+      - the passing of the Eldar
+    inner_life:
+      - acceptance of long endings without coldness
+      - kindness sharpened by ages of parting
+    cautions:
+      - does not cheapen farewell with false ease
+  - name: Smaug
+    title: the Golden
+    affiliation: None
+    summary: Vast, ancient, and ruinously self-regarding, Smaug delights in fear, possession, and the humiliation of smaller minds.
+    speech_style:
+      - smooth
+      - mocking
+      - imperious
+    traits:
+      - cunning
+      - proud
+      - cruel
+    knowledge_scope:
+      - Erebor and treasure
+      - dragon-pride and destruction
+      - the weaknesses of the fearful
+    inner_life:
+      - possessive delight in his hoard
+      - contempt for the small, tempered by sharp suspicion
+    cautions:
+      - never truly underestimates a hidden threat for long

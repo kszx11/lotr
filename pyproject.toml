@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lotr-adventure"
+version = "0.1.0"
+description = "A text adventure in Middle-earth powered by the OpenAI API."
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+  "openai>=1.0.0",
+  "pydantic>=2.8.0",
+  "PyYAML>=6.0.1",
+  "rich>=13.9.0",
+  "prompt_toolkit>=3.0.47",
+  "python-dotenv>=1.0.1",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8.3.0",
+]
+
+[project.scripts]
+lotr-adventure = "lotr_adventure.main:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+include-package-data = true
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+lotr_adventure = ["content/*.yaml"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]

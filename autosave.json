@@ -1,0 +1,99 @@
+{
+  "player_character_id": "bilbo",
+  "player_name": "Bilbo Baggins, burglar of Bag End",
+  "game_mode": "story",
+  "anchor_id": "unexpected_party",
+  "book": "The Hobbit",
+  "chapter": "Chapter 1",
+  "location": "Bag End",
+  "time_marker": "Late afternoon in the Shire",
+  "story_path_id": "bilbo_there_and_back",
+  "story_step_index": 0,
+  "unlocked_anchors": [
+    "unexpected_party"
+  ],
+  "current_objective": "Listen, question, and weigh whether to take the East Road from comfort into adventure.",
+  "current_guidance": "Bilbo should feel the pull between hearth-comfort and Tookish restlessness.",
+  "suggested_actions": [
+    "talk Gandalf",
+    "talk Thorin",
+    "go East Road"
+  ],
+  "completed_objectives": [],
+  "inventory": [
+    "pocket-handkerchief",
+    "walking stick"
+  ],
+  "companions": [],
+  "npcs_present": [
+    "Gandalf",
+    "Thorin Oakenshield"
+  ],
+  "available_exits": [
+    "The Green Dragon",
+    "The East Road"
+  ],
+  "visited_locations": [
+    "Bag End"
+  ],
+  "location_history": [
+    "Bag End"
+  ],
+  "spoken_to_npcs": [
+    "Gandalf"
+  ],
+  "inspected_targets": [],
+  "journal": [
+    "Entered anchor: An Unexpected Party.",
+    "Spoke with Gandalf.",
+    "Tried: listen"
+  ],
+  "facts": [
+    "Dwarves gather beneath Bilbo's roof, and comfort gives way to a strange, dangerous invitation.",
+    "Bag End in The Shire: A well-kept hobbit-hole of comfort, polish, and hidden restlessness.",
+    "Gandalf of Free peoples of Middle-earth: A wandering wizard of deep counsel, quick mirth, and grave purpose.",
+    "Thorin speaks of a stolen throne and the quest to reclaim it."
+  ],
+  "narrator_history": [
+    {
+      "role": "user",
+      "content": "Open at anchor An Unexpected Party."
+    },
+    {
+      "role": "assistant",
+      "content": "The round green door of Bag End had been opened more often than usual this afternoon, and now it stood partly ajar, admitting a chill mist from the East Road that curled around your boots. The snug warmth of your sitting-room was crisscrossed by the sharp tang of wet dwarvish cloaks and the earthy scent of boots caked in distant mountains\u2019 dust. Your little round table groaned beneath the weight of fresh cakes and seed-cakes, while a pot of tea steamed lazily, its sweet fragrance struggling against the intrusion of the unexpected company.\n\nGandalf, tall and white-bearded, sat near the fire, his eyes twinkling with amusement as he watched you eye Thorin Oakenshield\u2019s stern profile across the room. The dwarf chief\u2019s grave dignity filled the low-ceilinged room, casting a shadow a shade deeper than the flickering lamplight. The other dwarves had made themselves at home elsewhere, their deep voices and laughter upsetting the usual quiet of Bag End, turning comfort into a strange kind of tension.\n\nYou still clutch your pocket-handkerchief and your walking stick, feeling the pull between your cozy hobbit-hole and the unknown roads leading east\u2014roads rumored of danger and treasure, promise and peril. Gandalf\u2019s gaze meets yours, amused but firm, as if inviting you to cross that threshold.\n\nThe seed-cakes at your elbow crumble slightly in the damp air. Will you speak to Gandalf about this curious gathering? Or approach Thorin and hear his grave purpose? Or, yourself, step outside and gaze down the misty East Road?"
+    },
+    {
+      "role": "user",
+      "content": "listen"
+    },
+    {
+      "role": "assistant",
+      "content": "You sink into a stiff-backed chair by the fire, trying to make yourself as small and invisible as a hobbit can, all the while your ears strain to catch the murmurs and half-spoken intentions around the room. The dwarves speak in low tones\u2014deep voices punctuated with gruff laughter and the occasional sharp word\u2014of mountains far to the East, of reclaiming lost halls and treasures wrung from shadow and stone.\n\nThorin\u2019s voice rises above the others, grave and commanding, speaking of a throne stolen, kin scattered, and a journey hard and true. There is a hunger in his tone, not for food or comfort, but for a home remembered and a crown regained. Gandalf\u2019s eyes flick to you with a knowing gleam, as if to say this is no ordinary tale, nor an ordinary invitation. The weight of the firelight seems less warm now, and more like the simmering embers of a great and dangerous adventure.\n\nOutside, the mist presses closer, whispering secrets on the East Road that beckons beyond your door. The cakes and tea remain untouched, cooling in the flickering lamplight, but your heart feels a restless stir you can neither shake nor fully welcome.\n\nYou might ask Gandalf what he expects of you, approach Thorin to hear more of this quest in his own grave tone, or step out into the gathering dusk and feel the pull of the road yourself."
+    }
+  ],
+  "npc_threads": {
+    "Gandalf": [
+      {
+        "role": "user",
+        "content": "Hello Gandalf"
+      },
+      {
+        "role": "assistant",
+        "content": "Ah, good evening, Master Baggins. A fine day, though the clouds gather darker than a wizard likes. What brings you to my fire this hour?"
+      }
+    ]
+  },
+  "npc_memories": {
+    "Gandalf": [
+      "Player raised: Hello Gandalf",
+      "Gandalf answered: Ah, good evening, Master Baggins. A fine day, though the clouds gather darker than a wizard likes. W"
+    ]
+  },
+  "npc_relationships": {
+    "Gandalf": 2,
+    "Thorin Oakenshield": 1
+  },
+  "last_narration": "You sink into a stiff-backed chair by the fire, trying to make yourself as small and invisible as a hobbit can, all the while your ears strain to catch the murmurs and half-spoken intentions around the room. The dwarves speak in low tones\u2014deep voices punctuated with gruff laughter and the occasional sharp word\u2014of mountains far to the East, of reclaiming lost halls and treasures wrung from shadow and stone.\n\nThorin\u2019s voice rises above the others, grave and commanding, speaking of a throne stolen, kin scattered, and a journey hard and true. There is a hunger in his tone, not for food or comfort, but for a home remembered and a crown regained. Gandalf\u2019s eyes flick to you with a knowing gleam, as if to say this is no ordinary tale, nor an ordinary invitation. The weight of the firelight seems less warm now, and more like the simmering embers of a great and dangerous adventure.\n\nOutside, the mist presses closer, whispering secrets on the East Road that beckons beyond your door. The cakes and tea remain untouched, cooling in the flickering lamplight, but your heart feels a restless stir you can neither shake nor fully welcome.\n\nYou might ask Gandalf what he expects of you, approach Thorin to hear more of this quest in his own grave tone, or step out into the gathering dusk and feel the pull of the road yourself.",
+  "mode": "exploration"
+}
