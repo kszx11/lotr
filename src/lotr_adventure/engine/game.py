@@ -36,38 +36,44 @@ class GameApp:
             if not self.client.enabled:
                 self.renderer.error("OPENAI_API_KEY is not set. The game will fall back to a minimal local narrator.")
 
-            should_render_state = True
             while True:
-                options = self._startup_options()
-                prompt = "  ".join(f"{idx + 1}) {label}" for idx, (label, _) in enumerate(options))
-                choice = IntPrompt.ask(prompt, default=1)
-                action = options[max(0, min(choice - 1, len(options) - 1))][1]
-                if action == "new":
-                    self.state = self._start_new_game()
-                    should_render_state = False
-                    break
-                if action in {"resume", "load"}:
-                    path = self._resolve_load_path(prefer=action)
-                    if path is None:
-                        self.renderer.error("No saved tale is available yet.")
-                        continue
-                    self.state = load_state(path)
-                    self.renderer.system(f"Loaded {path.name}.")
-                    self._show_resumed_scene()
-                    break
-                if action == "quit":
-                    return
+                should_render_state = True
+                while True:
+                    options = self._startup_options()
+                    prompt = "  ".join(f"{idx + 1}) {label}" for idx, (label, _) in enumerate(options))
+                    choice = IntPrompt.ask(prompt, default=1)
+                    action = options[max(0, min(choice - 1, len(options) - 1))][1]
+                    if action == "new":
+                        self.state = self._start_new_game()
+                        should_render_state = False
+                        break
+                    if action in {"resume", "load"}:
+                        path = self._resolve_load_path(prefer=action)
+                        if path is None:
+                            self.renderer.error("No saved tale is available yet.")
+                            continue
+                        self.state = load_state(path)
+                        self.renderer.system(f"Loaded {path.name}.")
+                        self._show_resumed_scene()
+                        break
+                    if action == "quit":
+                        return
 
-            assert self.state is not None
-            if should_render_state:
-                self.renderer.show_state(self.state)
-            self._show_onboarding()
-            while True:
-                raw = self.command_input.prompt(f"{self.state.location}> ").strip()
-                command = parse_command(raw)
-                if command.kind == "empty":
-                    continue
-                if not self.handle_command(command):
+                assert self.state is not None
+                if should_render_state:
+                    self.renderer.show_state(self.state)
+                self._show_onboarding()
+                while True:
+                    raw = self.command_input.prompt(f"{self.state.location}> ").strip()
+                    command = parse_command(raw)
+                    if command.kind == "empty":
+                        continue
+                    outcome = self.handle_command(command)
+                    if outcome == "continue":
+                        continue
+                    if outcome == "menu":
+                        self.state = None
+                        break
                     return
         except KeyboardInterrupt:
             self._graceful_exit_on_interrupt()
@@ -100,23 +106,27 @@ class GameApp:
             f"The tale gathers itself again around the present moment."
         )
 
-    def handle_command(self, command: ParsedCommand) -> bool:
+    def handle_command(self, command: ParsedCommand) -> str:
         assert self.state is not None
         state = self.state
 
         if command.kind == "quit":
             self.renderer.system("The present tale is laid aside.")
-            return False
+            return "quit"
+        if command.kind == "menu":
+            save_state(self.config.autosave_file, state)
+            self.renderer.system("You return to the main menu, and the present road is kept in autosave.json.")
+            return "menu"
         if command.kind == "help":
             self._show_help()
-            return True
+            return "continue"
         if command.kind == "inventory":
             self.renderer.system(f"Inventory: {', '.join(state.inventory) or 'None'}")
-            return True
+            return "continue"
         if command.kind == "journal":
             lines = state.journal or ["No journal entries yet."]
             self.renderer.show_options("Journal", lines)
-            return True
+            return "continue"
         if command.kind == "objective":
             lines = [state.current_objective or "No active objective."]
             if state.current_guidance:
@@ -124,71 +134,71 @@ class GameApp:
             if state.suggested_actions:
                 lines.append(f"Suggested: {', '.join(state.suggested_actions)}")
             self.renderer.show_options("Current Objective", lines)
-            return True
+            return "continue"
         if command.kind == "hint":
             self._show_hint()
-            return True
+            return "continue"
         if command.kind == "story_status":
             self._show_story_status()
-            return True
+            return "continue"
         if command.kind == "continue_story":
             self._continue_story()
-            return True
+            return "continue"
         if command.kind == "party":
             self.renderer.system(f"Companions: {', '.join(state.companions) or 'None'}")
-            return True
+            return "continue"
         if command.kind == "where":
             self.renderer.system(f"{state.book} | {state.chapter} | {state.location} | {state.time_marker}")
-            return True
+            return "continue"
         if command.kind == "map":
             known = [f"Current: {state.location}"]
             known.extend(f"Road to {name}" for name in (state.available_exits or []))
             if state.visited_locations:
                 known.append(f"Visited: {', '.join(state.visited_locations[-8:])}")
             self.renderer.show_options("Known Paths", known)
-            return True
+            return "continue"
         if command.kind == "save":
             save_state(self.config.save_file, state)
             self.renderer.system(f"Saved to {self.config.save_file.name}.")
-            return True
+            return "continue"
         if command.kind == "load":
             path = self._resolve_load_path(prefer="load")
             if path is None:
                 self.renderer.error("No save file found.")
-                return True
+                return "continue"
             self.state = load_state(path)
             self.renderer.system(f"Loaded {path.name}.")
             self._show_resumed_scene()
             self.renderer.show_state(self.state)
-            return True
+            return "continue"
         if command.kind in {"jump", "jump_menu"}:
             anchor = self._select_anchor(query=command.target) if command.kind == "jump" else self._select_anchor()
             if anchor is None:
                 self.renderer.error("No matching anchor found.")
-                return True
+                return "continue"
             if state.game_mode == "story" and anchor.id not in state.unlocked_anchors:
                 self.renderer.error("That chapter is not yet open in Story Mode.")
-                return True
+                return "continue"
             self._apply_anchor(anchor, reset_journal=False)
-            return True
+            return "continue"
         if command.kind == "talk":
             if not command.target:
                 self.renderer.error("Use 'talk <character>'.")
-                return True
+                return "continue"
             npc_name = self._resolve_present_npc_name(command.target)
             if npc_name is None:
                 self.renderer.error(f"{command.target} is not presently before you.")
-                return True
+                return "continue"
             self._conversation_loop(npc_name)
-            return True
+            return "continue"
         if command.kind == "ask":
             if not command.target or not command.topic:
                 self.renderer.error("Use 'ask <character> about <topic>'.")
-                return True
+                return "continue"
             npc_name = self._resolve_present_npc_name(command.target)
             if npc_name is None:
                 self.renderer.error(f"{command.target} is not presently before you.")
-                return True
+                return "continue"
             line = f"What can you tell me about {command.topic}?"
             reply = self.npc_chat.reply(
                 state,
@@ -199,10 +209,10 @@ class GameApp:
             )
             self._record_npc_interaction(npc_name)
             self.renderer.npc(npc_name, reply)
-            return True
+            return "continue"
 
         self._run_scene_command(command)
-        return True
+        return "continue"
 
     def _start_new_game(self) -> GameState:
         mode = self._select_mode()
@@ -476,7 +486,7 @@ class GameApp:
 
     def _completion_words(self) -> list[str]:
         if self.state is None:
-            return ["look", "save", "load", "quit"]
+            return ["look", "save", "load", "menu", "quit"]
         location = self.lore.get_location(self.state.location)
         return sorted(
             {
@@ -491,6 +501,7 @@ class GameApp:
                 "map",
                 "save",
                 "load",
+                "menu",
                 "help",
                 "quit",
                 "jump",
@@ -557,6 +568,7 @@ class GameApp:
             "party",
             "save",
             "load",
+            "menu",
             "quit",
             "Manual save writes savegame.json; scene changes also refresh autosave.json.",
         ]

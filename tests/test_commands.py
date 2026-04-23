@@ -25,5 +25,6 @@ class ParseCommandTests(unittest.TestCase):
         self.assertEqual(parse_command("hint").kind, "hint")
         self.assertEqual(parse_command("suggest").kind, "hint")
         self.assertEqual(parse_command("what now").kind, "hint")
+        self.assertEqual(parse_command("menu").kind, "menu")
         self.assertEqual(parse_command("story").kind, "story_status")
         self.assertEqual(parse_command("continue").kind, "continue_story")

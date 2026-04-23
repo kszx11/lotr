@@ -11,6 +11,8 @@ def parse_command(raw: str) -> ParsedCommand:
         return ParsedCommand(kind="empty", raw=raw)
     if lowered in {"quit", "exit"}:
         return ParsedCommand(kind="quit", raw=raw)
+    if lowered in {"menu", "main menu"}:
+        return ParsedCommand(kind="menu", raw=raw)
     if lowered in {"help", "?"}:
         return ParsedCommand(kind="help", raw=raw)
     if lowered in {"look", "observe"}:

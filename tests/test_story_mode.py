@@ -133,6 +133,14 @@ class StoryModeTests(unittest.TestCase):
             app.run()
         self.assertEqual(app.renderer.state_panels, 1)
 
+    def test_menu_command_returns_to_startup_menu(self):
+        app = self._make_app()
+        inputs = iter(["menu"])
+        app.command_input.prompt = lambda _: next(inputs)
+        with patch("lotr_adventure.engine.game.IntPrompt.ask", side_effect=[1, 1, 1, 1, 3]):
+            app.run()
+        self.assertIn("You return to the main menu, and the present road is kept in autosave.json.", app.renderer.messages)
+
     def test_keyboard_interrupt_during_main_prompt_exits_gracefully(self):
         app = self._make_app()
         app.command_input.prompt = lambda _: (_ for _ in ()).throw(KeyboardInterrupt())
