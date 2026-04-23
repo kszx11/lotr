@@ -57,6 +57,8 @@ class Renderer:
     def show_state(self, state: GameState) -> None:
         table = Table(show_header=False, box=None, pad_edge=False)
         table.add_row("Mode", state.game_mode.title())
+        if state.anchor_label:
+            table.add_row("Reference", f"{state.book} | {state.chapter} | {state.anchor_label}")
         table.add_row("Location", state.location)
         table.add_row("Time", state.time_marker)
         table.add_row("Companions", ", ".join(state.companions) or "None")

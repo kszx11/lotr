@@ -99,6 +99,7 @@ class GameState:
     chapter: str
     location: str
     time_marker: str
+    anchor_label: str = ""
     story_path_id: str = ""
     story_step_index: int = 0
     unlocked_anchors: list[str] = field(default_factory=list)
@@ -129,6 +130,7 @@ class GameState:
     @classmethod
     def from_dict(cls, data: dict[str, Any]) -> "GameState":
         data.setdefault("game_mode", "open")
+        data.setdefault("anchor_label", "")
         data.setdefault("story_path_id", "")
         data.setdefault("story_step_index", 0)
         data.setdefault("unlocked_anchors", [])

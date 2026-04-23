@@ -14,6 +14,7 @@ class SaveTests(unittest.TestCase):
             player_name="Frodo Baggins, Ring-bearer of the Shire",
             game_mode="story",
             anchor_id="frodo_departs_shire",
+            anchor_label="Frodo Departs the Shire",
             book="The Fellowship of the Ring",
             chapter="Three Is Company",
             location="The Shire",
@@ -49,3 +50,4 @@ class SaveTests(unittest.TestCase):
         self.assertEqual(loaded.current_guidance, state.current_guidance)
         self.assertEqual(loaded.suggested_actions, state.suggested_actions)
         self.assertEqual(loaded.spoken_to_npcs, state.spoken_to_npcs)
+        self.assertEqual(loaded.anchor_label, state.anchor_label)

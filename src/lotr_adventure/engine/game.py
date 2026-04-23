@@ -53,7 +53,7 @@ class GameApp:
                         if path is None:
                             self.renderer.error("No saved tale is available yet.")
                             continue
-                        self.state = load_state(path)
+                        self.state = self._normalize_loaded_state(load_state(path))
                         self.renderer.system(f"Loaded {path.name}.")
                         self._show_resumed_scene()
                         break
@@ -106,6 +106,11 @@ class GameApp:
             f"once more stands beneath the hour of {self.state.time_marker}.{local_mood} "
             f"The tale gathers itself again around the present moment."
         )
+
+    def _normalize_loaded_state(self, state: GameState) -> GameState:
+        if not state.anchor_label and state.anchor_id:
+            state.anchor_label = self.lore.get_anchor(state.anchor_id).label
+        return state
 
     def handle_command(self, command: ParsedCommand) -> str:
         assert self.state is not None
@@ -167,7 +172,7 @@ class GameApp:
             if path is None:
                 self.renderer.error("No save file found.")
                 return "continue"
-            self.state = load_state(path)
+            self.state = self._normalize_loaded_state(load_state(path))
             self.renderer.system(f"Loaded {path.name}.")
             self._show_resumed_scene()
             self.renderer.show_state(self.state)
@@ -327,6 +332,7 @@ class GameApp:
             player_name=character.display_name,
             game_mode=mode or (previous.game_mode if previous is not None else "open"),
             anchor_id=anchor.id,
+            anchor_label=anchor.label,
             book=anchor.book,
             chapter=anchor.chapter,
             location=anchor.location,
