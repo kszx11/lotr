@@ -12,6 +12,7 @@ from lotr_adventure.engine.saves import save_state
 class _SilentRenderer:
     def __init__(self) -> None:
         self.messages: list[str] = []
+        self.option_panels: list[tuple[str, list[str]]] = []
 
     def title(self, text: str) -> None:
         return
@@ -30,6 +31,7 @@ class _SilentRenderer:
         return
 
     def show_options(self, title: str, options: list[str]) -> None:
+        self.option_panels.append((title, options))
         return
 
     def chapter_card(self, state, character, anchor) -> None:
@@ -127,6 +129,19 @@ class StoryModeTests(unittest.TestCase):
             app.run()
         self.assertIn("Your road is preserved in autosave.json.", app.renderer.messages)
         self.assertIn("The tale is set aside.", app.renderer.messages)
+
+    def test_open_mode_hint_offers_local_and_jump_suggestions(self):
+        app = self._make_app()
+        bilbo = app.lore.get_character("bilbo")
+        anchor = app.lore.get_anchor("unexpected_party")
+        app._apply_anchor(anchor, character_override=bilbo, reset_journal=True, mode="open")
+        app._show_hint()
+        title, options = app.renderer.option_panels[-1]
+        self.assertEqual(title, "Quiet Guidance")
+        self.assertTrue(any("talk Gandalf" in line for line in options))
+        self.assertTrue(any("inspect round green door" in line for line in options))
+        self.assertTrue(any("go The Green Dragon" in line for line in options))
+        self.assertTrue(any("jump " in line for line in options))
 
     def test_story_continue_requires_scene_work_before_advancing(self):
         app = self._make_app()

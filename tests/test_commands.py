@@ -23,5 +23,7 @@ class ParseCommandTests(unittest.TestCase):
     def test_parse_story_commands(self):
         self.assertEqual(parse_command("objective").kind, "objective")
         self.assertEqual(parse_command("hint").kind, "hint")
+        self.assertEqual(parse_command("suggest").kind, "hint")
+        self.assertEqual(parse_command("what now").kind, "hint")
         self.assertEqual(parse_command("story").kind, "story_status")
         self.assertEqual(parse_command("continue").kind, "continue_story")

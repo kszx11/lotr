@@ -21,7 +21,7 @@ def parse_command(raw: str) -> ParsedCommand:
         return ParsedCommand(kind="journal", raw=raw)
     if lowered in {"objective", "objectives"}:
         return ParsedCommand(kind="objective", raw=raw)
-    if lowered in {"hint", "hints"}:
+    if lowered in {"hint", "hints", "suggest", "suggestion", "suggestions", "what now", "next step"}:
         return ParsedCommand(kind="hint", raw=raw)
     if lowered in {"story", "story mode"}:
         return ParsedCommand(kind="story_status", raw=raw)

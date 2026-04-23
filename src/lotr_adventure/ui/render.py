@@ -53,6 +53,8 @@ class Renderer:
         table.add_row("Exits", ", ".join(state.available_exits) or "Unknown")
         if state.current_objective:
             table.add_row("Objective", state.current_objective)
+        if state.suggested_actions:
+            table.add_row("Suggested", ", ".join(state.suggested_actions[:4]))
         self.console.print(Panel(table, title="Present State", border_style=theme.SYSTEM))
 
     def show_options(self, title: str, options: list[str]) -> None:

@@ -522,7 +522,7 @@ class GameApp:
             "inspect <thing>",
             "talk <character>",
             "ask <character> about <topic>",
-            "hint",
+            "hint | suggest",
             "jump <anchor>",
             "where",
             "map",
@@ -549,11 +549,11 @@ class GameApp:
         lines = [
             f"You stand in {self.state.location}.",
             "Use 'look' to gather the scene, 'talk <character>' to open conversation, and 'go <place>' to travel locally.",
-            "Use 'hint' if you want quiet guidance without breaking the fiction.",
+            "Use 'hint' or 'suggest' if you want the game to tell you what your character should probably do next.",
             "Use 'save' for a deliberate milestone; the game also keeps an autosave after scene changes.",
         ]
         if self.state.game_mode == "story":
-            lines.append("Story Mode: follow 'objective' and 'continue' to move chapter by chapter; 'jump' is limited to opened chapters.")
+            lines.append("Story Mode: follow 'objective', the Suggested row, and 'continue' to move chapter by chapter; 'jump' is limited to opened chapters.")
         else:
             lines.append("Open Mode: use 'jump' to move broadly across your viewpoint character's anchor scenes.")
         if self.state.current_objective:
@@ -562,6 +562,9 @@ class GameApp:
 
     def _show_hint(self) -> None:
         assert self.state is not None
+        if self.state.game_mode != "story":
+            self.renderer.show_options("Quiet Guidance", self._open_mode_hint_lines())
+            return
         lines: list[str] = []
         if self.state.current_guidance:
             lines.append(self.state.current_guidance)
@@ -580,6 +583,31 @@ class GameApp:
                 if missing:
                     lines.append(f"What remains in this chapter: {'; '.join(missing[:3])}")
         self.renderer.show_options("Quiet Guidance", lines)
+
+    def _open_mode_hint_lines(self) -> list[str]:
+        assert self.state is not None
+        lines = ["Open Mode has no fixed chapter duty. Follow what seems most alive from here."]
+        location = self.lore.get_location(self.state.location)
+        if self.state.npcs_present:
+            npc_name = self.state.npcs_present[0]
+            lines.append(f"Someone worth addressing stands near: {npc_name}. You might 'talk {npc_name}'.")
+        if location is not None and location.landmarks:
+            landmark = location.landmarks[0]
+            lines.append(f"Something nearby deserves a closer look: {landmark}. You might 'inspect {landmark}'.")
+        if self.state.available_exits:
+            exit_name = self.state.available_exits[0]
+            lines.append(f"A nearby road lies open toward {exit_name}. You might 'go {exit_name}'.")
+        other_anchors = [
+            anchor
+            for anchor in self.lore.list_anchors()
+            if anchor.viewpoint_character_id == self.state.player_character_id and anchor.id != self.state.anchor_id
+        ]
+        if other_anchors:
+            preferred = next((anchor for anchor in other_anchors if anchor.book == self.state.book), other_anchors[0])
+            lines.append(
+                f"If you want a wider turn in the tale, you could 'jump {preferred.id}' to reach {preferred.label}."
+            )
+        return lines
 
     def _show_story_status(self) -> None:
         assert self.state is not None
