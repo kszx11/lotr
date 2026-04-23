@@ -3,6 +3,7 @@ import unittest
 from pathlib import Path
 from unittest.mock import patch
 
+from lotr_adventure.ai.schemas import StateDelta
 from lotr_adventure.config import Config
 from lotr_adventure.domain.models import GameState, ParsedCommand
 from lotr_adventure.engine.game import GameApp
@@ -254,3 +255,29 @@ class StoryModeTests(unittest.TestCase):
         app._continue_story()
 
         self.assertEqual(app.state.anchor_id, "frodo_at_weathertop")
+
+    def test_travel_uses_displayed_nearby_exits_when_state_and_lore_drift(self):
+        app = self._make_app()
+        state = self._sample_state()
+        state.available_exits = ["The Green Dragon"]
+        app.state = state
+
+        app._apply_local_effects(
+            ParsedCommand(kind="travel", raw="go Green Dragon", target="Green Dragon"),
+            app.lore.get_location("The Shire"),
+        )
+
+        self.assertEqual(app.state.location, "The Green Dragon")
+        self.assertIn("Travelled to The Green Dragon.", app.state.journal)
+
+    def test_state_delta_canonicalizes_nearby_exits_to_real_location_routes(self):
+        app = self._make_app()
+        state = self._sample_state()
+        state.location = "Bag End"
+        state.available_exits = ["Some Invented Door"]
+        app.state = state
+
+        delta = StateDelta(available_exits=["Some Invented Door", "Moon Stair"])
+        app._apply_state_delta(delta)
+
+        self.assertEqual(app.state.available_exits, ["The Green Dragon", "The East Road"])

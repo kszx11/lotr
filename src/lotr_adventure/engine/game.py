@@ -472,6 +472,7 @@ class GameApp:
             )
         if delta.consequence:
             state.journal.append(delta.consequence)
+        self._sync_available_exits_to_location()
 
     def _conversation_loop(self, npc_name: str) -> None:
         assert self.state is not None
@@ -541,13 +542,29 @@ class GameApp:
         return f"travel to {resolved.name}"
 
     def _resolve_travel_target(self, target: str, current_location: LocationProfile | None) -> LocationProfile | None:
+        needle = target.strip().lower()
+        if not needle:
+            return None
+        if self.state is not None:
+            for exit_name in self.state.available_exits:
+                linked = self.lore.get_location(exit_name)
+                if linked and self.lore._matches_location(linked, needle):
+                    return linked
+                if needle in exit_name.lower():
+                    return linked
         if current_location is None:
             return None
         for linked_name in current_location.linked_locations:
             linked = self.lore.get_location(linked_name)
-            if linked and self.lore._matches_location(linked, target.strip().lower()):
+            if linked and self.lore._matches_location(linked, needle):
                 return linked
         return None
+
+    def _sync_available_exits_to_location(self) -> None:
+        assert self.state is not None
+        location = self.lore.get_location(self.state.location)
+        if location is not None:
+            self.state.available_exits = location.linked_locations[:]
 
     def _learn_location_fact(self, location: LocationProfile) -> None:
         assert self.state is not None
