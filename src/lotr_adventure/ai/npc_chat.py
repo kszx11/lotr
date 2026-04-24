@@ -20,10 +20,14 @@ class NpcChatEngine:
         history = state.npc_threads.setdefault(npc_name, [])
         memory = state.npc_memories.setdefault(npc_name, [])
         instructions = npc_instructions(state, npc_name, npc_profile, location, memory[-4:])
-        try:
-            reply = self.client.text(instructions=instructions, history=history, prompt=player_line)
-        except Exception:
-            reply = self._fallback_reply(npc_name, player_line, npc_profile, location)
+        guarded_reply = self._answer_about_present_player(state, npc_name, player_line)
+        if guarded_reply is not None:
+            reply = guarded_reply
+        else:
+            try:
+                reply = self.client.text(instructions=instructions, history=history, prompt=player_line)
+            except Exception:
+                reply = self._fallback_reply(npc_name, player_line, npc_profile, location)
         history.append({"role": "user", "content": player_line})
         history.append({"role": "assistant", "content": reply})
         state.npc_threads[npc_name] = history[-12:]
@@ -73,3 +77,18 @@ class NpcChatEngine:
             f"\"I can speak of {knowledge}, if that is your wish,\" {npc_name} says. "
             f"\"But some things are better weighed carefully before they are spoken aloud.\""
         )
+
+    @staticmethod
+    def _answer_about_present_player(state: GameState, npc_name: str, player_line: str) -> str | None:
+        lowered = player_line.strip().lower()
+        player_name = state.player_name.split(",", 1)[0].strip()
+        player_name_lower = player_name.lower()
+        asks_where = any(phrase in lowered for phrase in ("where is ", "where's ", "where art ", "where stands "))
+        asks_who = any(phrase in lowered for phrase in ("who is ", "who's "))
+        if player_name_lower not in lowered:
+            return None
+        if asks_where:
+            return f"\"{player_name} stands before me now,\" {npc_name} says."
+        if asks_who:
+            return f"\"{player_name} is the one who stands before me now,\" {npc_name} says."
+        return None
